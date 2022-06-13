@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @vanovri
 - 👀 I’m interested in electricity
 - 🌱 I’m currently learning communication
-- 💞️ I’m looking to collaborate on machine
+- 💞️ I’m looking to collaborate on anime
 - 📫 How to reach me : Genshin UID 820633136
 
 <!---
