@@ -1,0 +1,20 @@
+{
+  "id": "A02",
+  "name": "UART Parse Profiler",
+  "repo": "https://github.com/vanovri/uart-fixture-kit",
+  "pull_request": "https://github.com/vanovri/uart-fixture-kit/pull/1",
+  "version": "0.2.0",
+  "commit": "ea9021a",
+  "state": "complete; merged and released",
+  "pytest": 193,
+  "bundled_fixtures": 15,
+  "profile_checks": 22,
+  "profile_workloads": 4,
+  "clean_wheel_install": "passed",
+  "linkedin": "deferred; combine 3-5 completed projects later",
+  "merge_commit": "5b97fd690805be41bd9de8a3be72c023d8bdf44f",
+  "release": "https://github.com/vanovri/uart-fixture-kit/releases/tag/v0.2.0",
+  "ci_main": "success, all six Windows/Linux and Python matrix jobs",
+  "ci_url": "https://github.com/vanovri/uart-fixture-kit/actions/runs/39082311852",
+  "published_asset_sha256": "all four matched local files"
+}

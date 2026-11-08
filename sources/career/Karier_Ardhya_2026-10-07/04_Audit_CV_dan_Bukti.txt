@@ -1,0 +1,11 @@
+AUDIT CV
+Sumber: CV ATS ARDHYA NOVRI RAMADHAN.pdf, dua halaman berupa gambar.
+SKL memastikan nama Ardhya Novri Ramadhan, S1 Teknik Elektro UNDIP, lulus 29 September 2026, IPK 3.43. Tanggal Agustus 2026 pada CV lama telah dikoreksi.
+Gelar Associate of Science Geography untuk SMAN 5 Bekasi tidak tepat untuk pendidikan SMA. Bagian SMA dihapus karena tidak diperlukan untuk CV teknik ini.
+Angka peningkatan 10–50%, basis pengguna 50 orang, kepatuhan 100%, dan klaim dampak proyek geothermal tidak dimasukkan. Belum ada data pendukung yang diverifikasi.
+Kegiatan organisasi dan kepanitiaan lama dipangkas agar pengalaman teknis mendapat ruang. Tidak mengubah arsip CV sumber.
+Profil LinkedIn dipakai untuk paparan UPS/converter dan pengalaman Angkasa Pura. Kamu mengonfirmasi Redesma Januari–Februari 2025 dan Angkasa Pura Juli–Agustus 2025, selesai 31 Agustus 2025. Tanggal tersebut dipakai dalam CV.
+Kode EMG lokal memuat SEN0240, sampling 4000 Hz, 400 sampel/100 ms, dan komunikasi UART. Parameter menunjukkan implementasi, tidak membuktikan performa fisik/klinis.
+42 tes game/portfolio dijalankan dan lulus pada 7 Oktober 2026. Pengembangan dibantu Codex dan ImageGen, sesuai README proyek.
+CV baru berupa satu kolom, tanpa foto/tabel/text box, dengan teks PDF yang dapat diekstrak. Ini pemeriksaan keterbacaan, bukan skor ATS atau jaminan seleksi.
+No. telepon dan email berasal dari CV lama dan telah kamu konfirmasi aktif. NIK, NIM, tanggal lahir, tanda tangan, dan alamat rumah lengkap tidak disalin ke CV.

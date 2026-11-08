@@ -1,0 +1,17 @@
+I hold a Bachelor of Engineering in Electrical Engineering from Diponegoro University. I build embedded firmware, real-time signal processing pipelines, and zero-dependency systems software in C, Rust, Swift, and Python.
+
+At ENVIID Carbon Solutions, I serve as CTO / Technical Lead and sole developer of enviid.web.id, including its interactive carbon calculator and digital MRV workflow demonstration.
+
+My engineering background spans STM32F411 surface-EMG acquisition with cascaded Biquad IIR filtering (4 kHz ADC+DMA, r = 0.9941), ESP32 telemetry and motor control prototypes at Redesma, UPS/converter and protection relay rotations at Soekarno-Hatta International Airport (PT Angkasa Pura Indonesia), and two semesters as a Basic Electronics Practicum Assistant.
+
+Recent open-source systems releases include:
+• FerrumKV — Zero-dependency distributed RESP3 key-value store in pure safe Rust (#![forbid(unsafe_code)], 0 crates, 24 modules): 564,993 MIXED ops/s, 505,716 GET/s, 307,853 INCR/s, -95.46% SET p99.9 latency reduction (7.16 ms), 173,007 VSEARCH/s (93.3% Recall@5), 64 CachePadded shards, 16-stripe tx_exec_fence, RwLock<LsmState>, and RespParser::parse_flat_command + get_into zero-copy parser with 3-node Raft consensus.
+• AetherSynth & Flow — Native Swift 6 and Metal spatial audio synthesizer across iOS 18, watchOS 11, visionOS 2, macOS 15, and AUv3: 90 Hz Reverse-Z .greaterEqual stereoscopic CompositorServices, < 12 ms spatial latency (7.67 ms slew / 9.1 ms E2E), 51.22 dB PML waveguide attenuation, pre-allocated χ_max = 16 Quantum MPS (0 heap allocs, 2.99e-10 DMRG convergence), 30.56 dB SPWVD (49.90 dB midpoint, 0 RT heap allocs), 14.65% drop & 95 ms Pareto jitter (0 false spikes), -91.6% global loads & < 6.5 ms GPU governor, and 12/12 SHA-256 verification stages.
+• Cyberpunk Floating Ramen Stall — Zero-asset Blender 4.0–4.3 procedural diorama and technical art pipeline in pure Python: 32 tracks, 0 external textures, 579 procedural objects, 4 shared ShaderNodeGroups (-32.6% shader nodes), GN_Cyber_Rain_Field, 240 frames (10.0s @ 24fps) BT.709 (colr nclx) lossless AVI/MP4 mux, and 100% SHA-256 manifest match across all 6 Phase 7 artifacts.
+• Career Test Arena — Offline-ready cognitive and technical exam simulator and engineering calculator with 45 verified questions (UT Cognitive, UT Tech & Infra 14929, Formulatrix SIE), 8 STAR cards, and 7/7 pytest suite.
+
+Every repository ships with deterministic tests, benchmark harnesses, and explicit scope boundaries. Based in Bekasi, Indonesia.
+
+Portfolio & CV: https://ardhyanovri.my.id
+GitHub: https://github.com/vanovri
+Career Test Arena: https://github.com/vanovri/career-test-arena

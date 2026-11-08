@@ -1,0 +1,17 @@
+SUMBER VISUAL
+
+Foto Angkasa Pura: koleksi Google Photos pengguna, dibuka atas permintaan pengguna. Dokumentasi 25 Agustus 2025 17:28:51, 29 Juli 2025 14:15:20, 31 Juli 2025 14:44:09, dan 31 Juli 2025 14:45:17. Foto apron berasal dari JPEG unduhan. Tiga foto vertikal berasal dari tampilan foto di browser. Pemotongan native PPTX membuang margin hitam browser. Tidak ada individu lain yang diberi identitas sebagai Ardhya.
+
+Foto perangkat EMG, diagram kabel, plot sinyal, sertifikat, dan logo: aset asli portofolio pengguna di https://ardhyanovri.my.id/ dan repositori sumber anak-kos-survival. Sertifikat ditampilkan utuh.
+
+DataRescue: docs/workbench.png pada repositori https://github.com/vanovri/datarescue. Data contoh sintetis.
+RepairGate: docs/workspace.jpg pada repositori https://github.com/vanovri/repairgate. Replay proposal dengan pengujian nyata.
+ApplyProof: docs/workspace.jpg pada repositori https://github.com/vanovri/applyproof. Kandidat contoh fiktif.
+Website pribadi dan lab: screenshot 17 Oktober 2026.
+ENVIID: screenshot website dan kalkulator perencanaan https://enviid.web.id/.
+Redesma: logo serta skema dari dokumentasi portofolio. Skema bukan foto perangkat.
+
+Arah tipografi mengikuti referensi Afferli Seftian. Font pilihan Anton dan Inter. Ini adaptasi komposisi, bukan klaim identifikasi font asli atau penggunaan karya penulis referensi.
+https://www.linkedin.com/posts/afferliseftian_afferli-seftian-portfolio-ugcPost-7511687669119262720-nv2i/
+
+Revisi 10 slide: halaman proyek digabung. Halaman sertifikat berisi 9 pilihan sesuai jawaban pengguna, dengan tautan koleksi 19 dokumen dan tautan gambar asli masing-masing. Sumber setiap pilihan tercantum dalam speaker notes dan folder Certificate_Collection.

@@ -1,0 +1,42 @@
+Kepada: hataraku@kyou.id
+Subjek: [TECH ENGINEER] - ARDHYA NOVRI RAMADHAN - BEKASI
+Lampiran: Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.pdf
+
+Yth. Tim Rekrutmen Kyou Hobby Shop,
+
+Saya Ardhya Novri Ramadhan, lulusan S1 Teknik Elektro Universitas Diponegoro dengan IPK 3,43/4,00. Saya ingin melamar posisi Tech Engineer berdasarkan unggahan Kyou pada 12 Oktober 2026. Saya berdomisili di Bekasi dan bersedia bekerja full-time secara Work From Office di Harapan Indah mulai 1 November 2026.
+
+Fokus proyek saya adalah membuat tools Python, antarmuka web, dan alur kerja yang membantu pengguna memeriksa data serta mengambil tindakan dengan jelas. Saya menggunakan AI coding tools, termasuk Codex dan ChatGPT, dalam proses pengembangan. Proyek-proyek tersebut dilengkapi validasi input, pengujian otomatis, dokumentasi, dan keluaran yang dapat ditinjau kembali.
+
+Tiga proyek berikut paling relevan dengan kebutuhan Tech Engineer Kyou:
+
+1. DataRescue
+Workbench lokal berbasis Python/FastAPI dan React untuk memeriksa file CSV/JSON. Pengguna dapat melihat usulan perbaikan sebelum menyetujui ekspor. Sistem mempertahankan ID dengan nol di depan, menandai duplikasi dan perubahan skema, serta memisahkan baris bermasalah beserta alasannya. Proyek ini menunjukkan pendekatan saya dalam membuat proses pemeriksaan data lebih mudah ditelusuri, termasuk data contoh pesanan dan inventaris.
+https://github.com/vanovri/datarescue
+
+2. RepairGate
+Tool verifikasi perbaikan kode yang memisahkan usulan perubahan dari keputusan penerimaan. Kandidat perubahan diperiksa melalui pengujian yang terlihat dan kasus uji independen. Tool mengekspor diff, log, dan laporan keputusan. Proyek ini relevan dengan kebutuhan testing dan evaluasi tools yang dikembangkan menggunakan bantuan AI.
+https://github.com/vanovri/repairgate
+
+3. ApplyProof
+Workspace berbasis React/FastAPI untuk menyusun draft dari fakta yang telah ditinjau. Pengguna dapat memeriksa sumber setiap pernyataan dan mengekspor hasil dalam Markdown/JSON. Proyek ini memperlihatkan cara saya menyusun workflow dengan langkah pemeriksaan dan hasil yang dapat dipahami pengguna.
+https://github.com/vanovri/applyproof
+
+Sejak Oktober 2026, saya mendukung ENVIID Carbon Solutions sebagai CTO / Technical Lead dan membangun website perusahaan dengan bantuan AI, termasuk antarmuka kalkulasi dan demonstrasi alur digital MRV. Dalam magang di Redesma Technologies, saya juga mengembangkan prototipe IoT dan ikut menulis SOP. Pengalaman sebagai asisten praktikum dan pengajar workshop membantu saya menjelaskan langkah teknis kepada peserta dengan tingkat pemahaman yang berbeda.
+
+Untuk dasar API, saya telah menggunakan HTTP/JSON endpoints dan validasi input dalam proyek. Pemahaman SQL/database saya masih pada tingkat dasar. Saya tertarik memulai dari kebutuhan nyata tiap divisi, menyusun alur kerja bersama penggunanya, lalu menguji tool dan menulis panduan penggunaan agar tim dapat meneruskannya.
+
+Saya telah mengikuti anime selama sekitar 10 tahun sejak SMP. Minat tersebut membuat saya tertarik pada lingkungan Kyou. Saya juga siap mempelajari produk merchandise berlisensi dan alur operasionalnya agar solusi teknis yang saya kerjakan sesuai kebutuhan tim.
+
+Saya melampirkan CV yang telah disesuaikan untuk posisi ini. Portofolio, dokumentasi proyek, dan profil saya dapat diakses melalui:
+Portofolio: https://ardhyanovri.my.id
+GitHub: https://github.com/vanovri
+LinkedIn: https://www.linkedin.com/in/dhya/
+
+Saya bersedia mengikuti wawancara atau tes teknis dan menjelaskan demo serta keputusan desain proyek-proyek tersebut. Terima kasih atas waktu dan pertimbangannya.
+
+Hormat saya,
+Ardhya Novri Ramadhan
+Bekasi
+WhatsApp: +62 812 9155 2970
+Email: ardhyasan@gmail.com

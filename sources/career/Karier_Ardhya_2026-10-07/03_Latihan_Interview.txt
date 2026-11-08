@@ -1,0 +1,26 @@
+LATIHAN WAWANCARA ARDHYA
+
+Perkenalan 45–60 detik
+Saya Ardhya, lulusan Teknik Elektro Universitas Diponegoro pada September 2026. Tugas akhir saya berfokus pada akuisisi dan pemrosesan sinyal EMG menggunakan STM32. Saya mengerjakan pembacaan ADC, filter digital, ekstraksi fitur, dan komunikasi UART. Saya punya pengalaman magang di bidang elektronika dan paparan sistem UPS serta converter. Saya mencari posisi junior untuk mengembangkan kemampuan pengujian dan troubleshooting. Saya juga belajar pengembangan berbantuan AI melalui game browser, dengan perhatian pada pemahaman kode dan pengujian hasil.
+
+Jawab dengan kondisi, tindakanmu, hasil yang benar-benar kamu amati, lalu batasnya. Jangan menghafal klaim persentase dari CV lama atau cheatsheet.
+
+Grill me
+1. Jelaskan kontribusi tugas akhir dalam 60 detik. Bagian mana milik anggota tim lain?
+2. Mengapa memakai sampling 4 kHz dan jendela 100 ms? Tunjukkan hubungan jumlah sampel dan waktu.
+3. Apa perbedaan RMS dan MAV? Kapan amplitudo saja tidak cukup?
+4. Bagaimana kamu mengecek apakah gangguan 50 Hz berkurang? Bukti apa yang kamu pakai?
+5. Ceritakan satu gangguan nyata. Gejala, hipotesis, pemeriksaan, hasil. Jangan mengarang pengalaman.
+6. Saat UPS bermasalah, apa langkah pertama yang aman? Pisahkan observasi magang dari tindakan yang kamu lakukan sendiri.
+7. Berapa banyak kode game yang dibuat AI? Bagian apa yang kamu pahami, uji, dan perbaiki?
+8. Jelaskan satu tes autosave yang mencegah keputusan diterapkan dua kali.
+9. Jika diminta PLC padahal belum pernah memakai perangkatnya, bagaimana kamu menjelaskan kemampuanmu?
+10. Kamu bersedia shift atau dinas luar kota? Batas perjalanan satu jam berlaku untuk kantor atau juga semua site?
+
+Jawaban tentang AI
+Saya masih belajar AI-agent workflows. Saya memakai alat tersebut untuk membantu implementasi dan penelusuran masalah. Saya memeriksa keluaran melalui pembacaan kode, tes, dan dokumentasi. Saya tidak mengklaim pengalaman membangun sistem AI produksi.
+
+Pertanyaan ke recruiter
+Lokasi kerja harian tepatnya di mana? Apakah posisi ini menerima SKL? Bagaimana pembagian kantor dan site? Apakah ada shift atau dinas? Apa tugas awal dan pendampingan untuk lulusan baru? Untuk intern, berapa uang saku dan durasinya?
+
+Cheatsheet yang kamu kirim dapat dipakai untuk daftar pertanyaan. Contoh jawaban di dalamnya bukan riwayatmu. Hindari menyalin klaim kenaikan efisiensi 30% atau pengalaman bertahun-tahun yang belum pernah kamu alami.

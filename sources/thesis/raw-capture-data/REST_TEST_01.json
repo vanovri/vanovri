@@ -1,0 +1,21 @@
+{
+  "capture_valid": false,
+  "created_utc": "2026-08-19T09:15:46+00:00",
+  "discarded_ascii_preamble_lines": [],
+  "fatal_error": "CaptureTimeout: Firmware did not become capture-ready within 15.0 s (no valid EMG_CAPTURE_STATUS response received)",
+  "files": {
+    "binary": "C:\\Users\\ardhy\\OneDrive\\Documents\\SKRIPSI\\RAW_CAPTURE_DATA\\REST_TEST_01.bin",
+    "csv": null,
+    "metadata": "C:\\Users\\ardhy\\OneDrive\\Documents\\SKRIPSI\\RAW_CAPTURE_DATA\\REST_TEST_01.json"
+  },
+  "protocol": "EMG_CAPTURE_V1",
+  "received_protocol_bytes": 0,
+  "serial": {
+    "baudrate": 115200,
+    "format": "8N1",
+    "port": "COM3",
+    "timeout_s": 45.0
+  },
+  "sha256_protocol_binary": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source": "serial"
+}

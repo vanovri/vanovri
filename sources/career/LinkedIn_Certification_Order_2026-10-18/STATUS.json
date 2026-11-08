@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-18",
+  "profile": "https://www.linkedin.com/in/dhya/",
+  "certifications": {
+    "count": 27,
+    "old_entries_replaced": 27,
+    "front_order": [
+      "Google Student Ambassador - Class of 2025",
+      "Cisco Networking Academy - Introduction to Internet of Things"
+    ],
+    "remaining_order": "Issue date descending; undated ML/AI participation at the bottom. No invented issue dates.",
+    "evidence": "All copies verified with their attachment titles before deleting originals. 28 supporting files across 27 entries. Existing credential IDs, dates, URLs and skill associations retained.",
+    "issuer_logos": {
+      "actual_images": 26,
+      "default_icon": 1,
+      "exception": "Pelatihan Olimpiade Sains (www.pelatihan-osn.com) is linked to its page, whose logo is still a placeholder."
+    }
+  },
+  "experience": {
+    "practicum": "Linked to the official Diponegoro University page; real logo verified as IMG. Dates, description and certificate retained.",
+    "already_correct": [
+      "PT Angkasa Pura Indonesia",
+      "Redesma-Technologies",
+      "Google",
+      "HME FT UNDIP"
+    ],
+    "unresolved": "No matching ENVIID company page surfaced in the LinkedIn organization picker. Original role retained unchanged."
+  },
+  "volunteering": {
+    "KKN": "Linked to Diponegoro University. Original location context preserved in description; logbook still attached.",
+    "LKMM-PD": "Linked to HME FT UNDIP. Event retained in role title; certificate still attached.",
+    "PMB": "Linked to Diponegoro University. Event retained in role title; redacted committee evidence still attached.",
+    "Decarbonizing Indonesia": "Linked to its matching organization page, company/107127163/. Existing role content retained."
+  },
+  "education": "Diponegoro University and SMAN 5 Bekasi already have their real logos.",
+  "organizations": "All five retain their correct education associations. The form has no organization-page logo selector.",
+  "projects": {
+    "count": 4,
+    "previews_added": [
+      "ApplyProof | Workspace Preview",
+      "DataRescue | Workbench Preview",
+      "RepairGate | Regression Lab",
+      "UART Fixture Kit | Parse Profiler"
+    ],
+    "provenance": "Actual project screenshots inspected locally. Demo data is fictional or synthetic. Existing repository links remain in descriptions.",
+    "native_limit": "Projects have no separate custom logo field. GitHub link preview failed, so screenshots were used as media cards."
+  },
+  "linkedin_posts_created": 0,
+  "screenshots": [
+    "Profile_Certifications_Final.png",
+    "Volunteering_Logos_After.png",
+    "Project_Cards_After.png"
+  ]
+}

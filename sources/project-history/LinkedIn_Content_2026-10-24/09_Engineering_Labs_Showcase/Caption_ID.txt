@@ -1,0 +1,13 @@
+Saya baru saja menambahkan rangkaian proyek open-source baru di bidang engineering dan software ke portofolio dan GitHub saya.
+
+PDF terlampir merangkum beberapa proyek dari rilis ini:
+- RepairGate dan Bounded Refactor, untuk memeriksa perubahan kode terhadap tes yang dikunci dan kasus uji terpisah
+- UART Fixture Kit, alat uji parser serial untuk menguji aliran byte yang terpotong, rusak, atau terlambat tanpa perangkat keras fisik
+- Legacy Orbital Port dan FIR Parity, perbandingan keluaran numerik Fortran, Rust, dan C++ terhadap model acuan
+- Sensor Enclosure CAD dan Spatial Electronics Lab, mencakup desain casing sensor parametrik di OpenSCAD serta tampilan rangkaian 2D/3D untuk web dan Android
+- Eksperimen simulasi dan 3D di browser menggunakan WebGPU, headless Blender, dan data lintasan orbit sintetis
+
+Proyek-proyek ini saya kerjakan dengan bantuan AI menggunakan data sintetis dan data acuan publik. Setiap repositori menyertakan kode sumber, rangkaian pengujian, serta catatan cara menjalankan dan memeriksa hasilnya.
+
+Portofolio dan catatan proyek: https://ardhyanovri.my.id/projects
+GitHub: https://github.com/vanovri

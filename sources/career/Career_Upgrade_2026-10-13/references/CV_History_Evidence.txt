@@ -1,0 +1,47 @@
+BUKTI RIWAYAT CV GENERAL
+13 Oktober 2026
+
+Dokumen aktif tetap cv/main_pt_shimizu_bangun_cipta_kontraktor_mep_engineer_electrical.tex. Isi sudah general untuk review pribadi advisor. Nama file dipertahankan agar editor tetap tersambung.
+
+PERAN DAN KEGIATAN
+ENVIID: posisi saat ini dari https://enviid.web.id/about-us/ dan investment deck lokal. Pengguna mengonfirmasi tanggal mulai saat membuat website pada Oktober 2026. LinkedIn dan portofolio saat ini memakai CTO / Technical Lead. Website, calculator dan dMRV dibuat dengan bantuan AI sebagai informasi dan demonstrasi, bukan verifikasi operasi karbon.
+KKN Mutihan Januari-Februari 2026: logbook pribadi mendukung kontribusi tim pada Smart Owl House bertenaga surya, administrasi desa, Posyandu, BUMDes, kegiatan lingkungan, pendidikan sekolah dan video profil desa.
+Angkasa Pura Juli-Agustus 2025: penjelasan langsung pengguna menetapkan lima minggu UPS/converter dan tiga minggu proteksi. Fokus belajar relay, instruksi SCADA dan observasi instalasi PLC. Tidak ada klaim kemahiran PLC atau commissioning independen.
+Asisten praktikum 2025: CV lama dan sertifikat. Bulan kerja tidak dipastikan dari tanggal terbit sertifikat.
+Redesma Januari-Februari 2025: CV, profil LinkedIn dan SOP bernama pengguna tentang Blynk/Thinger.io, ESP32 dan DS18B20.
+SEED Head of Media 2025: sertifikat resmi. Tahun terbit 2026 berbeda dari tahun jabatan 2025.
+GSA Class of 2025: sertifikat program mahasiswa. Tidak diposisikan sebagai pegawai Google.
+SPE September 2024-Desember 2025: keanggotaan historis dari profil sertifikasi dan dokumen pendukung.
+ENIGMA Vol. 3: sertifikat pengajaran 6 Oktober 2024.
+ISF: Organizational Delegate, September 2024, dari profil sertifikasi dan CV lama.
+KMI HME UNDIP 2024: sertifikat, daftar staf, RAKER dan KPI individu menunjukkan Creative Design Staff. KPI program juga menetapkan tanggung jawab bersama pada HME Rewind. Jabatan Sekretaris & Bendahara pada lembar lain adalah milik orang lain.
+LKMM-PD 2023: sertifikat panitia dalam dokumen pendukung.
+PMB 2023: daftar penerimaan final dan daftar panitia resmi menunjukkan Logistik/Perkap. Tahun 2023 lebih kuat daripada formulir lama yang menulis 2022.
+Decarbonizing Indonesia November 2022-Januari 2023: riwayat mandiri pada CV lama. Tidak ada klaim persentase keberhasilan atau pengurangan emisi.
+PKKMB/Pendikar 2022: sertifikat peserta, 15-20 Agustus, 40 jam. Tidak disamakan dengan kepanitiaan.
+ICT 2021: sertifikat Wakil Sekretaris dan LPJ kepengurusan. Proposal serta rundown regenerasi November 2021 mencantumkan pengguna sebagai sekretaris panitia dan pemateri kesekretariatan.
+CINOTIC 2021: sertifikat dan proposal acara mencantumkan Sekretaris. Tahun saja dipakai karena rentang bulan pada CV lama tidak konsisten.
+
+PROYEK DAN PROPOSAL
+RepairGate, ApplyProof, DataRescue, uart-fixture-kit: implementasi dan README lokal. Kode menggunakan bantuan AI. Tidak ada klaim kualitas model AI yang belum diuji atau hasil uji perangkat keras dari fixture sintetis.
+Portofolio dan Anak Kos Survival: README memisahkan portofolio aktif dari game di arsip.
+Nusantara SolarWing: paket konsep berbasis model dan demonstrasi. Tidak ada klaim prototipe sudah terbang.
+Skripsi EMG: kontribusi akuisisi, pengolahan sinyal dan antarmuka monitoring. Stimulator serta kontrol fuzzy merupakan kontribusi rekan tim.
+PLTA Jatigede: presentasi kelompok menetapkan tugas pengguna pada pendahuluan dan pembagian tugas. Bukan pekerjaan PLN atau analisis finansial tunggal.
+Timor-Leste 2025: proposal teknologi bernama pengguna. Tidak ada klaim implementasi lapangan.
+IoT-powered Biofiltration 2024: abstrak bersama EnvironmentID. Tidak ada klaim hasil uji ekosistem tiram.
+GOVTECH 2024: proposal Gov-AI bernama pengguna. Tidak ada klaim diterima, finalis atau menang.
+
+KURSUS DAN PENGHARGAAN
+Sebanyak 27 entri sertifikasi pada profil LinkedIn diperiksa dan digabung dengan sumber lokal. Peran yang sama tidak digandakan sebagai pekerjaan baru.
+Hasil English dihapus sesuai instruksi pengguna. Google Shopping Ads ditulis sebagai kredensial historis, kedaluwarsa Januari 2026. OpenLearn ditulis sebagai kursus. Canva 100 Design merupakan badge, bukan bukti dampak organisasi.
+Try Out Akbar 2019: pengguna mengonfirmasi identitas pada pengumuman resmi Penerbit Erlangga, nilai 100, kategori SMP/MTs Jakarta. Tidak ada klaim juara pertama nasional.
+Sumber: https://www.erlangga.co.id/berita/pengumuman-pemenang-try-out-akbar-2019
+Skripsi terdaftar di repositori universitas: https://eprints2.undip.ac.id/id/eprint/62365/
+
+BATAS PENCARIAN
+Sumber meliputi dokumen lokal, lima akun Google milik pengguna, OneDrive personal dan kampus, Google Photos pada akun yang dapat diakses, LinkedIn dan pencarian web publik.
+Akun Google lain dilewati setelah pengguna menyatakan bukan miliknya.
+Seluruh sembilan halaman hasil Ardhya di Drive utama telah diambil, berisi 666 metadata unik. Konten dipilih menurut relevansi peran, kegiatan, proyek dan sertifikat. Ini bukan pembacaan seluruh file atau foto.
+Keberadaan file di Drive tidak membuktikan kepemilikan proyek. Robot marshaller, sertifikat HKI orang lain, berkas lamaran manager dan surat komitmen pelatihan tidak dijadikan pengalaman tanpa bukti peran atau penyelesaian.
+CV mencakup seluruh riwayat profesional yang berhasil diidentifikasi dan didukung sumber saat pemeriksaan. Kegiatan tanpa dokumen atau yang tidak muncul dalam pencarian masih dapat belum teridentifikasi.

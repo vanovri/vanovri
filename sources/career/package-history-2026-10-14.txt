@@ -1,0 +1,68 @@
+PAKET KARIER DAN PORTOFOLIO ARDHYA
+Pembaruan terakhir: 14 Oktober 2026
+
+FOTO PROFIL
+Pratinjau terbaru: headshot/Ardhya_Headshot_Aligned_Gaze_Preview.png.
+Permintaan pengguna: mata lurus searah hidung dan kepala yang serong. Foto dibuat ulang dari foto asli dengan screenshot acuan agar pose kepala dan arah mata terbentuk bersama. Polo ivory, latar lavender dan cahaya samping biru.
+Generator gambar bawaan digunakan. Pada 14 Oktober 2026, pengguna memilih foto sebelum pembaruan terakhir. Foto LinkedIn dikembalikan ke headshot/Ardhya_Headshot_Upright_EyeContact.png. Versi aligned-gaze tetap tersimpan sebagai alternatif. Versi lama dan foto asli tetap utuh.
+Prompt terbaru tersimpan pada headshot/Prompt_Aligned_Gaze_Preview.txt.
+
+LINKEDIN
+https://www.linkedin.com/in/dhya/
+Google Student Ambassador Class of 2025 telah ditambahkan sebagai pengalaman program, tahun 2025 tanpa bulan yang tidak diketahui.
+PDF sertifikat terlampir pada pengalaman. Sertifikasi GSA yang sudah ada tidak digandakan.
+Bukti tampilan tersimpan pada folder linkedin. Headline dan About, peran ENVIID mulai Oktober 2026, magang Angkasa Pura dengan rotasi UPS/converter dan proteksi, asisten praktikum, serta kontribusi Redesma sudah diperbarui. Empat proyek GitHub, empat organisasi, lima aktivitas sukarela/kepanitiaan dan penghargaan Erlangga 2019 telah ditambahkan. Kepanitiaan ICT tercakup dalam deskripsi organisasi. Tidak ada pengumuman atau undangan koneksi yang dikirim.
+
+PORTOFOLIO LIVE
+https://ardhyanovri.my.id/
+Alias sebelumnya tetap tersedia: https://ardhya-novri.vercel.app/
+Riwayat pengalaman, proyek, kredensial dan CV general tersedia pada situs publik. Versi CV publik menghapus nomor telepon pribadi. Situs dan PDF publik diperiksa kembali pada 14 Oktober 2026.
+
+CV GENERAL UNTUK REVIEW ADVISOR
+Permintaan terakhir: CV general untuk dilihat Mr. Stephan, advisor ENVIID. Tidak ditujukan untuk lamaran SBCK.
+Dokumen yang terbuka diedit langsung: cv/main_pt_shimizu_bangun_cipta_kontraktor_mep_engineer_electrical.tex. Nama file lama dipertahankan agar editor tetap tersambung. Isi dokumen sudah general.
+PDF dokumen yang sama terdiri dari empat halaman. Memuat dua jenjang pendidikan, 18 pengalaman/peran/kegiatan, 11 proyek/proposal, 15 pelatihan/sertifikasi dan dua penghargaan. Kegiatan kecil yang ditemukan juga dicantumkan, termasuk logistik PMB, LKMM-PD, regenerasi ICT dan kegiatan KKN. Urutan terbaru dahulu per bagian, sesuai tanggal yang tersedia.
+Format sederhana hitam-putih, Times New Roman dan satu kolom, mengikuti preferensi pengguna serta CV lama. Pedoman fakta dan penulisan dari MadsLorentzen/ai-job-search dipakai. Permintaan CV lengkap dan gaya lama menggantikan batas dua halaman serta template Banking dari repo. Kompilasi editor berhasil. Empat halaman dan lapisan teks diperiksa.
+Dalam ZIP, salinan dokumen yang sama memakai nama cv/Ardhya_Novri_CV_General.pdf dan cv/Ardhya_Novri_CV_General.tex. CV general memuat nomor telepon untuk review pribadi.
+Hasil English dihapus sesuai permintaan pengguna. Magang Angkasa Pura mencakup lima minggu UPS/converter dan tiga minggu proteksi, fokus belajar relay, instruksi SCADA dan observasi instalasi PLC. Tidak ada klaim mahir PLC atau commissioning mandiri.
+PMB memakai tahun 2023 dari daftar panitia resmi. KMI memakai Creative Design Staff dari sertifikat, RAKER dan KPI. SEED memakai tahun kepengurusan 2025, meskipun sertifikat terbit 2026. Penghargaan Erlangga 2019 dikonfirmasi pengguna dan penerbit. Persentase yang tidak didukung tidak dimasukkan.
+Peran ENVIID mulai Oktober 2026, berdasarkan konfirmasi langsung pengguna. Asisten praktikum ditulis tahun 2025. Masa berlaku SPE dan Google Shopping Ads tetap eksplisit. Proposal tidak ditampilkan sebagai proyek lapangan yang sudah berjalan atau bukti kemenangan.
+Pencarian mencakup sumber yang dapat diakses dari lima akun Google milik pengguna dan dua akun OneDrive, termasuk akun kampus setelah login ulang. Akun Google yang bukan milik pengguna dilewati. Seluruh sembilan halaman pencarian Ardhya di Drive utama menghasilkan 666 metadata unik. Ini tidak membuktikan semua file, foto atau kegiatan seumur hidup sudah ditemukan. Ringkasan bukti ada pada references/CV_History_Evidence.txt.
+Draft CV satu halaman dan surat lamaran lama tetap ada di folder kerja, tetapi tidak dimasukkan ke ZIP terbaru. Tidak ada lamaran atau pesan kepada advisor yang dikirim.
+
+LOKASI SBCK
+Kantor resmi: Trinity Tower, Setiabudi, Jakarta Selatan. Sumber https://www.shimz-global.com/.
+Lokasi kerja posisi MEP Electrical belum terverifikasi. Poster menyebut penempatan proyek dan tidak menetapkan kota.
+Pertanyaan lokasi dan celah skill tersimpan pada references/SBCK_Job_Review.txt.
+CAD/BIM, pengalaman desain/commissioning MEP dan K3/SKK/SKA/LOTO tidak ditambahkan sebagai kemampuan karena belum ada bukti.
+
+PROYEK PUBLIC
+RepairGate: https://github.com/vanovri/repairgate
+Self-Correcting Code Assistant dengan tes yang dilindungi, pemeriksaan holdout, kebijakan fungsi Python murni dan laporan keputusan patch. Tidak mengubah repo asli otomatis.
+21 tes inti/adapter lulus. CI: https://github.com/vanovri/repairgate/actions/runs/38392953191
+
+ApplyProof: https://github.com/vanovri/applyproof
+AI Job Search versi orisinal yang memakai ledger bukti, pembandingan skill eksplisit, pemisahan alamat kantor dan lokasi kerja, serta draft yang dapat ditelusuri ke fakta.
+19 tes inti/adapter lulus. CI: https://github.com/vanovri/applyproof/actions/runs/38392960206
+
+Kedua proyek memiliki UI React, API FastAPI, CLI, README, lisensi MIT dan launcher Windows.
+Double-click Run Repairgate.cmd atau Run Applyproof.cmd pada folder proyek. Instalasi awal memerlukan Python 3.11+ dan Node.js 22.12+/24+ serta internet untuk dependensi.
+Adapter AI memakai Ollama lokal bila model tersedia. Model belum dipasang atau diuji secara live. Demo RepairGate memakai proposal rekaman dan tes yang benar-benar dijalankan.
+Data pribadi CV/sertifikat/foto tidak masuk ke kedua repo public.
+
+FONT
+Backup enam referensi: Athelas, Bootzy, Moonscape, Optizither, Switzer dan Nofex.
+Nama, sumber dan screenshot tersimpan pada references/Font_Backup.txt dan references/fonts.
+Backup ini berupa referensi visual, bukan instalasi TTF/OTF.
+
+BERKAS LAMA
+Kedua PDF CV di Downloads dan semua sertifikat/foto sumber tetap utuh. Paket ini merupakan hasil baru.
+
+PEMBARUAN DESAIN 14 OKTOBER 2026
+Portofolio putih minimalis terdiri dari 21 halaman, termasuk 13 detail proyek. Timeline memuat 18 peran. Pencarian global, filter proyek dan pengalaman, pembuka sertifikat dan lab sinyal sintetis tersedia. Pengujian: 11 tes lulus, 801 referensi lokal valid, 21 halaman live HTTP 200, layout 320/375/768 px tanpa overflow. CV publik cocok dengan salinan lokal dan tidak memuat nomor telepon pribadi.
+Cover LinkedIn utama: banner/LinkedIn_Cover_White_1584x396.png. Dua alternatif dan sumber HTML tersimpan di folder banner.
+
+Cover utama terpasang di LinkedIn dan diperiksa setelah reload. About LinkedIn kini menautkan https://ardhyanovri.my.id. PDF CV general 4 halaman diekspor ulang dari sumber yang sama, dengan domain baru. Versi publik tetap menghapus telepon pribadi.
+
+COVER DAN VISUAL PROYEK V2
+Cover modern-white-3168x792.png dalam banner/v2 sudah terpasang. Nama lebih besar dan komposisi berisi hardware serta sinyal. Ketiga belas proyek memakai visual khusus; foto/screenshot asli dipakai untuk EMG dan portfolio, ilustrasi untuk workflow serta proposal. Laporan pentest dan log terpisah di C:/Users/ardhy/security. Tidak ada patch keamanan dipublikasikan.

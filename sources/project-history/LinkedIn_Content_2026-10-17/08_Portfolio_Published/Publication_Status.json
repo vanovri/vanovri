@@ -1,0 +1,26 @@
+{
+  "status": "published",
+  "published": true,
+  "verified_at": "2026-10-17T17:00:00+07:00",
+  "timezone": "Asia/Jakarta",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7517162021939859456/",
+  "document_title": "Portfolio 2026 | Ardhya Novri Ramadhan",
+  "slides": 10,
+  "source_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    7,
+    10
+  ],
+  "caption_language": "English",
+  "caption_file": "Caption_EN.txt",
+  "pdf_sha256": "73644c022997919dbbd70461af4a8cd47a5d8a424664cd48c9f5df78233f6b0f",
+  "verification": "LinkedIn Post successful toast, live post with matching caption, public visibility, and 10-page document.",
+  "approval": "User explicitly approved the reordered carousel and instructed upload/publication. Future posts still require separate final approval."
+}

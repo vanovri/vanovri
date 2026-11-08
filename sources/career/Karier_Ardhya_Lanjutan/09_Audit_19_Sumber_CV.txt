@@ -1,0 +1,68 @@
+AUDIT 19 SUMBER CV DAN PORTFOLIO
+Diperbarui 8 Oktober 2026. Ini ringkasan dan keputusan untuk Ardhya, bukan salinan prompt penuh. Semua caption sudah dibaca. Slide yang ditandai pada tautan sudah diperiksa untuk seluruh posting carousel dalam daftar ini. Video pada dua reel belum ditonton penuh. Materi tambahan yang meminta komentar atau DM belum diperoleh.
+
+S13. DasKy0gDyqo, slide 3.
+Audit recruiter dan pencocokan deskripsi lowongan. Dipakai dalam prompt pencocokan CV. Kata kunci harus memiliki bukti pada pengalamanmu.
+
+S14. DWGBID9k1J6, slide 4.
+Alat pemeriksa CV. Tidak diperlukan untuk menghasilkan CV yang sekarang sudah tersedia. Skor alat bukan keputusan perusahaan.
+
+S15. DYpXVbEj2nU, slide 4.
+Resume Worded dan klaim skor CV. Tidak memakai angka skor sebagai jaminan lolos. Tidak mengunggah data pribadi ke pemeriksa eksternal.
+
+S16. DNkwpA5zOtc, slide 2.
+Prompt optimasi CV untuk jabatan tertentu melalui kata kunci dan struktur yang jelas. Dipakai sebagai kerangka pencocokan. Tidak menganggap kata kunci dapat menggantikan kemampuan yang belum dimiliki.
+
+S17. C18wyFxhNx4, slide 4.
+Rekomendasi Resume.io, termasuk bantuan pemeriksaan bahasa Inggris. Ini pilihan alat, bukan kebutuhan tambahan saat CV sudah tersedia. Fitur dan biaya terkini tidak diaudit.
+
+S18. DYcYMWyksaS, slide 2.
+Contoh prompt menghasilkan PDF melalui Python/ReportLab, dengan struktur satu kolom. Prinsip keterbacaan dipakai. CV yang sekarang sudah memiliki DOCX, PDF dan teks hasil ekstraksi. Tidak perlu membuat akun atau mengunggah CV ke Gemini.
+
+S19. DV09FKSiXVY, slide 3.
+Anjuran format sederhana dan satu kolom. Klaim pembacaan pola F, enam detik dan penolakan otomatis universal tidak digunakan. Pemeriksaan lokal memastikan teks CV terbaca, bukan membuktikan hasil semua ATS.
+
+S20. DbFJ-9Gkwoe, slide prompt CV dan portfolio.
+Adaptasi data CV menjadi portfolio sudah diterapkan pada Gedung 07. Game dipertahankan. Recruiter mendapat akses langsung ke CV dan bukti proyek EMG.
+
+S21. DZHpMb3E1UZ, slide 3.
+Contoh CV dengan banyak pencapaian dan informasi tambahan. Tidak menyalin jumlah prestasi atau kepadatan contoh. CV Ardhya tetap satu halaman dengan pengalaman teknis paling relevan.
+
+S22. C98dNdpJ_Br, reel.
+Caption berupa promosi layanan CV. Video belum ditonton penuh. Tidak memakai layanan atau mengirim berkas pribadi.
+
+S23. DL94iNPSWzS, slide 2.
+Pentingnya kata kunci deskripsi pekerjaan dan kata kerja aktif. Dipakai untuk membantu menjelaskan pengalaman. Tidak menjanjikan shortlist melalui pemakaian kata tertentu.
+
+S24. DdoQoM7knPs, slide 4.
+Contoh pengalaman divisi sponsorship. Struktur tindakan dan tanggung jawab dapat diterapkan pada pengalaman organisasi yang benar. Jumlah tim dan sponsor pada contoh bukan data Ardhya.
+
+S25. DYoPZC3gcC_, slide 3.
+Prompt pemetaan kemampuan yang dapat digunakan pada bidang lain. Untuk Ardhya, gunakan bukti sensor, komunikasi serial, pemantauan, dokumentasi dan pengujian sebagai dasar relevansi pekerjaan junior. Jangan mengubah proyek akademik menjadi pengalaman kerja komersial.
+
+S26. DYM3m_Gp4B4, reel.
+Caption menawarkan diagnosis CV, penyuntingan bullet dan latihan interview. Video belum ditonton penuh. Prompt tambahan yang meminta komentar atau DM belum diperoleh. Latihan interview yang dibuat untukmu memakai kode GUI nyata.
+
+S27. DTBDwNtk_hs.
+Caption membahas alat AI untuk mencari kerja. Tidak menjadi dasar mengarang pengalaman atau mengirim lamaran otomatis. Fitur produk dan harga tidak diaudit.
+
+S28. DaMser3kYMn, slide 4.
+Contoh ulasan CV orang lain dan promosi jasa revisi. Prinsip yang berguna adalah memperjelas posisi, tanggal dan tugas. Contoh identitas serta riwayat orang lain tidak dipakai sebagai data Ardhya.
+
+S29. DOiAPszEy3Z, slide 2.
+Template yang disebut ATS memakai foto dan dua kolom. Sebutan ATS pada promosi tidak menjadi bukti kompatibilitas semua sistem. CV Ardhya tetap satu kolom yang hasil ekstraksi teksnya sudah diperiksa.
+
+S30. DS_SjhMEkNK, slide 2.
+Ringkasan tips CV: posisi sasaran jelas, pengalaman relevan, tools spesifik, penyuntingan bahasa dan hasil yang dapat dibuktikan. Contoh bidang keuangan tidak disalin menjadi riwayat teknis Ardhya. Tidak menambahkan angka hasil tanpa bukti.
+
+S31. DcGHdYTD2Yn, slide 5.
+Prompt audit keterbacaan dan struktur CV. Prinsip heading umum, satu kolom dan larangan mengarang data dipakai dalam hasil sekarang.
+
+PENERAPAN DALAM BERKAS
+CV_ATS_Ardhya_Electrical untuk lowongan electrical, maintenance, testing atau technical support yang menerima fresh graduate.
+CV_ATS_Ardhya_Embedded untuk lowongan embedded, electronics, sensor atau firmware junior.
+02_Prompt_CV_dan_Portfolio.txt untuk menyesuaikan CV pada deskripsi pekerjaan berikutnya.
+07_Latihan_Interview_Bukti_Kode.txt untuk menjelaskan kontribusi dan cara pengujian tanpa melebihkan bukti.
+
+TAUTAN DAN BATAS PEMERIKSAAN
+Tautan lengkap tiap ID ada di Sumber_Instagram.json. Pemeriksaan ini mencakup caption dan slide pilihan, bukan seluruh slide semua carousel. Contoh prompt hanya membantu menyunting dan memahami data. Hasil seleksi tetap ditentukan kecocokan pekerjaan serta proses perusahaan.

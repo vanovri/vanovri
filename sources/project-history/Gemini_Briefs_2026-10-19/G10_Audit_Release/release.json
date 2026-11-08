@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/vanovri/motion-rally",
+  "release": "https://github.com/vanovri/motion-rally/releases/tag/v0.2.0",
+  "commit": "838be1b8f018c3836fb5962ef680ac4e91c3d2b3",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39252294931,
+      "headSha": "838be1b8f018c3836fb5962ef680ac4e91c3d2b3",
+      "status": "completed",
+      "url": "https://github.com/vanovri/motion-rally/actions/runs/39252294931"
+    }
+  ],
+  "archive": "motion-rally-v0.2.0.zip",
+  "sha256": "58db1ce403aacbf4f54fda2d291aad762b0bf3fd2067f5c62e1c3f158030d48d",
+  "size": 374153,
+  "published_bytes_verified": true
+}

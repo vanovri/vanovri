@@ -1,0 +1,19 @@
+{
+  "repo": "https://github.com/vanovri/fir-parity",
+  "release": "https://github.com/vanovri/fir-parity/releases/tag/v0.1.0",
+  "commit": "9c69d9de63fba2fa8b71618d77e61c7c55819018",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39251359792,
+      "headSha": "9c69d9de63fba2fa8b71618d77e61c7c55819018",
+      "status": "completed",
+      "url": "https://github.com/vanovri/fir-parity/actions/runs/39251359792"
+    }
+  ],
+  "archive": "fir-parity-v0.1.0.zip",
+  "sha256": "ec4ce3112a1f464647492d73c662ddac4bb57d497ed37bcd89fa1e0f9cc6a62a",
+  "size": 17665,
+  "published_bytes_verified": true,
+  "mode": "verify-existing"
+}

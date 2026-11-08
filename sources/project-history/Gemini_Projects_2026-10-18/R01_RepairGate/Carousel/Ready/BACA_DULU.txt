@@ -1,0 +1,13 @@
+CAROUSEL REPAIRGATE. 7 SLIDE
+
+PDF siap unggah sebagai Document di LinkedIn. Judul: RepairGate Regression Lab
+Caption: Caption_LinkedIn.txt
+PPTX berisi teks dan objek yang dapat diedit. Font Anton dan Inter beserta lisensinya tersedia di folder Fonts. PDF sudah menyematkan font untuk mempertahankan tampilannya.
+
+GitHub sudah terbit di branch main: https://github.com/vanovri/repairgate
+PR 1 merged, commit a895d54b748cf51a2237c5091b05c53b1e7a6f33.
+CI main lulus: https://github.com/vanovri/repairgate/actions/runs/39080798095
+
+Semua angka bersumber dari replay dan pengujian aktual. Data sintetis, proposal direkam, dan pengembangan memakai bantuan Codex. Inspirasi verifikasi: https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/
+
+LinkedIn menunggu review final pengguna. Belum diposting.

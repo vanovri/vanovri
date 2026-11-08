@@ -1,0 +1,7 @@
+Saya baru memperbarui portofolio saya. Isinya beberapa proyek embedded systems, Python, dan software yang pernah saya kerjakan, beserta catatan proses dan kontribusi saya.
+
+Ada juga demo sinyal interaktif yang bisa dicoba langsung.
+
+Silakan lihat di https://ardhyanovri.my.id/
+
+Terbuka untuk masukan dan saran.

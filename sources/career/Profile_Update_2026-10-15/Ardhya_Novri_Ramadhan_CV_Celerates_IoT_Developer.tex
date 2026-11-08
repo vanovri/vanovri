@@ -1,0 +1,91 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{enumitem,titlesec,needspace,fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Ardhya Novri Ramadhan - IoT Developer | Embedded Systems and Monitoring},pdfauthor={Ardhya Novri Ramadhan}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=2pt,topsep=3pt,parsep=0pt}
+\titleformat{\section}{\normalfont\bfseries\fontsize{11}{13}\selectfont}{}{0pt}{\MakeUppercase}
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+\newcommand{\entry}[3]{\Needspace{4\baselineskip}\textbf{#1}\hfill #2\par\textit{#3}\par}
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\small Ardhya Novri Ramadhan}\fancyfoot[R]{\small\thepage/2}
+\setlength{\footskip}{22pt}
+\begin{document}
+\begin{center}
+{\fontsize{20}{23}\selectfont\bfseries ARDHYA NOVRI RAMADHAN}\par
+\vspace{3pt}
+{\bfseries IoT Developer | Embedded Systems and Monitoring}\par
+Bekasi, Indonesia | +62 812 9155 2970 | \href{mailto:ardhyasan@gmail.com}{ardhyasan@gmail.com}\par
+\href{https://www.linkedin.com/in/dhya/}{linkedin.com/in/dhya} | \href{https://ardhyanovri.my.id}{ardhyanovri.my.id} | \href{https://github.com/vanovri}{github.com/vanovri}
+\end{center}
+\raggedright
+Bachelor of Engineering in Electrical Engineering from Diponegoro University (GPA 3.43/4.00), with hands-on ESP32 sensor prototypes, STM32 data acquisition and Python monitoring interfaces. Internship experience covers IoT temperature monitoring, DC motor control and airport electrical systems. Interested in supporting IoT deployment, monitoring and troubleshooting for industrial operations.\par
+\section{Technical Skills}
+\textbf{Embedded and sensors:} C, STM32 HAL, STM32CubeIDE, ESP32, DS18B20, SEN0240, ADC, DMA, timers and UART.\par
+\textbf{Monitoring and software:} Python, Tkinter, live plots, CSV/JSON data handling, digital filtering, RMS/MAV extraction, Git and automated tests.\par
+\textbf{Connectivity and IoT:} Blynk and Thinger.io project experience; HTTP/JSON APIs with FastAPI; introductory MQTT concepts.\par
+\textbf{Field exposure:} UPS/converters, protection-relay learning, SCADA instruction, sensor installation and operating documentation.\par
+\section{Relevant Experience}
+\entry{Internship Trainee}{Jul - Aug 2025}{PT Angkasa Pura Indonesia | Soekarno-Hatta International Airport}
+\begin{itemize}
+\item Completed an eight-week rotation: five weeks in UPS/converter systems and three weeks in electrical protection.
+\item Visited substations and focused on protection relays. Received SCADA instruction and observed PLC installations.
+\end{itemize}
+\entry{Electronics Technician}{Jan - Feb 2025}{Redesma Technologies | Semarang}
+\begin{itemize}
+\item Built ESP32 and DS18B20 temperature-monitoring, DC motor-control and UART communication prototypes for an internship seminar.
+\item Co-authored an SOP comparing Blynk and Thinger.io for real-time temperature monitoring.
+\end{itemize}
+\entry{Basic Electronics Practicum Assistant}{2025}{Diponegoro University}
+\begin{itemize}
+\item Guided students through laboratory activities and the use of basic electronic components.
+\end{itemize}
+\section{Core Technical Project}
+\entry{EMG Acquisition and Monitoring System}{Thesis | 2026}{\href{https://ardhyanovri.my.id/projects/emg-thesis.html}{ardhyanovri.my.id/projects/emg-thesis.html}}
+\begin{itemize}
+\item Implemented 12-bit ADC acquisition with DMA on STM32F411CEU6 and SEN0240 at a nominal sampling rate of 4 kHz.
+\item Applied 20 Hz high-pass, 500 Hz low-pass and 50 Hz notch filters; extracted RMS/MAV features over 400-sample windows.
+\item Built the Python/Tkinter GUI for UART telemetry at 115200 baud, live plots, device status and CSV export. Teammates handled stimulation and fuzzy control.
+\end{itemize}
+\newpage
+\section{Additional Relevant Projects}
+\entry{Solar-Powered Smart Owl House}{KKN | Jan - Feb 2026}{\href{https://ardhyanovri.my.id/projects/kkn-solar.html}{ardhyanovri.my.id/projects/kkn-solar.html}}
+\begin{itemize}
+\item Helped assemble and install the solar-powered system in Mutihan, Klaten, including sensors, battery and controller.
+\item Prepared operating and maintenance guidance for village use and handover.
+\end{itemize}
+\entry{uart-fixture-kit}{Oct 2026}{\href{https://github.com/vanovri/uart-fixture-kit}{github.com/vanovri/uart-fixture-kit}}
+\begin{itemize}
+\item Built synthetic UART fixtures and virtual-time replay for fragmented, concatenated, malformed and truncated byte streams.
+\item Made parser failures reproducible through a Python API, CLI and automated checks, without requiring serial hardware.
+\end{itemize}
+\entry{DataRescue}{Oct 2026}{\href{https://github.com/vanovri/datarescue}{github.com/vanovri/datarescue}}
+\begin{itemize}
+\item Built a local Python/FastAPI and React workbench for CSV/JSON validation, explicit normalization and data-quality review.
+\item Preserved original values, quarantined invalid records and exported clean data with row-level audit reports.
+\end{itemize}
+\section{Current Technical Role}
+\entry{CTO / Technical Lead}{Oct 2026 - Present}{ENVIID Carbon Solutions}
+\begin{itemize}
+\item Sole developer of the company website, built with AI assistance, including project information, a carbon calculator and a digital MRV workflow demonstration.
+\item Worked with structured inputs, validation and HTTP/JSON endpoints in the calculator and workflow demonstrations.
+\end{itemize}
+\section{Education}
+\textbf{Diponegoro University:} Bachelor of Engineering in Electrical Engineering | Aug 2022 - Sep 2026\par
+GPA: 3.43/4.00. Graduated 29 September 2026.
+\section{Selected Training}
+\begin{itemize}
+\item Introduction to Internet of Things, Cisco Networking Academy. Completed 27 September 2026.
+\item Automation Clinic: Motor Protection and Control, Engineering Academy. September 2024.
+\item Introduction to Electronics, The Open University OpenLearn. Completed a 10-hour course in May 2024.
+\item IT: Device to Device Communication, The Open University OpenLearn. Completed a 20-hour course in May 2024.
+\end{itemize}
+\section{Collaboration and Availability}
+Head of Media, SEED UNDIP (2025); electronics workshop instructor, ENIGMA Vol. 3 (October 2024). Experience explaining technical material and working with student and community teams.\par
+Based in Bekasi. Available from 1 November 2026 for the East Jakarta placement and the 24-month contract indicated in the application form.\par
+{\small Development of software projects and the thesis GUI used AI coding assistance.}
+\end{document}

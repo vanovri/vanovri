@@ -1,0 +1,50 @@
+[
+  {
+    "file": "verification-ubuntu-22.04-checked\\ci-ubuntu-22.04-checked.json",
+    "status": "pass",
+    "scenarios": 27,
+    "samples": 101,
+    "compilers": {
+      "fortran": "GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+      "rust": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "cpp": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0"
+    },
+    "max_error": 0.0
+  },
+  {
+    "file": "verification-ubuntu-22.04-optimized\\ci-ubuntu-22.04-optimized.json",
+    "status": "pass",
+    "scenarios": 27,
+    "samples": 101,
+    "compilers": {
+      "fortran": "GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+      "rust": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "cpp": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0"
+    },
+    "max_error": 0.0
+  },
+  {
+    "file": "verification-ubuntu-24.04-checked\\ci-ubuntu-24.04-checked.json",
+    "status": "pass",
+    "scenarios": 27,
+    "samples": 101,
+    "compilers": {
+      "fortran": "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "rust": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "cpp": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+    },
+    "max_error": 0.0
+  },
+  {
+    "file": "verification-ubuntu-24.04-optimized\\ci-ubuntu-24.04-optimized.json",
+    "status": "pass",
+    "scenarios": 27,
+    "samples": 101,
+    "compilers": {
+      "fortran": "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "rust": "rustc 1.99.0 (b940084d7 2026-09-28)",
+      "cpp": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+    },
+    "max_error": 0.0
+  }
+]

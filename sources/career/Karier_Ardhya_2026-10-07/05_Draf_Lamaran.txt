@@ -1,0 +1,34 @@
+DRAF LAMARAN. Belum dikirim.
+
+ARISTA, JUNIOR ENGINEER
+Gunakan melalui kanal pada lowongan https://id.jobstreet.com/id/job/94492768
+CV: CV_ATS_Ardhya_Electrical.pdf
+
+Yth. Tim Rekrutmen PT Arista Pratama Jaya,
+
+Saya Ardhya Novri Ramadhan, lulusan S1 Teknik Elektro Universitas Diponegoro pada September 2026 dengan IPK 3.43/4.00. Saya tertarik pada posisi Junior Engineer.
+
+Saya memiliki pengalaman magang di bidang elektronika dan paparan sistem UPS serta converter. Pada tugas akhir, saya mengembangkan subsistem akuisisi dan pemrosesan EMG berbasis STM32, termasuk pembacaan ADC, filter digital, ekstraksi fitur, dan komunikasi UART. Pengalaman ini menjadi dasar saya untuk belajar pengujian, dokumentasi, dan troubleshooting dalam pekerjaan engineering.
+
+CV dan ringkasan portfolio saya tersedia sebagai bahan pertimbangan. Saya berdomisili di Bekasi dan dapat mendiskusikan lokasi kerja serta kebutuhan site saat proses seleksi.
+
+Terima kasih atas waktu dan pertimbangannya.
+Ardhya Novri Ramadhan
+
+PANASONIC FUTURE TALENT, ENGINEERING
+Gunakan hanya setelah form resmi dan bidang Engineering tersedia. Pilih CV Electrical. PDF informasi menerima SKL. Form TinyURL belum berhasil diverifikasi.
+
+Saya Ardhya Novri Ramadhan, lulusan S1 Teknik Elektro Universitas Diponegoro pada September 2026 dengan IPK 3.43/4.00. Saya tertarik mengikuti Panasonic's Future Talent 2026 pada bidang Engineering. Saya memiliki dasar elektronika, pengalaman magang, dan tugas akhir tentang akuisisi serta pemrosesan sinyal menggunakan STM32. Saya ingin mengembangkan kemampuan pengujian, troubleshooting, dan proses engineering melalui pekerjaan di industri manufaktur. SKL tersedia untuk melengkapi proses seleksi sesuai persyaratan program.
+
+EMBEDDED JUNIOR
+Gunakan CV Embedded. Sesuaikan nama perusahaan dan posisi dari lowongan yang telah diperiksa.
+
+Saya lulusan Teknik Elektro Universitas Diponegoro dengan proyek akhir pada akuisisi dan pemrosesan EMG berbasis STM32. Kontribusi saya mencakup implementasi ADC 4 kHz, filter digital, RMS/MAV dalam jendela 100 ms, dan komunikasi UART menggunakan C. Saya tertarik pada posisi junior yang memberi ruang untuk belajar embedded systems, pengujian, dan debugging. Saya siap menjelaskan lingkup kontribusi dan bukti implementasi saat interview.
+
+TINDAK LANJUT
+Gunakan setelah 5–7 hari kerja jika kanal memperbolehkan. Isi tanggal dan nama posisi dari tracker.
+
+Yth. Tim Rekrutmen,
+Saya ingin menanyakan perkembangan lamaran saya untuk posisi [nama posisi] yang saya kirim pada [tanggal]. Saya tetap tertarik pada kesempatan tersebut dan siap memberikan informasi tambahan bila diperlukan. Terima kasih.
+
+Sebelum kirim, isi bagian dalam kurung dan cocokkan persyaratan posisi. Lampirkan hanya dokumen yang diminta melalui kanal rekrutmen yang telah diperiksa.

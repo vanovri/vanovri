@@ -1,0 +1,55 @@
+{
+  "prepared": "2026-10-17",
+  "status": "ready_for_user_review",
+  "published": false,
+  "automation_active": true,
+  "cadence": "Every 2 days at 19:17 Asia/Jakarta",
+  "project_ideas": 15,
+  "slides_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "pdf_pptx_render_pixel_equivalent": true,
+  "files": [
+    {
+      "name": "Verifikasi_AI_Carousel_Review.pdf",
+      "bytes": 478125,
+      "sha256": "0442352a609a9d426d67e8bfddfb7e32d9004305cbe7f049c9ef66e305ca40ce"
+    },
+    {
+      "name": "Verifikasi_AI_Carousel_Editable.pptx",
+      "bytes": 82953,
+      "sha256": "a6e2c3f14d3eca3b7636602b3e56e492d66eecc1766cd18263b23d28f91e8d11"
+    },
+    {
+      "name": "Caption_Review.txt",
+      "bytes": 1266,
+      "sha256": "bc96b8873ed79604374d49b8b06d098604d3c9305e1e7ef05f74dd944b8ad1bb"
+    },
+    {
+      "name": "Alternatif_Post_Teks.txt",
+      "bytes": 572,
+      "sha256": "6a58a6ec2270e25ce8f2cf0298c34ef835b08af74675bddf1c7210fecb084be8"
+    },
+    {
+      "name": "Preview_Cover.png",
+      "bytes": 49402,
+      "sha256": "4fbfbc5db645cadd3c4483bf0e43b123d1d42f6dafe0eab52a5e008f2f9e4773"
+    },
+    {
+      "name": "Bank_15_Ide_Proyek.txt",
+      "bytes": 11570,
+      "sha256": "2707b5aded32ca22d8f6648910263db8be12c16dc0488dcdbd0db9fcb532fbbf"
+    },
+    {
+      "name": "Editorial_Notes.txt",
+      "bytes": 3427,
+      "sha256": "a679c4de5b35ac1be29920b789627e5ac058581665a4deb02bb266f4e767ff20"
+    }
+  ]
+}

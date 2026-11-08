@@ -1,0 +1,66 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{plain}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=1pt,topsep=2pt,parsep=0pt}
+\titleformat{\section}{\normalfont\bfseries\fontsize{11}{13}\selectfont}{}{0pt}{\MakeUppercase}[\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\newcommand{\cventry}[5]{\Needspace{4\baselineskip}\textbf{#3}\ifstrempty{#4}{}{, #4}\hfill #1\par\textit{#2}\par #5\par\vspace{4pt}}
+\newcommand{\cvitem}[2]{\textbf{#1}: #2\par}
+\begin{document}
+\begin{center}
+{\fontsize{19}{22}\selectfont\bfseries Ardhya Novri Ramadhan}\par\vspace{3pt}
+{\small Bekasi, Indonesia\enspace|\enspace +62 812 9155 2970\enspace|\enspace\href{mailto:ardhyasan@gmail.com}{ardhyasan@gmail.com}}\par
+{\small \href{https://www.linkedin.com/in/dhya/}{linkedin.com/in/dhya}\enspace|\enspace\href{https://ardhyanovri.my.id}{ardhyanovri.my.id}\enspace|\enspace\href{https://github.com/vanovri}{github.com/vanovri}}
+\end{center}
+\raggedright
+
+Electrical Engineering graduate (Undip, 2026, GPA 3.43) seeking an MEP Electrical Engineer role. Internship exposure to UPS/converter systems, electrical protection and substations at Soekarno-Hatta Airport; hands-on electronics, embedded control and solar installation.
+
+\section{Experience}
+\cventry{Jul 2025 - Aug 2025}{Internship Trainee}{PT Angkasa Pura Indonesia}{Soekarno-Hatta Int'l Airport}{\begin{itemize}
+\item Rotated five weeks in UPS/converter systems and three weeks in electrical protection.
+\item Studied protection relay schemes during substation visits; received SCADA training and observed PLC installation work.
+\end{itemize}}
+\cventry{Jan 2025 - Feb 2025}{Electronics Technician}{Redesma Technologies}{}{Built IoT temperature monitoring (ESP32, DS18B20) and DC motor control prototypes for internship seminar; co-authored SOP comparing Blynk and Thinger.io.}
+\cventry{2025}{Basic Electronics Practicum Assistant}{Diponegoro University}{}{Assisted students with laboratory activities and basic electronic components.}
+\cventry{Jan 2026 - Feb 2026}{Community Service Participant (KKN)}{Diponegoro University}{Mutihan, Klaten}{Helped assemble and install a solar-powered Smart Owl House (sensors, battery, controller) and prepared operating and maintenance guidance.}
+\cventry{Oct 2026 - Present}{CTO / Technical Lead}{PT ENVIID Karbon Solusi (ENVIID Carbon Solutions)}{}{\begin{itemize}
+\item Built and launched the company website (\href{https://enviid.web.id}{enviid.web.id}): bilingual EN/ID, carbon calculator, SEO setup.
+\end{itemize}}
+
+\section{Education}
+\cventry{Aug 2022 - Sep 2026}{B.Eng. in Electrical Engineering. GPA 3.43/4.00, graduated 29 September 2026}{Diponegoro University}{}{Thesis: EMG acquisition and monitoring system on STM32 (ADC/DMA sampling, signal filtering, UART monitoring UI).}
+\section{Skills}
+\cvitem{Electrical}{UPS/converter systems, protection relays, substations, SCADA (internship exposure); solar PV installation (KKN); motor protection and control (training); AutoCAD (basic); single-line diagram (SLD) reading (Angkasa Pura internship).}
+\cvitem{Embedded and software}{C, STM32 HAL/CubeIDE, ADC, DMA, timers, UART; Python, Tkinter, React, FastAPI, Git, automated tests.}
+\cvitem{English}{Undip EPT 81 (TOEFL-equivalent prediction 632), Jun 2026.}
+\section{Training}
+\cvitem{Sep 2024}{Automation Clinic: Motor Protection and Control, Engineering Academy.}
+\cvitem{Sep 2026}{Introduction to Internet of Things, Cisco Networking Academy.}
+\cvitem{May 2024}{Introduction to Electronics (10 h), The Open University OpenLearn.}
+\cvitem{May 2024}{IT: Device to Device Communication (20 h), The Open University OpenLearn.}
+\section{Technical Proposals and Coursework}
+\cventry{2026}{Solar UAV concept and interactive demonstration}{Nusantara SolarWing}{}{Prepared a model-based concept package using historical solar data, wind sensitivity and battery reserve planning for maritime patrol scenarios.}
+\cventry{2025}{Engineering economics group assignment}{PLTA Jatigede Case Study}{}{Contributed the introduction and task allocation to a group presentation covering NPV, benefit-cost ratio and payback period.}
+\cventry{2025}{Technology development proposal}{Redesma Technologies / Timor-Leste Concept}{}{Authored a proposal for rural technology options, including solar-powered irrigation, community warning systems and digital monitoring.}
+\section{Leadership}
+\cventry{2025}{Head of Media Division}{Society of Electronics Engineering Division (SEED), Undip}{}{}
+\cventry{Class of 2025}{Google Student Ambassador}{Google Student Ambassador Program}{}{}
+\cventry{Oct 2024}{Workshop Instructor}{ENIGMA Vol. 3, SEED / HME UNDIP}{}{Taught basic electronics: circuits, wiring and PCB work.}
+\cventry{Sep 2024 - Dec 2025}{Student Member}{Society of Petroleum Engineers (SPE)}{}{Joined professional learning activities, including technical writing and geothermal drilling sessions.}
+\cventry{2024}{Creative Design Staff, Kantor Media Informasi (KMI)}{Himpunan Mahasiswa Elektro, Diponegoro University}{}{Supported student organization media and design work.}
+\cventry{2023}{Event Committee Member}{LKMM-PD, HME UNDIP}{}{Served on the committee for introductory student management and leadership training.}
+\cventry{2023}{Logistics / Equipment Committee Member}{PMB Teknik Elektro, Diponegoro University}{}{Prepared equipment and facilitated the needs of the new-student welcoming activities.}
+\section{Software Projects}
+\cvitem{\href{https://github.com/vanovri/datarescue}{DataRescue}}{Local CSV/JSON validation workbench and CLI with rule-based normalization and audit exports.}
+\cvitem{\href{https://github.com/vanovri/uart-fixture-kit}{uart-fixture-kit}}{Synthetic UART fixtures to test serial parsers without hardware.}
+\end{document}

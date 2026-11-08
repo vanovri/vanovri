@@ -1,0 +1,17 @@
+I hold a Bachelor of Engineering in Electrical Engineering from Diponegoro University, awarded on 29 September 2026, with a GPA of 3.43/4.00. I support ENVIID Carbon Solutions as CTO / Technical Lead, starting in October 2026. I am the sole developer of the company website, enviid.web.id, which I built and launched with AI assistance. My work includes the company pages, carbon calculator and digital MRV workflow demonstration.
+
+My practical work includes IoT temperature monitoring and DC motor control at Redesma Technologies, and an eight-week internship at Angkasa Pura Indonesia. The airport internship covered five weeks in UPS/converter systems and three weeks in electrical protection, with a relay learning focus, SCADA instruction and observation of PLC installations.
+
+For my thesis, I implemented STM32 EMG acquisition and digital signal processing and built the full Python/Tkinter monitoring interface for UART telemetry, live plots and CSV logging. Coding agents assisted implementation. Teammates handled the stimulator and fuzzy-control design.
+
+I also develop AI-assisted software: RepairGate for code-repair verification, ApplyProof for evidence-based application drafting, DataRescue for structured data repair and uart-fixture-kit for reproducible serial-parser tests. My earlier creative work includes the Anak Kos Survival browser game and an interactive portfolio world.
+
+I served as a Basic Electronics Practicum Assistant for two consecutive semesters in the 2024/2025 academic year, covering the odd semester in 2024 and the even semester in 2025. I guided students through laboratory activities and electronic component use.
+
+Campus and community contributions include Google Student Ambassador Class of 2025, Head of Media at SEED in 2025, creative design work at KMI HME UNDIP in 2024, electronics workshop teaching and student event committees. During KKN in Mutihan, I helped with a solar-powered Smart Owl House, village administration, school activities and community work.
+
+Based in Bekasi.
+
+Portfolio and general CV: https://ardhyanovri.my.id
+
+Projects: https://github.com/vanovri

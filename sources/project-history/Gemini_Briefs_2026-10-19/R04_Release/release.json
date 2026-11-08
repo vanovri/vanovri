@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/vanovri/bounded-refactor",
+  "release": "https://github.com/vanovri/bounded-refactor/releases/tag/v0.2.0",
+  "commit": "617ae70070cc7b2abdcdb56794faf15632c9c954",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39251148099,
+      "headSha": "617ae70070cc7b2abdcdb56794faf15632c9c954",
+      "status": "completed",
+      "url": "https://github.com/vanovri/bounded-refactor/actions/runs/39251148099"
+    }
+  ],
+  "archive": "bounded-refactor-v0.2.0.zip",
+  "sha256": "6bfba8c3ecd4a03382d38095588fe04fdfaed4d2ba5198aa21acca3b5a163e2c",
+  "size": 18221,
+  "published_bytes_verified": true
+}

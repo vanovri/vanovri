@@ -1,0 +1,12 @@
+Saya membangun website ENVIID sendiri, dengan bantuan AI.
+
+Lingkup yang saya kerjakan:
+• Halaman perusahaan dan informasi proyek.
+• Kalkulator karbon untuk skenario perencanaan.
+• Demo alur digital MRV.
+
+Pelajaran yang saya bawa: asumsi dan status bukti perlu terlihat dekat hasil. Kalkulator memberikan estimasi. Data pada demo MRV bersifat ilustratif.
+
+Proyek: https://enviid.web.id/
+
+Menurut kamu, bagian apa yang perlu dijelaskan saat sebuah website menampilkan simulasi?

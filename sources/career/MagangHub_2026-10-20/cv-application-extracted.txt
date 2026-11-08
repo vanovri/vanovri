@@ -1,0 +1,188 @@
+1
+ Ardhya Novri Ramadhan
+ Bekasi, Indonesia | +62 812 9155 2970 | ardhyasan@gmail.com
+ linkedin.com/in/dhya | ardhyanovri.my.id | github.com/vanovri
+Bachelor of Engineering in Electrical Engineering from Diponegoro University, with experience in electronics, airport
+electrical systems, student organizations and community projects. Develops embedded monitoring systems and
+AI-assisted software.
+EDUCATION
+Diponegoro University
+ Aug 2022 - Sep 2026
+Bachelor of Engineering in Electrical Engineering
+GPA: 3.43/4.00. Graduated on 29 September 2026.
+SMA Negeri 5 Bekasi
+ Jul 2019 - May 2022
+Natural Sciences
+PROFESSIONAL AND COMMUNITY EXPERIENCE
+Diponegoro University
+ Jan 2026 - Feb 2026
+Community Service Participant (KKN) | Mutihan, Klaten
+ Helped assemble and install a solar-powered Smart Owl House, including sensors, battery and controller. Prepared
+operating and maintenance guidance.
+ Assisted village administration, Posyandu activities, BUMDes bookkeeping and community cleanups. Joined mosque
+and cemetery painting activities.
+ Supported school scouting activities and earthquake preparedness education. Helped produce and hand over the village
+profile video.
+PT Angkasa Pura Indonesia
+ Jul 2025 - Aug 2025
+Internship Trainee
+ Rotated for five weeks in UPS/converter systems and three weeks in electrical protection at Soekarno-Hatta
+International Airport.
+ Visited substations and focused on learning protection relays. Received SCADA instruction and observed PLC
+installations.
+Diponegoro University
+ 2024 - 2025
+Basic Electronics Practicum Assistant
+Served for two consecutive semesters in the 2024/2025 academic year, one academic year in total. Assisted students
+with laboratory activities and basic electronic components.
+Redesma Technologies
+ Jan 2025 - Feb 2025
+Electronics Technician
+Worked on IoT temperature monitoring and DC motor control. Co-authored an SOP for comparing Blynk and
+Thinger.io using ESP32 and a DS18B20 sensor.
+SKILLS
+Electrical and embedded: Electronics, sensor integration, C, STM32 HAL, STM32CubeIDE, ADC, DMA, timers and
+UART. Field learning in UPS/converters, protection relays and SCADA.
+Software and media: Python, Tkinter, React, FastAPI, Git, automated tests, digital filtering, RMS/MAV extraction,
+CSV/JSON processing and Canva.
+
+2
+ORGANIZATIONS AND EVENT COMMITTEES
+HME, Diponegoro University
+ 2025
+Secretary-Treasurer, Kantor Media Informasi (KMI)
+Served for one year in 2025, following the Creative Design Staff role in 2024.
+Society of Electronics Engineering Division (SEED)
+ 2025
+Head of Media Division
+Served as Head of Media for the 2025 student bureau at Diponegoro University.
+Google Student Ambassador Program
+ Class of 2025
+Google Student Ambassador
+Completed the student program and received recognition for championing Google AI within the campus community.
+Society of Petroleum Engineers (SPE)
+ Sep 2024 - Dec 2025
+Student Member
+Joined professional learning activities, including technical writing and geothermal drilling sessions.
+ENIGMA Vol. 3, SEED / HME UNDIP
+ Oct 2024
+Workshop Instructor
+Taught basic electronics workshop activities involving circuits, wiring and PCB work.
+Indonesia International Sustainability Forum (ISF)
+ Sep 2024
+Organizational Delegate
+Participated in the sustainability forum as an organizational delegate.
+Himpunan Mahasiswa Elektro, Diponegoro University
+ 2024
+Creative Design Staff, Kantor Media Informasi (KMI)
+Supported student organization media and design work. Assigned as a co-responsible staff member for the HME
+Rewind documentation program.
+LKMM-PD, HME UNDIP
+ 2023
+Event Committee Member
+Served on the committee for introductory student management and leadership training.
+PMB Teknik Elektro, Diponegoro University
+ 2023
+Logistics / Equipment Committee Member
+Prepared equipment and facilitated the needs of the new-student welcoming activities.
+Decarbonizing Indonesia
+ Nov 2022 - Jan 2023
+Campaign Contributor
+Created social media campaign and design materials about decarbonization.
+PKKMB and Pendikar, Diponegoro University
+ Aug 2022
+Participant
+Completed the 40-hour new-student orientation and character education program, 15-20 August 2022.
+Information and Communication Technology (ICT), SMA Negeri 5 Bekasi
+ Jan 2021 - Dec 2021
+Vice Secretary
+Prepared work-program and accountability documents, and maintained attendance and member assessment records.
+ICT Leadership Regeneration, SMA Negeri 5 Bekasi
+ Nov 2021
+Committee Secretary and Session Instructor
+Prepared event administration and delivered the secretarial training session for incoming ICT committee members.
+CINOTIC, SMA Negeri 5 Bekasi
+ 2021
+Event Secretary
+Supported proposals, reporting and event administration for the Science Techno & Journalistic Competition.
+
+3
+PROJECTS AND TECHNICAL PROPOSALS
+RepairGate
+ Oct 2026
+Developed a code-repair verifier with protected tests, independent holdout checks and exported patch decisions.
+Includes an optional local Ollama adapter and a recorded-candidate demonstration.
+ApplyProof
+ Oct 2026
+Developed an application workspace with a reviewed fact ledger, explicit skill comparison, office/worksite distinction
+and traceable application drafts. Optional AI selects fact IDs for verbatim drafting.
+DataRescue
+ Oct 2026
+Built a local CSV/JSON validation workbench and CLI with rule-based normalization, quarantine of rejected rows and
+audit-report exports, covered by automated tests.
+uart-fixture-kit
+ Oct 2026
+Developed reusable synthetic UART fixtures and virtual-time replay to reproduce fragmented, malformed and
+concatenated byte streams without serial hardware.
+Personal Portfolio / Anak Kos Survival
+ 2026
+Developed an engineering portfolio with project evidence and a simulated EMG preview. Earlier work includes a
+seven-day browser game and an interactive portfolio world, retained in the project archive.
+Nusantara SolarWing
+ 2026
+Prepared a model-based concept package using historical solar data, wind sensitivity and battery reserve planning for
+maritime patrol scenarios.
+EMG Acquisition and Monitoring System
+ Thesis, 2026
+Academic thesis, Diponegoro University.
+ Implemented 12-bit ADC acquisition with DMA on STM32F411CEU6 and SEN0240 at a nominal 4 kHz sampling
+rate.
+ Applied 20 Hz high-pass, 500 Hz low-pass and 50 Hz notch filtering, with RMS/MAV extraction over 400 samples.
+ Built the Python/Tkinter interface for UART telemetry at 115200 baud, live plots, status monitoring and CSV export,
+with coding-agent assistance. Teammates handled the stimulator and fuzzy control.
+PLTA Jatigede Case Study
+ 2025
+Contributed the introduction and task allocation to a group presentation covering NPV, benefit-cost ratio and payback
+period.
+Redesma Technologies / Timor-Leste Concept
+ 2025
+Authored a proposal for rural technology options, including solar-powered irrigation, community warning systems and
+digital monitoring.
+EnvironmentID: IoT-powered Biofiltration
+ 2024
+Co-authored an abstract proposing smart sensors and oyster ecosystems for coastal water-quality monitoring and
+biofiltration.
+GOVTECH / Gov-AI Hackathon Proposal
+ 2024
+Prepared a proposal for integrated digital public services using APIs, responsive interfaces and AI-assisted information
+services.
+
+4
+COURSES, WORKSHOPS AND CERTIFICATIONS
+Sep 2026: Introduction to Internet of Things, Cisco Networking Academy. Completed 27 September 2026.
+Sep 2026: AI Fundamentals, Google via Coursera. Completed 26 September 2026. Evidence is a course-completion
+screenshot, not an issued certificate.
+Sep 2025: SPENTRODUCE: Exploring the Downstream Oil and Gas Industry, SPE UNDIP Student Chapter.
+Participant.
+Jan 2025: AI-Powered Shopping Ads Certification, Google Skillshop. Historical credential, expired January 2026.
+Oct 2024: Workover and Well Service Talks, IATMI Student Chapter ITB. Participant.
+Sep 2024: Automation Clinic: Motor Protection and Control, Engineering Academy. Participant.
+Sep 2024: How to Write a Good Technical Paper, SPE. 1.5-hour continuing education session.
+Sep 2024: Geothermal Drilling in Volcanic and Metamorphic Basins, SPE. 1.5-hour continuing education session.
+Sep 2024: Strategies in Geothermal Exploration: Maximizing Indonesia's Potential, SPE UNDIP Student Chapter. Guest
+lecture participant.
+Sep 2024: Ethics of Artificial Intelligence: Navigating Responsible Technology for the Future, SkilHub Community by
+Skilvul / Nocturnailed. Webinar participant.
+May 2024: Fundamentals of Digital Marketing, Google Digital Academy / Skillshop. Completed 27 May 2024.
+May 2024: Introduction to Electronics, The Open University OpenLearn. Completed a 10-hour course on 21 May 2024.
+May 2024: IT: Device to Device Communication, The Open University OpenLearn. Completed a 20-hour course on 19
+May 2024.
+Mar 2024 - May 2024: College Copilot Bootcamp (CABOOT). Completed six sessions, 20 March - 4 May 2024.
+Nov 2020 - Feb 2021: KSN-K Geography Preparation. Participant in the 8 November 2020 - 7 February 2021 training
+program.
+Date not recorded: ML/AI Fundamentals: How Machine Learning Is Shaping the Oil & Gas Industry, SPE Java
+Section.
+ADDITIONAL RECOGNITION
+May 2024: 100 Design Achievement Badge, Canva.
+2019: Try Out Akbar Winner, Penerbit Erlangga. Score: 100, SMP/MTs category, Jakarta. SMP Angkasa Halim
+Perdanakusuma.

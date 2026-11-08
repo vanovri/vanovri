@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/vanovri/repairgate",
+  "release": "https://github.com/vanovri/repairgate/releases/tag/v0.2.0",
+  "commit": "a895d54b748cf51a2237c5091b05c53b1e7a6f33",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39080798095,
+      "headSha": "a895d54b748cf51a2237c5091b05c53b1e7a6f33",
+      "status": "completed",
+      "url": "https://github.com/vanovri/repairgate/actions/runs/39080798095"
+    }
+  ],
+  "archive": "repairgate-v0.2.0.zip",
+  "sha256": "01de56f3270b5752c619b050cc935af2b595ca2651fefc180978e6c78aad6308",
+  "size": 206592,
+  "published_bytes_verified": true
+}

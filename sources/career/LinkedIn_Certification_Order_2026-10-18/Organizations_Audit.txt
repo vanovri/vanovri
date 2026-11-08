@@ -1,0 +1,161 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "Search":
+    - paragraph: I'm looking for…
+  - dialog:
+    - status: 9 suggestions available, use up and down arrow keys to navigate
+    - search:
+      - textbox "I'm looking for…"
+    - listbox:
+      - heading "Recent entity history" [level=2]:
+        - generic: Recent entity history
+        - text: Recent
+      - option "Clear all":
+        - button "Clear all":
+          - generic: Clear all
+      - option "Ihsanuddin Fadillah recent entity history":
+        - link "Ihsanuddin Fadillah recent entity history":
+          - /url: https://www.linkedin.com/in/ihsanfadillah5/
+          - figure
+          - paragraph:
+            - generic: Ihsanuddin Fadillah recent entity history
+            - text: Ihsanuddin Fadillah
+      - option "portfolio recent query history":
+        - link "portfolio recent query history":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=portfolio&origin=HISTORY&position=0
+          - generic "portfolio recent query history":
+            - paragraph: portfolio
+      - option "jobs recent query history":
+        - link "jobs recent query history":
+          - /url: https://www.linkedin.com/jobs/search-results/?keywords=jobs&origin=SUGGESTION
+          - generic "jobs recent query history":
+            - paragraph: jobs
+            - paragraph: Jobs
+      - paragraph: Try searching for
+      - option "portfolio manager query suggestion":
+        - link "portfolio manager query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=portfolio+manager&origin=QUERY_SUGGESTION&position=0
+          - generic "portfolio manager query suggestion":
+            - paragraph: portfolio manager
+      - option "investment query suggestion":
+        - link "investment query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=investment&origin=QUERY_SUGGESTION&position=0
+          - generic "investment query suggestion":
+            - paragraph: investment
+      - option "equity query suggestion":
+        - link "equity query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=equity&origin=QUERY_SUGGESTION&position=0
+          - generic "equity query suggestion":
+            - paragraph: equity
+      - option "trader query suggestion":
+        - link "trader query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=trader&origin=QUERY_SUGGESTION&position=0
+          - generic "trader query suggestion":
+            - paragraph: trader
+      - option "recruiter query suggestion":
+        - link "recruiter query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=recruiter&origin=QUERY_SUGGESTION&position=0
+          - generic "recruiter query suggestion":
+            - paragraph: recruiter
+  - navigation:
+    - list:
+      - button "Home, 0 new notifications":
+        - generic: Home
+      - link "My Network, 1 new notification":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "1"
+        - generic: My Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 2 new notifications":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "2"
+        - generic: Notifications
+      - button "More":
+        - text: More
+  - button "Ardhya Novri Ramadhan Me":
+    - generic "Ardhya Novri Ramadhan Me":
+      - figure
+      - paragraph: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Sales Navigator, 1 new notification":
+        - /url: https://www.linkedin.com/sales/?trk=d_flagship3_nav
+        - generic: "1"
+        - generic: Sales Nav
+  - figure
+- toolbar:
+  - link "Ardhya Novri Ramadhan":
+    - /url: https://www.linkedin.com/in/dhya/
+    - generic "Ardhya Novri Ramadhan":
+      - figure
+      - paragraph: Ardhya Novri Ramadhan
+      - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+- main:
+  - region "Primary content":
+    - button "Navigate back to profile main screen":
+    - paragraph: Organizations
+    - link "Add new organization":
+      - /url: https://www.linkedin.com/in/dhya/details/organizations/edit/forms/new/
+    - paragraph: Society of Petroleum Engineers (SPE)
+    - paragraph: Student Member · Sep 2024 – Dec 2025
+    - figure
+    - paragraph: Associated with Diponegoro University
+    - paragraph:
+      - generic: Joined professional learning activities, including technical writing and geothermal drilling sessions. This membership period has ended.
+    - link "Edit organization Society of Petroleum Engineers (SPE)":
+      - /url: https://www.linkedin.com/in/dhya/details/organizations/edit/forms/908591881/
+    - paragraph: Kantor Media Informasi · HME UNDIP
+    - paragraph: Secretary and Treasurer · 2025 – 2025
+    - figure
+    - paragraph: Associated with Diponegoro University
+    - paragraph:
+      - generic: Served a one-year term as Secretary and Treasurer in 2025, after serving as Creative Design Staff in 2024.
+    - link "Edit organization Kantor Media Informasi · HME UNDIP":
+      - /url: https://www.linkedin.com/in/dhya/details/organizations/edit/forms/1201340053/
+    - paragraph: Society of Electronics Engineering Division (SEED) · UNDIP
+    - paragraph: Head of Media Division · 2025 – 2025
+    - figure
+    - paragraph: Associated with Diponegoro University
+    - paragraph:
+      - generic: Served as Head of Media for the 2025 student bureau. The official board certificate was issued in 2026.
+    - link "Edit organization Society of Electronics Engineering Division (SEED) · UNDIP":
+      - /url: https://www.linkedin.com/in/dhya/details/organizations/edit/forms/908549321/
+    - paragraph: Kantor Media Informasi · HME UNDIP
+    - paragraph: Creative Design Staff · 2024 – 2024
+    - figure
+    - paragraph: Associated with Diponegoro University
+    - paragraph:
+      - generic: Supported student organization media and design work. Assigned as a co-responsible staff member for the HME Rewind documentation program.
+    - link "Edit organization Kantor Media Informasi · HME UNDIP":
+      - /url: https://www.linkedin.com/in/dhya/details/organizations/edit/forms/908584272/
+    - paragraph: ICT · SMA Negeri 5 Bekasi
+    - paragraph: Vice Secretary · Jan 2021 – Dec 2021
+    - figure
+    - paragraph: Associated with SMAN 5 Bekasi
+    - paragraph:
+      - text: Prepared work-program and accountability documents and maintained attendance and member assessment records.
+      - text: Also served as secretary for the 2021 CINOTIC Science Techno & Journalistic Competition and as committee secretary and secretarial-session instructor for ICT Leadership Regeneration in November 2021.
+    - link "Edit organization ICT · SMA Negeri 5 Bekasi":
+      - /url: https://www.linkedin.com/in/dhya/details/organizations/edit/forms/908712210/
+  - 

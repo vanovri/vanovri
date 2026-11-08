@@ -1,0 +1,33 @@
+R01. REPAIRGATE REGRESSION LAB
+
+Proyek pertama dari bank ide. Memperluas RepairGate yang sudah ada, bukan membuat repo duplikat.
+
+PR merged: https://github.com/vanovri/repairgate/pull/1
+Branch: codex/regression-lab
+Repo lokal: C:\Users\ardhy\Projects\repairgate
+Demo lokal saat ini: http://127.0.0.1:8765
+
+CARA MENJALANKAN
+Ekstrak RepairGate_Regression_Lab_Source.zip. Buka folder repairgate, lalu jalankan Run Repairgate.cmd. Launcher memasang dependensi Python dan Node dari versi yang dikunci proyek, membangun UI, lalu menjalankan server lokal port 8764. Butuh Python 3.11+ dan Node 22.12+ atau 24+.
+
+Replay CLI dari repo dengan dependensi terpasang:
+python -m repairgate.cli lab --output regression-lab-report.json
+
+HASIL
+28 tes pytest lulus. Vite production build lulus.
+3 kasus, masing-masing 3 kandidat: perubahan tes diblokir, kandidat khusus contoh ditolak oleh pemeriksaan independen, perbaikan umum diterima.
+Kasus interval: 225 pasangan interval. Moving average: 484 kombinasi deret/window. Angka kombinasi bukan jumlah metode unittest.
+
+BATAS KLAIM
+Proposal direkam. Hasil tes nyata dihitung saat dijalankan. Bukan benchmark Gemini atau model lain. Data sintetis. Runner untuk kode/tes lokal yang dipercaya, bukan security sandbox. Hash mencatat integritas pada titik pemeriksaan. Hash pohon file dapat berbeda jika checkout mengubah akhir baris LF/CRLF.
+
+BERKAS
+Regression_Lab_Report.json: hasil replay aktual, log terbatas dan path sementara disamarkan.
+Regression_Lab_Preview.png: screenshot UI aktual.
+Case_Contracts.md: kontrak, cakupan pemeriksaan, sumber inspirasi, dan batas klaim.
+Draft_LinkedIn.txt: bahan review, belum diposting.
+Status.json: status implementasi dan verifikasi.
+
+PR sudah digabung ke main. CI branch utama lulus. Jadwal posting LinkedIn tidak diaktifkan kembali.
+
+Carousel PDF dan caption: Carousel/Ready. Dokumen 7 halaman sudah terpasang di draft LinkedIn, menunggu review final.

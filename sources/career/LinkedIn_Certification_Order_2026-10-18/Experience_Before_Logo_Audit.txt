@@ -1,0 +1,427 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "Search":
+    - paragraph: I'm looking for…
+  - dialog:
+    - status
+    - search:
+      - textbox "I'm looking for…"
+  - navigation:
+    - list:
+      - button "Home, 0 new notifications":
+        - generic: Home
+      - link "My Network, 1 new notification":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "1"
+        - generic: My Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 1 new notification":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "1"
+        - generic: Notifications
+      - button "More":
+        - text: More
+  - button "Ardhya Novri Ramadhan Me":
+    - generic "Ardhya Novri Ramadhan Me":
+      - figure
+      - paragraph: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Sales Navigator, 1 new notification":
+        - /url: https://www.linkedin.com/sales/?trk=d_flagship3_nav
+        - generic: "1"
+        - generic: Sales Nav
+  - figure
+- toolbar:
+  - link "Ardhya Novri Ramadhan":
+    - /url: https://www.linkedin.com/in/dhya/
+    - generic "Ardhya Novri Ramadhan":
+      - figure
+      - paragraph: Ardhya Novri Ramadhan
+      - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+- main:
+  - region "Primary content":
+    - button "Navigate back to profile main screen" [active]:
+    - paragraph: Experience
+    - button "Add a position or career break":
+    - figure:
+      - img "ENVIID Carbon Solutions logo"
+    - link "CTO / Technical Lead ENVIID Carbon Solutions Oct 2026 - Present · 1 mo":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/3042352991/
+      - paragraph: CTO / Technical Lead
+      - paragraph: ENVIID Carbon Solutions
+      - paragraph: Oct 2026 - Present · 1 mo
+    - paragraph:
+      - text: Started in October 2026 to support ENVIID’s IT and digital work.
+      - text: I am the sole developer of the company website, enviid.web.id, which I built and launched with AI assistance. My work includes company pages and project information, a carbon calculator, and a digital MRV workflow demonstration.
+      - text: "Company website: https://enviid.web.id/"
+    - paragraph: Present
+    - link "Enhance with AI":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/3042352991/
+      - generic: Enhance with AI
+    - link "Edit CTO / Technical Lead at ENVIID Carbon Solutions":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/3042352991/
+    - link:
+      - /url: https://www.linkedin.com/company/28768122/
+      - figure:
+        - img "PT Angkasa Pura Indonesia logo"
+    - link "Internship Trainee PT Angkasa Pura Indonesia · Internship Jul 2025 - Aug 2025 · 2 mos Soekarno-Hatta International Airport · On-site":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/2677129948/
+      - paragraph: Internship Trainee
+      - paragraph: PT Angkasa Pura Indonesia · Internship
+      - paragraph: Jul 2025 - Aug 2025 · 2 mos
+      - paragraph: Soekarno-Hatta International Airport · On-site
+    - paragraph:
+      - text: "Completed an eight-week internship at Soekarno-Hatta International Airport: five weeks in UPS/converter systems and three weeks in electrical protection."
+      - text: Visited substations and chose protection relays as the main learning focus. Received SCADA instruction and observed PLC installations. This was field learning and observation, without independent PLC programming or commissioning responsibility.
+    - link "Server Room":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Position/2677129948/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Server Room"
+      - paragraph: Server Room
+    - link "Turkish Airlines":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Position/2677129948/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Turkish Airlines"
+      - paragraph: Turkish Airlines
+    - link "Modular UPS":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Position/2677129948/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Modular UPS"
+      - paragraph: Modular UPS
+    - paragraph:
+      - link "UPS Systems, Switched Mode Power Supply (SMPS) and +7 skills":
+        - /url: https://www.linkedin.com/in/dhya/overlay/2677129948/skill-associations-details/?associationType=position
+        - text: UPS Systems, Switched Mode Power Supply (SMPS) and +7 skills
+    - link "Edit Internship Trainee at PT Angkasa Pura Indonesia":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/2677129948/
+    - figure:
+      - img "Diponegoro University logo"
+    - link "Basic Electronics Practicum Assistant Diponegoro University Aug 2024 - Jul 2025 · 1 yr":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/3042370251/
+      - paragraph: Basic Electronics Practicum Assistant
+      - paragraph: Diponegoro University
+      - paragraph: Aug 2024 - Jul 2025 · 1 yr
+    - paragraph:
+      - text: "Served as a Basic Electronics Practicum Assistant for two consecutive semesters in the 2024/2025 academic year: the odd semester in 2024 and the even semester in 2025, covering my fifth and sixth semesters. Total service: one academic year. The displayed months represent the full academic-year span of two six-month semesters."
+      - text: Assisted students with basic electronics laboratory activities and electronic component use at Diponegoro University.
+      - text: Received the Basic Electronics Practicum Assistant award certificate dated 6 July 2025 (No. 02/UN7.5.3/HK/2025).
+    - link "Basic Electronics Practicum Assistant | 6 July 2025 Certificate of Appreciation issued by Diponegoro University on 6 July 2025, no. 02/UN7.5.3/HK/2025. The two-semester service period is stated separately in the role description.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Position/3042370251/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Basic Electronics Practicum Assistant | 6 July 2025"
+      - paragraph: Basic Electronics Practicum Assistant | 6 July 2025
+      - paragraph: Certificate of Appreciation issued by Diponegoro University on 6 July 2025, no. 02/UN7.5.3/HK/2025. The two-semester service period is stated separately in the role description.
+    - link "Edit Basic Electronics Practicum Assistant at Diponegoro University":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/3042370251/
+    - link:
+      - /url: https://www.linkedin.com/company/72082818/
+      - figure:
+        - img "Redesma-Technologies logo"
+    - link "Electronics Technician Redesma-Technologies · Full-time Jan 2025 - Feb 2025 · 2 mos Semarang, Central Java, Indonesia · On-site":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/2577814333/
+      - paragraph: Electronics Technician
+      - paragraph: Redesma-Technologies · Full-time
+      - paragraph: Jan 2025 - Feb 2025 · 2 mos
+      - paragraph: Semarang, Central Java, Indonesia · On-site
+    - paragraph:
+      - generic: Built IoT temperature monitoring (ESP32, DS18B20) and DC motor control prototypes for my internship seminar. Co-authored an SOP comparing Blynk and Thinger.io.
+    - paragraph:
+      - link "Electronics, Equipment Repair and +2 skills":
+        - /url: https://www.linkedin.com/in/dhya/overlay/2577814333/skill-associations-details/?associationType=position
+        - text: Electronics, Equipment Repair and +2 skills
+    - link "Edit Electronics Technician at Redesma-Technologies":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/2577814333/
+    - link:
+      - /url: https://www.linkedin.com/company/1441/
+      - figure:
+        - img "Google logo"
+    - link "Google Student Ambassador | Class of 2025 Google 2025 – 2025":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/3043552256/
+      - paragraph: Google Student Ambassador | Class of 2025
+      - paragraph: Google
+      - paragraph: 2025 – 2025
+    - paragraph:
+      - text: Completed the Google Student Ambassador program, Class of 2025, representing my campus community at Diponegoro University.
+      - text: Recognized by Google for leadership in championing Google AI within the campus community. Received the Class of 2025 Certificate of Graduation.
+      - text: This was a student ambassador program.
+    - link "Google Student Ambassador | Class of 2025 Certificate of Graduation Certificate issued by Google recognizing successful completion of the Google Student Ambassador program, Class of 2025.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Position/3043552256/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Google Student Ambassador | Class of 2025 Certificate of Graduation"
+      - paragraph: Google Student Ambassador | Class of 2025 Certificate of Graduation
+      - paragraph: Certificate issued by Google recognizing successful completion of the Google Student Ambassador program, Class of 2025.
+    - link "Edit Google Student Ambassador | Class of 2025 at Google":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/3043552256/
+    - link:
+      - /url: https://www.linkedin.com/company/71622436/
+      - figure:
+        - img "Himpunan Mahasiswa Elektro Fakultas Teknik Universitas Diponegoro (HME FT UNDIP) logo"
+    - link "Workshop Instructor | ENIGMA Vol. 3 Himpunan Mahasiswa Elektro Fakultas Teknik Universitas Diponegoro (HME FT UNDIP) Oct 2024 · 1 mo":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/3045603796/
+      - paragraph: Workshop Instructor | ENIGMA Vol. 3
+      - paragraph: Himpunan Mahasiswa Elektro Fakultas Teknik Universitas Diponegoro (HME FT UNDIP)
+      - paragraph: Oct 2024 · 1 mo
+    - paragraph:
+      - text: Taught basic electronics at ENIGMA Vol. 3, held on 6 October 2024 by SEED / HME FT UNDIP. Guided workshop activities involving electronic circuits, wiring, and PCB work.
+      - text: This was an event-based teaching contribution in a student organization. Received an instructor certificate for the event.
+    - link "ENIGMA Vol. 3 | Workshop Instructor Certificate Instructor certificate for Ardhya Novri Ramadhan, ENIGMA Vol. 3, 6 October 2024, SEED / HME FT UNDIP.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Position/3045603796/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for ENIGMA Vol. 3 | Workshop Instructor Certificate"
+      - paragraph: ENIGMA Vol. 3 | Workshop Instructor Certificate
+      - paragraph: Instructor certificate for Ardhya Novri Ramadhan, ENIGMA Vol. 3, 6 October 2024, SEED / HME FT UNDIP.
+    - link "Edit Workshop Instructor | ENIGMA Vol. 3 at Himpunan Mahasiswa Elektro Fakultas Teknik Universitas Diponegoro (HME FT UNDIP)":
+      - /url: https://www.linkedin.com/in/dhya/details/experience/edit/forms/3045603796/
+  - complementary "Aside":
+    - heading "Profile language" [level=2]
+    - link "Edit profile language":
+      - /url: https://www.linkedin.com/in/dhya/edit/secondary-language/
+    - paragraph: English
+    - img "Premium"
+    - heading "Who your viewers also viewed" [level=3]
+    - paragraph: Private to you
+    - link "Aldin zahwan · 1st Electrical Engineering | Mechatronic | Electronic":
+      - /url: https://www.linkedin.com/in/aldinzhn/
+      - figure:
+        - img "Aldin zahwan is open to work"
+      - paragraph:
+        - link "Aldin zahwan":
+          - /url: https://www.linkedin.com/in/aldinzhn/
+      - paragraph: · 1st
+      - paragraph: Electrical Engineering | Mechatronic | Electronic
+    - link "Message Aldin zahwan":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAD5ISOwBYOcRKiNs1xnlRRQ7U2ErHKUNbLU&recipient=ACoAAD5ISOwBYOcRKiNs1xnlRRQ7U2ErHKUNbLU&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Tian Putra Perdana · 2nd --":
+      - /url: https://www.linkedin.com/in/tian-putra-perdana-512424237/
+      - figure
+      - paragraph:
+        - link "Tian Putra Perdana":
+          - /url: https://www.linkedin.com/in/tian-putra-perdana-512424237/
+      - paragraph: · 2nd
+      - paragraph: "--"
+    - button "Invite Tian Putra Perdana to connect":
+      - generic: Connect
+    - link "Daffa Mahardika Auzan Putra Verified · 1st Electrical Engineering":
+      - /url: https://www.linkedin.com/in/daffamap/
+      - figure:
+        - img "Daffa Mahardika Auzan Putra is open to work"
+      - paragraph:
+        - link "Daffa Mahardika Auzan Putra Verified":
+          - /url: https://www.linkedin.com/in/daffamap/
+          - text: Daffa Mahardika Auzan Putra
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: Electrical Engineering
+    - link "Message Daffa Mahardika Auzan Putra":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAFIYJewBvTZ8l2wbXy2N_ktz6ACOkR7X3j8&recipient=ACoAAFIYJewBvTZ8l2wbXy2N_ktz6ACOkR7X3j8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Muhammad Humam Faiz · 1st Electrical Engineering Graduate | Control & Instrumentation":
+      - /url: https://www.linkedin.com/in/muhammad-humam-faiz-2901a625b/
+      - figure
+      - paragraph:
+        - link "Muhammad Humam Faiz":
+          - /url: https://www.linkedin.com/in/muhammad-humam-faiz-2901a625b/
+      - paragraph: · 1st
+      - paragraph: Electrical Engineering Graduate | Control & Instrumentation
+    - link "Message Muhammad Humam Faiz":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAD_sEAwBwVHB2-bKAnsXEdUIMgXpp6LogE8&recipient=ACoAAD_sEAwBwVHB2-bKAnsXEdUIMgXpp6LogE8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Desmarella Batari Raharjo Verified · 2nd Architecture Graduate | Architectural & Interior Design":
+      - /url: https://www.linkedin.com/in/desmarella/
+      - figure:
+        - img "Desmarella Batari Raharjo is open to work"
+      - paragraph:
+        - link "Desmarella Batari Raharjo Verified":
+          - /url: https://www.linkedin.com/in/desmarella/
+          - text: Desmarella Batari Raharjo
+          - img "Verified":
+      - paragraph: · 2nd
+      - paragraph: Architecture Graduate | Architectural & Interior Design
+    - button "Invite Desmarella Batari Raharjo to connect":
+      - generic: Connect
+    - button "Show more":
+      - generic: Show more
+  - generic "Footer":
+    - navigation:
+      - link "About":
+        - /url: https://about.linkedin.com/
+        - paragraph: About
+      - link "Accessibility":
+        - /url: https://www.linkedin.com/accessibility/
+        - paragraph: Accessibility
+      - link "Talent Solutions":
+        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+        - paragraph: Talent Solutions
+      - link "Community Guidelines":
+        - /url: https://www.linkedin.com/legal/professional-community-policies/
+        - paragraph: Community Guidelines
+      - link "Careers":
+        - /url: https://careers.linkedin.com/
+        - paragraph: Careers
+      - link "Marketing Solutions":
+        - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+        - paragraph: Marketing Solutions
+      - button "Privacy & Terms":
+        - paragraph: Privacy & Terms
+      - link "Ad Choices":
+        - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+        - paragraph: Ad Choices
+      - link "Advertising":
+        - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+        - paragraph: Advertising
+      - link "Sales Solutions":
+        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+        - paragraph: Sales Solutions
+      - link "Mobile":
+        - /url: https://mobile.linkedin.com/
+        - paragraph: Mobile
+      - link "Small Business":
+        - /url: https://business.linkedin.com/grow?src=li-footer
+        - paragraph: Small Business
+      - link "Safety Center":
+        - /url: https://safety.linkedin.com/
+        - paragraph: Safety Center
+    - paragraph: LinkedIn Corporation © 2026
+    - list:
+      - link "Questions?":
+        - /url: https://www.linkedin.com/help/linkedin/
+        - paragraph: Questions?
+      - paragraph: Visit our Help Center.
+      - link "Manage your account and privacy":
+        - /url: https://www.linkedin.com/mypreferences/d/
+        - paragraph: Manage your account and privacy
+      - paragraph: Go to your Settings.
+      - link "Recommendation transparency":
+        - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+        - paragraph: Recommendation transparency
+      - paragraph: Learn more about Recommended Content.
+    - paragraph: Select language
+    - combobox "Select language":
+      - option "العربية (Arabic)"
+      - option "বাংলা (Bangla)"
+      - option "Čeština (Czech)"
+      - option "Dansk (Danish)"
+      - option "Deutsch (German)"
+      - option "Ελληνικά (Greek)"
+      - option "English (English)" [selected]
+      - option "Español (Spanish)"
+      - option "فارسی (Persian)"
+      - option "Suomi (Finnish)"
+      - option "Français (French)"
+      - option "हिंदी (Hindi)"
+      - option "Magyar (Hungarian)"
+      - option "Bahasa Indonesia (Indonesian)"
+      - option "Italiano (Italian)"
+      - option "עברית (Hebrew)"
+      - option "日本語 (Japanese)"
+      - option "한국어 (Korean)"
+      - option "मराठी (Marathi)"
+      - option "Bahasa Malaysia (Malay)"
+      - option "Nederlands (Dutch)"
+      - option "Norsk (Norwegian)"
+      - option "ਪੰਜਾਬੀ (Punjabi)"
+      - option "Polski (Polish)"
+      - option "Português (Portuguese)"
+      - option "Română (Romanian)"
+      - option "Русский (Russian)"
+      - option "Svenska (Swedish)"
+      - option "తెలుగు (Telugu)"
+      - option "ภาษาไทย (Thai)"
+      - option "Tagalog (Tagalog)"
+      - option "Türkçe (Turkish)"
+      - option "Українська (Ukrainian)"
+      - option "Tiếng Việt (Vietnamese)"
+      - option "简体中文 (Chinese (Simplified))"
+      - option "正體中文 (Chinese (Traditional))"
+- complementary:
+  - img "Ardhya Novri Ramadhan"
+  - generic: Status is online
+  - button "You are on the messaging overlay. Press enter to open the list of conversations.":
+    - generic: Messaging
+    - generic: You are on the messaging overlay. Press enter to open the list of conversations.
+  - button "Open messenger dropdown menu":
+    - img "Open messenger dropdown menu"
+  - button "Compose message":
+    - generic: Compose message
+  - button "You are on the messaging overlay. Press enter to open the list of conversations.":
+    - generic: You are on the messaging overlay. Press enter to open the list of conversations.
+- complementary "AI-powered assistant to get help with your career, jobs etc"
+- iframe:
+  - region "Toast message":
+    - heading "0 notifications total" [level=2]
+    - alert
+  - region
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Keyboard shortcuts":
+    - generic: Keyboard shortcuts
+  - button "Close jump menu":
+    - generic: Close jump menu
+  - banner "Global Navigation":
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/feed/
+      - img "LinkedIn":
+    - combobox "I’m looking for..."
+    - navigation "Primary Navigation":
+      - list:
+        - link "new feed updates notifications Home":
+          - /url: https://www.linkedin.com/feed/
+          - generic: new feed updates notifications
+          - generic "Home"
+        - link "1 new network update notification My Network":
+          - /url: https://www.linkedin.com/mynetwork/?
+          - generic: "1"
+          - generic: 1 new network update notification
+          - generic "My Network"
+        - link "Jobs":
+          - /url: https://www.linkedin.com/jobs/?
+          - generic "Jobs"
+        - link "Messaging":
+          - /url: https://www.linkedin.com/messaging/?
+          - generic "Messaging"
+        - link "1 new notification Notifications":
+          - /url: https://www.linkedin.com/notifications/?
+          - generic: "1"
+          - generic: 1 new notification
+          - generic "Notifications"
+        - button "More":
+          - text: More
+    - navigation:
+      - list:
+        - button "Ardhya Novri Ramadhan Me":
+          - img "Ardhya Novri Ramadhan"
+          - text: Me
+        - separator
+        - button "For Business":
+          - generic "For Business":
+            - text: For Business
+        - link "1 new Sales Navigator notification Sales Nav":
+          - /url: https://www.linkedin.com/sales/index?trk=d_flagship3_nav&
+          - generic: "1"
+          - generic: 1 new Sales Navigator notification
+          - generic "Sales Nav"

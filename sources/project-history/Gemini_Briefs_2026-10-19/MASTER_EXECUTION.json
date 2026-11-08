@@ -1,0 +1,258 @@
+{
+  "instruction": "Execute and upload every project, including prior unfinished progress. Work sequentially. Preserve real evidence and bounded claims. Do not post LinkedIn content.",
+  "current": "complete",
+  "order": [
+    "R05",
+    "G02",
+    "G03/A03",
+    "G04/A04",
+    "G05/A05",
+    "G06/A06",
+    "G07/A07",
+    "G08/A08",
+    "G09/A09",
+    "G10/A10",
+    "R03/R02",
+    "R04",
+    "A01"
+  ],
+  "already_complete": [
+    {
+      "id": "R01",
+      "repo": "https://github.com/vanovri/repairgate",
+      "feature": "Regression Lab",
+      "release": "https://github.com/vanovri/repairgate/releases/tag/v0.2.0",
+      "commit": "a895d54b748cf51a2237c5091b05c53b1e7a6f33",
+      "ci": "https://github.com/vanovri/repairgate/actions/runs/39080798095"
+    },
+    {
+      "id": "A02",
+      "repo": "https://github.com/vanovri/uart-fixture-kit",
+      "feature": "Parse Profiler v0.2.0"
+    },
+    {
+      "id": "G01",
+      "repo": "https://github.com/vanovri/legacy-orbital-port",
+      "release": "v0.1.0"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "R05",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/uart-fixture-kit",
+      "scope": "Finish saved UART Twin Bench. 227 Python tests and 3 Node tests pass; browser and wheel QA pass; PR 2 created.",
+      "release": "https://github.com/vanovri/uart-fixture-kit/releases/tag/v0.3.0",
+      "commit": "23c02a9fd7a51f619e85a267cbc489a9cc7ff464",
+      "asset_checksums": [
+        {
+          "name": "uart_fixture_kit-0.3.0-py3-none-any.whl",
+          "sha256": "e1eed29d5152520510450012d104170bd8dbe4ecca4d74765f6471e5d37dfee2",
+          "verified": true
+        },
+        {
+          "name": "uart_fixture_kit-0.3.0.tar.gz",
+          "sha256": "c989abbba4d196398574a143fcddaae3ab8cad6773d26764c709f2bf8e4279ec",
+          "verified": true
+        }
+      ],
+      "ci": "https://github.com/vanovri/uart-fixture-kit/actions/runs/39175306616",
+      "current_head": "23c02a9fd7a51f619e85a267cbc489a9cc7ff464",
+      "head_ci": "https://github.com/vanovri/uart-fixture-kit/actions/runs/39175437253",
+      "latest_release": "https://github.com/vanovri/uart-fixture-kit/releases/tag/v0.3.0"
+    },
+    {
+      "id": "G02",
+      "state": "complete",
+      "scope": "Standalone ADK-style runtime optimization with mutation-safe public contracts and real benchmarks, without artificial sleeps.",
+      "repo": "https://github.com/vanovri/agent-runtime-lab",
+      "release": "https://github.com/vanovri/agent-runtime-lab/releases/tag/v0.1.0",
+      "ci": "https://github.com/vanovri/agent-runtime-lab/actions/runs/39175961750",
+      "current_head": "dc478aab4618602bafefa3c114634eb89e2bb97a",
+      "head_ci": "https://github.com/vanovri/agent-runtime-lab/actions/runs/39176064886",
+      "latest_release": "https://github.com/vanovri/agent-runtime-lab/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G03/A03",
+      "state": "complete",
+      "scope": "Native Android spatial map, real APK build and bounded compiler repair. Include browser electronics-lab mode with shared synthetic map IDs and selection semantics.",
+      "repo": "https://github.com/vanovri/spatial-electronics-lab",
+      "commit": "56f992fbc3f43ef0c832e1cbbfcef0d5c6aad69d",
+      "ci": "https://github.com/vanovri/spatial-electronics-lab/actions/runs/39177236688",
+      "local_verification": "APK assemble and 10 Kotlin + 6 Node + 3 Python tests passed; real repair passed in 2 attempts; browser QA passed",
+      "ci_note": "Exact-HEAD CI passes, real repair took 2 attempts; source ZIP and APK release bytes verified.",
+      "release": "https://github.com/vanovri/spatial-electronics-lab/releases/tag/v0.1.0",
+      "apk_sha256": "85f7ccae623e8ff8a58f52df0dbae3d7dedbce77011771736e658cbe44a5061e",
+      "current_head": "56f992fbc3f43ef0c832e1cbbfcef0d5c6aad69d",
+      "head_ci": "https://github.com/vanovri/spatial-electronics-lab/actions/runs/39177517670",
+      "latest_release": "https://github.com/vanovri/spatial-electronics-lab/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G04/A04",
+      "state": "complete",
+      "scope": "Playable desk circuit racer with honest synthetic/example scene provenance, robust route/collision/checkpoint tests, keyboard and touch controls.",
+      "repo": "https://github.com/vanovri/desk-circuit-racer",
+      "release": "https://github.com/vanovri/desk-circuit-racer/releases/tag/v0.1.0",
+      "commit": "08a210907437b35f3b9ebf68e68de89228580ad0",
+      "ci": "https://github.com/vanovri/desk-circuit-racer/actions/runs/39178812841",
+      "current_head": "08a210907437b35f3b9ebf68e68de89228580ad0",
+      "head_ci": "https://github.com/vanovri/desk-circuit-racer/actions/runs/39178884096",
+      "latest_release": "https://github.com/vanovri/desk-circuit-racer/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G05/A05",
+      "state": "complete",
+      "scope": "Actual procedural Blender pagoda/pavilion generator, GLB export, renders, independent critic, parametric viewer.",
+      "repo": "https://github.com/vanovri/parametric-pavilion",
+      "release": "https://github.com/vanovri/parametric-pavilion/releases/tag/v0.1.0",
+      "commit": "71d256d459d7058b1f697cc7b5cd977bc16e1009",
+      "ci": "https://github.com/vanovri/parametric-pavilion/actions/runs/39221089863",
+      "current_head": "71d256d459d7058b1f697cc7b5cd977bc16e1009",
+      "head_ci": "https://github.com/vanovri/parametric-pavilion/actions/runs/39221454324",
+      "latest_release": "https://github.com/vanovri/parametric-pavilion/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G06/A06",
+      "state": "complete",
+      "scope": "Actual WGSL compute/render fur-strand simulation plus cable mode, CPU reference, race-free buffers, measurable constraint/parity/stability gates and explicit fallback/device-loss handling.",
+      "brief": "Project_06_Original_Brief.txt",
+      "repo": "https://github.com/vanovri/webgpu-cable-lab",
+      "release": "https://github.com/vanovri/webgpu-cable-lab/releases/tag/v0.1.0",
+      "commit": "41d09bcd9826660f1d6edcf23b772daf1207e7e4",
+      "ci": "https://github.com/vanovri/webgpu-cable-lab/actions/runs/39224888973",
+      "current_head": "41d09bcd9826660f1d6edcf23b772daf1207e7e4",
+      "head_ci": "https://github.com/vanovri/webgpu-cable-lab/actions/runs/39225067166",
+      "latest_release": "https://github.com/vanovri/webgpu-cable-lab/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G07/A07",
+      "state": "complete",
+      "scope": "Synthetic DEXA text extraction, disjoint-region mass checks with correct quantities/units and missing-data rules; own schematic three-dimensional region inspector, heatmaps and no diagnostic claims.",
+      "brief": "Project_07_Original_Brief.txt",
+      "repo": "https://github.com/vanovri/body-data-viewer",
+      "release": "https://github.com/vanovri/body-data-viewer/releases/tag/v0.1.0",
+      "commit": "a48e8698df8b4bf0f62a4b20e4cd6839c712657f",
+      "ci": "https://github.com/vanovri/body-data-viewer/actions/runs/39232032030",
+      "asset_checksums": [
+        {
+          "name": "body-data-viewer-v0.1.0.zip",
+          "sha256": "bd7f60fa2eb80a09f52aee7f25a0e75fc468aea45f29c12f2f6fa024a3f00d68",
+          "verified": true
+        }
+      ],
+      "local_verification": "36 pytest tests; text=PDF=JSON; viewer payload byte-identical; browser QA zero console errors on Chromium/SwiftShader; reproducible build check; ZIP entry-by-entry verification",
+      "current_head": "a48e8698df8b4bf0f62a4b20e4cd6839c712657f",
+      "head_ci": "https://github.com/vanovri/body-data-viewer/actions/runs/39232032030",
+      "latest_release": "https://github.com/vanovri/body-data-viewer/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G08/A08",
+      "state": "complete",
+      "scope": "CCSDS OEM subset ingestion plus prior CSV replay, epoch/frame/unit checks, same-frame Moon ephemeris, interpolation and consistent state-derived telemetry. Never label supplied examples as authenticated NASA flight data or claim time-dependent energy conservation.",
+      "brief": "Project_08_Original_Brief.txt",
+      "repo": "https://github.com/vanovri/cislunar-oem-replay",
+      "release": "https://github.com/vanovri/cislunar-oem-replay/releases/tag/v0.2.0",
+      "commit": "2363b9bfa2789ab2410204e0b4cb900650397fb3",
+      "ci": "https://github.com/vanovri/cislunar-oem-replay/actions/runs/39252306413",
+      "asset_checksums": [
+        {
+          "name": "cislunar-oem-replay-v0.1.0.zip",
+          "sha256": "654960c82d23495e7b5aa7d3a27bc3aa5e894f94af4625d82cd3c39908ec495b",
+          "verified": true
+        }
+      ],
+      "local_verification": "43 pytest tests; OEM=CSV; embedded payload identical; ephemeris 12/35/13 km vs Horizons; gates pass; browser QA zero console errors; reproducible build check; ZIP entry verification",
+      "current_head": "2363b9bfa2789ab2410204e0b4cb900650397fb3",
+      "head_ci": "https://github.com/vanovri/cislunar-oem-replay/actions/runs/39252306413",
+      "latest_release": "https://github.com/vanovri/cislunar-oem-replay/releases/tag/v0.2.0"
+    },
+    {
+      "id": "G09/A09",
+      "state": "complete",
+      "scope": "Actual parametric enclosure CAD/OpenSCAD and watertight STL export plus sensor-mount preset. Geometric wall, hole, boss and clearance checks; honest manual example sketch provenance; no physical printing, snap-fit or manufacturability proof without tests.",
+      "brief": "Project_09_Original_Brief.txt",
+      "repo": "https://github.com/vanovri/sensor-enclosure-cad",
+      "release": "https://github.com/vanovri/sensor-enclosure-cad/releases/tag/v0.1.0",
+      "commit": "6fd95044d297e218f4c646ff69a5886cbe41b5a3",
+      "ci": "https://github.com/vanovri/sensor-enclosure-cad/actions/runs/39238859739",
+      "asset_checksums": [
+        {
+          "name": "sensor-enclosure-cad-v0.1.0.zip",
+          "sha256": "73f807bf43ef22fe7f7ef5ce2c2f7c64ff347a3a9ecdd07c6bf714c0c7caa807",
+          "verified": true
+        }
+      ],
+      "local_verification": "47 pytest tests; 20 spec gates + 17 mesh checks; watertight base/lids/assembly; wall 2.40 mm; port and boss-hole ray checks; deterministic SCAD; browser QA zero console errors; reproducible viewer; ZIP entry verification",
+      "current_head": "6fd95044d297e218f4c646ff69a5886cbe41b5a3",
+      "head_ci": "https://github.com/vanovri/sensor-enclosure-cad/actions/runs/39238859739",
+      "latest_release": "https://github.com/vanovri/sensor-enclosure-cad/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G10/A10",
+      "state": "complete",
+      "scope": "Multi-device WebSocket tennis/motion rally with validated timestamped sensor input, pairing/calibration, secure-context sensor UX, stale/disconnect handling, fixed-step ball physics, touch fallback and optional server-side Gemini TTS integration. No fake provider calls or unmeasured latency claims.",
+      "brief": "Project_10_Original_Brief.txt",
+      "repo": "https://github.com/vanovri/motion-rally",
+      "release": "https://github.com/vanovri/motion-rally/releases/tag/v0.2.1",
+      "commit": "39bf5ade1552acd9a63f7f6fc910a9db012f57b7",
+      "ci": "https://github.com/vanovri/motion-rally/actions/runs/39254075923",
+      "asset_checksums": [
+        {
+          "name": "motion-rally-v0.1.0.zip",
+          "sha256": "38366ed7b818de8b5e79361665bbc4e631a82f27cb1ff0c33a82fa43f4911436",
+          "verified": true
+        }
+      ],
+      "local_verification": "21 Node tests; pairing/disconnect/stale; deterministic physics; TTS gating without calls; browser QA zero console errors; local load probe recorded; ZIP entry verification",
+      "current_head": "39bf5ade1552acd9a63f7f6fc910a9db012f57b7",
+      "head_ci": "https://github.com/vanovri/motion-rally/actions/runs/39254075923",
+      "latest_release": "https://github.com/vanovri/motion-rally/releases/tag/v0.2.1"
+    },
+    {
+      "id": "R03/R02",
+      "state": "complete",
+      "scope": "Agent run ledger and diary in a coherent workbench. Decimal accounting, versioned example prices, unknown fees, synthetic run logs, redaction, actor attribution and review timeline.",
+      "repo": "https://github.com/vanovri/run-ledger",
+      "release": "https://github.com/vanovri/run-ledger/releases/tag/v0.2.0",
+      "commit": "4efc950b568acf8c7422bf72b5e4368beb1b340f",
+      "ci": "https://github.com/vanovri/run-ledger/actions/runs/39250590303",
+      "current_head": "4efc950b568acf8c7422bf72b5e4368beb1b340f",
+      "head_ci": "https://github.com/vanovri/run-ledger/actions/runs/39250590303",
+      "latest_release": "https://github.com/vanovri/run-ledger/releases/tag/v0.2.0"
+    },
+    {
+      "id": "R04",
+      "state": "complete",
+      "scope": "Bounded local refactor runner integrated with RepairGate. Trusted code only, original preservation, candidate allowlist, time/attempt limits, API checks and diff export.",
+      "repo": "https://github.com/vanovri/bounded-refactor",
+      "release": "https://github.com/vanovri/bounded-refactor/releases/tag/v0.2.0",
+      "commit": "617ae70070cc7b2abdcdb56794faf15632c9c954",
+      "ci": "https://github.com/vanovri/bounded-refactor/actions/runs/39251148099",
+      "current_head": "0881993520978c374c3400209e24a58ecf2d9128",
+      "head_ci": "https://github.com/vanovri/bounded-refactor/actions/runs/39252917051",
+      "latest_release": "https://github.com/vanovri/bounded-refactor/releases/tag/v0.2.0"
+    },
+    {
+      "id": "A01",
+      "state": "complete",
+      "scope": "Separate FIR signal migration extension, preserving original old idea beyond the new orbital port. Real Fortran/Rust parity on synthetic signal fixtures and edge cases.",
+      "repo": "https://github.com/vanovri/fir-parity",
+      "release": "https://github.com/vanovri/fir-parity/releases/tag/v0.1.0",
+      "commit": "9c69d9de63fba2fa8b71618d77e61c7c55819018",
+      "ci": "https://github.com/vanovri/fir-parity/actions/runs/39251359792",
+      "current_head": "9c69d9de63fba2fa8b71618d77e61c7c55819018",
+      "head_ci": "https://github.com/vanovri/fir-parity/actions/runs/39251359792",
+      "latest_release": "https://github.com/vanovri/fir-parity/releases/tag/v0.1.0"
+    }
+  ],
+  "toolchains": "Prepared official Ubuntu OpenJDK 17, Blender 5.0.1 and Google Android CLI/API35/build-tools35 in WSL for forthcoming native/3D work.",
+  "posting": "GitHub publication authorized. LinkedIn posting remains deferred pending final review of a combined 3-5 project post.",
+  "new_briefs_received": "2026-10-19: Projects 6-10 archived verbatim and reconciled with the earlier 15-idea queue. Complete the ten supplied briefs first, then the remaining remixes and original FIR migration.",
+  "crosscheck_report": "DeepSeek_Crosscheck/final-github-audit.json",
+  "playbook": {
+    "path": "C:/Users/ardhy/.codex/skills/portfolio-project-release/SKILL.md",
+    "approved": true,
+    "interview_questions": 8,
+    "replay_verified": true
+  }
+}

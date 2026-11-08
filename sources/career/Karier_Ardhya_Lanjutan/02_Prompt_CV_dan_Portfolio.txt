@@ -1,0 +1,24 @@
+PROMPT YANG DISARANKAN UNTUK DATA ARDHYA
+Ini adaptasi untuk kebutuhanmu, bukan salinan penuh posting Instagram.
+
+1. Cocokkan CV dengan lowongan.
+Baca CV dan deskripsi lowongan ini. Pisahkan syarat yang sudah punya bukti, yang hanya punya dasar, dan yang belum saya kuasai. Buat CV satu kolom dengan kata kunci yang benar-benar sesuai pengalaman. Jangan menambah pengalaman, sertifikasi, angka hasil atau tools. Tulis gap di luar CV. Pertahankan tanggal lulus 29 September 2026, IPK 3.43/4.00, Redesma Januari–Februari 2025 dan Angkasa Pura Juli–Agustus 2025.
+
+2. Audit sebagai recruiter.
+Periksa apakah lima hal segera terlihat: lulusan Teknik Elektro, target posisi, pengalaman teknis, proyek EMG/GUI dan kontak. Tunjukkan kalimat kabur lalu tulis ulang menggunakan tindakan dan bukti. Angka konfigurasi 4 kHz/400 sampel/100 ms boleh digunakan dengan label konfigurasi. Jangan menyebutnya akurasi atau latency terukur.
+
+3. Perbarui game portfolio.
+Pertahankan Gedung 07 dan gameplay Anak Kos Survival. Isi CV, About, pengalaman, proyek dan sertifikat dari sumber yang terverifikasi. Tambahkan akses langsung ke CV dan proyek EMG agar recruiter dapat membaca tanpa bermain. Jelaskan kontribusi Ardhya pada EMG dan implementasi GUI Python/Tkinter, dengan bantuan Antigravity. Aldin berfokus stimulator dan Zain pada rancangan fuzzy control. Jangan menyalin alamat rumah lengkap, NIM, tanda tangan, atau berkas administrasi ke website. Periksa link, dialog, keyboard, penyimpanan dan hasil tes.
+
+REFERENSI YANG DIPAKAI
+S13: audit CV sebagai recruiter dan pencocokan job description.
+https://www.instagram.com/p/DasKy0gDyqo/?img_index=3
+S20: prompt CV dan perubahan CV menjadi website portfolio. Slide prompt 1 dan 2 dibaca. Prinsip adaptasi data CV diterapkan sambil mempertahankan bentuk game milikmu.
+https://www.instagram.com/p/DbFJ-9Gkwoe/?img_index=2
+S31: keterbacaan, action verbs, summary relevan, serta larangan AI mengarang pengalaman/angka/skill. Caption dan slide 5 dibaca.
+https://www.instagram.com/p/DcGHdYTD2Yn/?img_index=5
+S30: pengalaman spesifik dan tools yang jelas. Angka prestasi hanya digunakan jika ada bukti, bukan dipaksakan pada semua bullet.
+https://www.instagram.com/p/DS_SjhMEkNK/?img_index=2
+
+Skor dari alat CV eksternal bukan jaminan dipanggil interview. Klaim bahwa skor di bawah 70 menyebabkan tidak mendapat respons tidak digunakan. CV tidak diunggah ke layanan pemeriksa eksternal.
+

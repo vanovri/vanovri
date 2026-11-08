@@ -1,0 +1,26 @@
+Ardhya Novri Ramadhan
+Bekasi, West Java, Indonesia | +62 812 9155 2970 | ardhyasan@gmail.com
+linkedin.com/in/dhya
+PROFILE
+Electrical Engineering graduate with project experience in STM32-based EMG acquisition, digital filtering, and feature extraction. Internship exposure to electronics and UPS/converter systems. Seeking entry-level embedded, electronics, or testing opportunities.
+EDUCATION
+Diponegoro University, Semarang | Bachelor of Engineering in Electrical Engineering
+Graduated 29 September 2026 | GPA 3.43/4.00 | Graduation confirmation letter available
+EXPERIENCE
+PT Angkasa Pura Indonesia | Internship Trainee | Jul - Aug 2025
+Gained practical exposure to UPS and converter systems at Soekarno-Hatta International Airport.
+Redesma Technologies | Electronics Technician | Jan - Feb 2025
+Worked on electronics tasks involving IoT temperature monitoring and DC motor control.
+Diponegoro University | Basic Electronics Practicum Assistant | Semester II, 2025
+Assisted students with basic electronics laboratory activities and electronic components.
+SELECTED PROJECTS
+EMG Acquisition and Python GUI | Undergraduate Final Project | 2026
+Developed the EMG acquisition and processing subsystem using SEN0240 and STM32F411CEU6 within a team rehabilitation-hand project.
+Implemented 4 kHz ADC acquisition, digital filtering, RMS/MAV extraction in 100 ms windows, and UART communication in C.
+Implemented the Python/Tkinter GUI with serial telemetry, monitoring plots, and CSV logging, assisted by coding agents.
+Anak Kos Survival | Personal Browser Game | 2026
+Directed an AI-assisted JavaScript browser game with a seven-day loop, resource decisions, autosave, and multiple endings.
+Maintained automated tests for gameplay, autosave checkpoints, and portfolio movement; documented AI assistance and design decisions.
+TECHNICAL SKILLS
+C, STM32, ADC, UART, digital filtering, RMS/MAV, Python/Tkinter, electronics fundamentals, IoT, JavaScript, HTML/CSS.
+Currently exploring AI-assisted development and AI-agent workflows.

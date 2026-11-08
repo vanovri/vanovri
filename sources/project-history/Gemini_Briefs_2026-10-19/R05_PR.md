@@ -1,0 +1,3 @@
+Add an offline UART Twin Bench that replays eight synthetic transport-fault combinations through the existing binary reference parser. The self-contained HTML shows validated temperature samples, generation-based freshness, arrival diagnostics, and late values held back from the display.
+
+Validation: 227 pytest tests and three Node view-contract tests pass. Source/wheel build and isolated installed-wheel demo/twin exports pass. Browser checks confirmed the late-arrival example, 2D toggle, no console errors, and no horizontal overflow on a narrow viewport. Data, virtual timing, and projected glyph are explicitly synthetic.

@@ -1,0 +1,450 @@
+Langsung kita sikat **Project #3: Autonomous Android UI (03:02) — Migrasi 2D Map ke 3D Spatial Interface + Self-Healing Gradle Build Loop**.
+
+Di demo ke-3 ini, ada dua tantangan utama yang diselesaikan Gemini 4 Argon secara otonom:
+
+1. **Transformasi Spasial (2D $\rightarrow$ 3D):** Mengubah layar peta 2D datar (Jetpack Compose `Canvas` biasa) menjadi **3D Spatial Interface** dengan matriks proyeksi kamera 3D (*pitch*, *yaw/bearing*, *zoom*), ekstrusi gedung/terrain 3D dengan *depth-sorting* (Painter's algorithm), dan *spatial floating pins* yang merespons gestur multi-touch.
+2. **Self-Healing Build Error Resolution:** Saat merombak UI 2D ke 3D di Android, kompilasi pertama hampir pasti gagal—entah karena error tipe `Float`/`Double` di matriks 3D, *unresolved reference* di Kotlin, atau konfigurasi `build.gradle.kts` / `AndroidManifest.xml` yang kurang. Agent tidak berhenti minta bantuan manusia, tapi membaca output `./gradlew assembleDebug`, mem-parsing baris error `kotlinc`, menambal kode secara otomatis, dan mengulang build sampai APK sukses ter-compile.
+
+Di bawah ini adalah **4 komponen lengkap** untuk Project #3:
+
+1. **`MapScreen2D.kt` (Before):** Kode awal peta 2D datar.
+2. **`SpatialMapScreen3D.kt` (After):** Kode Jetpack Compose 3D Spatial UI lengkap dengan proyeksi perspektif 3D, ekstrusi gedung 3D, dan gestur orbit/tilt interaktif.
+3. **`self_healing_gradle_loop.py`:** Mesin *Self-Healing Compiler Loop* yang menjalankan Gradle/Kotlin compiler, mengekstrak *diagnostic regex* (`e: file://...`), dan mengeksekusi *auto-patch* sampai status `BUILD SUCCESSFUL`.
+4. **`AGENT_GOAL_PROMPT.md`:** Prompt instruksi `/goal` untuk menjalankan migrasi UI Android mandiri.
+
+---
+
+### 1. Kode Awal (Before): `MapScreen2D.kt`
+
+Peta 2D standar yang hanya menggambar titik $(x, y)$ dan garis rute datar di atas `Canvas`:
+
+```kotlin
+package id.autonomous.spatialmap
+
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Color
+
+data class MapBuilding2D(
+    val id: String,
+    val x: Float,
+    val y: Float,
+    val width: Float,
+    val depth: Float
+)
+
+data class MapPin2D(val label: String, val x: Float, val y: Float)
+
+@Composable
+fun LegacyMapScreen2D(
+    buildings: List<MapBuilding2D>,
+    pins: List<MapPin2D>,
+    modifier: Modifier = Modifier
+) {
+    Canvas(modifier = modifier.fillMaxSize().background(Color(0xFF0F172A))) {
+        // Footprint gedung 2D datar tanpa tinggi/perspektif
+        buildings.forEach { b ->
+            drawRect(
+                color = Color(0xFF334155),
+                topLeft = Offset(b.x, b.y),
+                size = Size(b.width, b.depth)
+            )
+        }
+        // Pin lokasi 2D datar
+        pins.forEach { pin ->
+            drawCircle(
+                color = Color(0xFF38BDF8),
+                radius = 10f,
+                center = Offset(pin.x, pin.y)
+            )
+        }
+    }
+}
+
+```
+
+---
+
+### 2. Kode Hasil Migrasi (After): `SpatialMapScreen3D.kt`
+
+Hasil rombakan menjadi **3D Spatial Interface** di Jetpack Compose. Menggunakan proyeksi kamera 3D penuh (rotasi *yaw* & *pitch*, *perspective divide*, ekstrusi geometri gedung 3D beserta *roof/wall shading*, *Z-buffer painter sorting*, dan *elevated spatial markers*):
+
+```kotlin
+package id.autonomous.spatialmap
+
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.detectDragGestures
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.input.pointer.pointerInput
+import kotlin.math.cos
+import kotlin.math.sin
+
+data class Vec3(val x: Float, val y: Float, val z: Float)
+data class ProjectedPoint(val screenX: Float, val screenY: Float, val depthZ: Float)
+
+data class SpatialBuilding3D(
+    val id: String,
+    val centerX: Float,
+    val centerY: Float,
+    val width: Float,
+    val depth: Float,
+    val height: Float,
+    val baseColor: Color = Color(0xFF38BDF8)
+)
+
+data class SpatialPin3D(
+    val label: String,
+    val x: Float,
+    val y: Float,
+    val altitude: Float
+)
+
+/**
+ * Memproyeksikan titik dunia 3D (x, y, z) ke layar 2D dengan rotasi kamera Yaw & Pitch
+ * serta pembagian perspektif (fov / cameraDistance).
+ */
+fun project3D(
+    point: Vec3,
+    yawRad: Float,
+    pitchRad: Float,
+    cameraDist: Float,
+    focalLength: Float,
+    viewportCenter: Offset
+): ProjectedPoint {
+    // 1. Rotasi Z (Yaw / Bearing peta)
+    val cosY = cos(yawRad)
+    val sinY = sin(yawRad)
+    val rx = point.x * cosY - point.y * sinY
+    val ry = point.x * sinY + point.y * cosY
+    val rz = point.z
+
+    // 2. Rotasi X (Pitch / Kemiringan kamera 3D)
+    val cosP = cos(pitchRad)
+    val sinP = sin(pitchRad)
+    val cy = ry * cosP - rz * sinP
+    val cz = ry * sinP + rz * cosP + cameraDist
+
+    val safeZ = cz.coerceAtLeast(10f)
+    val scale = focalLength / safeZ
+
+    return ProjectedPoint(
+        screenX = viewportCenter.x + rx * scale,
+        screenY = viewportCenter.y + cy * scale,
+        depthZ = safeZ
+    )
+}
+
+@Composable
+fun SpatialMapScreen3D(
+    buildings: List<SpatialBuilding3D>,
+    pins: List<SpatialPin3D>,
+    modifier: Modifier = Modifier
+) {
+    var yawDeg by remember { mutableFloatStateOf(35f) }
+    var pitchDeg by remember { mutableFloatStateOf(58f) }
+
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color(0xFF090D16))
+            .pointerInput(Unit) {
+                detectDragGestures { change, dragAmount ->
+                    change.consume()
+                    yawDeg = (yawDeg + dragAmount.x * 0.35f) % 360f
+                    pitchDeg = (pitchDeg - dragAmount.y * 0.25f).coerceIn(20f, 80f)
+                }
+            }
+    ) {
+        Canvas(modifier = Modifier.fillMaxSize()) {
+            val center = Offset(size.width / 2f, size.height / 2f)
+            val yawRad = Math.toRadians(yawDeg.toDouble()).toFloat()
+            val pitchRad = Math.toRadians(pitchDeg.toDouble()).toFloat()
+            val camDist = 900f
+            val focal = 750f
+
+            // 1. Gambar Grid Spasial 3D di Ground Plane (z = 0)
+            val gridRange = -300..300 step 60
+            for (g in gridRange) {
+                val p1 = project3D(Vec3(g.toFloat(), -300f, 0f), yawRad, pitchRad, camDist, focal, center)
+                val p2 = project3D(Vec3(g.toFloat(), 300f, 0f), yawRad, pitchRad, camDist, focal, center)
+                drawLine(Color(0xFF1E293B), Offset(p1.screenX, p1.screenY), Offset(p2.screenX, p2.screenY), 1.5f)
+
+                val p3 = project3D(Vec3(-300f, g.toFloat(), 0f), yawRad, pitchRad, camDist, focal, center)
+                val p4 = project3D(Vec3(300f, g.toFloat(), 0f), yawRad, pitchRad, camDist, focal, center)
+                drawLine(Color(0xFF1E293B), Offset(p3.screenX, p3.screenY), Offset(p4.screenX, p4.screenY), 1.5f)
+            }
+
+            // 2. Urutkan gedung berdasarkan jarak kamera (Back-to-Front Painter's Algorithm)
+            val sortedBuildings = buildings.sortedByDescending { b ->
+                project3D(Vec3(b.centerX, b.centerY, b.height * 0.5f), yawRad, pitchRad, camDist, focal, center).depthZ
+            }
+
+            // 3. Render Mesh Ekstrusi Gedung 3D
+            for (b in sortedBuildings) {
+                val hw = b.width / 2f
+                val hd = b.depth / 2f
+                val baseCorners = listOf(
+                    Vec3(b.centerX - hw, b.centerY - hd, 0f),
+                    Vec3(b.centerX + hw, b.centerY - hd, 0f),
+                    Vec3(b.centerX + hw, b.centerY + hd, 0f),
+                    Vec3(b.centerX - hw, b.centerY + hd, 0f)
+                )
+                val roofCorners = baseCorners.map { it.copy(z = b.height) }
+
+                val projBase = baseCorners.map { project3D(it, yawRad, pitchRad, camDist, focal, center) }
+                val projRoof = roofCorners.map { project3D(it, yawRad, pitchRad, camDist, focal, center) }
+
+                // Dinding samping gedung
+                for (i in 0 until 4) {
+                    val next = (i + 1) % 4
+                    val wallPath = Path().apply {
+                        moveTo(projBase[i].screenX, projBase[i].screenY)
+                        lineTo(projBase[next].screenX, projBase[next].screenY)
+                        lineTo(projRoof[next].screenX, projRoof[next].screenY)
+                        lineTo(projRoof[i].screenX, projRoof[i].screenY)
+                        close()
+                    }
+                    drawPath(wallPath, color = b.baseColor.copy(alpha = 0.45f))
+                    drawPath(wallPath, color = b.baseColor.copy(alpha = 0.85f), style = Stroke(width = 1.5f))
+                }
+
+                // Atap gedung 3D
+                val roofPath = Path().apply {
+                    moveTo(projRoof[0].screenX, projRoof[0].screenY)
+                    for (i in 1..3) lineTo(projRoof[i].screenX, projRoof[i].screenY)
+                    close()
+                }
+                drawPath(roofPath, color = b.baseColor.copy(alpha = 0.75f))
+            }
+
+            // 4. Render Floating Spatial Pins (Tether Line dari tanah ke ketinggian z)
+            for (pin in pins) {
+                val groundPt = project3D(Vec3(pin.x, pin.y, 0f), yawRad, pitchRad, camDist, focal, center)
+                val hoverPt = project3D(Vec3(pin.x, pin.y, pin.altitude), yawRad, pitchRad, camDist, focal, center)
+
+                // Garis proyeksi vertikal dari titik tanah ke pin melayang
+                drawLine(
+                    color = Color(0xFFF43F5E).copy(alpha = 0.7f),
+                    start = Offset(groundPt.screenX, groundPt.screenY),
+                    end = Offset(hoverPt.screenX, hoverPt.screenY),
+                    strokeWidth = 3f,
+                    cap = StrokeCap.Round
+                )
+                // Lingkaran beacon di atas gedung/tanah
+                drawCircle(
+                    color = Color(0xFFF43F5E),
+                    radius = 9f,
+                    center = Offset(hoverPt.screenX, hoverPt.screenY)
+                )
+            }
+        }
+    }
+}
+
+```
+
+---
+
+### 3. Mesin Self-Healing Compiler Loop (`self_healing_gradle_loop.py`)
+
+Ini adalah *harness* yang membuat Demo #3 bisa menyembuhkan error build sendiri tanpa campur tangan manusia. Script ini:
+
+1. Menjalankan `./gradlew :app:compileDebugKotlin` (atau mode `--simulate` kalau lu mau ngetes alur *self-healing*-nya langsung di laptop tanpa buka Android Studio).
+2. Mem-parsing error kompilasi Kotlin menggunakan regex standar compiler (`e: file://...:<line>:<col>: <message>`).
+3. Menerapkan *patch* perbaikan otomatis ke file `.kt` atau `build.gradle.kts` yang bermasalah dan mengulang kompilasi sampai lolos.
+
+```python
+#!/usr/bin/env python3
+from dataclasses import dataclass
+from pathlib import Path
+import re
+import subprocess
+import sys
+from typing import List
+
+# Regex standar untuk mengekstrak error dari output Gradle / kotlinc
+KOTLINC_ERROR_REGEX = re.compile(
+    r"^e:\s*(?:file://)?(?P<file>[^:]+):(?P<line>\d+):(?P<col>\d+):\s*(?P<msg>.+)$",
+    re.MULTILINE,
+)
+
+
+@dataclass
+class CompilerDiagnostic:
+  file_path: str
+  line: int
+  col: int
+  message: str
+
+
+def parse_gradle_errors(raw_output: str) -> List[CompilerDiagnostic]:
+  diagnostics = []
+  for match in KOTLINC_ERROR_REGEX.finditer(raw_output):
+    diagnostics.append(
+        CompilerDiagnostic(
+            file_path=match.group("file").strip(),
+            line=int(match.group("line")),
+            col=int(match.group("col")),
+            message=match.group("msg").strip(),
+        )
+    )
+  return diagnostics
+
+
+def synthesize_deterministic_patch(
+    diag: CompilerDiagnostic, source_text: str
+) -> str:
+  """Menambal error kompilasi umum saat migrasi UI 2D ke 3D di Kotlin/Compose."""
+  patched = source_text
+
+  # Kasus 1: Math.toRadians menghasilkan Double tapi fungsi 3D butuh Float
+  if (
+      "Type mismatch: inferred type is Double but Float was expected"
+      in diag.message
+  ):
+    patched = re.sub(
+        r"Math\.toRadians\(([^)]+)\)(?!\.toFloat\(\))",
+        r"Math.toRadians(\1.toDouble()).toFloat()",
+        patched,
+    )
+
+  # Kasus 2: Unresolved reference mutableFloatStateOf (kurang import runtime)
+  if "Unresolved reference: mutableFloatStateOf" in diag.message:
+    if "import androidx.compose.runtime.*" not in patched:
+      patched = patched.replace(
+          "import androidx.compose.runtime.Composable",
+          "import androidx.compose.runtime.*",
+      )
+
+  # Kasus 3: Unresolved reference pointerInput / detectDragGestures
+  if "Unresolved reference: detectDragGestures" in diag.message:
+    missing_imports = (
+        "import androidx.compose.foundation.gestures.detectDragGestures\n"
+        "import androidx.compose.ui.input.pointer.pointerInput\n"
+    )
+    if "detectDragGestures" not in patched.split("fun ")[0]:
+      patched = re.sub(
+          r"(package\s+[^\n]+\n)", r"\1\n" + missing_imports, patched, count=1
+      )
+
+  return patched
+
+
+def run_self_healing_loop(
+    project_dir: Path, max_attempts: int = 5, simulate: bool = False
+):
+  target_kt = project_dir / "SpatialMapScreen3D.kt"
+
+  if simulate:
+    print(
+        "[SIMULATION MODE] Menyuntikkan 2 compiler bug khas migrasi 3D ke"
+        " SpatialMapScreen3D.kt..."
+    )
+    broken_code = """package id.autonomous.spatialmap
+import androidx.compose.runtime.Composable
+
+@Composable
+fun BrokenSpatialView() {
+    var yaw = mutableFloatStateOf(35f)
+    val rad: Float = Math.toRadians(yaw.value)
+}
+"""
+    target_kt.write_text(broken_code, encoding="utf-8")
+
+  for attempt in range(1, max_attempts + 1):
+    print(f"\n--- [Build Attempt {attempt}/{max_attempts}] ---")
+
+    if simulate:
+      src = target_kt.read_text(encoding="utf-8")
+      simulated_errors = []
+      if "import androidx.compose.runtime.*" not in src:
+        simulated_errors.append(
+            f"e: file://{target_kt}:6:15: Unresolved reference:"
+            " mutableFloatStateOf"
+        )
+      if ".toFloat()" not in src:
+        simulated_errors.append(
+            f"e: file://{target_kt}:7:22: Type mismatch: inferred type is"
+            " Double but Float was expected"
+        )
+      rc = 1 if simulated_errors else 0
+      output = (
+          "\n".join(simulated_errors) if simulated_errors else "BUILD SUCCESSFUL"
+      )
+    else:
+      proc = subprocess.run(
+          ["./gradlew", ":app:compileDebugKotlin", "--console=plain"],
+          cwd=project_dir,
+          capture_output=True,
+          text=True,
+      )
+      rc = proc.returncode
+      output = proc.stdout + "\n" + proc.stderr
+
+    if rc == 0:
+      print("BUILD SUCCESSFUL! Zero compiler errors remaining.")
+      return True
+
+    diagnostics = parse_gradle_errors(output)
+    print(f"Detected {len(diagnostics)} compiler error(s):")
+    for d in diagnostics:
+      print(f"  -> [{Path(d.file_path).name}:{d.line}:{d.col}] {d.message}")
+
+    for d in diagnostics:
+      fpath = Path(d.file_path)
+      if fpath.exists():
+        original = fpath.read_text(encoding="utf-8")
+        fixed = synthesize_deterministic_patch(d, original)
+        if fixed != original:
+          fpath.write_text(fixed, encoding="utf-8")
+          print(f"  [AUTO-PATCHED] Applied self-healing fix to {fpath.name}")
+
+  print("FAILED: Reached max self-healing attempts without clean build.")
+  return False
+
+
+if __name__ == "__main__":
+  sim_flag = "--simulate" in sys.argv or not Path("./gradlew").exists()
+  ok = run_self_healing_loop(Path("."), max_attempts=4, simulate=sim_flag)
+  sys.exit(0 if ok else 1)
+
+```
+
+---
+
+### 4. Prompt `/goal` untuk Autonomous Android Spatial Migration (`AGENT_GOAL_PROMPT.md`)
+
+Kalau lu mau menugaskan agent untuk merombak komponen UI Android 2D ke 3D dengan *self-healing build gate*:
+
+```markdown
+/goal Migrate the flat 2D map component (`LegacyMapScreen2D`) into an interactive 3D spatial viewport (`SpatialMapScreen3D`) with zero Gradle build errors.
+
+### 1. Spatial Architecture Requirements
+- Replace flat 2D `drawRect` footprints with 3D perspective-projected extruded meshes (`Vec3` -> `ProjectedPoint` with yaw, pitch, and focal-length perspective divide).
+- Implement back-to-front depth sorting (Painter's algorithm) so closer 3D buildings properly occlude background structures.
+- Render floating spatial pins with vertical altitude tether lines and multi-touch drag gestures to orbit (`yaw`) and tilt (`pitch`) the camera.
+
+### 2. Self-Healing Build Gate (MANDATORY)
+- After writing or modifying any `.kt` or `build.gradle.kts` file, run `./gradlew :app:compileDebugKotlin --console=plain`.
+- Parse every `e: file://...` diagnostic line, patch missing imports, Float/Double matrix conversions, or Compose API signatures, and re-run the build loop.
+- Do NOT mark the task complete until `./gradlew :app:assembleDebug` exits with code 0 (`BUILD SUCCESSFUL`).
+
+```
+
+---
+
+Siap lanjut sikat **Project #4: Desk Racer (04:20) — Rekonstruksi Foto Meja ke Game Balap 3D Playable di Browser (Three.js + Collision Physics + Lap Timer)**, bro?

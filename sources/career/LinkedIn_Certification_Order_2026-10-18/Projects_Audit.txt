@@ -1,0 +1,125 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "Search":
+    - paragraph: I'm looking for…
+  - dialog:
+    - status
+    - search:
+      - textbox "I'm looking for…"
+  - navigation:
+    - list:
+      - button "Home, 0 new notifications":
+        - generic: Home
+      - link "My Network, 1 new notification":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "1"
+        - generic: My Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 2 new notifications":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "2"
+        - generic: Notifications
+      - button "More":
+        - text: More
+  - button "Ardhya Novri Ramadhan Me":
+    - generic "Ardhya Novri Ramadhan Me":
+      - figure
+      - paragraph: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Sales Navigator, 1 new notification":
+        - /url: https://www.linkedin.com/sales/?trk=d_flagship3_nav
+        - generic: "1"
+        - generic: Sales Nav
+  - figure
+- toolbar:
+  - link "Ardhya Novri Ramadhan":
+    - /url: https://www.linkedin.com/in/dhya/
+    - generic "Ardhya Novri Ramadhan":
+      - figure
+      - paragraph: Ardhya Novri Ramadhan
+      - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+- main:
+  - region "Primary content":
+    - button "Navigate back to profile main screen" [active]:
+    - paragraph: Projects
+    - link "Add a new project":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/project/new/
+    - paragraph: Projects from connected apps sync automatically and can’t be edited on LinkedIn.
+    - link "Edit project ApplyProof":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908248218/
+      - generic "Edit project ApplyProof":
+        - paragraph:
+          - generic: ApplyProof
+        - paragraph: Oct 2026 – Oct 2026
+    - paragraph:
+      - text: A reviewed fact ledger, explicit skill comparison, office/worksite distinction and traceable application drafts. Optional AI selects fact IDs for verbatim drafting.
+      - text: Developed with AI coding assistance and verified through automated checks.
+      - text: "Repository: https://github.com/vanovri/applyproof"
+      - button:
+        - generic: … more
+    - link "Edit project ApplyProof":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908248218/
+    - link "Edit project DataRescue":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908278262/
+      - generic "Edit project DataRescue":
+        - paragraph:
+          - generic: DataRescue
+        - paragraph: Oct 2026 – Oct 2026
+    - paragraph:
+      - text: Built a local CSV/JSON validation workbench and CLI with rule-based normalization, quarantine of rejected rows and audit-report exports, covered by automated tests (AI-assisted).
+      - text: "Repository: https://github.com/vanovri/datarescue"
+      - button:
+        - generic: … more
+    - link "Edit project DataRescue":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908278262/
+    - link "Edit project RepairGate":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908110930/
+      - generic "Edit project RepairGate":
+        - paragraph:
+          - generic: RepairGate
+        - paragraph: Oct 2026 – Oct 2026
+    - paragraph:
+      - text: A code-repair verifier with protected tests, independent holdout checks and exported patch decisions. Includes an optional local Ollama adapter and a recorded-candidate demonstration.
+      - text: Developed with AI coding assistance and verified through automated checks.
+      - text: "Repository: https://github.com/vanovri/repairgate"
+      - button:
+        - generic: … more
+    - link "Edit project RepairGate":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908110930/
+    - link "Edit project uart-fixture-kit":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908342498/
+      - generic "Edit project uart-fixture-kit":
+        - paragraph:
+          - generic: uart-fixture-kit
+        - paragraph: Oct 2026 – Oct 2026
+    - paragraph:
+      - text: Reusable synthetic UART fixtures and virtual-time replay for fragmented, malformed and concatenated byte streams without serial hardware.
+      - text: Developed with AI coding assistance and verified through automated checks.
+      - text: "Repository: https://github.com/vanovri/uart-fixture-kit"
+      - button:
+        - generic: … more
+    - link "Edit project uart-fixture-kit":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908342498/
+  - 

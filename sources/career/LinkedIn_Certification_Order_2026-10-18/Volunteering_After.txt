@@ -1,0 +1,393 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "Search":
+    - paragraph: I'm looking for…
+  - dialog:
+    - status
+    - search:
+      - textbox "I'm looking for…"
+  - navigation:
+    - list:
+      - button "Home, 0 new notifications":
+        - generic: Home
+      - link "My Network, 1 new notification":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "1"
+        - generic: My Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 2 new notifications":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "2"
+        - generic: Notifications
+      - button "More":
+        - text: More
+  - button "Ardhya Novri Ramadhan Me":
+    - generic "Ardhya Novri Ramadhan Me":
+      - figure
+      - paragraph: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Sales Navigator, 1 new notification":
+        - /url: https://www.linkedin.com/sales/?trk=d_flagship3_nav
+        - generic: "1"
+        - generic: Sales Nav
+  - figure
+- toolbar:
+  - link "Ardhya Novri Ramadhan":
+    - /url: https://www.linkedin.com/in/dhya/
+    - generic "Ardhya Novri Ramadhan":
+      - figure
+      - paragraph: Ardhya Novri Ramadhan
+      - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+- main:
+  - region "Primary content":
+    - button "Navigate back to profile main screen":
+    - paragraph: Volunteering
+    - link "Reorder volunteer experience":
+      - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/reorder/
+    - link "Add volunteer experience":
+      - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/new/
+    - list:
+      - link:
+        - /url: https://www.linkedin.com/school/1813177/
+        - figure
+      - link "Community Service Participant (KKN) Diponegoro University Jan 2026 - Feb 2026 · 2 mos Social Services":
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/909015530/
+        - paragraph: Community Service Participant (KKN)
+        - paragraph: Diponegoro University
+        - paragraph: Jan 2026 - Feb 2026 · 2 mos
+        - paragraph: Social Services
+      - paragraph:
+        - text: KKN in Mutihan, Gantiwarno, Klaten.
+        - text: Helped assemble and install a solar-powered Smart Owl House and prepare operating guidance. Assisted village administration, Posyandu, BUMDes bookkeeping, community cleanups and painting, school scouting, earthquake preparedness education and the village profile video.
+        - button:
+          - generic: … more
+      - link "KKN Mutihan 2026 | Daily Logbook Approval Cover Original approval cover from Ardhya Novri Ramadhan’s KKN daily logbook, week 1, Mutihan, Gantiwarno, Klaten, dated 3 February 2026. Student and employee identifiers are redacted. This is a logbook source excerpt, not a separate certificate.":
+        - /url: https://www.linkedin.com/in/dhya/overlay/VolunteerExperience/909015530/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+        - figure:
+          - img "Thumbnail for KKN Mutihan 2026 | Daily Logbook Approval Cover"
+        - paragraph: KKN Mutihan 2026 | Daily Logbook Approval Cover
+        - paragraph: Original approval cover from Ardhya Novri Ramadhan’s KKN daily logbook, week 1, Mutihan, Gantiwarno, Klaten, dated 3 February 2026. Student and employee identifiers are redacted. This is a logbook source excerpt, not a separate certificate.
+      - link "Edit volunteer experience Community Service Participant (KKN)":
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/909015530/
+      - link:
+        - /url: https://www.linkedin.com/company/71622436/
+        - figure
+      - link "Event Committee Member | LKMM-PD Himpunan Mahasiswa Elektro Fakultas Teknik Universitas Diponegoro (HME FT UNDIP) 2023 – 2023 Education":
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/913380248/
+        - paragraph: Event Committee Member | LKMM-PD
+        - paragraph: Himpunan Mahasiswa Elektro Fakultas Teknik Universitas Diponegoro (HME FT UNDIP)
+        - paragraph: 2023 – 2023
+        - paragraph: Education
+      - paragraph:
+        - generic: Served on the committee for introductory student management and leadership training.
+      - link "LKMM-PD 2023 | Committee Certificate Original certificate of committee service for Ardhya Novri Ramadhan at LKMM-PD, Electrical Engineering, Diponegoro University, 2023.":
+        - /url: https://www.linkedin.com/in/dhya/overlay/VolunteerExperience/913380248/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+        - figure:
+          - img "Thumbnail for LKMM-PD 2023 | Committee Certificate"
+        - paragraph: LKMM-PD 2023 | Committee Certificate
+        - paragraph: Original certificate of committee service for Ardhya Novri Ramadhan at LKMM-PD, Electrical Engineering, Diponegoro University, 2023.
+      - link "Edit volunteer experience Event Committee Member | LKMM-PD":
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/913380248/
+      - link:
+        - /url: https://www.linkedin.com/school/1813177/
+        - figure
+      - link "Logistics / Equipment Committee Member | PMB Teknik Elektro Diponegoro University 2023 – 2023 Education":
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/926163587/
+        - paragraph: Logistics / Equipment Committee Member | PMB Teknik Elektro
+        - paragraph: Diponegoro University
+        - paragraph: 2023 – 2023
+        - paragraph: Education
+      - paragraph:
+        - generic: Prepared equipment and facilitated the needs of new-student welcoming activities.
+      - link "PMB Electrical Engineering 2023 | Committee List Excerpt Source excerpt from the official committee acceptance list. Row 57 lists Ardhya Novri Ramadhan under PERKAP (equipment/logistics). Other names and contact details are redacted. This is a committee list excerpt, not a certificate.":
+        - /url: https://www.linkedin.com/in/dhya/overlay/VolunteerExperience/926163587/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+        - figure:
+          - img "Thumbnail for PMB Electrical Engineering 2023 | Committee List Excerpt"
+        - paragraph: PMB Electrical Engineering 2023 | Committee List Excerpt
+        - paragraph: Source excerpt from the official committee acceptance list. Row 57 lists Ardhya Novri Ramadhan under PERKAP (equipment/logistics). Other names and contact details are redacted. This is a committee list excerpt, not a certificate.
+      - link "Edit volunteer experience Logistics / Equipment Committee Member | PMB Teknik Elektro":
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/926163587/
+      - link:
+        - /url: https://www.linkedin.com/company/107127163/
+        - figure
+      - link "Campaign Contributor Decarbonizing Indonesia Nov 2022 - Jan 2023 · 3 mos Environment":
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/926217885/
+        - paragraph: Campaign Contributor
+        - paragraph: Decarbonizing Indonesia
+        - paragraph: Nov 2022 - Jan 2023 · 3 mos
+        - paragraph: Environment
+      - paragraph:
+        - generic: Created social media campaign and design materials about decarbonization.
+      - link "Edit volunteer experience Campaign Contributor" [active]:
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/926217885/
+  - complementary "Aside":
+    - iframe:
+      - banner:
+        - link "ASICS":
+          - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F51037&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhTrYtRbQTZrbmHkN1hnsHQypXSIBQyeJ-TOV81LvZPDkLSuRlk7-QYCEQ-d-ailS1x_1jnFK2SRKOEGQvZz5V3TZ-z2u6pId6v9MHia-Ywwb8P8hecjtauIdJgaRXm7TvLtTozihTr4TYS5pVEoYpnbUjcZPQIlGKxzFMKGsB678PBdPW97LrnuOUZZBiB_ny0JjngWkY2L6vuTYZdoO9QtXyEza5E4esCAKDE-q4Ss14mECWnJHclfj4zL2d3OBMLfhbHJ4gl-bqLz2uSxaizBReVlgH_w8IP-xn-QCuZ0qUyBOm-yiEbV4vbmP1HTyPDyd4YAthUmya6RMBG9JF4Fan38Zg9TjNuaMQMSZ9kxPk3QoY6e80mgYECAhC_O9mHvrf3ZrNZ9cAoZbmRbOkuTGrZ_NWnFCrjTZP52E-f8jSWByAFaKQQH34V_jIsb7rHGTnCPuXJpmwHu38QU-kNlDOryJlCCsvImWFv7anzJOwFW_ZddmnVFT0vzePq33pNhCP93evQ-wGkPvuERg_m_UqCoj4-ukCwc4m_I-8k_IRbSukoMzw7y8etmJheXQ8eu-FBvsDIwe3nipKiLDfatTjGDpl6J7AGKf451BVSdztU7A4zteWsvBM5LIw2eYzromTOaorPRgjn3og_2ofys-5stNtmbVFqeMC1_Zgh14c4zX5ON3MaV_Rsfa5QmVzGhLjLDQCggouDOzqFrILREILdXBWOk_920oYbVe-vyS6aAbqwy3lfsP_Xq4J_oZ--bivPb53IdWEMcL512ykmXWCxcSl5H0tm1d3-Qzvk-5jsRn5jNmDUY0bV8wPctBxT-MNiv08VB_yB6YXQhWIK2v7s-x8xNGaqFrVgYxcrlLeimBb5zASiHnxqo7mYSPed38tBvewVaLKzzWFanGpiSFzrnfMRGNx1IKI7fKDvu5vGifc9dy-zFg-bWKT_BV-jlWT1DU9gZKFZ73QnRi3T1Fv0yR-KOSH6GA8Z7oH7g_1jo6O1nVfZ0QbGorzaP0ROh1_7Arijm_ipOeC14lmjHjh4OnXoTX5e56X6bSNMnWH3qbQvrCGBosWUhQDJGBM2STszCdgMN1vEo-JXCuZ0wUToLf5b0jMpKPqPg3jd5DMtFOSK8Ghs6Th4Kuna3rmZurjKTdV08Sm_DSL983BlMx86nos%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_volunteering_experience_details%22%2C%22trackingId%22%3A%22f9b7bfa5-49e6-4e2c-adb4-0a7e531aa731%22%7D%2C%22time%22%3A1792321924355%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_volunteering_experience_details%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A2975686286362377029
+          - img "ASICS"
+        - paragraph: Promoted
+        - button "Ad Options":
+          - generic: Ad Options
+      - link "ASICS":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F51037&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhTrYtRbQTZrbmHkN1hnsHQypXSIBQyeJ-TOV81LvZPDkLSuRlk7-QYCEQ-d-ailS1x_1jnFK2SRKOEGQvZz5V3TZ-z2u6pId6v9MHia-Ywwb8P8hecjtauIdJgaRXm7TvLtTozihTr4TYS5pVEoYpnbUjcZPQIlGKxzFMKGsB678PBdPW97LrnuOUZZBiB_ny0JjngWkY2L6vuTYZdoO9QtXyEza5E4esCAKDE-q4Ss14mECWnJHclfj4zL2d3OBMLfhbHJ4gl-bqLz2uSxaizBReVlgH_w8IP-xn-QCuZ0qUyBOm-yiEbV4vbmP1HTyPDyd4YAthUmya6RMBG9JF4Fan38Zg9TjNuaMQMSZ9kxPk3QoY6e80mgYECAhC_O9mHvrf3ZrNZ9cAoZbmRbOkuTGrZ_NWnFCrjTZP52E-f8jSWByAFaKQQH34V_jIsb7rHGTnCPuXJpmwHu38QU-kNlDOryJlCCsvImWFv7anzJOwFW_ZddmnVFT0vzePq33pNhCP93evQ-wGkPvuERg_m_UqCoj4-ukCwc4m_I-8k_IRbSukoMzw7y8etmJheXQ8eu-FBvsDIwe3nipKiLDfatTjGDpl6J7AGKf451BVSdztU7A4zteWsvBM5LIw2eYzromTOaorPRgjn3og_2ofys-5stNtmbVFqeMC1_Zgh14c4zX5ON3MaV_Rsfa5QmVzGhLjLDQCggouDOzqFrILREILdXBWOk_920oYbVe-vyS6aAbqwy3lfsP_Xq4J_oZ--bivPb53IdWEMcL512ykmXWCxcSl5H0tm1d3-Qzvk-5jsRn5jNmDUY0bV8wPctBxT-MNiv08VB_yB6YXQhWIK2v7s-x8xNGaqFrVgYxcrlLeimBb5zASiHnxqo7mYSPed38tBvewVaLKzzWFanGpiSFzrnfMRGNx1IKI7fKDvu5vGifc9dy-zFg-bWKT_BV-jlWT1DU9gZKFZ73QnRi3T1Fv0yR-KOSH6GA8Z7oH7g_1jo6O1nVfZ0QbGorzaP0ROh1_7Arijm_ipOeC14lmjHjh4OnXoTX5e56X6bSNMnWH3qbQvrCGBosWUhQDJGBM2STszCdgMN1vEo-JXCuZ0wUToLf5b0jMpKPqPg3jd5DMtFOSK8Ghs6Th4Kuna3rmZurjKTdV08Sm_DSL983BlMx86nos%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_volunteering_experience_details%22%2C%22trackingId%22%3A%22f9b7bfa5-49e6-4e2c-adb4-0a7e531aa731%22%7D%2C%22time%22%3A1792321924355%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_volunteering_experience_details%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A2975686286362377029
+        - heading "ASICS" [level=2]
+      - paragraph: Ardhya Novri, what gets you moving?
+      - paragraph: When you move your body, you also move your mind.
+      - img "Made Agata"
+      - paragraph: Made Agata also follows
+      - link "Follow":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F51037%3FisFollowingPage%3Dtrue&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhTrYtRQsNf92ZF1BfVpvr9-iE7UCZNq3yUUcvvcohx1mN7R3PNzj2bFAlwzHk7UycpoPEI8iNDLNu2VAXu1M1lDfaZYQCB3yKOMhLKbjjSenfCmId2PxII4s3pHY1xCaYiPFAYguQf_HJyiPYf5KxP_8NxE_IigApLAAy2Y8DPnvj5x-cIyUKzjpFFinOAcWPkGdDdWPqS2FYQpbXHQ1XRRdJPJV64qiW-AfpTS4OCy0fD4izxvVfv5KtshurwJx-HcL8bL9cmxT_qh4MnE6qKWF-RYo6gNa7D5qc8aPWx6M01-5E8QpcHNul2tGyLKlnJ19pLXNalIlHPFiSGR0JuocmiXzQtR61cboetErqhreMqrtUn6Deg4SwAXHonxReisfZS3UGwLVsm44AZsCBbC705iKp0sOo1URVbY795sXDKwTYzsXoI0S5PUMt_Zx9rOzSFOquGVKXME7qI3x4XZsJTfQzcFyYqh83HvRKVm0E5bOXa8iJ4ZZwBhracEyvIebZ6OiqjHcb-MUWsPp85FLFwI9z0Yr0b5BUQnHG1BljgnOrG3W7nXlkQ8maaLZtpIx16GZhFPyARSSD81-88ezRVtFCUx6F_AhuIgmluMO42JK5E4Rz6ZDFNmz3Vba01J734XWWni-ZFMHzVrvOy4HkBoX52bVjBpO3ATn9xOKd_Dnzw4wRwqw-LLvuEvfPFIAnKYqU59pSBj_-KjwAfNdpqdzI6OYmwpNt1oxJlzVPelzsSy6gvzzWh6Ld1gkAHMrT4CXvltH0xzEu0kZqkQ3OTa59pj44trmRRYIdwgwBqd-Bw48AMCXGfMGvOk1ZBrgpzlCbY6BpWMprvE39X82tpur6hxXYmoAhx2D9DLUCTK2YN7r90RvLDYYQsLxShqWOfJ8WzJc3feTtilRP-z8gRgvXQFJPpkwSnq5VluAQTF4nbld83TIW07yXKegatPbKFSQjiIaAIPGlmmTxzyLnupfXLAaCoNx70cSZxThIDnXUPgnAl4kf2botDN1_5bSNc0ID4TaUqCAz4B2j-pgDkNqPlht7gBdBViqWHXFUzACnC7frGpiH8_bb0K2yaFhLh0lPwibkRVMMYMIkTW5OG-phNq6BRPQ86xTe0R6TTKGI7Tl2mpLc5fkWMCubGV3wgUe_wZdmWCQPuB7HEum1W7tdk3zS7CVdNDkgA69A090oxsglxH-N4RzWeX2-1JaS%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_volunteering_experience_details%22%2C%22trackingId%22%3A%229db9d178-3a94-4799-8f5b-3335e00d6dfe%22%7D%2C%22time%22%3A1792321924355%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_volunteering_experience_details%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A2975686286362377029
+    - img "Premium"
+    - heading "Who your viewers also viewed" [level=3]
+    - paragraph: Private to you
+    - link "Aldin zahwan · 1st Electrical Engineering | Mechatronic | Electronic":
+      - /url: https://www.linkedin.com/in/aldinzhn/
+      - figure:
+        - img "Aldin zahwan is open to work"
+      - paragraph:
+        - link "Aldin zahwan":
+          - /url: https://www.linkedin.com/in/aldinzhn/
+      - paragraph: · 1st
+      - paragraph: Electrical Engineering | Mechatronic | Electronic
+    - link "Message Aldin zahwan":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAD5ISOwBYOcRKiNs1xnlRRQ7U2ErHKUNbLU&recipient=ACoAAD5ISOwBYOcRKiNs1xnlRRQ7U2ErHKUNbLU&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Tian Putra Perdana · 2nd --":
+      - /url: https://www.linkedin.com/in/tian-putra-perdana-512424237/
+      - figure
+      - paragraph:
+        - link "Tian Putra Perdana":
+          - /url: https://www.linkedin.com/in/tian-putra-perdana-512424237/
+      - paragraph: · 2nd
+      - paragraph: "--"
+    - button "Invite Tian Putra Perdana to connect":
+      - generic: Connect
+    - link "Daffa Mahardika Auzan Putra Verified · 1st Electrical Engineering":
+      - /url: https://www.linkedin.com/in/daffamap/
+      - figure:
+        - img "Daffa Mahardika Auzan Putra is open to work"
+      - paragraph:
+        - link "Daffa Mahardika Auzan Putra Verified":
+          - /url: https://www.linkedin.com/in/daffamap/
+          - text: Daffa Mahardika Auzan Putra
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: Electrical Engineering
+    - link "Message Daffa Mahardika Auzan Putra":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAFIYJewBvTZ8l2wbXy2N_ktz6ACOkR7X3j8&recipient=ACoAAFIYJewBvTZ8l2wbXy2N_ktz6ACOkR7X3j8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Muhammad Humam Faiz · 1st Electrical Engineering Graduate | Control & Instrumentation":
+      - /url: https://www.linkedin.com/in/muhammad-humam-faiz-2901a625b/
+      - figure
+      - paragraph:
+        - link "Muhammad Humam Faiz":
+          - /url: https://www.linkedin.com/in/muhammad-humam-faiz-2901a625b/
+      - paragraph: · 1st
+      - paragraph: Electrical Engineering Graduate | Control & Instrumentation
+    - link "Message Muhammad Humam Faiz":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAD_sEAwBwVHB2-bKAnsXEdUIMgXpp6LogE8&recipient=ACoAAD_sEAwBwVHB2-bKAnsXEdUIMgXpp6LogE8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Desmarella Batari Raharjo Verified · 2nd Architecture Graduate | Architectural & Interior Design":
+      - /url: https://www.linkedin.com/in/desmarella/
+      - figure:
+        - img "Desmarella Batari Raharjo is open to work"
+      - paragraph:
+        - link "Desmarella Batari Raharjo Verified":
+          - /url: https://www.linkedin.com/in/desmarella/
+          - text: Desmarella Batari Raharjo
+          - img "Verified":
+      - paragraph: · 2nd
+      - paragraph: Architecture Graduate | Architectural & Interior Design
+    - button "Invite Desmarella Batari Raharjo to connect":
+      - generic: Connect
+    - button "Show more":
+      - generic: Show more
+    - iframe:
+      - link "Advertise on LinkedIn":
+        - /url: https://www.linkedin.com/jobs/?trk=li_FA_global_careers_jobsgtm_jsFA_v1&mcid=6899045044465016833
+        - img "Advertise on LinkedIn"
+  - generic "Footer":
+    - navigation:
+      - link "About":
+        - /url: https://about.linkedin.com/
+        - paragraph: About
+      - link "Accessibility":
+        - /url: https://www.linkedin.com/accessibility/
+        - paragraph: Accessibility
+      - link "Talent Solutions":
+        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+        - paragraph: Talent Solutions
+      - link "Community Guidelines":
+        - /url: https://www.linkedin.com/legal/professional-community-policies/
+        - paragraph: Community Guidelines
+      - link "Careers":
+        - /url: https://careers.linkedin.com/
+        - paragraph: Careers
+      - link "Marketing Solutions":
+        - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+        - paragraph: Marketing Solutions
+      - button "Privacy & Terms":
+        - paragraph: Privacy & Terms
+      - link "Ad Choices":
+        - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+        - paragraph: Ad Choices
+      - link "Advertising":
+        - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+        - paragraph: Advertising
+      - link "Sales Solutions":
+        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+        - paragraph: Sales Solutions
+      - link "Mobile":
+        - /url: https://mobile.linkedin.com/
+        - paragraph: Mobile
+      - link "Small Business":
+        - /url: https://business.linkedin.com/grow?src=li-footer
+        - paragraph: Small Business
+      - link "Safety Center":
+        - /url: https://safety.linkedin.com/
+        - paragraph: Safety Center
+    - paragraph: LinkedIn Corporation © 2026
+    - list:
+      - link "Questions?":
+        - /url: https://www.linkedin.com/help/linkedin/
+        - paragraph: Questions?
+      - paragraph: Visit our Help Center.
+      - link "Manage your account and privacy":
+        - /url: https://www.linkedin.com/mypreferences/d/
+        - paragraph: Manage your account and privacy
+      - paragraph: Go to your Settings.
+      - link "Recommendation transparency":
+        - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+        - paragraph: Recommendation transparency
+      - paragraph: Learn more about Recommended Content.
+    - paragraph: Select language
+    - combobox "Select language":
+      - option "العربية (Arabic)"
+      - option "বাংলা (Bangla)"
+      - option "Čeština (Czech)"
+      - option "Dansk (Danish)"
+      - option "Deutsch (German)"
+      - option "Ελληνικά (Greek)"
+      - option "English (English)" [selected]
+      - option "Español (Spanish)"
+      - option "فارسی (Persian)"
+      - option "Suomi (Finnish)"
+      - option "Français (French)"
+      - option "हिंदी (Hindi)"
+      - option "Magyar (Hungarian)"
+      - option "Bahasa Indonesia (Indonesian)"
+      - option "Italiano (Italian)"
+      - option "עברית (Hebrew)"
+      - option "日本語 (Japanese)"
+      - option "한국어 (Korean)"
+      - option "मराठी (Marathi)"
+      - option "Bahasa Malaysia (Malay)"
+      - option "Nederlands (Dutch)"
+      - option "Norsk (Norwegian)"
+      - option "ਪੰਜਾਬੀ (Punjabi)"
+      - option "Polski (Polish)"
+      - option "Português (Portuguese)"
+      - option "Română (Romanian)"
+      - option "Русский (Russian)"
+      - option "Svenska (Swedish)"
+      - option "తెలుగు (Telugu)"
+      - option "ภาษาไทย (Thai)"
+      - option "Tagalog (Tagalog)"
+      - option "Türkçe (Turkish)"
+      - option "Українська (Ukrainian)"
+      - option "Tiếng Việt (Vietnamese)"
+      - option "简体中文 (Chinese (Simplified))"
+      - option "正體中文 (Chinese (Traditional))"
+- complementary:
+  - img "Ardhya Novri Ramadhan"
+  - generic: Status is online
+  - button "You are on the messaging overlay. Press enter to open the list of conversations.":
+    - generic: Messaging
+    - generic: You are on the messaging overlay. Press enter to open the list of conversations.
+  - button "Open messenger dropdown menu":
+    - img "Open messenger dropdown menu"
+  - button "Compose message":
+    - generic: Compose message
+  - button "You are on the messaging overlay. Press enter to open the list of conversations.":
+    - generic: You are on the messaging overlay. Press enter to open the list of conversations.
+- complementary "AI-powered assistant to get help with your career, jobs etc"
+- iframe:
+  - region "Toast message":
+    - heading "0 notifications total" [level=2]
+    - alert
+  - region
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Keyboard shortcuts":
+    - generic: Keyboard shortcuts
+  - button "Close jump menu":
+    - generic: Close jump menu
+  - banner "Global Navigation":
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/feed/
+      - img "LinkedIn":
+    - combobox "I’m looking for..."
+    - navigation "Primary Navigation":
+      - list:
+        - link "new feed updates notifications Home":
+          - /url: https://www.linkedin.com/feed/
+          - generic: new feed updates notifications
+          - generic "Home"
+        - link "1 new network update notification My Network":
+          - /url: https://www.linkedin.com/mynetwork/?
+          - generic: "1"
+          - generic: 1 new network update notification
+          - generic "My Network"
+        - link "Jobs":
+          - /url: https://www.linkedin.com/jobs/?
+          - generic "Jobs"
+        - link "Messaging":
+          - /url: https://www.linkedin.com/messaging/?
+          - generic "Messaging"
+        - link "2 new notifications Notifications":
+          - /url: https://www.linkedin.com/notifications/?
+          - generic: "2"
+          - generic: 2 new notifications
+          - generic "Notifications"
+        - button "More":
+          - text: More
+    - navigation:
+      - list:
+        - button "Ardhya Novri Ramadhan Me":
+          - img "Ardhya Novri Ramadhan"
+          - text: Me
+        - separator
+        - button "For Business":
+          - generic "For Business":
+            - text: For Business
+        - link "1 new Sales Navigator notification Sales Nav":
+          - /url: https://www.linkedin.com/sales/index?trk=d_flagship3_nav&
+          - generic: "1"
+          - generic: 1 new Sales Navigator notification
+          - generic "Sales Nav"
+  - generic: Could not connect to the reCAPTCHA service. Please check your internet connection and reload to get a reCAPTCHA challenge.

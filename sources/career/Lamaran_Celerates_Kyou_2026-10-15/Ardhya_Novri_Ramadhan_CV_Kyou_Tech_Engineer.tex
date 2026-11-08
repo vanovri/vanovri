@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{enumitem,titlesec,needspace,fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Ardhya Novri Ramadhan - Tech Engineer | Python Tools and Workflow Automation},pdfauthor={Ardhya Novri Ramadhan}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=2pt,topsep=3pt,parsep=0pt}
+\titleformat{\section}{\normalfont\bfseries\fontsize{11}{13}\selectfont}{}{0pt}{\MakeUppercase}
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+\newcommand{\entry}[3]{\Needspace{4\baselineskip}\textbf{#1}\hfill #2\par\textit{#3}\par}
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\small Ardhya Novri Ramadhan}\fancyfoot[R]{\small\thepage/2}
+\setlength{\footskip}{22pt}
+\begin{document}
+\begin{center}
+{\fontsize{20}{23}\selectfont\bfseries ARDHYA NOVRI RAMADHAN}\par
+\vspace{3pt}
+{\bfseries Tech Engineer | Python Tools and Workflow Automation}\par
+Bekasi, Indonesia | +62 812 9155 2970 | \href{mailto:ardhyasan@gmail.com}{ardhyasan@gmail.com}\par
+\href{https://www.linkedin.com/in/dhya/}{linkedin.com/in/dhya} | \href{https://ardhyanovri.my.id}{ardhyanovri.my.id} | \href{https://github.com/vanovri}{github.com/vanovri}
+\end{center}
+\raggedright
+Electrical Engineering graduate from Diponegoro University building Python tools, web interfaces and structured workflows with AI coding assistance. Projects combine validation, reviewable outputs, automated testing and documentation. Based in Bekasi and available for full-time office work in Harapan Indah from 1 November 2026.\par
+\section{Technical Skills}
+\textbf{Tools and interfaces:} Python, FastAPI, React/Vite, JavaScript, Tkinter, CLI tools, CSV/JSON processing and Git.\par
+\textbf{APIs and data:} HTTP/JSON endpoints, input validation, Pydantic schemas, required fields, unique keys and data-quality rules; SQL/database fundamentals.\par
+\textbf{AI and quality:} Codex and ChatGPT-assisted development, reproducible tests, protected test files, independent holdout checks and audit reports.\par
+\textbf{Usability and documentation:} Preview-before-export workflows, actionable error messages, operating instructions, READMEs and SOP writing.\par
+\section{Selected Software Projects}
+\entry{DataRescue | Data Validation Workbench}{Oct 2026}{\href{https://github.com/vanovri/datarescue}{github.com/vanovri/datarescue}}
+\begin{itemize}
+\item Developed a local React/FastAPI interface and Python CLI to inspect CSV/JSON files, preview configured repairs and approve exports.
+\item Preserved leading-zero IDs, detected duplicate keys and schema changes, and quarantined invalid records with explicit rejection reasons.
+\item Blocked exports when the source or rules changed after review. Added automated checks, example datasets and a documented demo workflow.
+\end{itemize}
+\entry{RepairGate | Code-Repair Verification}{Oct 2026}{\href{https://github.com/vanovri/repairgate}{github.com/vanovri/repairgate}}
+\begin{itemize}
+\item Built a verification workflow that separates proposed code changes from acceptance decisions and protects test files.
+\item Checked candidates against visible tests and independent holdout cases, and exported diffs, logs and acceptance reports.
+\item Added an optional local Ollama adapter and a documented demo using recorded candidates for reproducible verification.
+\end{itemize}
+\entry{ApplyProof | Evidence-Based Drafting Workflow}{Oct 2026}{\href{https://github.com/vanovri/applyproof}{github.com/vanovri/applyproof}}
+\begin{itemize}
+\item Built a React/FastAPI workspace with reviewed facts, explicit skill comparisons and traceable application drafts.
+\item Constrained optional AI output to reviewed fact IDs and exported evidence-linked Markdown/JSON for human review.
+\end{itemize}
+\newpage
+\section{Professional Experience}
+\entry{CTO / Technical Lead}{Oct 2026 - Present}{ENVIID Carbon Solutions}
+\begin{itemize}
+\item Built the company website with AI assistance, translating company information into public pages and interactive tools.
+\item Implemented a carbon-calculation interface and digital MRV demonstration with structured inputs, validation and HTTP/JSON endpoints.
+\end{itemize}
+\entry{Internship Trainee}{Jul - Aug 2025}{PT Angkasa Pura Indonesia | Soekarno-Hatta International Airport}
+\begin{itemize}
+\item Completed five weeks in UPS/converter systems and three weeks in electrical protection, including relay-focused field learning and SCADA instruction.
+\end{itemize}
+\entry{Electronics Technician}{Jan - Feb 2025}{Redesma Technologies | Semarang}
+\begin{itemize}
+\item Built IoT temperature-monitoring and DC motor-control prototypes and a UART communication project for an internship seminar.
+\item Co-authored an SOP comparing Blynk and Thinger.io, documenting setup and temperature-monitoring workflows.
+\end{itemize}
+\section{Interface and Communication Experience}
+\entry{EMG Monitoring Interface}{2026}{Diponegoro University | Thesis}
+\begin{itemize}
+\item Built the full Python/Tkinter monitoring GUI for serial telemetry, live plots, status information and CSV export, with AI coding assistance.
+\item Integrated the interface with my STM32 acquisition and signal-processing work. Teammates owned stimulation and fuzzy control.
+\end{itemize}
+\entry{Teaching and Student Community Roles}{2024 - 2025}{Diponegoro University and Google Student Ambassador Program}
+\begin{itemize}
+\item Basic Electronics Practicum Assistant (2025) and ENIGMA Vol. 3 workshop instructor (October 2024). Explained circuits and component use.
+\item Head of Media, SEED UNDIP (2025); Google Student Ambassador, Class of 2025. Completed the student program championing Google AI on campus.
+\end{itemize}
+\section{Education}
+\textbf{Diponegoro University:} B.Eng. in Electrical Engineering | Aug 2022 - Sep 2026\par
+GPA: 3.43/4.00. Graduated 29 September 2026.
+\section{Selected Learning and Interests}
+\begin{itemize}
+\item AI Fundamentals, Google via Coursera. Course completed 26 September 2026.
+\item College Copilot Bootcamp (CABOOT). Completed six sessions, March - May 2024.
+\item Ethics of Artificial Intelligence, SkilHub Community by Skilvul / Nocturnailed. September 2024.
+\item Anime viewer for approximately 10 years, since junior high school. Interested in learning licensed-merchandise operations.
+\end{itemize}
+\end{document}

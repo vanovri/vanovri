@@ -1,0 +1,161 @@
+BANK 15 IDE PROYEK UNTUK GITHUB DAN LINKEDIN
+Ardhya Novri Ramadhan. Disusun 17 Oktober 2026.
+
+Status seluruh ide: belum dibangun sebagai proyek baru. Nama repo di bawah merupakan calon nama. Tidak ada repo baru yang diterbitkan oleh dokumen ini.
+Sepuluh ide pertama mengadaptasi tema demo dalam materi pengguna. Lima ide terakhir menerjemahkan lima angle editorial menjadi proyek. Ini bukan klaim bahwa showcase Google memiliki lima proyek remix tersebut.
+Sumber inspirasi video: https://www.youtube.com/watch?v=gRhM1h10T3U
+Detail teknis setiap demo dalam ringkasan belum seluruhnya diverifikasi terhadap transkrip. Setiap implementasi memakai kode sendiri, aset yang diizinkan, dan dokumentasi sumber.
+
+URUTAN YANG DISARANKAN
+Mulai dari R01, A02, R05, R03 dan A01. Pilihan ini dekat dengan RepairGate, Python, UART, STM32 dan pengolahan sinyal yang sudah ada dalam portofolio. Jangan membuat 15 repo kosong. Selesaikan satu MVP yang bisa dicoba sebelum beralih.
+
+SEPULUH ADAPTASI DEMO
+
+A01. Legacy Signal Port
+Inspirasi: migrasi kode Fortran lama ke bahasa modern.
+Calon repo: legacy-signal-port.
+MVP: tulis contoh FIR sederhana dalam Fortran, lalu port ke Rust. Pakai data sintetis dan simpan hasil implementasi acuan.
+Perbedaan versi Ardhya: fokus kesetaraan hasil pengolahan sinyal dan penanganan input, sesuai latar EMG dan DSP.
+Bukti wajib: fixture, toleransi numerik yang dijelaskan, uji input kosong dan batas, serta perbandingan keluaran. Jangan mengklaim migrasi sistem produksi.
+Angle LinkedIn: cara memeriksa port kode agar hasil numeriknya tetap sesuai acuan.
+Prioritas: tinggi.
+
+A02. UART Parse Profiler
+Inspirasi: optimasi runtime Python pada kode yang sudah ada.
+Calon repo: uart-parse-profiler, atau perluasan uart-fixture-kit jika masih satu lingkup.
+MVP: profil parser pada dataset serial sintetis yang tetap. Bandingkan satu perubahan sebelum dan sesudah dengan perintah yang sama.
+Perbedaan versi Ardhya: cek frame terpotong, byte rusak dan keluaran parser, bukan hanya throughput.
+Bukti wajib: versi lingkungan, fixture hash, waktu berulang, median dan sebaran hasil, pengujian keluaran yang tetap sama. Jangan memakai angka performa Google sebagai hasil proyek.
+Angle LinkedIn: optimasi yang terlihat cepat tetapi gagal pada frame terpotong.
+Prioritas: tinggi.
+
+A03. Spatial Electronics Lab
+Inspirasi: mengubah antarmuka peta 2D menjadi tampilan 3D.
+Calon repo: spatial-electronics-lab.
+MVP: satu peta meja laboratorium sintetis dengan mode 2D dan 3D. Pilih komponen untuk melihat pin dan koneksi contoh.
+Perbedaan versi Ardhya: hubungkan tampilan spasial dengan pembelajaran elektronika. Mulai dari browser, Android menjadi tahap lanjutan.
+Bukti wajib: objek yang sama dapat dipilih pada kedua mode, navigasi keyboard, tampilan mobile dan target frame time pada perangkat uji yang disebutkan.
+Angle LinkedIn: kapan tampilan 3D membantu memahami koneksi komponen.
+Prioritas: menengah.
+
+A04. Desk Circuit Racer
+Inspirasi: game balap dari foto meja.
+Calon repo: desk-circuit-racer.
+MVP: satu lintasan pendek dengan aset meja milik sendiri, tiga checkpoint, tombol mulai ulang dan kontrol keyboard.
+Perbedaan versi Ardhya: gunakan komponen elektronika sebagai rintangan. Foto dan pemodelan diberi provenance yang jelas.
+Bukti wajib: collision, urutan checkpoint, kamera, restart, kontrol mobile dan ukuran aset. Tidak mengklaim rekonstruksi foto otomatis bila aset dibuat manual.
+Angle LinkedIn: dari foto meja sendiri menjadi prototipe lintasan yang bisa dimainkan.
+Prioritas: menengah.
+
+A05. Parametric Pavilion
+Inspirasi: pemodelan arsitektur prosedural di Blender dan ekspor ke Three.js.
+Calon repo: parametric-pavilion.
+MVP: model paviliun orisinal dengan parameter jumlah tingkat, ukuran atap dan kolom. Ekspor GLB ke penampil web.
+Perbedaan versi Ardhya: parameter dan batas geometri dapat diuji, tanpa menyalin desain atau aset seniman lain.
+Bukti wajib: script yang dapat dijalankan ulang, unit skala, jumlah mesh, bounding box dan contoh render. Penilaian estetika tetap subjektif, skor model lain bukan bukti kualitas objektif.
+Angle LinkedIn: apa yang bisa diuji otomatis pada model 3D prosedural.
+Prioritas: menengah.
+
+A06. WebGPU Cable Lab
+Inspirasi: simulasi rambut atau bulu berbasis GPU.
+Calon repo: webgpu-cable-lab.
+MVP: satu bundel kabel sintetis memakai partikel dan constraint. Sediakan versi CPU sederhana sebagai acuan.
+Perbedaan versi Ardhya: visualisasikan kekakuan dan gerak kabel untuk pembelajaran numerik.
+Bukti wajib: constraint error, stabilitas terhadap timestep, perbandingan CPU/GPU dan fallback perangkat tanpa WebGPU. Ini simulasi pendidikan, belum validasi kabel fisik.
+Angle LinkedIn: menguji stabilitas simulasi sebelum menambah efek visual.
+Prioritas: lanjut.
+
+A07. Synthetic Body Data Viewer
+Inspirasi: laporan DEXA menjadi tampilan komposisi tubuh 3D.
+Calon repo: synthetic-body-data-viewer.
+MVP: impor JSON sintetis berlabel, tampilkan bagian tubuh dan satuan yang konsisten. Gunakan mesh yang lisensinya jelas.
+Perbedaan versi Ardhya: fokus asal data, nilai yang hilang dan pemetaan satuan. Tidak melakukan diagnosis atau menafsirkan laporan pasien.
+Bukti wajib: validasi skema, label data sintetis, penolakan unit yang salah, keadaan data hilang dan uji navigasi. Tampilan bukan pengganti alat ukur atau penilaian klinis.
+Angle LinkedIn: visual 3D yang menarik tetap perlu menjelaskan asal dan keterbatasan data.
+Prioritas: rendah.
+
+A08. Orbit Replay Lab
+Inspirasi: visualisasi lintasan Artemis II dari data telemetri.
+Calon repo: orbit-replay-lab.
+MVP: putar ulang satu lintasan orbit sintetis dari CSV dengan waktu, satuan dan kerangka koordinat eksplisit.
+Perbedaan versi Ardhya: mulai dari model sederhana dengan hasil acuan, lalu tambahkan data publik NASA yang sumber dan formatnya sudah diverifikasi.
+Bukti wajib: uji timestamp, interpolasi, satuan, kerangka koordinat dan posisi acuan. Jangan menulis real-time atau akurat terhadap misi bila hanya memakai data replay atau data sintetis.
+Angle LinkedIn: kesalahan satuan yang bisa membuat visualisasi lintasan tampak benar.
+Prioritas: menengah.
+
+A09. Sensor Mount Generator
+Inspirasi: sketsa menjadi desain perangkat yang dapat dicetak 3D.
+Calon repo: sensor-mount-generator.
+MVP: buat dudukan sensor parametrik dari ukuran yang diketik pengguna. Ekspor STL beserta tabel dimensi. Input gambar menjadi fitur berikutnya.
+Perbedaan versi Ardhya: fokus dudukan modul elektronika, ruang konektor dan toleransi yang dinyatakan.
+Bukti wajib: unit mm, diameter lubang, ketebalan minimum, watertight mesh dan pemeriksaan dimensi. Kecocokan fisik baru boleh diklaim setelah dicetak dan diukur.
+Angle LinkedIn: file STL yang berhasil diekspor belum membuktikan komponen bisa terpasang.
+Prioritas: menengah.
+
+A10. Phone Motion Rally
+Inspirasi: permainan tenis dengan sensor gerak ponsel.
+Calon repo: phone-motion-rally.
+MVP: ponsel menjadi pengendali gerak untuk satu bola dan satu target di browser. Tambahkan kalibrasi dan tombol kontrol cadangan.
+Perbedaan versi Ardhya: jelaskan perubahan orientasi, izin sensor dan variasi perangkat.
+Bukti wajib: pengujian izin, koneksi putus, kalibrasi, latensi input pada perangkat uji dan fallback sentuh. Tidak menyebut akurasi gerak tanpa pengukuran.
+Angle LinkedIn: mengubah pembacaan sensor ponsel menjadi input yang konsisten.
+Prioritas: menengah.
+
+LIMA PROYEK REMIX DARI ANGLE EDITORIAL
+
+R01. RepairGate Regression Lab
+Asal angle: contrarian tentang verifikasi hasil AI.
+Repo: perluas https://github.com/vanovri/repairgate, hindari membuat repo duplikat.
+MVP: tambahkan fixture sintetis baru dengan proposal salah yang disengaja, proposal benar, log keputusan dan tes yang terlindungi.
+Perbedaan: tunjukkan kegagalan pendekatan hardcode dengan contoh yang dapat direplay.
+Bukti wajib: seluruh kandidat mulai dari sumber awal yang sama, tes tidak dapat diedit oleh kandidat, hash sumber dan laporan keputusan. Jangan menyebut holdout publik sebagai benchmark rahasia.
+Angle LinkedIn: satu perbaikan yang lolos contoh tetapi gagal pada input lain.
+Prioritas: pertama. Ini pengembangan berikutnya, terpisah dari demo yang sudah tersedia.
+
+R02. Agent Run Diary
+Asal angle: personal story tentang proses bekerja dengan coding agent.
+Calon repo: agent-run-diary.
+MVP: pembaca log lokal yang merangkum urutan proposal, hasil uji, keputusan manusia dan alasan penolakan. Mulai dengan log sintetis berlabel.
+Perbedaan: cerita posting dibuat dari catatan run yang benar-benar ada, bukan cerita debugging rekaan.
+Bukti wajib: timestamp, redaksi data sensitif, tautan diff, serta pemisahan tindakan agent dari tindakan manusia. Riwayat chat mentah tidak diterbitkan.
+Angle LinkedIn: satu keputusan review yang mengubah hasil akhir proyek.
+Prioritas: menengah.
+
+R03. Agent Run Ledger
+Asal angle: data dan ekonomi token.
+Calon repo: agent-run-ledger.
+MVP: impor CSV pemakaian token sintetis, pilih tabel harga bertanggal, hitung biaya input, cache, output dan layanan tambahan secara terpisah.
+Perbedaan: tampilkan biaya run yang dapat diaudit dan ketidakpastian, bukan klaim AI pasti lebih murah.
+Bukti wajib: tes aritmetika, mata uang, pembulatan, versi harga dan penanganan biaya yang belum diketahui. Waktu manusia dicatat sebagai data pengguna, bukan asumsi diam-diam.
+Angle LinkedIn: mengapa harga per satu juta token belum sama dengan biaya satu tugas.
+Prioritas: tinggi.
+
+R04. Bounded Refactor Bench
+Asal angle: playbook refactor dengan batas kerja.
+Calon repo: bounded-refactor-bench.
+MVP: template untuk kode lokal tepercaya yang menjalankan baseline, membatasi daftar file, jumlah percobaan dan timeout, lalu mengekspor diff untuk review. Bisa menjadi contoh integrasi RepairGate.
+Perbedaan: pisahkan batas yang benar-benar ditegakkan oleh program dari aturan yang hanya tertulis dalam prompt.
+Bukti wajib: stop saat batas terlewati, tidak menyentuh sumber asli, pemeriksaan API yang dipertahankan dan catatan kegagalan. Tidak mengaku menjadi sandbox keamanan untuk kode tak tepercaya.
+Angle LinkedIn: tiga aturan prompt yang ternyata belum ditegakkan oleh tooling.
+Prioritas: menengah. Gabungkan dengan R01 jika lingkupnya masih sama.
+
+R05. UART Twin Bench
+Asal angle: penghubung software dan dunia fisik.
+Calon repo: uart-twin-bench, dengan reuse uart-fixture-kit bila sesuai.
+MVP: stream UART sintetis berlabel masuk ke dashboard 3D sederhana. Pengguna dapat menyisipkan data hilang, noise dan paket terlambat.
+Perbedaan: hubungkan pengalaman embedded dengan visualisasi dan pelacakan status data.
+Bukti wajib: satuan, checksum jika protokol memakai checksum, packet loss, urutan waktu dan latensi replay. Data rekaman sensor milik sendiri menjadi tahap berikutnya. Tidak memakai data subjek skripsi atau mengklaim efektivitas terapi.
+Angle LinkedIn: tampilan sensor yang bagus tetap harus jujur saat paket data hilang.
+Prioritas: tinggi.
+
+PAKET MINIMUM SEBELUM MENYEBUT SEBAGAI KARYA
+1. Kode yang dapat dijalankan dan README dengan lingkup yang jelas.
+2. Lisensi, atribusi inspirasi, dependency dan aset.
+3. Data sintetis atau data yang memang boleh dipublikasikan.
+4. Tes yang relevan, perintah reproduksi dan hasil yang tercatat.
+5. Screenshot atau video dari implementasi sendiri.
+6. Batasan dan fitur yang belum tersedia.
+7. Draft carousel dan caption yang membedakan kontribusi pribadi dari bantuan AI.
+
+RUTINITAS LINKEDIN
+Setiap dua hari, pilih karya yang sudah punya bukti. Ide di bank ini tidak otomatis menjadi proyek selesai. Jika belum ada implementasi, posting boleh berbentuk rancangan atau pelajaran sumber dengan label yang jelas. Setiap unggahan wajib menunggu ACC pengguna atas hasil akhir.

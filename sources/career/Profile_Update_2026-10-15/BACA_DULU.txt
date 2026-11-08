@@ -1,0 +1,33 @@
+PEMBARUAN PROFIL ARDHYA NOVRI RAMADHAN
+Selesai dan diverifikasi 16 Oktober 2026.
+
+CV TERBARU
+Ardhya_Novri_Ramadhan_CV_Umum.pdf: CV umum lengkap, 4 halaman, termasuk nomor kontak pribadi untuk lamaran langsung.
+Ardhya_Novri_Ramadhan_CV_Public.pdf: CV umum publik, 4 halaman, tanpa nomor telepon pribadi. Versi ini yang tersedia di portofolio.
+Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.pdf: 2 halaman, revisi setelah pengiriman aplikasi.
+Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.pdf: 2 halaman, revisi setelah pengiriman aplikasi.
+Tiga file .tex adalah sumber yang dapat diedit. PDF telah dikompilasi dan tampilannya diperiksa.
+
+PERUBAHAN
+Keterangan sole developer website ENVIID ditambahkan. Bantuan AI tetap dijelaskan.
+Website mencakup halaman perusahaan, informasi proyek, kalkulator karbon dan demonstrasi alur digital MRV.
+Gelar menggunakan Bachelor of Engineering in Electrical Engineering, Diponegoro University dalam susunan kalimat yang sesuai.
+AI Fundamentals, Google via Coursera, selesai 26 September 2026, sudah tercatat dalam CV umum, portofolio dan Courses di LinkedIn.
+Cover LinkedIn diperbarui. Teks bergeser ke kanan dan gelar baru menggantikan Electrical Engineering Graduate.
+
+TAUTAN
+Portofolio: https://ardhyanovri.my.id
+CV publik: https://ardhyanovri.my.id/cv-ardhya.pdf
+LinkedIn: https://www.linkedin.com/in/dhya/
+
+STATUS LAMARAN
+Celerates, Kyou, dan Codex Ambassador sudah dikirim sendiri oleh pengguna sebelum pembaruan ini.
+Dokumen dan paket pengiriman sebelumnya tetap disimpan sebagai rekaman. Tidak ada pengiriman ulang.
+
+SUMBER DAN VERIFIKASI
+Portofolio: C:/Users/ardhy/Projects/anak-kos-survival/dist
+Sumber CV umum aktif: C:/Users/ardhy/Documents/Career_Upgrade_2026-10-13/cv/main_pt_shimizu_bangun_cipta_kontraktor_mep_engineer_electrical.tex
+Nama sumber CV tersebut adalah nama lama. Isi PDF saat ini adalah CV umum.
+verification-local.json dan verification-live.json memuat hasil pemeriksaan.
+LinkedIn_Terbaru.jpg dan Portofolio_Terbaru.jpg memuat bukti tampilan.
+LinkedIn_Cover.html memerlukan engineering-hardware.png di folder yang sama.

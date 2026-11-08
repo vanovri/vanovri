@@ -1,0 +1,20 @@
+OPTION A (No-list conversational note)
+----------------------------------------
+I've been spending time lately building small engineering and software tools with AI assistance, and I wanted to share the repositories now that they are documented and up on GitHub.
+
+A lot of the work came out of a simple question: if an AI coding tool writes a fix, ports a numerical routine, or generates a 3D mesh, how do you verify the output before trusting it? That led to projects like RepairGate and Bounded Refactor for testing code patches against holdout cases, UART Fixture Kit for replaying broken serial byte streams, and Legacy Orbital Port for checking Fortran, Rust, and C++ outputs step by step. I also included a parametric OpenSCAD sensor enclosure, a WebGPU strand simulation, and a headless Blender workflow.
+
+All 15 repositories use synthetic or public reference data and include the source code, test suites, and notes on their limits.
+
+Projects: https://ardhyanovri.my.id/projects
+GitHub: https://github.com/vanovri
+
+
+OPTION B (Short & direct)
+----------------------------------------
+I've published 15 open-source engineering and software repositories to my portfolio and GitHub.
+
+They cover code-repair verification (RepairGate, Bounded Refactor), serial parser testing without hardware (UART Fixture Kit), Fortran-to-Rust/C++ numerical parity, parametric OpenSCAD enclosures, and browser 3D/WebGPU simulations. Built with AI assistance using synthetic test data, with full source and test suites in each repo.
+
+Projects: https://ardhyanovri.my.id/projects
+GitHub: https://github.com/vanovri

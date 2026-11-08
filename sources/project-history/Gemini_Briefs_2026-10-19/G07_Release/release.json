@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/vanovri/body-data-viewer",
+  "release": "https://github.com/vanovri/body-data-viewer/releases/tag/v0.1.0",
+  "commit": "a48e8698df8b4bf0f62a4b20e4cd6839c712657f",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39232032030,
+      "headSha": "a48e8698df8b4bf0f62a4b20e4cd6839c712657f",
+      "status": "completed",
+      "url": "https://github.com/vanovri/body-data-viewer/actions/runs/39232032030"
+    }
+  ],
+  "archive": "body-data-viewer-v0.1.0.zip",
+  "sha256": "bd7f60fa2eb80a09f52aee7f25a0e75fc468aea45f29c12f2f6fa024a3f00d68",
+  "size": 1656196,
+  "published_bytes_verified": true
+}

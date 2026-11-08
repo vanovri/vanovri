@@ -1,0 +1,174 @@
+{
+  "profile": {
+    "name": "Ardhya Novri Ramadhan",
+    "facts": [
+      {
+        "id": "degree",
+        "text": "Graduated in Electrical Engineering from Diponegoro University on 29 September 2026, GPA 3.43/4.00.",
+        "skills": [
+          "electrical-degree"
+        ],
+        "level": "credential",
+        "source": {
+          "label": "Official graduation letter",
+          "locator": "local://SKL ARDHYA NOVRI.pdf",
+          "excerpt": "Teknik Elektro, lulus 29 September 2026, IPK 3.43.",
+          "verified": true
+        }
+      },
+      {
+        "id": "ups",
+        "text": "Gained field exposure to UPS and converter systems during a July-August 2025 internship at Soekarno-Hatta International Airport.",
+        "skills": [
+          "UPS"
+        ],
+        "level": "exposure",
+        "source": {
+          "label": "Engineering CV and live LinkedIn experience",
+          "locator": "https://www.linkedin.com/in/dhya/",
+          "excerpt": "Internship Trainee, PT Angkasa Pura Indonesia, Jul-Aug 2025. Gained practical exposure to UPS and converter systems.",
+          "verified": true
+        }
+      },
+      {
+        "id": "electronics",
+        "text": "Worked on electronics tasks involving IoT temperature monitoring and DC motor control at Redesma Technologies, January-February 2025.",
+        "skills": [
+          "electronics",
+          "DC motor"
+        ],
+        "level": "hands-on",
+        "source": {
+          "label": "Engineering CV and live LinkedIn",
+          "locator": "https://www.linkedin.com/in/dhya/",
+          "excerpt": "Electronics Technician, Redesma-Technologies, Jan-Feb 2025. IoT temperature monitoring and DC motor control.",
+          "verified": true
+        }
+      },
+      {
+        "id": "monitoring",
+        "text": "Built the complete Python/Tkinter GUI for UART telemetry, live plots, status monitoring and CSV logging with coding-agent assistance.",
+        "skills": [
+          "Python",
+          "documentation"
+        ],
+        "level": "hands-on",
+        "source": {
+          "label": "Verified engineering project baseline",
+          "locator": "local://Ardhya_Novri_CV_RenderCV.yaml",
+          "excerpt": "Full Python/Tkinter GUI, serial telemetry, monitoring plots and CSV logging. Coding agents assisted implementation.",
+          "verified": true
+        }
+      },
+      {
+        "id": "english",
+        "text": "SEU UNDIP institutional English Proficiency Test: score 81, TOEFL prediction equivalent 632, June 2026.",
+        "skills": [
+          "English"
+        ],
+        "level": "credential",
+        "source": {
+          "label": "SEU UNDIP certificate",
+          "locator": "local://ARDHYA NOVRI RAMADHAN SEU UNDIP.pdf",
+          "excerpt": "Online EPT score 81, equivalent to SEU prediction test for TOEFL score 632. Test date 8 June 2026.",
+          "verified": true
+        }
+      },
+      {
+        "id": "gsa",
+        "text": "Completed the Google Student Ambassador program, Class of 2025; recognized for leadership championing Google AI within the campus community.",
+        "skills": [
+          "community leadership"
+        ],
+        "level": "credential",
+        "source": {
+          "label": "Google Student Ambassador graduation certificate",
+          "locator": "local://Ardhya Novri Ramadhan GSA.pdf",
+          "excerpt": "Class of 2025, Certificate of Graduation, championing Google AI within the campus community.",
+          "verified": true
+        }
+      }
+    ]
+  },
+  "job": {
+    "company": "PT Shimizu Bangun Cipta Kontraktor",
+    "title": "MEP Engineer (Electrical)",
+    "source": {
+      "label": "JPAC Polban carousel inspected directly",
+      "locator": "https://www.instagram.com/p/Dea_fIbHZs-/",
+      "excerpt": "Electrical degree or diploma; fresh graduates welcome. Strong UPS/transformer/genset knowledge, CAD/BIM proficiency, professionally fluent English. Preferred K3 Electrical, SKK/SKA or LOTO.",
+      "verified": true
+    },
+    "preferred_city": "South Jakarta",
+    "requirements": [
+      {
+        "id": "degree",
+        "label": "Electrical Engineering degree",
+        "skill": "electrical-degree",
+        "minimum_level": "credential",
+        "mandatory": true
+      },
+      {
+        "id": "ups",
+        "label": "Strong UPS systems knowledge",
+        "skill": "UPS",
+        "minimum_level": "hands-on",
+        "mandatory": true
+      },
+      {
+        "id": "transformers",
+        "label": "Transformer systems knowledge",
+        "skill": "transformers",
+        "minimum_level": "hands-on",
+        "mandatory": true
+      },
+      {
+        "id": "genset",
+        "label": "Generator systems knowledge",
+        "skill": "genset",
+        "minimum_level": "hands-on",
+        "mandatory": true
+      },
+      {
+        "id": "cad",
+        "label": "CAD/BIM proficiency",
+        "skill": "CAD/BIM",
+        "minimum_level": "hands-on",
+        "mandatory": true
+      },
+      {
+        "id": "english",
+        "label": "Professional working English",
+        "skill": "English",
+        "minimum_level": "hands-on",
+        "mandatory": true
+      },
+      {
+        "id": "mep",
+        "label": "MEP design/site execution experience; fresh graduates welcome",
+        "skill": "MEP",
+        "minimum_level": "hands-on",
+        "mandatory": false
+      },
+      {
+        "id": "license",
+        "label": "K3 Electrical, SKK/SKA or LOTO certification",
+        "skill": "electrical-license",
+        "minimum_level": "credential",
+        "mandatory": false
+      }
+    ],
+    "locations": [
+      {
+        "city": "South Jakarta",
+        "scope": "office",
+        "source": {
+          "label": "Official Shimizu global network listing",
+          "locator": "https://www.shimz-global.com/",
+          "excerpt": "PT SBCK, Trinity Tower 51st floor, Jl. H.R. Rasuna Said C22, Karet Kuningan, Setiabudi, Jakarta 12940.",
+          "verified": true
+        }
+      }
+    ]
+  }
+}

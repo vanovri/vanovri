@@ -1,0 +1,23 @@
+Kode dari AI lolos tes. Apakah sudah layak diterima?
+
+Kasus ADK Python dari Google memberi contoh konkret. Run 11 jam menghasilkan enam usulan optimasi. Setelah review manusia, dua diterapkan dan empat ditolak.
+
+Saya mengerjakan persoalan verifikasi ini dalam lingkup kecil lewat RepairGate. Tool ini memisahkan usulan perbaikan dari keputusan penerimaan.
+
+Demo pembagian tagihan memakai tiga proposal yang sudah direkam:
+• Menghapus tes yang gagal. Sistem menolak perubahan itu.
+• Menghafal contoh. Kandidat lolos tes contoh, tetapi gagal di tes tambahan.
+• Membagi sisa dan memvalidasi input. Kandidat lolos kedua kelompok tes.
+
+Pelajaran yang saya ambil:
+• Catat perilaku awal sebelum mengubah kode.
+• Lindungi tes dari perubahan kandidat.
+• Periksa kasus lain, diff, dan log sebelum menerima hasil.
+
+Demo ini menunjukkan perilaku verifikasi. Hasilnya belum mengukur keberhasilan model AI langsung dan tidak membuktikan semua kemungkinan input sudah tercakup.
+
+Carousel ini memperlihatkan alur dan batasnya.
+Tes apa yang wajib gagal dulu di proyek kamu?
+
+Proyek: https://github.com/vanovri/repairgate
+Sumber kasus Google: https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/

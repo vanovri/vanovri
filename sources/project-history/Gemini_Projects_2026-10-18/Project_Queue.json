@@ -1,0 +1,124 @@
+{
+  "updated": "2026-10-18",
+  "execution": "Sequential. Complete and verify the current project before starting the next.",
+  "linkedin": "Defer individual GitHub-project and Gemini-inspired posts. Prepare a combined 3-5 project post after projects are ready. Every final post still needs user review and explicit approval.",
+  "projects": [
+    {
+      "id": "R01",
+      "name": "RepairGate Regression Lab",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/repairgate"
+    },
+    {
+      "id": "A02",
+      "name": "UART Parse Profiler",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/uart-fixture-kit",
+      "release": "https://github.com/vanovri/uart-fixture-kit/releases/tag/v0.2.0",
+      "ci": "https://github.com/vanovri/uart-fixture-kit/actions/runs/39082311852"
+    },
+    {
+      "id": "R05",
+      "name": "UART Twin Bench",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/uart-fixture-kit",
+      "release": "https://github.com/vanovri/uart-fixture-kit/releases/tag/v0.3.0",
+      "commit": "23c02a9fd7a51f619e85a267cbc489a9cc7ff464",
+      "tests": "227 Python + 3 Node, six-platform CI matrix passed"
+    },
+    {
+      "id": "R03",
+      "name": "Agent Run Ledger",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/run-ledger",
+      "release": "https://github.com/vanovri/run-ledger/releases/tag/v0.2.0",
+      "ci": "https://github.com/vanovri/run-ledger/actions/runs/39250590303"
+    },
+    {
+      "id": "A01",
+      "name": "Legacy Signal Port",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/fir-parity",
+      "release": "https://github.com/vanovri/fir-parity/releases/tag/v0.1.0",
+      "ci": "https://github.com/vanovri/fir-parity/actions/runs/39251359792"
+    },
+    {
+      "id": "R02",
+      "name": "Agent Run Diary",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/run-ledger",
+      "release": "https://github.com/vanovri/run-ledger/releases/tag/v0.2.0",
+      "ci": "https://github.com/vanovri/run-ledger/actions/runs/39250590303"
+    },
+    {
+      "id": "R04",
+      "name": "Bounded Refactor Bench",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/bounded-refactor",
+      "release": "https://github.com/vanovri/bounded-refactor/releases/tag/v0.2.0",
+      "ci": "https://github.com/vanovri/bounded-refactor/actions/runs/39251148099"
+    },
+    {
+      "id": "A03",
+      "name": "Spatial Electronics Lab",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/spatial-electronics-lab",
+      "release": "https://github.com/vanovri/spatial-electronics-lab/releases/tag/v0.1.0"
+    },
+    {
+      "id": "A04",
+      "name": "Desk Circuit Racer",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/desk-circuit-racer",
+      "release": "https://github.com/vanovri/desk-circuit-racer/releases/tag/v0.1.0",
+      "ci": "https://github.com/vanovri/desk-circuit-racer/actions/runs/39178812841"
+    },
+    {
+      "id": "A05",
+      "name": "Parametric Pavilion",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/parametric-pavilion",
+      "release": "https://github.com/vanovri/parametric-pavilion/releases/tag/v0.1.0",
+      "ci": "https://github.com/vanovri/parametric-pavilion/actions/runs/39221089863"
+    },
+    {
+      "id": "A06",
+      "name": "WebGPU Cable Lab",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/webgpu-cable-lab",
+      "release": "https://github.com/vanovri/webgpu-cable-lab/releases/tag/v0.1.0",
+      "ci": "https://github.com/vanovri/webgpu-cable-lab/actions/runs/39224888973"
+    },
+    {
+      "id": "A08",
+      "name": "Orbit Replay Lab",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/cislunar-oem-replay",
+      "release": "https://github.com/vanovri/cislunar-oem-replay/releases/tag/v0.2.0",
+      "ci": "https://github.com/vanovri/cislunar-oem-replay/actions/runs/39252306413"
+    },
+    {
+      "id": "A09",
+      "name": "Sensor Mount Generator",
+      "state": "queued",
+      "repo": null
+    },
+    {
+      "id": "A10",
+      "name": "Phone Motion Rally",
+      "state": "complete",
+      "repo": "https://github.com/vanovri/motion-rally",
+      "release": "https://github.com/vanovri/motion-rally/releases/tag/v0.2.1",
+      "ci": "https://github.com/vanovri/motion-rally/actions/runs/39254075923"
+    },
+    {
+      "id": "A07",
+      "name": "Synthetic Body Data Viewer",
+      "state": "queued",
+      "repo": null
+    }
+  ],
+  "active_supplied_brief_plan": "../Gemini_Briefs_2026-10-19/Sequential_Plan.json",
+  "latest_completed": "G01 Legacy Orbital Port v0.1.0, four CI jobs passed, source ZIP hash verified. Next supplied brief is G02.",
+  "active_execution_manifest": "../Gemini_Briefs_2026-10-19/MASTER_EXECUTION.json"
+}

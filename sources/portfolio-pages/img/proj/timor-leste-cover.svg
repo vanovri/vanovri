@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Rural Infrastructure Proposal · Energy &amp; Water">
+  <defs>
+    <filter id="softDrop" x="-5%" y="-5%" width="110%" height="112%">
+      <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#000000" flood-opacity="0.045"/>
+    </filter>
+  </defs>
+
+  <!-- Apple Parchment Canvas -->
+  <rect width="1200" height="750" fill="#f5f5f7"/>
+
+  <!-- Centered Pure White Gallery Card -->
+  <rect x="84" y="72" width="1032" height="606" rx="28" fill="#ffffff" stroke="#e5e5ea" stroke-width="1.5" filter="url(#softDrop)"/>
+
+  <!-- Top Left: Quiet Category & Hero Readout -->
+  <text x="140" y="142" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="18" font-weight="600" fill="#0066cc" letter-spacing="-0.01em">Rural Infrastructure Proposal · Energy &amp; Water</text>
+  <text x="140" y="204" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="52" font-weight="600" fill="#1d1d1f" letter-spacing="-0.04em">Hydraulic + LFP</text>
+  <text x="140" y="240" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="20" font-weight="400" fill="#6e6e73" letter-spacing="-0.01em">Daytime solar borehole pumping &amp; nighttime clinic battery reserve</text>
+
+  <!-- Center/Right Focal Graphic Area -->
+  
+        <rect x="140" y="284" width="920" height="214" rx="20" fill="#f5f5f7"/>
+        <rect x="172" y="320" width="410" height="142" rx="16" fill="#ffffff" stroke="#0066cc" stroke-width="2"/>
+        <text x="204" y="368" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="22" font-weight="600" fill="#0066cc">Daytime Gravity Storage</text>
+        <text x="204" y="408" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="18" fill="#6e6e73">Midday PV surplus pumps water into</text>
+        <text x="204" y="436" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="18" fill="#6e6e73">elevated village storage tanks.</text>
+
+        <rect x="618" y="320" width="410" height="142" rx="16" fill="#ffffff" stroke="#e5e5ea"/>
+        <text x="650" y="368" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="22" font-weight="600" fill="#1d1d1f">Critical Nighttime Bus</text>
+        <text x="650" y="408" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="18" fill="#6e6e73">Reserves LiFePO4 battery bank for</text>
+        <text x="650" y="436" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="18" fill="#6e6e73">clinic cold-chain &amp; lighting.</text>
+        
+
+  <!-- Bottom 3 Minimal Stat Pills -->
+  
+        <rect x="140" y="534" width="290" height="78" rx="16" fill="#f5f5f7"/>
+        <text x="164" y="566" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="16" font-weight="500" fill="#86868b">Primary Storage</text>
+        <text x="164" y="596" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="22" font-weight="600" fill="#1d1d1f" letter-spacing="-0.02em">Elevated Water Tank</text>
+        
+        <rect x="455" y="534" width="290" height="78" rx="16" fill="#f5f5f7"/>
+        <text x="479" y="566" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="16" font-weight="500" fill="#86868b">Night Reserve</text>
+        <text x="479" y="596" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="22" font-weight="600" fill="#1d1d1f" letter-spacing="-0.02em">LiFePO4 Battery</text>
+        
+        <rect x="770" y="534" width="290" height="78" rx="16" fill="#f5f5f7"/>
+        <text x="794" y="566" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="16" font-weight="500" fill="#86868b">Scope</text>
+        <text x="794" y="596" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, sans-serif" font-size="22" font-weight="600" fill="#1d1d1f" letter-spacing="-0.02em">Policy Proposal</text>
+        
+</svg>

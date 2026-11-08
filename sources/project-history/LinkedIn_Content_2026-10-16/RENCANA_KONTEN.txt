@@ -1,0 +1,67 @@
+RENCANA LINKEDIN ARDHYA
+Mulai 16 Oktober 2026, setiap dua hari pukul 19.17 WIB.
+Rutin aktif di chat Codex ini. Rutin mingguan Grok dijeda.
+Semua hasil adalah draft untuk ditinjau. Belum ada post yang diterbitkan oleh rutin.
+
+ARAH KONTEN
+Utamakan studi kasus karya sendiri. Tunjukkan masalah, kontribusi pribadi, proses, bukti dan pelajaran.
+Campurkan carousel proyek, demo singkat, catatan debugging dan pengalaman mengajar.
+Setiap run menyiapkan satu carousel 6-8 slide dan satu alternatif teks. Pilih satu untuk diposting.
+Format dokumen PDF sesuai dukungan LinkedIn: https://www.linkedin.com/help/linkedin/answer/a518909
+Jumlah slide dan jadwal dua hari sekali adalah pilihan editorial, bukan janji peningkatan jangkauan.
+
+ANTREAN AWAL
+16 Oktober. ENVIID. Website perusahaan yang saya bangun sendiri dengan bantuan AI.
+Bukti: screenshot web publik, halaman perusahaan, kalkulator estimasi dan demonstrasi alur digital MRV. Jelaskan batasan simulasi.
+Sumber: https://enviid.web.id dan https://ardhyanovri.my.id/projects
+
+18 Oktober. DataRescue. Kenapa ID 00123 perlu tetap 00123 ketika data diperbaiki?
+Bukti: data contoh sintetis, preview perbaikan, duplikasi dan baris bermasalah, ekspor setelah persetujuan.
+Sumber: https://github.com/vanovri/datarescue
+
+20 Oktober. uart-fixture-kit. Satu pesan serial bisa datang dalam beberapa potongan.
+Bukti: fixture dan parser dari repo publik, kasus pemisahan data dan noise. Cantumkan hasil uji hanya setelah dijalankan.
+Sumber: https://github.com/vanovri/uart-fixture-kit
+
+22 Oktober. Proyek EMG. Dari sensor ke tampilan Python.
+Bukti: rangkaian akuisisi, alur firmware dan GUI. Kontribusi Ardhya adalah subsistem EMG dan GUI. Rekan menangani stimulator dan kontrol fuzzy.
+Sumber: https://ardhyanovri.my.id/projects/emg-thesis
+
+24 Oktober. RepairGate. Patch yang lolos satu tes masih perlu diperiksa.
+Bukti: diff kandidat, pengujian yang terlihat, kasus independen, log dan keputusan. Jangan mengklaim tool menjamin kode aman.
+Sumber: https://github.com/vanovri/repairgate
+
+26 Oktober. Asisten praktikum. Menjelaskan rangkaian membuat saya memeriksa pemahaman sendiri.
+Bukti: peran dua semester pada tahun akademik 2024/2025 dan sertifikat 6 Juli 2025. Contoh kegiatan harus sesuai pengalaman yang dikonfirmasi.
+Sumber: https://ardhyanovri.my.id/experience
+
+28 Oktober. ApplyProof. Menelusuri sumber di balik sebuah pernyataan.
+Bukti: fakta contoh yang ditinjau, sumber pernyataan dan ekspor. Hindari menampilkan data aplikasi pribadi atau orang lain.
+Sumber: https://github.com/vanovri/applyproof
+
+30 Oktober. Redesma. Prototipe pemantauan suhu dengan ESP32 dan DS18B20.
+Bukti: prototipe pribadi dan kontribusi pada SOP perbandingan Blynk dan Thinger.io. Jangan menambah klaim deployment komersial.
+Sumber: https://ardhyanovri.my.id/projects/redesma-iot
+
+1 November. Magang Angkasa Pura. Yang saya pelajari dari UPS dan proteksi listrik.
+Bukti: lima minggu UPS/converter dan tiga minggu proteksi. SCADA berupa instruksi, PLC berupa observasi. Gunakan materi publik dan diagram sendiri.
+Sumber: https://ardhyanovri.my.id/experience
+
+3 November. KKN solar. Pekerjaan kecil yang membuat pemasangan lebih mudah diteruskan.
+Bukti: kontribusi tim pada Smart Owl House bertenaga surya dan panduan operasi. Pisahkan kontribusi pribadi dari pekerjaan tim.
+Sumber: https://ardhyanovri.my.id/projects/kkn-solar
+
+POLA CAROUSEL
+Slide 1. Satu masalah konkret dan judul yang mudah dibaca.
+Slide 2. Konteks pengguna atau kebutuhan proyek.
+Slide 3. Kontribusi Ardhya dan pembagian peran.
+Slide 4. Alur kerja atau keputusan teknis.
+Slide 5. Screenshot atau hasil uji yang benar-benar tersedia.
+Slide 6. Batasan dan pelajaran.
+Slide 7. Tautan sumber dan satu pertanyaan diskusi.
+
+CATATAN PRODUKSI
+Satu ide utama per slide. Utamakan screenshot nyata dan diagram yang menjelaskan alur.
+Gunakan Bahasa Indonesia, paragraf pendek dan tanpa hashtag.
+Cantumkan bantuan AI secara wajar. Jangan mengarang dampak bisnis atau hasil pengujian.
+Nilai hasil setelah beberapa post berdasarkan respons yang benar-benar muncul, bukan target angka fiktif.

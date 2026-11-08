@@ -1,0 +1,13 @@
+NEW PROJECTS SHOWCASE (8 SLIDES) - SIAP REVIEW
+
+Status: Belum diposting ke LinkedIn (menunggu review & ACC Ardhya).
+Desain mengikuti standar editorial 08_Portfolio_Published (flat composition di atas #FCFCFA, #EEF3F3, dan #122D42, tipografi besar Anton + Inter, tanpa kotak UI/pill/bullet list, tervalidasi finalizePresentation).
+
+Berkas utama:
+- Ardhya_Engineering_Labs_2026.pdf : Dokumen 8 halaman (16:10, 1200x750 pt) dengan tautan klik aktif.
+- Ardhya_Engineering_Labs_2026.pptx : Sumber presentasi editable (Anton + Inter).
+- Caption_EN.txt : Caption utama bahasa Inggris (gaya natural sejajar 08_Portfolio_Published).
+- Alternatif_Caption_EN.txt : 2 opsi tambahan bahasa Inggris (versi paragraf tanpa bullet & versi singkat).
+- Caption_ID.txt : Alternatif caption bahasa Indonesia.
+- Overview_8_Pages.jpg : Ringkasan visual 8 halaman.
+- Preview_Cover.png : Pratinjau halaman sampul.

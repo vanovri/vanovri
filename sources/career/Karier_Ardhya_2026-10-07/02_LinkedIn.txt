@@ -1,0 +1,39 @@
+LINKEDIN. Pembaruan tersimpan 7 Oktober 2026.
+Profil: https://www.linkedin.com/in/dhya/
+
+HEADLINE
+Electrical Engineering Graduate | Embedded Systems & Electronics | STM32, C, Signal Processing | Open to Entry-Level Roles
+
+LOKASI
+Kota Bekasi, West Java, Indonesia
+
+ABOUT
+I am an Electrical Engineering graduate from Diponegoro University, graduating in September 2026 with a GPA of 3.43/4.00.
+
+My final project focused on EMG acquisition and signal processing using STM32. My contribution covered ADC acquisition, digital filtering, RMS/MAV feature extraction, and UART communication within a team rehabilitation-hand project.
+
+I have internship exposure to electronics and UPS/converter systems. I also explore AI-assisted development through Anak Kos Survival, a browser game with documented game rules, autosave, and automated tests. I am still developing my AI-agent skills and focus on understanding and verifying the outputs.
+
+Based in Bekasi, I am seeking entry-level or paid internship opportunities in electrical engineering, electronics, embedded systems, testing, maintenance, or technical support in Bekasi and Jakarta.
+
+TOP SKILLS
+Electronics Technology. Embedded Systems. C (Programming Language). STM32. Signal Processing.
+
+PENGALAMAN
+PT Angkasa Pura Indonesia. Internship Trainee. Employment type Internship. Juli–Agustus 2025.
+Gained practical exposure to UPS and converter systems at Soekarno-Hatta International Airport during a two-month internship.
+
+Redesma-Technologies. Electronics Technician. Januari–Februari 2025. Employment type sebelumnya dipertahankan.
+Worked on electronics tasks involving IoT temperature monitoring and DC motor control.
+
+PENDIDIKAN
+Diponegoro University. Bachelor of Engineering - BE. Field Electrical Engineering. Agustus 2022–September 2026. GPA 3.43/4.00.
+Graduated on 29 September 2026. Final project focused on STM32-based EMG acquisition and signal processing. Individual contribution covered ADC acquisition, digital filtering, RMS/MAV feature extraction, and UART communication within a team rehabilitation-hand project.
+
+SMAN 5 Bekasi. Jenjang dikoreksi menjadi Senior High School. Field Geography dihapus karena belum terkonfirmasi sebagai jurusan.
+
+BUKTI
+Headline, lokasi, About, top skills, dan pendidikan diverifikasi dari tampilan profil setelah simpan. Penyimpanan pengalaman menampilkan konfirmasi Your experience is saved. LinkedIn_Diperbarui.jpg memperlihatkan headline dan lokasi akhir.
+
+LANGKAH PENDAMPING
+Gunakan portfolio PDF dalam lamaran. Bagian Featured dapat diisi ketika demo terbukti dapat dibuka recruiter dan kamu memilih dokumen yang ingin dipublikasikan. CV, SKL, nomor pribadi, dan email tidak diunggah ke profil pada sesi ini. Tidak ada posting, undangan koneksi, DM, atau lamaran yang dikirim.

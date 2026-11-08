@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/vanovri/agent-runtime-lab",
+  "release": "https://github.com/vanovri/agent-runtime-lab/releases/tag/v0.1.0",
+  "commit": "dc478aab4618602bafefa3c114634eb89e2bb97a",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39175961750,
+      "headSha": "dc478aab4618602bafefa3c114634eb89e2bb97a",
+      "status": "completed",
+      "url": "https://github.com/vanovri/agent-runtime-lab/actions/runs/39175961750"
+    }
+  ],
+  "archive": "agent-runtime-lab-v0.1.0.zip",
+  "sha256": "28f299ad7560ac7fd93a46faf156471ead7780e12762ee58e27c8fd61c55156e",
+  "size": 144713,
+  "published_bytes_verified": true
+}

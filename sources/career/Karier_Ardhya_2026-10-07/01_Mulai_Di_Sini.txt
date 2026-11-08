@@ -1,0 +1,45 @@
+MULAI DI SINI
+7 Oktober 2026. Target: pekerjaan entry-level atau intern berbayar. Domisili Jatiwaringin, Bekasi. Batas perjalanan satu arah 60 menit. Target penghasilan mengikuti upah minimum lokasi kerja untuk posisi karyawan. Untuk magang, periksa uang saku, durasi, dan biaya perjalanan.
+
+KEPUTUSAN AWAL
+Mulai melamar sekarang. Pilih elektro, electronics/embedded junior, testing, maintenance, atau technical support. Modal utama adalah gelar Teknik Elektro, magang, dan tugas akhir EMG. AI agent masih menjadi bidang belajar. Jangan mencantumkan AI engineer atau PLC expert sebelum ada bukti kemampuan.
+
+MALAM INI DAN 8 OKTOBER
+1. Gunakan CV sesuai posisi. Kontak telah kamu konfirmasi aktif. Redesma Januari–Februari 2025. Angkasa Pura Juli–Agustus 2025, selesai 31 Agustus. CV sumber tetap utuh.
+2. Periksa Komatsu NEDP yang menurut poster berakhir 8 Oktober. Konfirmasi posting dan tautan dari akun resmi @komatsuindonesiaofficial. Situs resmi juga menyediakan Drop CV, tetapi ini bukan bukti pendaftaran batch NEDP.
+3. Periksa tiket.com Check In. Poster menyebut pendaftaran 8 Oktober, acara intern 16 Oktober 17.30–20.30 WIB. Tautan bit.ly/Checkintiket-2026 menampilkan 404 saat diperiksa. Minta tautan dari kanal resmi atau cek careers.tiket.com. Program ini acara rekrutmen, bukan jaminan lowongan intern sesuai skill.
+4. Prioritaskan Panasonic Future Talent. PDF menerima SKL dan lulusan teknik. Alamat PMI di Pasar Rebo telah cocok dengan situs perusahaan. Form TinyURL terhalang verifikasi keamanan, sehingga status form dan tenggat belum dipastikan. Jangan menganggapnya sudah terdaftar.
+5. Pilih satu lowongan aktif dari tracker. Sesuaikan ringkasan CV dan urutan skill dengan posisi. Catat hanya lamaran yang benar-benar terkirim.
+
+RUTINITAS HARIAN SELAMA 14 HARI
+90 menit: cek maksimal lima peluang, pilih dua atau tiga, lalu siapkan lamaran yang relevan.
+45 menit: latihan teknis sesuai lowongan. Selesaikan satu latihan kecil yang menghasilkan bukti.
+15 menit: rekam perkenalan dan satu cerita troubleshooting.
+15 menit: perbarui tracker dan rencanakan besok.
+Batasi pencarian Instagram 15–20 menit. Target operasional dua atau tiga lamaran relevan per hari kerja, sekitar 10–15 per minggu. Ini target kerja, bukan jaminan panggilan.
+
+URUTAN SKILL
+Minggu pertama: jelaskan proyek STM32/EMG tanpa membaca. Latih ADC, UART, filter, RMS/MAV, cara membaca rangkaian, serta cara menguji masalah. Tulis satu laporan troubleshooting singkat.
+Minggu kedua: jika target utama maintenance/automation, buat satu simulasi PLC. Gunakan input start/stop, timer, counter, dan interlock. Rekam demo singkat, sertakan daftar I/O dan skenario uji. Tulis sebagai simulasi sampai ada bukti pada perangkat.
+Jika target embedded, lanjutkan C, debugging, ADC/DMA, timer, UART, dan satu komunikasi serial sederhana. Pilih jalur dari persyaratan lima lowongan yang benar-benar ingin kamu lamar.
+AI agent: gunakan untuk mencari kata kunci lowongan, merangkum job description, dan membantu debugging. Periksa klaim dan kode hasilnya. Eksperimen baru maksimal dua sesi 30 menit per minggu selama sprint lamaran.
+NASA ARSET: simpan pada antrean belajar. Materi ini relevan bila kamu memilih geospatial/remote sensing. Sumber yang diberikan merupakan sumber pembelajaran, bukan tawaran kerja NASA. Akses halaman NASA terhalang 403 pada pemeriksaan ini.
+
+PORTFOLIO
+Game sudah layak sebagai satu proyek berbantuan AI. Hentikan penambahan fitur besar selama 14 hari. Fokus satu demo pendek, penjelasan kontribusi, dan bukti pengujian. Portfolio website masih memiliki bagian draf biografi, skill, pengalaman, dan laboratorium. Gunakan PDF portfolio pendamping CV lebih dahulu. Pastikan recruiter dapat membuka demo sebelum memasukkan URL. Jangan mengirim tautan yang hanya dapat dibuka pemilik.
+
+MANAJEMEN INFORMASI
+Satu tracker menjadi tempat utama. Kolom utama: perusahaan, posisi, lokasi, tenggat, status verifikasi, status lamaran, tanggal kirim, tindak lanjut, dan sumber.
+Inbox hanya menampung tautan. Setiap peluang harus masuk Lamar, Periksa, Tunda, atau Arsip. Jika lokasi jauh, jurusan tidak cocok, atau tenggat lewat, arsipkan. Jangan mengejar semua posting.
+Untuk setiap peluang, periksa situs/akun perusahaan, syarat wajib, alamat kantor/site, jam kerja, kebutuhan perjalanan dinas, dan tenggat. Kata Bekasi pada lowongan bisa berarti Cikarang atau Cibitung. Alamat kantor tidak memastikan lokasi kerja.
+Periksa rute dari Jatiwaringin pada jam berangkat dan pulang yang sebenarnya. Masukkan angka waktu yang kamu cek sendiri. Tracker belum berisi estimasi perjalanan karena belum ada verifikasi rute jam sibuk.
+Tindak lanjut 5–7 hari kerja setelah melamar bila kanal memperbolehkan. Simpan pesan tindak lanjut sebagai draf sebelum mengirim. Tidak ada email, DM, atau lamaran yang dikirim pada sesi ini.
+
+EVALUASI SETIAP JUMAT
+Hitung lamaran relevan, balasan, tes, dan interview. Setelah 20–30 lamaran relevan tanpa respons, cek kecocokan job description, CV, dan kanal kirim. Jika interview ada tetapi belum maju, latih jawaban dan bukti teknis. Jangan langsung menambah kursus tanpa menemukan gap yang spesifik.
+
+MAGANGHUB
+Kanal resmi BPVP Kendari menyebut penayangan lowongan 26–27 Oktober 2026. Sumber sekunder menyebut pendaftaran peserta 27 Oktober–1 November 2026. Tanggal peserta perlu dicocokkan dengan portal resmi sebelum dipakai. Siapkan data SIAPkerja dan kelulusan. Jangan menunggu batch itu untuk mulai melamar.
+
+YANG PERLU KAMU KONFIRMASI
+Apakah pengalaman asisten Februari–Juni 2025 benar. Bagian pekerjaan yang benar-benar kamu kerjakan sendiri. Kemampuan alat ukur, AutoCAD/ETAP/PLC, dan Bahasa Inggris yang bisa kamu demonstrasikan. Kesediaan shift dan perjalanan dinas.

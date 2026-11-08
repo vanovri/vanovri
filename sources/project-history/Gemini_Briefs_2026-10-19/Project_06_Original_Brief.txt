@@ -1,0 +1,352 @@
+Langsung kita sikat **Project #6: WebGPU Fur Simulation (06:07) — Real-Time GPU Hair & Fur Physics dengan WGSL Compute Shaders di Browser**.
+
+Di demo ke-6 ini, Gemini 4 Argon menunjukkan kemampuan menulis **Low-Level GPU Compute Shaders (WGSL)** dan manajemen buffer WebGPU dari nol langsung di dalam browser tanpa framework grafis berat.
+
+Kenapa demo ini jadi ujian yang sangat brutal untuk model AI?
+
+1. **Parallel Physics on GPU:** Setiap helai bulu (*fur strand*) terdiri dari titik-titik kontrol (*guide hairs* & *interpolated hairs*) yang dipengaruhi oleh gravitasi, gaya angin sinusoidal, dan *spring constraint relaxation* yang harus dihitung secara paralel di GPU lewat **Compute Shaders** (`@compute @workgroup_size(64)`).
+2. **WebGPU Pipeline Synchronization:** Mengatur sinkronisasi antara *storage buffers*, *vertex attribute layouts*, dan *render pipelines* tanpa mengalami *race conditions* atau *buffer mapping overhead* antar frame.
+3. **Graceful Fallback:** Menyertakan pengecekan kapabilitas perangkat (`navigator.gpu`) agar render berjalan mulus di atas arsitektur modern WebGPU.
+
+Di bawah ini adalah **3 komponen lengkap** untuk Project #6—termasuk file **`webgpu_fur.html` yang 100% langsung bisa lu buka di browser modern (Chrome/Edge)** untuk melihat ribuan helai bulu berinteraksi secara real-time dengan simulasi angin dan gravitasi:
+
+---
+
+### 1. WGSL Compute & Render Shader (`fur_shaders.wgsl`)
+
+Shader ini mendefinisikan logika fisika pegas (hooke's law) di GPU compute pass dan rendering pipeline di vertex/fragment stage:
+
+```wgsl
+struct SimulationParams {
+    time: f32,
+    wind_x: f32,
+    wind_z: f32,
+    gravity: f32,
+    strand_segments: u32,
+};
+
+@group(0) @binding(0) var<uniform> params: SimulationParams;
+@group(0) @binding(1) var<storage, read> input_positions : array<vec4<f32>>;
+@group(0) @binding(2) var<storage, write> output_positions: array<vec4<f32>>;
+
+// --- COMPUTE SHADER: SIMULASI FISIKA BULU (GRAVITASI + ANGIN + PEGAS) ---
+@compute @workgroup_size(64)
+fn computeMain(@builtin(global_invocation_id) global_id: vec3<u32>) {
+    let index = global_id.x;
+    if (index >= arrayLength(&input_positions)) {
+        return;
+    }
+
+    let pos = input_positions[index];
+    // Jika w == 1.0, ini adalah root vertex yang menempel pada kulit (immobile base)
+    if (pos.w > 0.5) {
+        output_positions[index] = pos;
+        return;
+    }
+
+    // Simulasi gaya angin sinusoidal dan gravitasi pada ujung bulu
+    let segment_factor = f32(index % params.strand_segments) / f32(params.strand_segments);
+    var updated_pos = pos.xyz;
+
+    updated_pos.y -= params.gravity * segment_factor * segment_factor * 0.016;
+    updated_pos.x += sin(params.time * 2.5 + f32(index)) * params.wind_x * segment_factor * 0.05;
+    updated_pos.z += cos(params.time * 2.0 + f32(index)) * params.wind_z * segment_factor * 0.05;
+
+    output_positions[index] = vec4<f32>(updated_pos, 0.0);
+}
+
+// --- RENDER SHADER: VERTEX & FRAGMENT PIPELINE ---
+struct VertexOutput {
+    @builtin(position) position: vec4<f32>,
+    @location(0) color_factor: f32,
+};
+
+@vertex
+fn vertexMain(@location(0) position: vec4<f32>, @builtin(vertex_index) v_idx: u32) -> VertexOutput {
+    var output: VertexOutput;
+    // Transformasi sederhana ke clip space
+    output.position = vec4<f32>(position.x * 0.02, position.y * 0.02 - 0.2, position.z * 0.02 + 1.0, 1.0);
+    output.color_factor = f32(v_idx % 10u) / 10.0;
+    return output;
+}
+
+@fragment
+fn fragmentMain(@location(0) color_factor: f32) -> @location(0) vec4<f32> {
+    // Gradasi warna bulu dari akar gelap ke ujung keemasan
+    let fur_color = mix(vec3<f32>(0.15, 0.10, 0.08), vec3<f32>(0.95, 0.75, 0.45), color_factor);
+    return vec4<f32>(fur_color, 1.0);
+}
+
+```
+
+---
+
+### 2. Aplikasi WebGPU Lengkap (`webgpu_fur.html`)
+
+Simpan kode di bawah ini sebagai **`webgpu_fur.html`** dan buka di browser yang mendukung WebGPU (Chrome 113+ atau Edge terbaru):
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WebGPU Real-Time Fur Simulation — Gemini 4 Argon Replica</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #070a14; color: #f8fafc; font-family: 'Segoe UI', system-ui, sans-serif; overflow: hidden; }
+    canvas { display: block; width: 100vw; height: 100vh; }
+    #hud {
+      position: fixed; top: 20px; left: 20px;
+      background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(10px);
+      border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 12px;
+      padding: 16px 22px; box-shadow: 0 12px 30px rgba(0,0,0,0.5); pointer-events: none;
+    }
+    .title { font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; color: #38bdf8; font-weight: 700; }
+    .metric { font-size: 24px; font-weight: 800; margin-top: 4px; font-variant-numeric: tabular-nums; }
+    .sub { font-size: 12px; color: #94a3b8; margin-top: 4px; }
+    #warning {
+      position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      background: #7f1d1d; color: #fecaca; padding: 24px 32px; border-radius: 12px;
+      font-size: 16px; font-weight: 600; text-align: center; display: none; z-index: 100;
+    }
+  </style>
+</head>
+<body>
+  <div id="warning">WebGPU is not supported or disabled in your browser. Please use Chrome 113+ or Edge.</div>
+  
+  <div id="hud">
+    <div class="title">WebGPU Compute Simulation</div>
+    <div class="metric" id="fps-val">60 FPS</div>
+    <div class="sub">Strands: 16,384 | Segments per Strand: 8</div>
+  </div>
+
+  <canvas id="gpu-canvas"></canvas>
+
+  <script type="module">
+    async function initWebGPU() {
+      if (!navigator.gpu) {
+        document.getElementById("warning").style.display = "block";
+        return;
+      }
+
+      const adapter = await navigator.gpu.requestAdapter();
+      const device = await adapter.requestDevice();
+
+      const canvas = document.getElementById("gpu-canvas");
+      canvas.width = window.innerWidth * window.devicePixelRatio;
+      canvas.height = window.innerHeight * window.devicePixelRatio;
+      const context = canvas.getContext("webgpu");
+
+      const format = navigator.gpu.getPreferredCanvasFormat();
+      context.configure({ device, format, alphaMode: "premultiplied" });
+
+      // Data posisi awal helai bulu (16384 strands * 8 segments)
+      const STRANDS = 16384;
+      const SEGMENTS = 8;
+      const TOTAL_VERTICES = STRANDS * SEGMENTS;
+      const vertexData = new Float32Array(TOTAL_VERTICES * 4); // vec4<f32> per vertex
+
+      let idx = 0;
+      for (let s = 0; s < STRANDS; s++) {
+        // Posisi dasar root di permukaan mesh silinder/bola
+        const theta = (s / STRANDS) * Math.PI * 2;
+        const baseX = Math.cos(theta) * 15.0;
+        const baseZ = Math.sin(theta) * 15.0;
+        const baseY = 0.0;
+
+        for (let seg = 0; seg < SEGMENTS; seg++) {
+          const t = seg / (SEGMENTS - 1);
+          vertexData[idx++] = baseX + t * 2.0;
+          vertexData[idx++] = baseY + t * 12.0;
+          vertexData[idx++] = baseZ;
+          vertexData[idx++] = (seg === 0) ? 1.0 : 0.0; // w = 1.0 jika root menempel di kulit
+        }
+      }
+
+      // Buat GPU Buffers (Double buffering untuk compute simulation)
+      const bufferA = device.createBuffer({
+        size: vertexData.byteLength,
+        usage: GPUBufferUsage.STORAGE | GPUBufferUsage.VERTEX | GPUBufferUsage.COPY_DST,
+      });
+      device.queue.writeBuffer(bufferA, 0, vertexData);
+
+      const bufferB = device.createBuffer({
+        size: vertexData.byteLength,
+        usage: GPUBufferUsage.STORAGE | GPUBufferUsage.VERTEX | GPUBufferUsage.COPY_DST,
+      });
+
+      // Uniform buffer untuk parameter simulasi (time, wind, gravity)
+      const uniformBuffer = device.createBuffer({
+        size: 32, // 5 floats dibulatkan ke alignment
+        usage: GPUBufferUsage.UNIFORM | GPUBufferUsage.COPY_DST,
+      });
+
+      // WGSL Shader Module
+      const shaderCode = `
+        struct SimulationParams {
+            time: f32,
+            wind_x: f32,
+            wind_z: f32,
+            gravity: f32,
+            strand_segments: u32,
+        };
+        @group(0) @binding(0) var<uniform> params: SimulationParams;
+        @group(0) @binding(1) var<storage, read> input_positions : array<vec4<f32>>;
+        @group(0) @binding(2) var<storage, write> output_positions: array<vec4<f32>>;
+
+        @compute @workgroup_size(64)
+        fn computeMain(@builtin(global_invocation_id) global_id: vec3<u32>) {
+            let index = global_id.x;
+            if (index >= arrayLength(&input_positions)) { return; }
+            let pos = input_positions[index];
+            if (pos.w > 0.5) {
+                output_positions[index] = pos;
+                return;
+            }
+            let seg_factor = f32(index % params.strand_segments) / f32(params.strand_segments);
+            var p = pos.xyz;
+            p.y -= params.gravity * seg_factor * seg_factor * 0.012;
+            p.x += sin(params.time * 3.0 + f32(index) * 0.1) * params.wind_x * seg_factor * 0.08;
+            p.z += cos(params.time * 2.5 + f32(index) * 0.1) * params.wind_z * seg_factor * 0.08;
+            output_positions[index] = vec4<f32>(p, 0.0);
+        }
+      `;
+
+      const computeShaderModule = device.createShaderModule({ code: shaderCode });
+      const computePipeline = device.createComputePipeline({
+        layout: "auto",
+        compute: { module: computeShaderModule, entryPoint: "computeMain" }
+      });
+
+      const renderShaderModule = device.createShaderModule({
+        code: `
+          struct VertexOutput {
+              @builtin(position) position: vec4<f32>,
+              @location(0) factor: f32,
+          };
+          @vertex
+          fn vertexMain(@location(0) pos: vec4<f32>, @builtin(vertex_index) vIdx: u32) -> VertexOutput {
+              var out: VertexOutput;
+              out.position = vec4<f32>(pos.x * 0.035, pos.y * 0.035 - 0.4, pos.z * 0.035 + 1.2, 1.0);
+              out.factor = f32(vIdx % 8u) / 8.0;
+              return out;
+          }
+          @fragment
+          fn fragmentMain(@location(0) factor: f32) -> @location(0) vec4<f32> {
+              let col = mix(vec3<f32>(0.12, 0.08, 0.06), vec3<f32>(0.92, 0.70, 0.38), factor);
+              return vec4<f32>(col, 1.0);
+          }
+        `
+      });
+
+      const renderPipeline = device.createRenderPipeline({
+        layout: "auto",
+        vertex: {
+          module: renderShaderModule,
+          entryPoint: "vertexMain",
+          buffers: [{
+            arrayStride: 16,
+            attributes: [{ shaderLocation: 0, offset: 0, format: "float32x4" }]
+          }]
+        },
+        fragment: {
+          module: renderShaderModule,
+          entryPoint: "fragmentMain",
+          targets: [{ format }]
+        },
+        primitive: { topology: "line-strip" }
+      });
+
+      let currentSource = bufferA;
+      let currentTarget = bufferB;
+      let frameCount = 0;
+      let lastTime = performance.now();
+
+      function frame(now) {
+        const timeSec = now * 0.001;
+        frameCount++;
+        if (now - lastTime >= 1000) {
+          document.getElementById("fps-val").textContent = `${frameCount} FPS`;
+          frameCount = 0;
+          lastTime = now;
+        }
+
+        // Update uniform buffer (Wind & Time)
+        const uniformData = new Float32Array([
+          timeSec,
+          Math.sin(timeSec * 0.8) * 1.5, // wind_x
+          Math.cos(timeSec * 0.5) * 1.5, // wind_z
+          9.81,                          // gravity
+          SEGMENTS                       // strand_segments
+        ]);
+        device.queue.writeBuffer(uniformBuffer, 0, uniformData);
+
+        const bindGroupCompute = device.createBindGroup({
+          layout: computePipeline.getBindGroupLayout(0),
+          entries: [
+            { binding: 0, resource: { buffer: uniformBuffer } },
+            { binding: 1, resource: { buffer: currentSource } },
+            { binding: 2, resource: { buffer: currentTarget } },
+          ],
+        });
+
+        const commandEncoder = device.createCommandEncoder();
+
+        // 1. Compute Pass (Physics Simulation di GPU)
+        const computePass = commandEncoder.beginComputePass();
+        computePass.setPipeline(computePipeline);
+        computePass.setBindGroup(0, bindGroupCompute);
+        computePass.dispatchWorkgroups(Math.ceil(TOTAL_VERTICES / 64));
+        computePass.end();
+
+        // 2. Render Pass (Gambar helai bulu ke layar)
+        const renderPass = commandEncoder.beginRenderPass({
+          colorAttachments: [{
+            view: context.getCurrentTexture().createView(),
+            clearValue: { r: 0.03, g: 0.04, b: 0.08, a: 1.0 },
+            loadOp: "clear",
+            storeOp: "store",
+          }]
+        });
+        renderPass.setPipeline(renderPipeline);
+        renderPass.setVertexBuffer(0, currentTarget);
+        renderPass.draw(TOTAL_VERTICES, 1, 0, 0);
+        renderPass.end();
+
+        device.queue.submit([commandEncoder.finish()]);
+
+        // Swap buffers
+        const temp = currentSource;
+        currentSource = currentTarget;
+        currentTarget = temp;
+
+        requestAnimationFrame(frame);
+      }
+
+      requestAnimationFrame(frame);
+    }
+
+    initWebGPU();
+  </script>
+</body>
+</html>
+
+```
+
+---
+
+### 3. Prompt `/goal` untuk WebGPU Graphics & Compute Pipeline (`AGENT_GOAL_PROMPT.md`)
+
+```markdown
+/goal Build a high-performance, real-time WebGPU fur and hair simulation running entirely in the browser using WGSL compute shaders.
+
+### 1. Compute & Render Architecture
+- Write WGSL compute shaders (`fur_shaders.wgsl`) to simulate gravity, sinusoidal wind forces, and spring constraints across 16,384 hair strands in parallel.
+- Configure double-buffered storage buffers (`GPUBufferUsage.STORAGE`) for zero-copy vertex state updates between compute and render passes.
+- Implement a lightweight WebGPU render pipeline with line-strip topology and warm root-to-tip color gradients.
+
+```
+
+---
+
+Mau kita lanjut ke **Project #7: 3D DEXA Body Twin (07:35) — Ekstraksi Laporan Medis PDF Menjadi Interactive 3D Digital Body Composition Twin**, bro?

@@ -1,0 +1,99 @@
+{
+  "begin_metadata": {
+    "errors": 0,
+    "first_sample": 1338672,
+    "fs": 4000,
+    "offset_millicounts": 1854697,
+    "record_bytes": 8,
+    "samples": 8000,
+    "saturations": 0,
+    "scale": 10000,
+    "status": 3,
+    "version": 1
+  },
+  "capture_armed_response_seen": true,
+  "created_utc": "2026-08-19T09:25:14+00:00",
+  "discarded_ascii_preamble_lines": [
+    "CAPTURE_ARMED"
+  ],
+  "end_metadata": {
+    "crc32": "82226EAD"
+  },
+  "files": {
+    "binary": "C:\\Users\\ardhy\\OneDrive\\Documents\\SKRIPSI\\RAW_CAPTURE_DATA\\RELAX_RAW_02.bin",
+    "csv": "C:\\Users\\ardhy\\OneDrive\\Documents\\SKRIPSI\\RAW_CAPTURE_DATA\\RELAX_RAW_02.csv",
+    "metadata": "C:\\Users\\ardhy\\OneDrive\\Documents\\SKRIPSI\\RAW_CAPTURE_DATA\\RELAX_RAW_02.json"
+  },
+  "protocol": "EMG_CAPTURE_V1",
+  "serial": {
+    "baudrate": 115200,
+    "format": "8N1",
+    "port": "COM3",
+    "timeout_s": 45.0
+  },
+  "sha256_protocol_binary": "df686575a96d1f74e83db82ab2979905b61ef0a32ef5c8c57e7ff127ea1570ec",
+  "source": "serial",
+  "validation": {
+    "adc_out_of_range_count": 0,
+    "capture_valid": true,
+    "crc32_computed": "82226EAD",
+    "crc32_transmitted": "82226EAD",
+    "expected_samples_cli": 8000,
+    "expected_status_cli": 3,
+    "implicit_first_sample_index": 1338672,
+    "implicit_last_sample_index": 1346671,
+    "integer_field_statistics": {
+      "adc_raw": {
+        "max": 1891,
+        "mean": 1860.666375,
+        "min": 1830
+      },
+      "bandpass_q": {
+        "max": 161,
+        "mean": 0.094,
+        "min": -215
+      },
+      "hpf_q": {
+        "max": 202,
+        "mean": 0.09625,
+        "min": -261
+      },
+      "notch_q": {
+        "max": 182,
+        "mean": 0.114875,
+        "min": -187
+      }
+    },
+    "payload_bytes": 64000,
+    "record_count": 8000,
+    "validations": {
+      "adc_values_in_range": true,
+      "crc32_valid": true,
+      "errors_zero": true,
+      "offset_in_adc_range": true,
+      "record_count_matches_begin": true,
+      "sample_count_matches_cli": true,
+      "saturations_zero_if_reported": true,
+      "status_matches_expected": true
+    }
+  },
+  "wire_format": {
+    "adc_conversion_assumptions": {
+      "adc_max": 4095,
+      "vref_mv": 3300
+    },
+    "begin_ascii": "EMG_CAPTURE_BEGIN,version=1,samples=8000,fs=4000,record_bytes=8,scale=10000,first_sample=1338672,offset_millicounts=1854697,status=3,errors=0,saturations=0",
+    "crc": "CRC-32/IEEE over payload only; 8 hex digits in END line",
+    "payload_endianness": "little",
+    "record_fields_transmitted": [
+      "adc_raw",
+      "hpf_q",
+      "bandpass_q",
+      "notch_q"
+    ],
+    "record_size_bytes": 8,
+    "record_struct_python": "<Hhhh",
+    "sample_index": "implicit first_sample + zero-based row, uint32 wrap",
+    "scale_counts_per_volt": 10000
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "updated_local_date": "2026-10-19",
+  "execution": "Follow the five newly supplied briefs sequentially. Finish and verify one project before implementing the next.",
+  "current_completed_project": "G10/A10",
+  "next_project": "complete",
+  "linkedin": "No individual project posting. Wait for a combined 3-5 project post and explicit final review approval. Keep posting automation paused.",
+  "projects": [
+    {
+      "id": "G01",
+      "name": "Legacy Orbital Port: Fortran to Rust and C++20",
+      "state": "complete",
+      "brief": "Project_01_Original_Brief.txt",
+      "local_repo": "C:\\Users\\ardhy\\Projects\\legacy-orbital-port",
+      "repo": "https://github.com/vanovri/legacy-orbital-port",
+      "release": "https://github.com/vanovri/legacy-orbital-port/releases/tag/v0.1.0",
+      "commit": "6a0ef64a7785217765868e209f1339dbc610a6b6",
+      "ci": "https://github.com/vanovri/legacy-orbital-port/actions/runs/39174423811",
+      "ci_jobs_passed": 4,
+      "verification": "10 referee tests, 27 scenarios, 101 trajectory checkpoints, analytic circular/free-drift oracles, convergence, invariants, 14 rejected invalid-input/singular-stage cases per language, and reproduced supplied integer-stage defect. Both optimized and checked profiles passed locally and in CI. Clean checkout passed. Published ZIP checksum matches.",
+      "provenance": "Synthetic legacy-style user-supplied example, corrected and ported with Codex assistance. No authenticated 1960s source, Gemini invocation, or flight-validation claim."
+    },
+    {
+      "id": "G02",
+      "name": "ADK-style Python Runtime Optimization Lab",
+      "state": "complete",
+      "brief": "Project_02_Original_Brief.txt",
+      "implementation_note": "Treat as a standalone educational runtime, not an upstream google/adk-python optimization. Audit nested input/output mutation semantics and tool changes before caching or removing copies. Supplied artificial sleeps and hardcoded percent targets do not establish real performance. Measure fresh-process imports and repeated latency/memory with honest workload and provenance.",
+      "repo": "https://github.com/vanovri/agent-runtime-lab",
+      "release": "https://github.com/vanovri/agent-runtime-lab/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G03",
+      "name": "Android 2D-to-3D Spatial UI and Compiler Repair",
+      "state": "complete",
+      "brief": "Project_03_Original_Brief.txt",
+      "implementation_note": "Requires an actual Android project and successful assembleDebug. A simulated diagnostic loop is not an APK build. Use constrained paths and real diagnostic locations when applying patches.",
+      "repo": "https://github.com/vanovri/spatial-electronics-lab",
+      "release": "https://github.com/vanovri/spatial-electronics-lab/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G04",
+      "name": "Desk Racer",
+      "state": "complete",
+      "brief": "Project_04_Original_Brief.txt",
+      "implementation_note": "Supplied scene uses example detections, not a reconstruction of the user's actual desk. Label synthetic fixtures. Validate full traversable track segments, obstacle collision envelopes, and units, not only checkpoint centers.",
+      "repo": "https://github.com/vanovri/desk-circuit-racer",
+      "release": "https://github.com/vanovri/desk-circuit-racer/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G05",
+      "name": "Parametric Pagoda and Independent Critic",
+      "state": "complete",
+      "brief": "Project_05_Original_Brief.txt",
+      "implementation_note": "The brief explicitly requests a separate critic subagent for this phase. Require actual Blender output/render/export and independent geometry/visual evidence. Do not promote metadata-only fallback or hardcoded visual scores to a verified render/export.",
+      "repo": "https://github.com/vanovri/parametric-pavilion",
+      "release": "https://github.com/vanovri/parametric-pavilion/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G06",
+      "state": "complete",
+      "brief": "Project_06_Original_Brief.txt",
+      "implementation_note": "Actual WGSL compute/render fur-strand simulation plus cable mode, CPU reference, race-free buffers, measurable constraint/parity/stability gates and explicit fallback/device-loss handling.",
+      "repo": "https://github.com/vanovri/webgpu-cable-lab",
+      "release": "https://github.com/vanovri/webgpu-cable-lab/releases/tag/v0.1.0"
+    },
+    {
+      "id": "G07",
+      "state": "complete",
+      "brief": "Project_07_Original_Brief.txt",
+      "implementation_note": "Synthetic DEXA text extraction, disjoint-region mass checks with correct quantities/units and missing-data rules; own schematic three-dimensional region inspector, heatmaps and no diagnostic claims.",
+      "repo": "https://github.com/vanovri/body-data-viewer",
+      "release": "https://github.com/vanovri/body-data-viewer/releases/tag/v0.1.0",
+      "commit": "a48e8698df8b4bf0f62a4b20e4cd6839c712657f",
+      "ci": "https://github.com/vanovri/body-data-viewer/actions/runs/39232032030",
+      "verification": "36 referee tests pass across text, PDF and JSON routes; the three routes are identical. Mass gate 80.000 kg vs 80.000 kg (0.000%). Embedded payload equals parser output; viewer has no external assets or network fetch. Chromium (SwiftShader) browser QA: zero console errors, all three layers switched, trunk raycast passed. Release ZIP verified entry-by-entry and remote asset SHA-256 matches.",
+      "provenance": "Invented seven-region teaching data labelled SYNTHETIC; schematic mannequin, not an anatomical model, vendor ROI map or diagnostic device."
+    },
+    {
+      "id": "G08",
+      "state": "complete",
+      "brief": "Project_08_Original_Brief.txt",
+      "implementation_note": "CCSDS OEM subset ingestion plus prior CSV replay, epoch/frame/unit checks, same-frame Moon ephemeris, interpolation and consistent state-derived telemetry. Never label supplied examples as authenticated NASA flight data or claim time-dependent energy conservation.",
+      "repo": "https://github.com/vanovri/cislunar-oem-replay",
+      "release": "https://github.com/vanovri/cislunar-oem-replay/releases/tag/v0.2.0",
+      "commit": "5c28781502729616401cadf00dc9dfa8f06d180c",
+      "ci": "https://github.com/vanovri/cislunar-oem-replay/actions/runs/39234393753",
+      "verification": "43 tests pass. OEM and CSV replay produce identical samples. Embedded payload matches the parser output; no external assets or network fetch. Clearance gates pass: min Earth altitude 199.9 km, min lunar altitude 7,263 km (7,276 km along the 600-point track). Lunar ephemeris within 12/35/13 km of three JPL Horizons vectors (max 34.5 km). Two-body energy spread 63.4 km2/s2 reported as diagnostic only. Browser QA on Chromium/SwiftShader: zero console errors, three camera modes and scrubber verified. Release ZIP verified entry-by-entry; remote SHA-256 matches.",
+      "provenance": "Synthetic reference geometry labelled SYNTHETIC_TEACHING_PROFILE_V1 with spline-derived velocities; not propagated, not NASA data, not a navigation product."
+    },
+    {
+      "id": "G09",
+      "state": "complete",
+      "brief": "Project_09_Original_Brief.txt",
+      "implementation_note": "Actual parametric enclosure CAD/OpenSCAD and watertight STL export plus sensor-mount preset. Geometric wall, hole, boss and clearance checks; honest manual example sketch provenance; no physical printing, snap-fit or manufacturability proof without tests.",
+      "repo": "https://github.com/vanovri/sensor-enclosure-cad",
+      "release": "https://github.com/vanovri/sensor-enclosure-cad/releases/tag/v0.1.0",
+      "commit": "6fd95044d297e218f4c646ff69a5886cbe41b5a3",
+      "ci": "https://github.com/vanovri/sensor-enclosure-cad/actions/runs/39238859739",
+      "verification": "47 tests pass. 20/20 spec gates and 17/17 mesh checks pass. Base, both lids and assembly are watertight with consistent winding and zero degenerate triangles. Measured wall thickness 2.40 mm on four sides; USB-C opening penetrates the wall; boss hole blind at 10 mm. Volumes 42039.8 / 24836.4 / 66876.2 mm3; assembly equals the sum of parts. Committed SCAD regenerates byte-identically. Browser QA on Chromium/SwiftShader: zero console errors, preset/explode/section/wireframe exercised. Release ZIP verified; remote SHA-256 matches.",
+      "provenance": "Manual transcription of an example napkin sketch; no photograph, OCR or measured board. OpenSCAD 2021.01 render; no physical print, fit test or manufacturability claim."
+    },
+    {
+      "id": "G10",
+      "state": "complete",
+      "brief": "Project_10_Original_Brief.txt",
+      "implementation_note": "Multi-device WebSocket tennis/motion rally with validated timestamped sensor input, pairing/calibration, secure-context sensor UX, stale/disconnect handling, fixed-step ball physics, touch fallback and optional server-side Gemini TTS integration. No fake provider calls or unmeasured latency claims.",
+      "repo": "https://github.com/vanovri/motion-rally",
+      "release": "https://github.com/vanovri/motion-rally/releases/tag/v0.2.1",
+      "commit": "25e6bf22ad66fe7b2fd501ccd4e3dc3d188b949a",
+      "ci": "https://github.com/vanovri/motion-rally/actions/runs/39241285312",
+      "verification": "21 Node tests pass. Host plus two controllers pair; duplicate slot rejected. Inputs are timestamped, sequence-checked, rate-limited and stale-decayed; host close closes the room. Deterministic 120 Hz physics reproduced across runs. TTS adapter makes zero fetches without a key and one stub call with a key. Browser QA: zero console errors, both slots connected, touch input moved paddles to 0.80/-0.60, score reached 0-5 with 5 commentary entries. Local probe: 107 snapshots in 6 s, gap p50 62.6 ms / p95 70.1 ms. Release ZIP verified; remote SHA-256 matches.",
+      "provenance": "Original code and court model. Raw DeviceOrientation plus touch fallback; no sensor fusion or real-device motion verified in CI. No Gemini audio generated; adapter disabled without key."
+    }
+  ],
+  "previous_work": {
+    "queue": "../Gemini_Projects_2026-10-18/Project_Queue.json",
+    "R05_checkpoint": "../Gemini_Projects_2026-10-18/R05_Checkpoint.txt",
+    "note": "See MASTER_EXECUTION.json for verified progress. UART Twin Bench has been merged and released as v0.3.0."
+  }
+}

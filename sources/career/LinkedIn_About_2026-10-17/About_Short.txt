@@ -1,0 +1,10 @@
+I hold a Bachelor of Engineering in Electrical Engineering from Diponegoro University. My focus is embedded systems, IoT, and Python software.
+
+As CTO / Technical Lead at ENVIID Carbon Solutions, I am the sole developer of its website, built with AI assistance, including a carbon calculator and digital MRV demonstration.
+
+My experience includes IoT prototyping at Redesma Technologies, an electrical systems internship at Angkasa Pura Indonesia, and one academic year as a Basic Electronics Practicum Assistant. My thesis covered STM32-based EMG acquisition, signal processing, and a Python monitoring interface.
+
+I also build AI-assisted developer tools. Based in Bekasi.
+
+Portfolio & CV: https://ardhyanovri.my.id
+GitHub: https://github.com/vanovri

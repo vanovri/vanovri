@@ -1,0 +1,17 @@
+Saya menambah dua kasus regresi di RepairGate: penggabungan interval dan moving average data sensor sintetis.
+
+Di setiap kasus, ada kandidat yang lolos dua contoh awal tetapi gagal saat diperiksa dengan input lain.
+
+Alurnya:
+- Tolak perubahan pada file tes.
+- Jalankan kandidat dari salinan sumber awal yang sama.
+- Periksa contoh awal dan kasus independen.
+- Catat keputusan, diff, log tes, dan hash file.
+
+Hasil replay tiga kasus: tiga kandidat yang hanya cocok dengan contoh ditolak. Tiga perbaikan umum diterima sesuai cakupan tesnya.
+
+Kandidat perbaikannya direkam agar demo bisa diulang tanpa model atau API berbayar. Hasil tes dihitung ulang setiap dijalankan. Semua data sintetis.
+
+Dikembangkan dengan bantuan Codex. Terinspirasi dari pembahasan verifikasi hasil coding agent, lalu diterapkan pada kasus kecil yang bisa diperiksa langsung.
+
+Kode dan dokumentasi: https://github.com/vanovri/repairgate/pull/1

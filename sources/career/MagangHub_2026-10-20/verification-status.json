@@ -1,0 +1,36 @@
+{
+  "status": "partially_complete_missing_historical_training_facts",
+  "verified": "2026-10-21",
+  "scope": "SIAPkerja and KarirJakarta. ENVIID excluded.",
+  "siapkerja": {
+    "bio": "Saved concise factual biography; no ENVIID",
+    "education": "Four entries verified: SD 2010-2016, SMP 2016-2019, SMA 2019-2022, S1 2022-2026, GPA 3.43",
+    "work": "Four entries saved: Redesma, Angkasa Pura, practicum assistant, ENIGMA workshop instructor",
+    "skills": "C++ Programming corrected to C Programming Language and verified in saved profile; nine skills total",
+    "certification": "SEU institutional prediction score 632, June 2026-June 2028 with proof",
+    "achievements": "GSA Class of 2025 and SEED media head 2025",
+    "registration": "Registered as jobseeker until 21 April 2027",
+    "training": "Not saved. Visible DOM confirms region, startMonth, startYear, finishMonth, finishYear required. Unknown historical dates/locations were not invented. Course information remains in uploaded application CV.",
+    "siteIssue": "Non-expiring Cisco course cannot truthfully fill required certification expiry fields."
+  },
+  "karirjakarta": {
+    "experienceCount": 14,
+    "hasENVIID": false,
+    "domicileSameAsKTP": true,
+    "degree": "S1 Electrical Engineering 2026 GPA 3.43",
+    "competencies": "KSN-K Geography 8 November 2020-7 February 2021 with certificate",
+    "cv": "Ardhya_Novri_Ramadhan_CV_Aplikasi.pdf, 12953 bytes, four pages, no ENVIID",
+    "social": "Seven existing profiles preserved and portfolio link added",
+    "bio": "Saved evidence-based summary with source precision",
+    "schoolGrades": "SD/SMP/SMA not added because required final grades not available",
+    "dates": "Exact administrative days used where source gives month/year only; explanation included in descriptions"
+  },
+  "pending": [
+    "Training start month and attendance location for Cisco, Google AI, OpenLearn; user does not remember",
+    "CABOOT location March-May 2024; user does not remember",
+    "KSN online attendance location November 2020-February 2021; user does not remember",
+    "Daily dates for further KarirJakarta competencies if required; do not invent",
+    "SD/SMP/SMA final grades for KarirJakarta if those education levels are to be added"
+  ],
+  "userTrainingAnswer": "User does not remember start months or attendance locations, confirmed 21 October 2026"
+}

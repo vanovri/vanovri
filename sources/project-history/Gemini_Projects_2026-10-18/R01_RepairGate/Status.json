@@ -1,0 +1,49 @@
+{
+  "project": "R01 RepairGate Regression Lab",
+  "version": "0.2.0",
+  "date": "2026-10-18",
+  "commit": "e489f187f4abc783ccf77bc9f0b3a723cbc85220",
+  "branch": "codex/regression-lab",
+  "pull_request": "https://github.com/vanovri/repairgate/pull/1",
+  "state": "merged to main; CI passed; carousel prepared for review",
+  "pytest": {
+    "passed": 28,
+    "warnings": 1,
+    "warning": "Existing FastAPI TestClient httpx deprecation"
+  },
+  "frontend_build": "passed",
+  "replay": {
+    "cases": 3,
+    "accepted_repairs": 3,
+    "policy_rejections": 3,
+    "visible_pass_holdout_fail": 3
+  },
+  "browser_checks": [
+    "interval-merge accepted and overfit decisions",
+    "sample-window accepted and overfit decisions",
+    "390px narrow layout checked; heading spacing corrected",
+    "no browser console errors observed"
+  ],
+  "browser_export": "Button invoked; downloaded file not independently captured. CLI JSON export verified.",
+  "linkedin_posted": false,
+  "automation_reactivated": false,
+  "python": "3.14.7",
+  "data": "synthetic",
+  "proposals": "recorded; no live model benchmark",
+  "ci": [
+    {
+      "url": "https://github.com/vanovri/repairgate/actions/runs/39076897345",
+      "conclusion": "success"
+    },
+    {
+      "url": "https://github.com/vanovri/repairgate/actions/runs/39076878378",
+      "conclusion": "success"
+    }
+  ],
+  "source_zip_replay": "passed after extraction, three cases accepted with expected rejections",
+  "merge_commit": "a895d54b748cf51a2237c5091b05c53b1e7a6f33",
+  "ci_main": "success",
+  "carousel": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R01_RepairGate\\Carousel\\Ready",
+  "linkedin": "deferred by user; combine 3-5 completed projects later",
+  "posted": false
+}

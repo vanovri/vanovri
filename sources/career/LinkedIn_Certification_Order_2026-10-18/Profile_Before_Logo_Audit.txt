@@ -1,0 +1,1581 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "Search":
+    - paragraph: I'm looking for…
+  - dialog:
+    - status: 9 suggestions available, use up and down arrow keys to navigate
+    - search:
+      - textbox "I'm looking for…"
+    - listbox:
+      - heading "Recent entity history" [level=2]:
+        - generic: Recent entity history
+        - text: Recent
+      - option "Clear all":
+        - button "Clear all":
+          - generic: Clear all
+      - option "Ihsanuddin Fadillah recent entity history":
+        - link "Ihsanuddin Fadillah recent entity history":
+          - /url: https://www.linkedin.com/in/ihsanfadillah5/
+          - figure
+          - paragraph:
+            - generic: Ihsanuddin Fadillah recent entity history
+            - text: Ihsanuddin Fadillah
+      - option "portfolio recent query history":
+        - link "portfolio recent query history":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=portfolio&origin=HISTORY&position=0
+          - generic "portfolio recent query history":
+            - paragraph: portfolio
+      - option "jobs recent query history":
+        - link "jobs recent query history":
+          - /url: https://www.linkedin.com/jobs/search-results/?keywords=jobs&origin=SUGGESTION
+          - generic "jobs recent query history":
+            - paragraph: jobs
+            - paragraph: Jobs
+      - paragraph: Try searching for
+      - option "portfolio manager query suggestion":
+        - link "portfolio manager query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=portfolio+manager&origin=QUERY_SUGGESTION&position=0
+          - generic "portfolio manager query suggestion":
+            - paragraph: portfolio manager
+      - option "investment query suggestion":
+        - link "investment query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=investment&origin=QUERY_SUGGESTION&position=0
+          - generic "investment query suggestion":
+            - paragraph: investment
+      - option "equity query suggestion":
+        - link "equity query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=equity&origin=QUERY_SUGGESTION&position=0
+          - generic "equity query suggestion":
+            - paragraph: equity
+      - option "trader query suggestion":
+        - link "trader query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=trader&origin=QUERY_SUGGESTION&position=0
+          - generic "trader query suggestion":
+            - paragraph: trader
+      - option "recruiter query suggestion":
+        - link "recruiter query suggestion":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=recruiter&origin=QUERY_SUGGESTION&position=0
+          - generic "recruiter query suggestion":
+            - paragraph: recruiter
+  - navigation:
+    - list:
+      - button "Home, 0 new notifications":
+        - generic: Home
+      - link "My Network, 1 new notification":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "1"
+        - generic: My Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 1 new notification":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "1"
+        - generic: Notifications
+      - button "More":
+        - text: More
+  - button "Ardhya Novri Ramadhan Me":
+    - generic "Ardhya Novri Ramadhan Me":
+      - figure
+      - paragraph: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Sales Navigator, 1 new notification":
+        - /url: https://www.linkedin.com/sales/?trk=d_flagship3_nav
+        - generic: "1"
+        - generic: Sales Nav
+  - figure
+- toolbar:
+  - link "Ardhya Novri Ramadhan":
+    - /url: https://www.linkedin.com/in/dhya/
+    - generic "Ardhya Novri Ramadhan":
+      - figure
+      - paragraph: Ardhya Novri Ramadhan
+      - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+  - button "More":
+  - link "Add section":
+    - /url: https://www.linkedin.com/in/dhya/
+    - generic: Add section
+  - button "Open to":
+    - generic: Open to
+- main:
+  - region "Primary content":
+    - button:
+      - figure:
+        - img "Cover photo"
+    - button "Edit background image":
+    - link "Profile photo":
+      - /url: https://www.linkedin.com/in/dhya/
+      - generic "Profile photo":
+        - figure
+    - link "Ardhya Novri is a Premium member":
+      - /url: https://www.linkedin.com/in/dhya/
+      - img "Ardhya Novri is a Premium member"
+    - link "Edit profile":
+      - /url: https://www.linkedin.com/in/dhya/edit/intro/
+    - heading "Ardhya Novri Ramadhan" [level=2]
+    - paragraph: He/Him
+    - link "Verify in 2 minutes":
+      - /url: https://www.linkedin.com/trust/verification/?isDeepLinkToCCT=true&verificationUrl=https%3A%2F%2Fwww.linkedin.com%2Fverify%2F%3FentryPoint%3Dselfview_topcard
+      - paragraph: Verify in 2 minutes
+    - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+    - paragraph: Kota Bekasi, West Java, Indonesia
+    - paragraph: ·
+    - paragraph:
+      - link "Contact info":
+        - /url: https://www.linkedin.com/in/dhya/overlay/contact-info/
+    - button "ENVIID Carbon Solutions":
+      - figure:
+      - paragraph: ENVIID Carbon Solutions
+    - button "Diponegoro University":
+      - figure
+      - paragraph: Diponegoro University
+    - link "500+ connections":
+      - /url: https://www.linkedin.com/mynetwork/invite-connect/connections/
+      - paragraph: 500+ connections
+    - button "Open to":
+      - generic: Open to
+    - link "Add section":
+      - /url: https://www.linkedin.com/in/dhya/
+      - generic: Add section
+    - link "Add custom button":
+      - /url: https://www.linkedin.com/in/dhya/overlay/custom-button/
+      - generic: Add custom button
+    - button "More":
+    - heading "Analytics" [level=2]
+    - paragraph: Private to you
+    - link "95 profile views Discover who’s viewed your profile.":
+      - /url: https://www.linkedin.com/analytics/profile-views/
+      - paragraph: 95 profile views
+      - paragraph: Discover who’s viewed your profile.
+    - link "668 post impressions Check out who’s engaging with your posts. Past 7 days":
+      - /url: https://www.linkedin.com/analytics/creator/content/?timeRange=past_7_days&dimension=INDUSTRY&metricType=IMPRESSIONS
+      - paragraph: 668 post impressions
+      - paragraph: Check out who’s engaging with your posts.
+      - paragraph: Past 7 days
+    - link "11 search appearances See how often you appear in search results.":
+      - /url: https://www.linkedin.com/analytics/search-appearances/
+      - paragraph: 11 search appearances
+      - paragraph: See how often you appear in search results.
+    - link "Show all analytics":
+      - /url: https://www.linkedin.com/dashboard/
+      - generic: Show all
+    - heading "About" [level=2]
+    - link "Edit about":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/summary/new/
+    - paragraph:
+      - text: I hold a Bachelor of Engineering in Electrical Engineering from Diponegoro University. My focus is embedded systems, IoT, and Python software.
+      - text: As CTO / Technical Lead at ENVIID Carbon Solutions, I am the sole developer of its website, built with AI assistance, including a carbon calculator and digital MRV demonstration.
+      - text: My experience includes IoT prototyping at Redesma Technologies, an electrical systems internship at Angkasa Pura Indonesia, and one academic year as a Basic Electronics Practicum Assistant. My thesis covered STM32-based EMG acquisition, signal processing, and a Python monitoring interface.
+      - text: I also build AI-assisted developer tools. Based in Bekasi.
+      - text: "Portfolio & CV: https://ardhyanovri.my.id"
+      - text: "GitHub: https://github.com/vanovri"
+      - button:
+        - generic: … more
+    - paragraph: Top skills
+    - paragraph: Electronics Technology • Embedded Systems • C (Programming Language) • STM32 • Signal Processing
+    - link "Show top skills":
+      - /url: https://www.linkedin.com/in/dhya/overlay/top-skills-details/
+    - heading "Featured" [level=2]
+    - button "Featured overflow menu":
+    - link "View featured detail screen":
+      - /url: https://www.linkedin.com/in/dhya/details/featured/
+    - list:
+      - 'link "Post I''d like to share my portfolio, with a selection of my work in electrical engineering, embedded systems, Python, and software development. It includes: - My electrical engineering internship at Angkasa Pura Indonesia. - An STM32-based EMG acquisition and monitoring project. - The ENVIID website, which I developed with AI assistance. - DataRescue, RepairGate, and ApplyProof. - Teaching experience, campus roles, and selected course certificates. I''ve included project notes and supporting documentation so you can see my contribution and the process behind the work. Portfolio: Open https://ardhyanovri.my.id/ GitHub: Open https://github.com/vanovri Portfolio 2026 | Ardhya Novri Ramadhan 10, number of reactions"':
+        - /url: https://www.linkedin.com/feed/update/urn:li:activity:7517162021939859456/
+        - paragraph: Post
+        - figure
+        - paragraph:
+          - text: I'd like to share my portfolio, with a selection of my work in electrical engineering, embedded systems, Python, and software development.
+          - text: "It includes:"
+          - text: "- My electrical engineering internship at Angkasa Pura Indonesia."
+          - text: "- An STM32-based EMG acquisition and monitoring project."
+          - text: "- The ENVIID website, which I developed with AI assistance."
+          - text: "- DataRescue, RepairGate, and ApplyProof."
+          - text: "- Teaching experience, campus roles, and selected course certificates."
+          - text: I've included project notes and supporting documentation so you can see my contribution and the process behind the work.
+          - text: "Portfolio:"
+          - link "Open https://ardhyanovri.my.id/":
+            - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fardhyanovri%2Emy%2Eid%2F&urlhash=hYR9&mt=DDfvUpMZqO7lPqqwe7IApLJl3c7Nh7SY37lJE7wYlWRDk__QSfikOj1Dy-KFXr8GvR3unWkkLOpHlSBXI3EQKkordCj9&isSdui=true
+            - text: https://ardhyanovri.my.id/
+          - text: "GitHub:"
+          - link "Open https://github.com/vanovri":
+            - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fgithub%2Ecom%2Fvanovri&urlhash=G6Go&mt=bXMMQz14zPMI7psWLwEpEaMoqF_nNZOfje8BCKWOHnB9Vf3UVvZw5vlw7JlOzjwt8HJo9SMGsXADKuGJA7P_OAKuNAlP&isSdui=true
+            - text: https://github.com/vanovri
+        - paragraph: Portfolio 2026 | Ardhya Novri Ramadhan
+        - paragraph:
+          - generic: 10, number of reactions
+          - text: "10"
+    - heading "Activity" [level=2]
+    - link "578 followers":
+      - /url: https://www.linkedin.com/feed/followers/
+      - paragraph: 578 followers
+    - link "Create a post":
+      - /url: https://www.linkedin.com/sharing/compose
+      - generic: Create a post
+    - link "Edit default activity":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/content-collections-star-pill/new/
+    - checkbox "Posts" [checked]
+    - generic: Posts
+    - checkbox "Documents"
+    - generic: Documents
+    - list:
+      - list:
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You":
+            - paragraph: Ardhya Novri Ramadhan
+            - paragraph:
+              - text: • You
+        - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+        - paragraph:
+          - text: 20h •
+          - 'img "Visibility: Global"'
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You"
+        - button "Open control menu for post by Ardhya Novri Ramadhan":
+        - 'link "I''d like to share my portfolio, with a selection of my work in electrical engineering, embedded systems, Python, and software development. It includes: - My electrical engineering internship at Angkasa Pura Indonesia. - An STM32-based EMG acquisition and monitoring project. - The ENVIID website, which I developed with AI assistance. - DataRescue, RepairGate, and ApplyProof. - Teaching experience, campus roles, and selected course certificates. I''ve included project notes and supporting documentation so you can see my contribution and the process behind the work. Portfolio: Open https://ardhyanovri.my.id/ GitHub: Open https://github.com/vanovri"':
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7517162021939859456/
+          - paragraph:
+            - text: I'd like to share my portfolio, with a selection of my work in electrical engineering, embedded systems, Python, and software development.
+            - text: "It includes:"
+            - text: "- My electrical engineering internship at Angkasa Pura Indonesia."
+            - text: "- An STM32-based EMG acquisition and monitoring project."
+            - text: "- The ENVIID website, which I developed with AI assistance."
+            - text: "- DataRescue, RepairGate, and ApplyProof."
+            - text: "- Teaching experience, campus roles, and selected course certificates."
+            - text: I've included project notes and supporting documentation so you can see my contribution and the process behind the work.
+            - text: "Portfolio:"
+            - link "Open https://ardhyanovri.my.id/":
+              - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fardhyanovri%2Emy%2Eid%2F&urlhash=hYR9&mt=SFF6f8BuMuVLk9IUiw208MxAEWmNac4qp6kfaYzb1rK4GxN_peq_-_aYXc0ZwWfEGDiQwDC3VDf90am18G9nnU9tcfn_6uch3S5lfRirhQFlPpXBBKx_VeqIofU&isSdui=true
+              - strong: https://ardhyanovri.my.id/
+            - text: "GitHub:"
+            - link "Open https://github.com/vanovri":
+              - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fgithub%2Ecom%2Fvanovri&urlhash=G6Go&mt=6d8vQFHsyi9vOuRNRAhvbNR5w2PrtRS-k-OsGF8UpW31M4vGKOLpzl53BjbGHxxFxsE-4YgWJ3ppMr0Gul1aVMEel2O3WlmfBlQZ0KlqayihZoX1fOsu3cfxGYE&isSdui=true
+              - strong: https://github.com/vanovri
+            - button:
+              - generic: … more
+        - link "Portfolio 2026 | Ardhya Novri Ramadhan 10 pages":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7517162021939859456/
+          - figure
+          - paragraph: Portfolio 2026 | Ardhya Novri Ramadhan
+          - paragraph: 10 pages
+        - 'button "Reaction button state: Like"':
+          - generic: "10"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7517162021939859456/
+        - button "Repost":
+        - link "Send":
+          - /url: https://www.linkedin.com/in/dhya/
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "10 reactions":
+        - link "View analytics":
+          - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7517162021939859456/
+          - generic "View analytics":
+            - generic "Content analytics":
+              - img "Analytics Icon"
+              - paragraph: 651 impressions
+            - paragraph:
+              - generic: View analytics
+              - text: View analytics
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - paragraph:
+          - link "View Ardhya Novri Ramadhan’s profile":
+            - /url: https://www.linkedin.com/in/dhya/
+            - strong: Ardhya Novri Ramadhan
+          - text: reposted this
+        - button "Open control menu for post by Surendhar V":
+        - link:
+          - /url: https://www.linkedin.com/in/surendharasic/
+          - figure:
+            - img "View Surendhar V’s profile, open to work"
+        - link "Surendhar V, Open to work Verified Profile 2nd":
+          - /url: https://www.linkedin.com/in/surendharasic/
+          - generic "Surendhar V, Open to work Verified Profile 2nd":
+            - paragraph: Surendhar V
+            - paragraph:
+              - text: • 2nd
+        - paragraph: ASIC Design Engineer | VLSI • Verilog RTL • Xilinx Vivado | Design & Verification Trainee @ Maven Silicon | GDG Hackathon Winner
+        - paragraph:
+          - text: 1yr •
+          - 'img "Visibility: Global"'
+        - link "Surendhar V, Open to work Verified Profile 2nd":
+          - /url: https://www.linkedin.com/in/surendharasic/
+          - generic "Surendhar V, Open to work Verified Profile 2nd"
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7369209869318422529/
+          - paragraph:
+            - text: ✨ Free Online Courses & Certifications in VLSI
+            - text: "If you are starting your journey in VLSI Design, Digital Circuits, or Chip Design, here are some trusted platforms that offer free courses with certifications:"
+            - text: 🔹 NPTEL CMOS Digital Design, VLSI Physical Design, Analog IC Design
+            - text: 🌐
+            - link "Open http://nptel.ac.in":
+              - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Fnptel%2Eac%2Ein&urlhash=3Jkp&mt=VO_vlceDLtKadd1RpgXL8II8d3NxsYb9sof7cKHgI668dNSueAdr4Mt5wzxPC7R2KZveLd9wxRZ44lWnAAwL6eXN2KOFvBR6NBnyN4xYfogYi6kVmZSglvAqOoY&isSdui=true
+              - strong: nptel.ac.in
+            - text: 🔹 VSD (VLSI System Design) Physical Design Flow, Custom Layout using Magic tool, STA basics
+            - text: 🌐
+            - link "Open http://vlsisystemdesign.com":
+              - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Fvlsisystemdesign%2Ecom&urlhash=2Cjm&mt=NpVWHBU64i71BwE-bGXbFR_OZIv9KfVBtkHUAf8KCz0z4Ol5Rw7M-ufuUvX63Awx3pTRxJWaBydwfnQ-fCgs_K0OMIYkHoNRBAE9cz-Q9w0CTCVQ--WMQ48NURE&isSdui=true
+              - strong: vlsisystemdesign.com
+            - text: 🔹 Coursera VLSI CAD, Digital Systems, FPGA Design
+            - text: 🌐
+            - link "Open http://coursera.org":
+              - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Fcoursera%2Eorg&urlhash=dgOa&mt=858YUZOlstwHvwoc7DFFoqpNCaZuhFWcZGDVGelokgusu1_O8uxznHIXRA77DJ-QL9Jbwt5jvBPMA-pjipRzVYeaX5SHvDTky5jd_PDCVFLt5VFEvpultQvxBH8&isSdui=true
+              - strong: coursera.org
+            - text: 🔹 edX Fundamentals of Microelectronics, Digital Circuits
+            - text: 🌐
+            - link "Open http://edx.org":
+              - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Fedx%2Eorg&urlhash=BgIS&mt=LTj08DJFiNt32dvEBtC7DGvXcYwR6CiEqevEMLSnesnBckMbJomgNqvU8pFgTpULFu2b45-7BW5UayH71-j1cOAV2QaT45P8gmjydbJNZnCed5avELMi52Mh9iY&isSdui=true
+              - strong: edx.org
+            - text: 🔹 MIT OpenCourseWare Introduction to VLSI Systems, Circuits & Electronics
+            - text: 🌐
+            - link "Open http://ocw.mit.edu":
+              - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Focw%2Emit%2Eedu&urlhash=pAwO&mt=AQrNH_0HbiPg4WvYQ8_quqCpfa62NwZwojfX-KYSrMAId0QK5EpewxttJFepJftwXzMPKXjdrorI-dK_l11ibwQV0bIONqCvcO6057wUMk_JEsoQwhHWHpBP7o4&isSdui=true
+              - strong: ocw.mit.edu
+            - text: 🔹 Cadence Training Digital Design & Simulation, Custom IC Design
+            - text: 🌐
+            - link "Open http://cadence.com":
+              - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Fcadence%2Ecom&urlhash=AUiq&mt=79FrR2Otv3zE9jzHhAiP5e2mrGjncs9fexZ5MNbQc8HYebFpdjc1zvQC48CuTMWi5cfyELh-Knd8wFmQxY37EiRdwb7no9U5f4wKL-GGl_A1mxfS19CpwOqwbIc&isSdui=true
+              - strong: cadence.com
+            - text: 🔹 IIT Bombay (FOSSEE) Open Source Tools, Circuits & Electronics
+            - text: 🌐
+            - link "Open http://fossee.in/visi":
+              - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Ffossee%2Ein%2Fvisi&urlhash=5xTl&mt=xWYv9ltoVne3kSZyV4i4Rez5UBqP0gPbA1RXLQ3or8FJ64QU3RtO8a0aSMMK8wBYqlfbLTH4guveXLgatV22lRb9DNgQgGFzsV3avntuODo6jyK9YO-je69Y3ac&isSdui=true
+              - strong: fossee.in/visi
+            - text: 📌 These resources are great for students, freshers, and professionals who want to build a career in VLSI / Semiconductor Industry.
+            - 'link "View hashtag: #vlsi"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23vlsi&origin=HASH_TAG_FROM_FEED
+              - strong: "#VLSI"
+            - 'link "View hashtag: #semiconductors"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23semiconductors&origin=HASH_TAG_FROM_FEED
+              - strong: "#Semiconductors"
+            - 'link "View hashtag: #chipdesign"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23chipdesign&origin=HASH_TAG_FROM_FEED
+              - strong: "#ChipDesign"
+            - 'link "View hashtag: #learning"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23learning&origin=HASH_TAG_FROM_FEED
+              - strong: "#Learning"
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7369209869318422529/
+          - figure:
+            - img "View image"
+        - 'button "Reaction button state: Like"':
+          - generic: 1,604
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7369209869318422529/
+          - generic: "18"
+        - button "Repost":
+          - generic: "66"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/dhya/
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "1,604 reactions":
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - paragraph:
+          - link "View Ardhya Novri Ramadhan’s profile":
+            - /url: https://www.linkedin.com/in/dhya/
+            - strong: Ardhya Novri Ramadhan
+          - text: reposted this
+        - button "Open control menu for post by Vandana Khatri":
+        - 'link "View group: Artificial Intelligence, Data Science, Machine Learning, Generative AI, LLMs, Agentic AI & AI Agents"':
+          - /url: https://www.linkedin.com/groups/7039829/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7363472451495739392
+          - 'generic "View group: Artificial Intelligence, Data Science, Machine Learning, Generative AI, LLMs, Agentic AI & AI Agents"':
+            - figure
+            - figure:
+        - link "Vandana Khatri 3rd+":
+          - /url: https://www.linkedin.com/groups/7039829/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7363472451495739392
+          - generic "Vandana Khatri 3rd+":
+            - paragraph: Artificial Intelligence, Data Science, Machine Learning, Generative AI, LLMs, Agentic AI & AI Agents
+        - paragraph:
+          - text: Vandana Khatri
+          - generic: • 3rd+
+        - paragraph:
+          - text: 1yr •
+          - 'img "Visibility: Global"'
+        - link "Vandana Khatri 3rd+":
+          - /url: https://www.linkedin.com/groups/7039829/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7363472451495739392
+          - generic "Vandana Khatri 3rd+"
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7363472451495739392/
+          - paragraph:
+            - text: 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 (𝗔𝗜) 𝗶𝗻 𝗗𝗿𝗼𝗻𝗲𝘀 - 𝗔 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲 𝗣𝗗𝗙 𝗚𝘂𝗶𝗱𝗲
+            - text: "𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗣𝗗𝗙 :"
+            - link "Open https://lnkd.in/dbdjGZ6u":
+              - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FdbdjGZ6u&urlhash=vq4g&mt=X4-akE-Mg8E7KGlSNLEqMbOCXyVYqvSOHquRTtc78bUeJD2SxIR2PFFmEmC3taNrBrdjO5u1fyTE4OWIVhRkZM-dB3_nHIisN5S7_HgXYQougWLvXq7iqocSUFo&isSdui=true
+              - strong: https://lnkd.in/dbdjGZ6u
+            - text: Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. It encompasses a wide range of technologies that enable computers to perform tasks that typically require human intelligence, such as learning, problem-solving, perception, and decision-making.
+            - text: Artificial Intelligence (AI) is transforming the skies at low altitudes — powering drones with real-time decision-making, autonomous navigation, advanced surveillance, precision delivery, and predictive mission planning. From defense to agriculture, logistics to infrastructure, the drone industry is rapidly integrating AI into its core systems to enhance precision, autonomy, and operational intelligence.
+            - text: 𝗧𝘆𝗽𝗲𝘀 𝗼𝗳 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 (𝗔𝗜) 𝘂𝘀𝗲𝗱 𝗶𝗻 𝗗𝗿𝗼𝗻𝗲𝘀
+            - text: "🔹 𝗡𝗮𝗿𝗿𝗼𝘄 𝗔𝗹 (𝗪𝗲𝗮𝗸 𝗔𝗹):"
+            - text: Focuses on specific tasks like image recognition or language translation; most deep learning systems fall under this type.
+            - text: 🔹 𝗚𝗲𝗻𝗲𝗿𝗮𝗹 𝗔𝗜 (𝗦𝘁𝗿𝗼𝗻𝗴 𝗔𝗜)
+            - text: A future concept aiming for machines with human-like intelligence capable of performing any cognitive task.
+            - text: 🔹 𝗦𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗲𝗱 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴
+            - text: Trains models using labeled datasets to predict outcomes-widely used in classification and regression problems.
+            - text: 🔹 𝗨𝗻𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗲𝗱 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴
+            - text: Finds hidden patterns or structures in unlabeled data useful for clustering, dimensionality reduction (e.g., PCA), and generative modeling.
+            - text: 🔹 𝗥𝗲𝗶𝗻𝗳𝗼𝗿𝗰𝗲𝗺𝗲𝗻𝘁 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴
+            - text: Applies reward-based learning to guide actions. Deep reinforcement learning is crucial in robotics, game AI, and autonomous vehicle navigation.
+            - text: 🔹 𝗦𝗲𝗹𝗳-𝗦𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗲𝗱 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴
+            - text: It generates pseudo-labels from raw data—useful in natural language processing (e.g., GPT models) and computer vision.
+            - text: 🔹 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝗔𝗜
+            - text: Creates new content—text, images, audio, and more—via models such as GANs (Generative Adversarial Networks) and Transformers.
+            - text: "𝗞𝗲𝘆 𝗣𝗹𝗮𝘆𝗲𝗿𝘀 :"
+            - text: NVIDIA (US), Intel (US), IBM (US), Google (US), Microsoft (US), ShieldAI (US), Amazon Web Services, Inc., Qualcomm (US). Some of the key start-ups are Graphcore (UK), Mythic (US), Adapteva (US), and Koniku (US).
+            - 'link "View hashtag: #artificialintelligence"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23artificialintelligence&origin=HASH_TAG_FROM_FEED
+              - strong: "#ArtificialIntelligence"
+            - 'link "View hashtag: #smartdrones"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23smartdrones&origin=HASH_TAG_FROM_FEED
+              - strong: "#SmartDrones"
+            - 'link "View hashtag: #droneai"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23droneai&origin=HASH_TAG_FROM_FEED
+              - strong: "#DroneAI"
+            - 'link "View hashtag: #uav"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23uav&origin=HASH_TAG_FROM_FEED
+              - strong: "#UAV"
+            - 'link "View hashtag: #drones"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23drones&origin=HASH_TAG_FROM_FEED
+              - strong: "#Drones"
+            - 'link "View hashtag: #aidrones"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23aidrones&origin=HASH_TAG_FROM_FEED
+              - strong: "#AIDrones"
+            - 'link "View hashtag: #precisionagriculture"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23precisionagriculture&origin=HASH_TAG_FROM_FEED
+              - strong: "#PrecisionAgriculture"
+            - 'link "View hashtag: #surveillance"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23surveillance&origin=HASH_TAG_FROM_FEED
+              - strong: "#Surveillance"
+            - 'link "View hashtag: #ai"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED
+              - strong: "#AI"
+            - 'link "View hashtag: #dronetechnology"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23dronetechnology&origin=HASH_TAG_FROM_FEED
+              - strong: "#DroneTechnology"
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7363472451495739392/
+          - figure:
+            - img "View image"
+        - 'button "Reaction button state: Like"':
+          - generic: "408"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7363472451495739392/
+          - generic: "3"
+        - button "Repost":
+          - generic: "46"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/dhya/
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "408 reactions":
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - paragraph:
+          - link "View Ardhya Novri Ramadhan’s profile":
+            - /url: https://www.linkedin.com/in/dhya/
+            - strong: Ardhya Novri Ramadhan
+          - text: reposted this
+        - button "Open control menu for post by Andhika S.":
+        - link:
+          - /url: https://www.linkedin.com/in/andhikasudarman/
+          - figure:
+            - img "View Andhika S.’s profile, hiring"
+        - link "Andhika S., Hiring Verified Profile Following":
+          - /url: https://www.linkedin.com/in/andhikasudarman/
+          - generic "Andhika S., Hiring Verified Profile Following":
+            - paragraph: Andhika S.
+            - paragraph:
+              - text: • Following
+        - paragraph: CEO at Dealls & KantorKu HRIS (YC W22) | ex-Harvard / MIT | Helping HR manage systems & navigate technology
+        - paragraph:
+          - text: 1yr •
+          - 'img "Visibility: Global"'
+        - link "Andhika S., Hiring Verified Profile Following":
+          - /url: https://www.linkedin.com/in/andhikasudarman/
+          - generic "Andhika S., Hiring Verified Profile Following"
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7287088663526547456/
+          - paragraph:
+            - text: 𝟏𝟎 𝐂𝐚𝐫𝐚 𝐉𝐞𝐥𝐚𝐬𝐢𝐧 𝐊𝐞𝐤𝐮𝐫𝐚𝐧𝐠𝐚𝐧 𝐃𝐢𝐫𝐢 𝐤𝐞 𝐇𝐑
+            - text: Saat interview, HR hampir pasti tanya, “Apa kelebihan & kekuranganmu?”. Tapi, beberapa
+            - 'link "View hashtag: #freshgraduate"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23freshgraduate&origin=HASH_TAG_FROM_FEED
+              - strong: "#freshgraduate"
+            - text: "masih suka menjawab dengan jawaban klise seperti:"
+            - text: ❌ Gampang stres
+            - text: ❌ Suka menunda-nunda kerjaan
+            - text: ❌ Gak teliti
+            - text: Sebenernya gak salah, tapi jawaban di atas terlalu menunjukkan kekurangan kita. Tipsnya, hindari jawab kekurangan yang jelas-jelas bikin kita ‘gak cocok’ buat posisi yang dilamar.
+            - text: Misalnya, jawab ‘gak teliti’ sedangkan kita lagi apply posisi akuntan atau auditor yang butuh ketelitian tinggi. Sebisa mungkin cari kekurangan yang ‘aman’ atau sebut kelemahan yang masih bisa diputar jadi nilai plus ✅
+            - text: Teman-teman bisa simak contoh jawaban kekurangan dirinya di bawah ⬇️ Feel free untuk share tips ini ke connection lain 😁
+            - 'link "View hashtag: #interviewtips"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23interviewtips&origin=HASH_TAG_FROM_FEED
+              - strong: "#interviewtips"
+            - 'link "View hashtag: #tipsinterview"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23tipsinterview&origin=HASH_TAG_FROM_FEED
+              - strong: "#tipsinterview"
+            - 'link "View hashtag: #interview"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23interview&origin=HASH_TAG_FROM_FEED
+              - strong: "#interview"
+            - 'link "View hashtag: #recruitment"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23recruitment&origin=HASH_TAG_FROM_FEED
+              - strong: "#recruitment"
+            - 'link "View hashtag: #opentowork"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23opentowork&origin=HASH_TAG_FROM_FEED
+              - strong: "#opentowork"
+            - 'link "View hashtag: #hiring"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED
+              - strong: "#hiring"
+            - 'link "View hashtag: #humanresources"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23humanresources&origin=HASH_TAG_FROM_FEED
+              - strong: "#humanresources"
+            - 'link "View hashtag: #jobseekers"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23jobseekers&origin=HASH_TAG_FROM_FEED
+              - strong: "#jobseekers"
+            - button:
+              - generic: … more
+        - button "Show translation":
+          - generic: Show translation
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7287088663526547456/
+          - figure:
+            - img "View image"
+        - 'button "Reaction button state: Like"':
+          - generic: 12K
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7287088663526547456/
+          - generic: "68"
+        - button "Repost":
+          - generic: 1,770
+        - link "Send":
+          - /url: https://www.linkedin.com/in/dhya/
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "12,240 reactions":
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - paragraph:
+          - link "View Ardhya Novri Ramadhan’s profile":
+            - /url: https://www.linkedin.com/in/dhya/
+            - strong: Ardhya Novri Ramadhan
+          - text: reposted this
+        - button "Open control menu for post by Kaia Nirmala":
+        - link:
+          - /url: https://www.linkedin.com/in/kaia-nirmala/
+          - figure:
+            - img "View Kaia Nirmala’s profile"
+        - link "Kaia Nirmala 3rd+":
+          - /url: https://www.linkedin.com/in/kaia-nirmala/
+          - generic "Kaia Nirmala 3rd+":
+            - paragraph: Kaia Nirmala
+            - paragraph: • 3rd+
+        - paragraph: Recruitment Manager at A Job Thing
+        - paragraph:
+          - text: 2yr • Edited •
+          - 'img "Visibility: Global"'
+        - link "Kaia Nirmala 3rd+":
+          - /url: https://www.linkedin.com/in/kaia-nirmala/
+          - generic "Kaia Nirmala 3rd+"
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7247502549186977792/
+          - paragraph:
+            - text: Format E-mail Kirim Lamaran Kerja
+            - text: 📩 Contoh 1
+            - text: Selamat siang Bapak/Ibu/Nama Perusahaan,
+            - text: "Dengan hormat, saya yang bertanda tangan di bawah ini:"
+            - text: "Nama: .........."
+            - text: "Pendidikan/Jurusan: ........."
+            - text: Dengan ini saya mengajukan permohonan kepada Bapak/Ibu untuk menjadi [Posisi yang Dilamar] di perusahaan [Nama Perusahaan].
+            - text: "Sebagai bahan pertimbangan, bersama ini saya lampirkan beberapa syarat pelengkap:"
+            - text: "- CV"
+            - text: "- Ijazah terakhir"
+            - text: "- Transkrip nilai"
+            - text: "- Portofolio"
+            - text: Demikian saya sampaikan, atas perhatian Bapak/Ibu saya ucapkan terima kasih.
+            - text: Hormat saya,
+            - text: "[Nama]"
+            - text: "[No. Hp]"
+            - text: "[E-Mail]"
+            - text: 📩 Contoh 2
+            - text: Dear HR [Nama Perusahaan],
+            - text: My name is [Nama Pelamar], bachelor of [Jurusan Kuliah] at [Nama Kampus]. I was interested in reading job postings for the [Posisi yang Dilamar] at [Nama Perusahaan].
+            - text: I believe my experience and background match the responsibilities of this role, and I’m pleased to submit my application letter for the position. [Tuliskan Pengalaman yang Relevan dengan Posisi yang Dilamar]
+            - text: I have attached my CV to this letter. I hope you will learn more about my education, job experience, and achievements.
+            - text: "I am available if you need to discuss any further information through this number: [Nomor HP Pelamar]. I look forward to hearing from you about this opportunity. Thank you for your consideration."
+            - text: Best regards,
+            - text: "[Nama Pelamar]"
+            - text: "[E-mail]"
+            - text: ___
+            - text: Sebelum mengirimkan lamaran kerja, pastikan isi CV-mu sudah lengkap ya. Untuk yang mau bikin CV ATS secara GRATIS, bisa coba disini ➡️
+            - link "Open https://lnkd.in/gzQaW8A8":
+              - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgzQaW8A8&urlhash=2vLQ&mt=yn6jpaTcUOH0izVVpRYzAjLDlgYWXY9EvspgrTL5TRleBR669olSa-ZftDRRtGXYeooX3xIp20sNqRXlR3oqTuqC2lBlZLY_H5okbF319XhIWoniF4OXX4FJuj4&isSdui=true
+              - strong: https://lnkd.in/gzQaW8A8
+            - text: Oh ya, untuk yang sedang cari
+            - 'link "View hashtag: #lowongankerja"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23lowongankerja&origin=HASH_TAG_FROM_FEED
+              - strong: "#lowongankerja"
+            - text: terbaru, silahkan cek web berikut ➡️
+            - link "Open https://lnkd.in/gTjW8hcU":
+              - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgTjW8hcU&urlhash=yMGg&mt=c-vT6esHScdR09F0FkKHcyf4WAoGlC5zpqCLJL69Kc9Fsz-3avYCpPDVMzMDJkSRvQ4LLNNAmJtT9VHIqa8E-LmWOt8_VwsoAEIkiEwx5MrcbhSb1qKrDQnbVqg&isSdui=true
+              - strong: https://lnkd.in/gTjW8hcU
+            - text: ada banyak fitur menarik yang bisa bantu mengembangkan karirmu!
+            - 'link "View hashtag: #email"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23email&origin=HASH_TAG_FROM_FEED
+              - strong: "#Email"
+            - 'link "View hashtag: #emailtips"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23emailtips&origin=HASH_TAG_FROM_FEED
+              - strong: "#EmailTips"
+            - 'link "View hashtag: #cv"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23cv&origin=HASH_TAG_FROM_FEED
+              - strong: "#CV"
+            - 'link "View hashtag: #cvtips"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23cvtips&origin=HASH_TAG_FROM_FEED
+              - strong: "#CVTips"
+            - 'link "View hashtag: #tipsandtricks"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23tipsandtricks&origin=HASH_TAG_FROM_FEED
+              - strong: "#TipsandTricks"
+            - 'link "View hashtag: #hiring"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23hiring&origin=HASH_TAG_FROM_FEED
+              - strong: "#Hiring"
+            - 'link "View hashtag: #opentowork"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23opentowork&origin=HASH_TAG_FROM_FEED
+              - strong: "#OpentoWork"
+            - button:
+              - generic: … more
+        - button "Show translation":
+          - generic: Show translation
+        - 'button "Reaction button state: Like"':
+          - generic: 13K
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7247502549186977792/
+          - generic: "103"
+        - button "Repost":
+          - generic: 2,543
+        - link "Send":
+          - /url: https://www.linkedin.com/in/dhya/
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "13,322 reactions":
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - paragraph:
+          - link "View Ardhya Novri Ramadhan’s profile":
+            - /url: https://www.linkedin.com/in/dhya/
+            - strong: Ardhya Novri Ramadhan
+          - text: reposted this
+        - button "Open control menu for post by Ardhya Novri Ramadhan":
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You":
+            - paragraph: Ardhya Novri Ramadhan
+            - paragraph:
+              - text: • You
+        - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+        - paragraph:
+          - text: 2yr •
+          - 'img "Visibility: Global"'
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You"
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7242168505708507136/
+          - paragraph:
+            - 'link "View company: Engineering Academy"':
+              - /url: https://www.linkedin.com/company/engineeringacademyid/
+              - strong:
+                - strong: Anak Teknik Indonesia
+            - 'link "View company: Schneider Electric"':
+              - /url: https://www.linkedin.com/company/schneider-electric/
+              - strong:
+                - strong: Schneider Electric
+            - text: "Berikut adalah resume materi Zoom Meeting mengenai Motor Protection and Control menggunakan metode FAB (Features - Advantages - Benefits):"
+            - text: "Resume Materi Zoom Meeting: Motor Protection and Control"
+            - text: Fitur (Features)
+            - text: "- Sistem Perlindungan Motor: Menggunakan berbagai teknologi untuk melindungi motor dari kerusakan akibat kondisi abnormal seperti overcurrent, undervoltage, dan overheating."
+            - text: "- Pengendalian Otomatis: Fitur pengendalian otomatis yang memungkinkan pemantauan dan pengaturan motor secara real-time."
+            - text: "- Integrasi dengan Sistem Lain: Kemampuan untuk terintegrasi dengan sistem kontrol industri lainnya, seperti SCADA dan PLC."
+            - text: Keuntungan (Advantages)
+            - text: "- Mencegah Kerusakan: Dengan adanya sistem perlindungan yang canggih, risiko kerusakan motor dapat diminimalisir, sehingga memperpanjang umur motor."
+            - text: "- Efisiensi Operasional: Pengendalian otomatis meningkatkan efisiensi operasional dengan mengurangi intervensi manual dan meminimalkan waktu henti (downtime)."
+            - text: "- Data Analitik: Integrasi dengan sistem lain memungkinkan pengumpulan data analitik yang penting untuk perbaikan proses dan pengambilan keputusan yang lebih baik."
+            - text: Manfaat (Benefits)
+            - text: "- Penghematan Biaya: Mengurangi biaya perawatan dan penggantian motor akibat kerusakan, sehingga menghemat anggaran perusahaan dalam jangka panjang."
+            - text: "- Keandalan Sistem: Meningkatkan keandalan sistem industri secara keseluruhan, yang berdampak positif pada produktivitas dan kualitas output."
+            - text: "- Keselamatan Kerja: Meningkatkan keselamatan kerja dengan mengurangi kemungkinan kecelakaan yang disebabkan oleh kegagalan motor."
+            - text: Dengan memahami fitur, keuntungan, dan manfaat dari Motor Protection and Control, peserta meeting dapat mengaplikasikan pengetahuan ini untuk meningkatkan kinerja dan keamanan operasional di industri mereka.
+            - button:
+              - generic: … more
+        - button "Show translation":
+          - generic: Show translation
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View image"
+        - paragraph: 1/4
+        - 'button "Reaction button state: Like"':
+          - generic: "1"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7242168505708507136/
+        - button "Repost":
+          - generic: "1"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/dhya/
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "1 reaction":
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You":
+            - paragraph: Ardhya Novri Ramadhan
+            - paragraph:
+              - text: • You
+        - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+        - paragraph:
+          - text: 2yr •
+          - 'img "Visibility: Global"'
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You"
+        - button "Open control menu for post by Ardhya Novri Ramadhan":
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7242168210660212736/
+          - paragraph:
+            - 'link "View company: Engineering Academy"':
+              - /url: https://www.linkedin.com/company/engineeringacademyid/
+              - strong:
+                - strong: Anak Teknik Indonesia
+            - 'link "View company: Schneider Electric"':
+              - /url: https://www.linkedin.com/company/schneider-electric/
+              - strong:
+                - strong: Schneider Electric
+            - text: "Berikut adalah resume materi Zoom Meeting mengenai Motor Protection and Control menggunakan metode FAB (Features - Advantages - Benefits):"
+            - text: "Resume Materi Zoom Meeting: Motor Protection and Control"
+            - text: Fitur (Features)
+            - text: "- Sistem Perlindungan Motor: Menggunakan berbagai teknologi untuk melindungi motor dari kerusakan akibat kondisi abnormal seperti overcurrent, undervoltage, dan overheating."
+            - text: "- Pengendalian Otomatis: Fitur pengendalian otomatis yang memungkinkan pemantauan dan pengaturan motor secara real-time."
+            - text: "- Integrasi dengan Sistem Lain: Kemampuan untuk terintegrasi dengan sistem kontrol industri lainnya, seperti SCADA dan PLC."
+            - text: Keuntungan (Advantages)
+            - text: "- Mencegah Kerusakan: Dengan adanya sistem perlindungan yang canggih, risiko kerusakan motor dapat diminimalisir, sehingga memperpanjang umur motor."
+            - text: "- Efisiensi Operasional: Pengendalian otomatis meningkatkan efisiensi operasional dengan mengurangi intervensi manual dan meminimalkan waktu henti (downtime)."
+            - text: "- Data Analitik: Integrasi dengan sistem lain memungkinkan pengumpulan data analitik yang penting untuk perbaikan proses dan pengambilan keputusan yang lebih baik."
+            - text: Manfaat (Benefits)
+            - text: "- Penghematan Biaya: Mengurangi biaya perawatan dan penggantian motor akibat kerusakan, sehingga menghemat anggaran perusahaan dalam jangka panjang."
+            - text: "- Keandalan Sistem: Meningkatkan keandalan sistem industri secara keseluruhan, yang berdampak positif pada produktivitas dan kualitas output."
+            - text: "- Keselamatan Kerja: Meningkatkan keselamatan kerja dengan mengurangi kemungkinan kecelakaan yang disebabkan oleh kegagalan motor."
+            - text: Dengan memahami fitur, keuntungan, dan manfaat dari Motor Protection and Control, peserta meeting dapat mengaplikasikan pengetahuan ini untuk meningkatkan kinerja dan keamanan operasional di industri mereka.
+            - button:
+              - generic: … more
+        - button "Show translation":
+          - generic: Show translation
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View image"
+        - paragraph: 1/4
+        - 'button "Reaction button state: Like"':
+          - generic: "1"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7242168210660212736/
+        - button "Repost":
+          - generic: "1"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/dhya/
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "1 reaction":
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - paragraph:
+          - link "View Ardhya Novri Ramadhan’s profile":
+            - /url: https://www.linkedin.com/in/dhya/
+            - strong: Ardhya Novri Ramadhan
+          - text: reposted this
+        - button "Open control menu for post by Ardhya Novri Ramadhan":
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You":
+            - paragraph: Ardhya Novri Ramadhan
+            - paragraph:
+              - text: • You
+        - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+        - paragraph:
+          - text: 2yr •
+          - 'img "Visibility: Global"'
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You"
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7241020886735020032/
+          - paragraph:
+            - text: 🌍 Join the Movement Towards a Greener Future at the Indonesia International Sustainability Forum 2024 🌿
+            - text: We are thrilled to announce the opening of the 2024 Indonesia International Sustainability Forum (IISF) at the Jakarta Convention Center. This pivotal event brings together global leaders, innovators, and sustainability champions to address the urgent challenges of our time.
+            - text: "Key Highlights:"
+            - text: "- President Jokowi's Keynote: Hear from President Joko Widodo as he emphasizes the importance of collaborative and humanitarian approaches in combating climate change."
+            - text: "- Decarbonization & Sustainable Economy: Engage in plenary sessions with high-level speakers from government, multinational organizations, business, and civil society to discuss key enablers and opportunities in decarbonization and sustainable economies."
+            - text: "- Thematic Sessions: Dive deeper into critical sustainability issues with thematic sessions featuring leading businesses and industry associations."
+            - text: "- Exhibition & Gala Dinner: Explore the latest sustainable products and services at the exhibition, and attend the exclusive gala dinner to highlight strong stakeholder commitments and financial enablers for sustainable growth."
+            - text: 🗾 Let's Connect for a Greener Tomorrow
+            - text: Join us in Jakarta on September 5th and 6th, 2024, as we strive to create a melting pot of knowledge, experience, and resources to tackle climate challenges. Together, we can pave the way for Indonesia's vision of a Golden Indonesia in 2045 and contribute to a greener world. 🍃
+            - 'link "View hashtag: #indonesiainternationalsustainabilityforum"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23indonesiainternationalsustainabilityforum&origin=HASH_TAG_FROM_FEED
+              - strong: "#IndonesiaInternationalSustainabilityForum"
+            - 'link "View hashtag: #iisf2024"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23iisf2024&origin=HASH_TAG_FROM_FEED
+              - strong: "#IISF2024"
+            - 'link "View hashtag: #sustainability"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23sustainability&origin=HASH_TAG_FROM_FEED
+              - strong: "#Sustainability"
+            - 'link "View hashtag: #climateaction"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23climateaction&origin=HASH_TAG_FROM_FEED
+              - strong: "#ClimateAction"
+            - 'link "View hashtag: #greenfuture"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23greenfuture&origin=HASH_TAG_FROM_FEED
+              - strong: "#GreenFuture"
+            - 'link "View hashtag: #jakarta"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23jakarta&origin=HASH_TAG_FROM_FEED
+              - strong: "#Jakarta"
+            - 'link "View hashtag: #indonesia"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23indonesia&origin=HASH_TAG_FROM_FEED
+              - strong: "#Indonesia"
+            - text: 🌲
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View image"
+        - paragraph: 1/8
+        - 'button "Reaction button state: Like"':
+          - generic: "1"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7241020886735020032/
+        - button "Repost":
+          - generic: "1"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/dhya/
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "1 reaction":
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View Ardhya Novri Ramadhan’s profile"
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You":
+            - paragraph: Ardhya Novri Ramadhan
+            - paragraph:
+              - text: • You
+        - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+        - paragraph:
+          - text: 2yr •
+          - 'img "Visibility: Global"'
+        - link "Ardhya Novri Ramadhan Premium Profile You":
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "Ardhya Novri Ramadhan Premium Profile You"
+        - button "Open control menu for post by Ardhya Novri Ramadhan":
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7241020702831616000/
+          - paragraph:
+            - text: 🌍 Join the Movement Towards a Greener Future at the Indonesia International Sustainability Forum 2024 🌿
+            - text: We are thrilled to announce the opening of the 2024 Indonesia International Sustainability Forum (IISF) at the Jakarta Convention Center. This pivotal event brings together global leaders, innovators, and sustainability champions to address the urgent challenges of our time.
+            - text: "Key Highlights:"
+            - text: "- President Jokowi's Keynote: Hear from President Joko Widodo as he emphasizes the importance of collaborative and humanitarian approaches in combating climate change."
+            - text: "- Decarbonization & Sustainable Economy: Engage in plenary sessions with high-level speakers from government, multinational organizations, business, and civil society to discuss key enablers and opportunities in decarbonization and sustainable economies."
+            - text: "- Thematic Sessions: Dive deeper into critical sustainability issues with thematic sessions featuring leading businesses and industry associations."
+            - text: "- Exhibition & Gala Dinner: Explore the latest sustainable products and services at the exhibition, and attend the exclusive gala dinner to highlight strong stakeholder commitments and financial enablers for sustainable growth."
+            - text: 🗾 Let's Connect for a Greener Tomorrow
+            - text: Join us in Jakarta on September 5th and 6th, 2024, as we strive to create a melting pot of knowledge, experience, and resources to tackle climate challenges. Together, we can pave the way for Indonesia's vision of a Golden Indonesia in 2045 and contribute to a greener world. 🍃
+            - 'link "View hashtag: #indonesiainternationalsustainabilityforum"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23indonesiainternationalsustainabilityforum&origin=HASH_TAG_FROM_FEED
+              - strong: "#IndonesiaInternationalSustainabilityForum"
+            - 'link "View hashtag: #iisf2024"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23iisf2024&origin=HASH_TAG_FROM_FEED
+              - strong: "#IISF2024"
+            - 'link "View hashtag: #sustainability"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23sustainability&origin=HASH_TAG_FROM_FEED
+              - strong: "#Sustainability"
+            - 'link "View hashtag: #climateaction"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23climateaction&origin=HASH_TAG_FROM_FEED
+              - strong: "#ClimateAction"
+            - 'link "View hashtag: #greenfuture"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23greenfuture&origin=HASH_TAG_FROM_FEED
+              - strong: "#GreenFuture"
+            - 'link "View hashtag: #jakarta"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23jakarta&origin=HASH_TAG_FROM_FEED
+              - strong: "#Jakarta"
+            - 'link "View hashtag: #indonesia"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23indonesia&origin=HASH_TAG_FROM_FEED
+              - strong: "#Indonesia"
+            - text: 🌲
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - figure:
+            - img "View image"
+        - paragraph: 1/8
+        - 'button "Reaction button state: Like"':
+          - generic: "1"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7241020702831616000/
+        - button "Repost":
+          - generic: "1"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/dhya/
+        - link:
+          - /url: https://www.linkedin.com/in/dhya/
+          - generic "1 reaction":
+    - button "Next":
+    - link "Show all posts":
+      - /url: https://www.linkedin.com/in/dhya/recent-activity/all/
+      - generic: Show all
+    - heading "Education" [level=2]
+    - link "Add education":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/education/new/
+    - link "Edit education":
+      - /url: https://www.linkedin.com/in/dhya/details/education/
+    - link:
+      - /url: https://www.linkedin.com/school/1813177/
+      - figure:
+        - img "Diponegoro University logo"
+    - link "Diponegoro University Bachelor of Engineering - BE, Electrical Engineering Aug 2022 – Sep 2026":
+      - /url: https://www.linkedin.com/in/dhya/details/education/edit/forms/837840287/
+      - paragraph: Diponegoro University
+      - paragraph: Bachelor of Engineering - BE, Electrical Engineering
+      - paragraph: Aug 2022 – Sep 2026
+    - paragraph: "Grade: GPA 3.43/4.00"
+    - paragraph: "Activities and societies: Electrical Student Association"
+    - paragraph:
+      - text: "Graduated on 29 September 2026, GPA 3.43/4.00. Final project: STM32-based EMG acquisition and signal processing with a Python/Tkinter monitoring GUI. My contribution covered ADC acquisition, digital filtering, RMS/MAV feature extraction, UART communication and the full GUI implementation, including serial telemetry, monitoring plots and CSV logging. Antigravity and coding agents assisted implementation and problem solving. Stimulator and fuzzy-control design were separate teammate contributions."
+      - button:
+        - generic: … more
+    - paragraph:
+      - link "Engineering, Electronics and +3 skills":
+        - /url: https://www.linkedin.com/in/dhya/overlay/837840287/skill-associations-details/?associationType=education
+        - text: Engineering, Electronics and +3 skills
+    - link "Elektro Undip.jpeg Elektro Undip refers to the Electrical Engineering program at Diponegoro University (Universitas Diponegoro) in Indonesia. This program focuses on the design and manufacturing of electronic circuits, including various electronic components and sensors.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Education/837840287/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Elektro Undip.jpeg"
+      - paragraph: Elektro Undip.jpeg
+      - paragraph: Elektro Undip refers to the Electrical Engineering program at Diponegoro University (Universitas Diponegoro) in Indonesia. This program focuses on the design and manufacturing of electronic circuits, including various electronic components and sensors.
+    - link:
+      - /url: https://www.linkedin.com/school/53268174/
+      - figure:
+        - img "SMAN 5 Bekasi logo"
+    - link "SMAN 5 Bekasi Senior High School Jul 2019 – May 2022":
+      - /url: https://www.linkedin.com/in/dhya/details/education/edit/forms/1004719421/
+      - paragraph: SMAN 5 Bekasi
+      - paragraph: Senior High School
+      - paragraph: Jul 2019 – May 2022
+    - paragraph: "Grade: 85"
+    - paragraph: "Activities and societies: Secretary and Deputy Secretary"
+    - paragraph:
+      - generic: SMA Negeri 5 Kota Bekasi, located in the Pondok Gede area of Kota Bekasi, is a public high school known for its commitment to character development, academic excellence, and global awareness.
+    - paragraph:
+      - link "Executive Administrative Assistance, Legal Assistants and +2 skills":
+        - /url: https://www.linkedin.com/in/dhya/overlay/1004719421/skill-associations-details/?associationType=education
+        - text: Executive Administrative Assistance, Legal Assistants and +2 skills
+    - heading "Connected apps" [level=2]
+    - button "Dismiss connected apps null state card":
+    - paragraph: Add the products you use to stand out and get more profile views.
+    - figure
+    - paragraph: Gamma
+    - figure
+    - paragraph: IntelliJ IDEA, a JetBrains IDE
+    - figure
+    - paragraph: HubSpot
+    - figure
+    - paragraph: Replit Agent
+    - link "Add connected apps":
+      - /url: https://www.linkedin.com/in/dhya/details/add-connected-account/
+      - generic: Add connected apps
+    - heading "Licenses & certifications (27)" [level=2]
+    - link "Add a certification":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/certification/new/
+    - link "Edit a certification":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/
+    - link:
+      - /url: https://www.linkedin.com/company/1441/
+      - figure:
+        - img "Google logo"
+    - paragraph: Google Student Ambassador - Class of 2025 Certificate of Graduation
+    - paragraph: Google
+    - link "Google Student Ambassador | Class of 2025 Original Certificate of Graduation for Ardhya Novri Ramadhan, Google Student Ambassador Class of 2025.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304740270/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Google Student Ambassador | Class of 2025"
+      - paragraph: Google Student Ambassador | Class of 2025
+      - paragraph: Original Certificate of Graduation for Ardhya Novri Ramadhan, Google Student Ambassador Class of 2025.
+    - link:
+      - /url: https://www.linkedin.com/school/16202254/
+      - figure:
+        - img "Cisco Networking Academy logo"
+    - paragraph: Introduction to Internet of Things - Course Completion
+    - paragraph: Cisco Networking Academy
+    - paragraph: Issued Sep 2026
+    - link "Cisco Networking Academy | Introduction to Internet of Things Original course completion certificate for Ardhya Novri Ramadhan, September 2026.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304655147/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Cisco Networking Academy | Introduction to Internet of Things"
+      - paragraph: Cisco Networking Academy | Introduction to Internet of Things
+      - paragraph: Original course completion certificate for Ardhya Novri Ramadhan, September 2026.
+    - link "Show all licenses":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/
+      - generic: Show all 27 licenses
+    - heading "Projects (4)" [level=2]
+    - link "Add a new project":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/project/new/
+    - link "View projects detail screen":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/
+    - list:
+      - link "Edit project ApplyProof":
+        - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908248218/
+        - generic "Edit project ApplyProof":
+          - paragraph:
+            - generic: ApplyProof
+          - paragraph: Oct 2026 – Oct 2026
+      - paragraph:
+        - text: A reviewed fact ledger, explicit skill comparison, office/worksite distinction and traceable application drafts. Optional AI selects fact IDs for verbatim drafting.
+        - text: Developed with AI coding assistance and verified through automated checks.
+        - text: "Repository: https://github.com/vanovri/applyproof"
+        - button:
+          - generic: … more
+      - link "Edit project DataRescue":
+        - /url: https://www.linkedin.com/in/dhya/details/projects/edit/forms/908278262/
+        - generic "Edit project DataRescue":
+          - paragraph:
+            - generic: DataRescue
+          - paragraph: Oct 2026 – Oct 2026
+      - paragraph:
+        - text: Built a local CSV/JSON validation workbench and CLI with rule-based normalization, quarantine of rejected rows and audit-report exports, covered by automated tests (AI-assisted).
+        - text: "Repository: https://github.com/vanovri/datarescue"
+        - button:
+          - generic: … more
+    - link "Show all projects":
+      - /url: https://www.linkedin.com/in/dhya/details/projects/
+      - generic: Show all
+    - heading "Volunteering (4)" [level=2]
+    - link "Add volunteer experience":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/volunteer-experience/new/
+    - link "Edit volunteer experience":
+      - /url: https://www.linkedin.com/in/dhya/details/volunteering-experiences/
+    - list:
+      - figure:
+      - link "Community Service Participant (KKN) Diponegoro University · Mutihan, Klaten Jan 2026 - Feb 2026 · 2 mos Social Services":
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/909015530/
+        - paragraph: Community Service Participant (KKN)
+        - paragraph: Diponegoro University · Mutihan, Klaten
+        - paragraph: Jan 2026 - Feb 2026 · 2 mos
+        - paragraph: Social Services
+      - paragraph:
+        - text: Helped assemble and install a solar-powered Smart Owl House and prepare operating guidance. Assisted village administration, Posyandu, BUMDes bookkeeping, community cleanups and painting, school scouting, earthquake preparedness education and the village profile video.
+        - button:
+          - generic: … more
+      - link "KKN Mutihan 2026 | Daily Logbook Approval Cover Original approval cover from Ardhya Novri Ramadhan’s KKN daily logbook, week 1, Mutihan, Gantiwarno, Klaten, dated 3 February 2026. Student and employee identifiers are redacted. This is a logbook source excerpt, not a separate certificate.":
+        - /url: https://www.linkedin.com/in/dhya/overlay/VolunteerExperience/909015530/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+        - figure:
+          - img "Thumbnail for KKN Mutihan 2026 | Daily Logbook Approval Cover"
+        - paragraph: KKN Mutihan 2026 | Daily Logbook Approval Cover
+        - paragraph: Original approval cover from Ardhya Novri Ramadhan’s KKN daily logbook, week 1, Mutihan, Gantiwarno, Klaten, dated 3 February 2026. Student and employee identifiers are redacted. This is a logbook source excerpt, not a separate certificate.
+      - figure:
+      - link "Event Committee Member LKMM-PD · HME UNDIP 2023 – 2023 Education":
+        - /url: https://www.linkedin.com/in/dhya/details/volunteer-experiences/edit/forms/913380248/
+        - paragraph: Event Committee Member
+        - paragraph: LKMM-PD · HME UNDIP
+        - paragraph: 2023 – 2023
+        - paragraph: Education
+      - paragraph:
+        - generic: Served on the committee for introductory student management and leadership training.
+      - link "LKMM-PD 2023 | Committee Certificate Original certificate of committee service for Ardhya Novri Ramadhan at LKMM-PD, Electrical Engineering, Diponegoro University, 2023.":
+        - /url: https://www.linkedin.com/in/dhya/overlay/VolunteerExperience/913380248/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+        - figure:
+          - img "Thumbnail for LKMM-PD 2023 | Committee Certificate"
+        - paragraph: LKMM-PD 2023 | Committee Certificate
+        - paragraph: Original certificate of committee service for Ardhya Novri Ramadhan at LKMM-PD, Electrical Engineering, Diponegoro University, 2023.
+    - link "Show all volunteer experiences":
+      - /url: https://www.linkedin.com/in/dhya/details/volunteering-experiences/
+      - generic: Show all 4 volunteer experiences
+    - heading "Skills (58)" [level=2]
+    - link "Add a skill":
+      - /url: https://www.linkedin.com/in/dhya/skills/edit/forms/new/
+    - link "Edit a skill":
+      - /url: https://www.linkedin.com/in/dhya/details/skills/
+    - paragraph: C (Programming Language)
+    - paragraph: STM32
+    - link "Show all skills":
+      - /url: https://www.linkedin.com/in/dhya/details/skills/
+      - generic: Show all
+    - heading "Courses" [level=2]
+    - link "Add new course":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/course/new/
+    - link "View courses details screen":
+      - /url: https://www.linkedin.com/in/dhya/details/courses/
+    - paragraph: AI Fundamentals (Google via Coursera) - Completed 26 September 2026
+    - heading "Honors & awards" [level=2]
+    - link "Add new honor":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/honor/new/
+    - link "View honors detail screen":
+      - /url: https://www.linkedin.com/in/dhya/details/honors/
+    - paragraph: Try Out Akbar Winner (2019)
+    - paragraph: Issued by Penerbit Erlangga
+    - paragraph:
+      - text: Winner in the SMP/MTs category, Jakarta, with a score of 100. Represented SMP Angkasa Halim Perdanakusuma.
+      - text: "Publisher announcement: https://www.erlangga.co.id/berita/pengumuman-pemenang-try-out-akbar-2019"
+      - button:
+        - generic: … more
+    - heading "Organizations (5)" [level=2]
+    - link "Add new organization":
+      - /url: https://www.linkedin.com/in/dhya/edit/forms/organization/new/
+    - link "View organizations detail screen":
+      - /url: https://www.linkedin.com/in/dhya/details/organizations/
+    - paragraph: Society of Petroleum Engineers (SPE)
+    - paragraph: Student Member · Sep 2024 – Dec 2025
+    - figure
+    - paragraph: Associated with Diponegoro University
+    - paragraph:
+      - generic: Joined professional learning activities, including technical writing and geothermal drilling sessions. This membership period has ended.
+    - paragraph: Kantor Media Informasi · HME UNDIP
+    - paragraph: Secretary and Treasurer · 2025 – 2025
+    - figure
+    - paragraph: Associated with Diponegoro University
+    - paragraph:
+      - generic: Served a one-year term as Secretary and Treasurer in 2025, after serving as Creative Design Staff in 2024.
+    - link "Show all organizations":
+      - /url: https://www.linkedin.com/in/dhya/details/organizations/
+      - generic: Show all 5 organizations
+    - heading "Interests" [level=2]
+    - checkbox "Companies" [checked]
+    - generic: Companies
+    - checkbox "Groups"
+    - generic: Groups
+    - checkbox "Schools"
+    - generic: Schools
+    - link "Lemonilo, Company 301,942 followers":
+      - /url: https://www.linkedin.com/company/lemonilo/
+      - figure
+      - paragraph:
+        - generic: Lemonilo, Company
+        - text: Lemonilo
+      - paragraph: 301,942 followers
+    - button "Following, click to unfollow Lemonilo":
+      - generic: Following
+    - link "PT Niramas Utama Tbk, Company 20,855 followers":
+      - /url: https://www.linkedin.com/company/pt-niramas-utama/
+      - figure
+      - paragraph:
+        - generic: PT Niramas Utama Tbk, Company
+        - text: PT Niramas Utama Tbk
+      - paragraph: 20,855 followers
+    - button "Following, click to unfollow PT Niramas Utama Tbk":
+      - generic: Following
+    - link "Show all interests":
+      - /url: https://www.linkedin.com/in/dhya/details/interests/?initialTabId=interest_companies
+      - generic: Show all
+  - complementary "Aside":
+    - heading "Profile language" [level=2]
+    - link "Edit profile language":
+      - /url: https://www.linkedin.com/in/dhya/edit/secondary-language/
+    - paragraph: English
+    - heading "Public profile & URL" [level=2]
+    - link "Edit Public profile & URL":
+      - /url: https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile
+    - paragraph: www.linkedin.com/in/dhya
+    - iframe:
+      - link "Advertise on LinkedIn":
+        - /url: https://www.linkedin.com/jobs/?trk=li_FA_global_careers_jobsgtm_jsFA_v1&mcid=6899045044465016833
+        - img "Advertise on LinkedIn"
+    - img "Premium"
+    - heading "Who your viewers also viewed" [level=3]
+    - paragraph: Private to you
+    - link "Aldin zahwan · 1st Electrical Engineering | Mechatronic | Electronic":
+      - /url: https://www.linkedin.com/in/aldinzhn/
+      - figure:
+        - img "Aldin zahwan is open to work"
+      - paragraph:
+        - link "Aldin zahwan":
+          - /url: https://www.linkedin.com/in/aldinzhn/
+      - paragraph: · 1st
+      - paragraph: Electrical Engineering | Mechatronic | Electronic
+    - link "Message Aldin zahwan":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAD5ISOwBYOcRKiNs1xnlRRQ7U2ErHKUNbLU&recipient=ACoAAD5ISOwBYOcRKiNs1xnlRRQ7U2ErHKUNbLU&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Tian Putra Perdana · 2nd --":
+      - /url: https://www.linkedin.com/in/tian-putra-perdana-512424237/
+      - figure
+      - paragraph:
+        - link "Tian Putra Perdana":
+          - /url: https://www.linkedin.com/in/tian-putra-perdana-512424237/
+      - paragraph: · 2nd
+      - paragraph: "--"
+    - button "Invite Tian Putra Perdana to connect":
+      - generic: Connect
+    - link "Daffa Mahardika Auzan Putra Verified · 1st Electrical Engineering":
+      - /url: https://www.linkedin.com/in/daffamap/
+      - figure:
+        - img "Daffa Mahardika Auzan Putra is open to work"
+      - paragraph:
+        - link "Daffa Mahardika Auzan Putra Verified":
+          - /url: https://www.linkedin.com/in/daffamap/
+          - text: Daffa Mahardika Auzan Putra
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: Electrical Engineering
+    - link "Message Daffa Mahardika Auzan Putra":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAFIYJewBvTZ8l2wbXy2N_ktz6ACOkR7X3j8&recipient=ACoAAFIYJewBvTZ8l2wbXy2N_ktz6ACOkR7X3j8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Muhammad Humam Faiz · 1st Electrical Engineering Graduate | Control & Instrumentation":
+      - /url: https://www.linkedin.com/in/muhammad-humam-faiz-2901a625b/
+      - figure
+      - paragraph:
+        - link "Muhammad Humam Faiz":
+          - /url: https://www.linkedin.com/in/muhammad-humam-faiz-2901a625b/
+      - paragraph: · 1st
+      - paragraph: Electrical Engineering Graduate | Control & Instrumentation
+    - link "Message Muhammad Humam Faiz":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAD_sEAwBwVHB2-bKAnsXEdUIMgXpp6LogE8&recipient=ACoAAD_sEAwBwVHB2-bKAnsXEdUIMgXpp6LogE8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Desmarella Batari Raharjo Verified · 2nd Architecture Graduate | Architectural & Interior Design":
+      - /url: https://www.linkedin.com/in/desmarella/
+      - figure:
+        - img "Desmarella Batari Raharjo is open to work"
+      - paragraph:
+        - link "Desmarella Batari Raharjo Verified":
+          - /url: https://www.linkedin.com/in/desmarella/
+          - text: Desmarella Batari Raharjo
+          - img "Verified":
+      - paragraph: · 2nd
+      - paragraph: Architecture Graduate | Architectural & Interior Design
+    - button "Invite Desmarella Batari Raharjo to connect":
+      - generic: Connect
+    - link "Show all people also viewed":
+      - /url: https://www.linkedin.com/in/dhya/overlay/browsemap-recommendations/
+      - generic: Show all
+    - heading "People you may know" [level=2]
+    - paragraph: From your school
+    - link "Muhammad Haniif Rais · 2nd Participant at Society of Renewable Energy Diponegoro University":
+      - /url: https://www.linkedin.com/in/muhammad-haniif-rais-01ab35319/
+      - figure:
+        - img "Muhammad Haniif Rais is open to work"
+      - paragraph:
+        - link "Muhammad Haniif Rais":
+          - /url: https://www.linkedin.com/in/muhammad-haniif-rais-01ab35319/
+      - paragraph: · 2nd
+      - paragraph: Participant at Society of Renewable Energy Diponegoro University
+    - button "Invite Muhammad Haniif Rais to connect":
+      - generic: Connect
+    - link "Wida Dwi Nurcahyo · 2nd Undergraduate Electrical Engineering Student at Diponegoro University | Ex-Intern PT. PLN (Persero) ULP Grogol & UPP JBT 4 | Social Media Branding at Jessie Gunawan Studio | Digital Creative Director in Fashion Industry":
+      - /url: https://www.linkedin.com/in/wida-dwi-nurcahyo-7491a830a/
+      - figure:
+        - img "Wida Dwi Nurcahyo is open to work"
+      - paragraph:
+        - link "Wida Dwi Nurcahyo":
+          - /url: https://www.linkedin.com/in/wida-dwi-nurcahyo-7491a830a/
+      - paragraph: · 2nd
+      - paragraph: Undergraduate Electrical Engineering Student at Diponegoro University | Ex-Intern PT. PLN (Persero) ULP Grogol & UPP JBT 4 | Social Media Branding at Jessie Gunawan Studio | Digital Creative Director in Fashion Industry
+    - button "Invite Wida Dwi Nurcahyo to connect":
+      - generic: Connect
+    - link "Wahyu Pambudi Kuncoro Jati · 2nd Electrical Design Intern at PT. Andhika Mitra Persada":
+      - /url: https://www.linkedin.com/in/wahyupambudii/
+      - figure
+      - paragraph:
+        - link "Wahyu Pambudi Kuncoro Jati":
+          - /url: https://www.linkedin.com/in/wahyupambudii/
+      - paragraph: · 2nd
+      - paragraph: Electrical Design Intern at PT. Andhika Mitra Persada
+    - button "Invite Wahyu Pambudi Kuncoro Jati to connect":
+      - generic: Connect
+    - link "Mohammad Raihan Aprianto · 2nd Electrical Engineer at KOTAMINYAK INTERNUSA, PT":
+      - /url: https://www.linkedin.com/in/mohammadraihanapri/
+      - figure
+      - paragraph:
+        - link "Mohammad Raihan Aprianto":
+          - /url: https://www.linkedin.com/in/mohammadraihanapri/
+      - paragraph: · 2nd
+      - paragraph: Electrical Engineer at KOTAMINYAK INTERNUSA, PT
+    - button "Invite Mohammad Raihan Aprianto to connect":
+      - generic: Connect
+    - link "Brilian Adimas Firdaus · 2nd Electronics Engineer | Former R&D Intern at TMMIN | EV Enthusiast":
+      - /url: https://www.linkedin.com/in/brilian-adimas-firdaus-45a967329/
+      - figure:
+        - img "Brilian Adimas Firdaus is open to work"
+      - paragraph:
+        - link "Brilian Adimas Firdaus":
+          - /url: https://www.linkedin.com/in/brilian-adimas-firdaus-45a967329/
+      - paragraph: · 2nd
+      - paragraph: Electronics Engineer | Former R&D Intern at TMMIN | EV Enthusiast
+    - button "Invite Brilian Adimas Firdaus to connect":
+      - generic: Connect
+    - link "Show all people you may know":
+      - /url: https://www.linkedin.com/in/dhya/
+      - generic: Show all
+    - heading "You might like" [level=2]
+    - paragraph: Pages for you
+    - link "View LOKER INDONESIA page Staffing and Recruiting 346,240 followers":
+      - /url: https://www.linkedin.com/company/karirindo/
+      - figure
+      - paragraph:
+        - link "View LOKER INDONESIA page":
+          - /url: https://www.linkedin.com/company/karirindo/
+          - text: LOKER INDONESIA
+      - paragraph: Staffing and Recruiting
+      - paragraph: 346,240 followers
+    - link "Muhammad Humam & 27 other connections follow this page":
+      - /url: https://www.linkedin.com/in/dhya/
+      - figure
+      - paragraph:
+        - link "Muhammad Humam & 27 other connections follow this page":
+          - /url: https://www.linkedin.com/in/dhya/
+    - button "Follow LOKER INDONESIA":
+      - generic: Follow
+    - link "View BUTUH KERJA page Staffing and Recruiting 467,798 followers":
+      - /url: https://www.linkedin.com/company/butuh-kerja/
+      - figure
+      - paragraph:
+        - link "View BUTUH KERJA page":
+          - /url: https://www.linkedin.com/company/butuh-kerja/
+          - text: BUTUH KERJA
+      - paragraph: Staffing and Recruiting
+      - paragraph: 467,798 followers
+    - link "Muhammad Irfan & 25 other connections follow this page":
+      - /url: https://www.linkedin.com/in/dhya/
+      - figure
+      - paragraph:
+        - link "Muhammad Irfan & 25 other connections follow this page":
+          - /url: https://www.linkedin.com/in/dhya/
+    - button "Follow BUTUH KERJA":
+      - generic: Follow
+    - link "Show all pages you might like":
+      - /url: https://www.linkedin.com/in/dhya/
+      - generic: Show all
+    - iframe:
+      - link "Advertise on LinkedIn":
+        - /url: https://www.linkedin.com/jobs/?trk=li_FA_global_careers_jobsgtm_jsFA_v1&mcid=6899045044465016833
+        - img "Advertise on LinkedIn"
+  - generic "Footer":
+    - navigation:
+      - link "About":
+        - /url: https://about.linkedin.com/
+        - paragraph: About
+      - link "Accessibility":
+        - /url: https://www.linkedin.com/accessibility/
+        - paragraph: Accessibility
+      - link "Talent Solutions":
+        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+        - paragraph: Talent Solutions
+      - link "Community Guidelines":
+        - /url: https://www.linkedin.com/legal/professional-community-policies/
+        - paragraph: Community Guidelines
+      - link "Careers":
+        - /url: https://careers.linkedin.com/
+        - paragraph: Careers
+      - link "Marketing Solutions":
+        - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+        - paragraph: Marketing Solutions
+      - button "Privacy & Terms":
+        - paragraph: Privacy & Terms
+      - link "Ad Choices":
+        - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+        - paragraph: Ad Choices
+      - link "Advertising":
+        - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+        - paragraph: Advertising
+      - link "Sales Solutions":
+        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+        - paragraph: Sales Solutions
+      - link "Mobile":
+        - /url: https://mobile.linkedin.com/
+        - paragraph: Mobile
+      - link "Small Business":
+        - /url: https://business.linkedin.com/grow?src=li-footer
+        - paragraph: Small Business
+      - link "Safety Center":
+        - /url: https://safety.linkedin.com/
+        - paragraph: Safety Center
+    - paragraph: LinkedIn Corporation © 2026
+    - list:
+      - link "Questions?":
+        - /url: https://www.linkedin.com/help/linkedin/
+        - paragraph: Questions?
+      - paragraph: Visit our Help Center.
+      - link "Manage your account and privacy":
+        - /url: https://www.linkedin.com/mypreferences/d/
+        - paragraph: Manage your account and privacy
+      - paragraph: Go to your Settings.
+      - link "Recommendation transparency":
+        - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+        - paragraph: Recommendation transparency
+      - paragraph: Learn more about Recommended Content.
+    - paragraph: Select language
+    - combobox "Select language":
+      - option "العربية (Arabic)"
+      - option "বাংলা (Bangla)"
+      - option "Čeština (Czech)"
+      - option "Dansk (Danish)"
+      - option "Deutsch (German)"
+      - option "Ελληνικά (Greek)"
+      - option "English (English)" [selected]
+      - option "Español (Spanish)"
+      - option "فارسی (Persian)"
+      - option "Suomi (Finnish)"
+      - option "Français (French)"
+      - option "हिंदी (Hindi)"
+      - option "Magyar (Hungarian)"
+      - option "Bahasa Indonesia (Indonesian)"
+      - option "Italiano (Italian)"
+      - option "עברית (Hebrew)"
+      - option "日本語 (Japanese)"
+      - option "한국어 (Korean)"
+      - option "मराठी (Marathi)"
+      - option "Bahasa Malaysia (Malay)"
+      - option "Nederlands (Dutch)"
+      - option "Norsk (Norwegian)"
+      - option "ਪੰਜਾਬੀ (Punjabi)"
+      - option "Polski (Polish)"
+      - option "Português (Portuguese)"
+      - option "Română (Romanian)"
+      - option "Русский (Russian)"
+      - option "Svenska (Swedish)"
+      - option "తెలుగు (Telugu)"
+      - option "ภาษาไทย (Thai)"
+      - option "Tagalog (Tagalog)"
+      - option "Türkçe (Turkish)"
+      - option "Українська (Ukrainian)"
+      - option "Tiếng Việt (Vietnamese)"
+      - option "简体中文 (Chinese (Simplified))"
+      - option "正體中文 (Chinese (Traditional))"
+- complementary:
+  - img "Ardhya Novri Ramadhan"
+  - generic: Status is online
+  - button "You are on the messaging overlay. Press enter to open the list of conversations.":
+    - generic: Messaging
+    - generic: You are on the messaging overlay. Press enter to open the list of conversations.
+  - button "Open messenger dropdown menu":
+    - img "Open messenger dropdown menu"
+  - button "Compose message":
+    - generic: Compose message
+  - button "You are on the messaging overlay. Press enter to open the list of conversations.":
+    - generic: You are on the messaging overlay. Press enter to open the list of conversations.
+- complementary "AI-powered assistant to get help with your career, jobs etc"
+- iframe:
+  - region "Toast message":
+    - heading "0 notifications total" [level=2]
+    - alert
+  - region
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Keyboard shortcuts":
+    - generic: Keyboard shortcuts
+  - button "Close jump menu":
+    - generic: Close jump menu
+  - banner "Global Navigation":
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/feed/
+      - img "LinkedIn":
+    - combobox "I’m looking for..."
+    - navigation "Primary Navigation":
+      - list:
+        - link "new feed updates notifications Home":
+          - /url: https://www.linkedin.com/feed/
+          - generic: new feed updates notifications
+          - generic "Home"
+        - link "1 new network update notification My Network":
+          - /url: https://www.linkedin.com/mynetwork/?
+          - generic: "1"
+          - generic: 1 new network update notification
+          - generic "My Network"
+        - link "Jobs":
+          - /url: https://www.linkedin.com/jobs/?
+          - generic "Jobs"
+        - link "Messaging":
+          - /url: https://www.linkedin.com/messaging/?
+          - generic "Messaging"
+        - link "1 new notification Notifications":
+          - /url: https://www.linkedin.com/notifications/?
+          - generic: "1"
+          - generic: 1 new notification
+          - generic "Notifications"
+        - button "More":
+          - text: More
+    - navigation:
+      - list:
+        - button "Ardhya Novri Ramadhan Me":
+          - img "Ardhya Novri Ramadhan"
+          - text: Me
+        - separator
+        - button "For Business":
+          - generic "For Business":
+            - text: For Business
+        - link "1 new Sales Navigator notification Sales Nav":
+          - /url: https://www.linkedin.com/sales/index?trk=d_flagship3_nav&
+          - generic: "1"
+          - generic: 1 new Sales Navigator notification
+          - generic "Sales Nav"

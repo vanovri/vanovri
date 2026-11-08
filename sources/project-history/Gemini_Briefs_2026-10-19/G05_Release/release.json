@@ -1,0 +1,30 @@
+{
+  "repo": "https://github.com/vanovri/parametric-pavilion",
+  "release": "https://github.com/vanovri/parametric-pavilion/releases/tag/v0.1.0",
+  "commit": "71d256d459d7058b1f697cc7b5cd977bc16e1009",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39221089863,
+      "headSha": "71d256d459d7058b1f697cc7b5cd977bc16e1009",
+      "status": "completed",
+      "url": "https://github.com/vanovri/parametric-pavilion/actions/runs/39221089863"
+    }
+  ],
+  "archive": "parametric-pavilion-v0.1.0.zip",
+  "sha256": "a780984b8359cdb3d65fcbe42b086df90e769095365d4e6f61e39ab8e7d02eee",
+  "size": 4944985,
+  "published_bytes_verified": true,
+  "extra_assets": [
+    {
+      "name": "parametric-pavilion-models-v0.1.0.zip",
+      "sha256": "b3f5e6a249314a183549e4289ea9d2bec5cd188e92c613a4d5396ce665966166",
+      "published_bytes_verified": true
+    },
+    {
+      "name": "MODELS-SHA256SUMS-v0.1.0.txt",
+      "sha256": "917711ba2195182a279c6aacd5e2916c65527d056a39490205163eb5868e5c86",
+      "published_bytes_verified": true
+    }
+  ]
+}

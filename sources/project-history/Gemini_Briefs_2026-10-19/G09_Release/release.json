@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/vanovri/sensor-enclosure-cad",
+  "release": "https://github.com/vanovri/sensor-enclosure-cad/releases/tag/v0.1.0",
+  "commit": "6fd95044d297e218f4c646ff69a5886cbe41b5a3",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39238859739,
+      "headSha": "6fd95044d297e218f4c646ff69a5886cbe41b5a3",
+      "status": "completed",
+      "url": "https://github.com/vanovri/sensor-enclosure-cad/actions/runs/39238859739"
+    }
+  ],
+  "archive": "sensor-enclosure-cad-v0.1.0.zip",
+  "sha256": "73f807bf43ef22fe7f7ef5ce2c2f7c64ff347a3a9ecdd07c6bf714c0c7caa807",
+  "size": 2159014,
+  "published_bytes_verified": true
+}

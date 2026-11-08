@@ -1,0 +1,5 @@
+Native Android Kotlin/Jetpack Compose application and browser companion for the same synthetic electronics layout. Both modes preserve component IDs, illustrative pins, links, and selection. Includes camera gestures, keyboard-accessible browser controls, a shared scene file, and own projected geometry.
+
+The local debug APK assembled successfully. Ten Kotlin tests, six Node geometry tests and three Python diagnostic/repair tests passed. The real repair exercise injected two compiler defects into a working copy, failed its first build, applied only allowlisted repairs, then produced an APK and passed Kotlin tests on its second build. Original source hashes stayed unchanged. Reports, logs, source hashes and actual browser screenshots are included.
+
+The separately attached APK is a debug development build. No hardware/emulator runtime or physical pinout validation is claimed. Browser draw-cost measurements cover synchronous drawing code, not display FPS. The known-diagnostic repair harness is not a general coding agent or an untrusted-code security sandbox.

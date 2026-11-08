@@ -1,0 +1,17 @@
+Current: complete
+Completed this execution:
+R05 https://github.com/vanovri/uart-fixture-kit/releases/tag/v0.3.0
+G02 https://github.com/vanovri/agent-runtime-lab/releases/tag/v0.1.0
+G03/A03 https://github.com/vanovri/spatial-electronics-lab/releases/tag/v0.1.0
+G04/A04 https://github.com/vanovri/desk-circuit-racer/releases/tag/v0.1.0
+G05/A05 https://github.com/vanovri/parametric-pavilion/releases/tag/v0.1.0
+G06/A06 https://github.com/vanovri/webgpu-cable-lab/releases/tag/v0.1.0
+G07/A07 https://github.com/vanovri/body-data-viewer/releases/tag/v0.1.0
+G08/A08 https://github.com/vanovri/cislunar-oem-replay/releases/tag/v0.2.0
+G09/A09 https://github.com/vanovri/sensor-enclosure-cad/releases/tag/v0.1.0
+G10/A10 https://github.com/vanovri/motion-rally/releases/tag/v0.2.1
+R03/R02 https://github.com/vanovri/run-ledger/releases/tag/v0.2.0
+R04 https://github.com/vanovri/bounded-refactor/releases/tag/v0.2.0
+A01 https://github.com/vanovri/fir-parity/releases/tag/v0.1.0
+
+LinkedIn posting remains deferred.

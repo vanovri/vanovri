@@ -1,0 +1,11 @@
+EMAIL GOOGLE TANGGAL 15 OKTOBER 2026
+Akun yang diperiksa: ardhyasan@gmail.com. Pencarian menghasilkan enam percakapan.
+
+14.59 Google Payments: percobaan pendaftaran Google Cloud ditolak. Pengguna mengonfirmasi bahwa itu percobaannya sendiri. Email menyatakan tidak ada tagihan tanpa izin dan Google meninjau informasi. Alasan penolakan spesifik tidak dijelaskan.
+18.53 laporan DMARC untuk enviid.web.id: enam catatan email, masing-masing satu pesan. Semuanya lulus SPF dan DKIM, disposition none. Ini hasil autentikasi enam pesan dalam periode laporan, bukan audit keamanan seluruh akun.
+20.37 Google Search Console: mulai mengumpulkan impresi pencarian untuk ENVIID pada 13 Oktober. Tidak membuktikan semua halaman sudah terindeks atau peringkat tertentu.
+14.53 dan 14.54 Google Cloud: dua email dalam satu percakapan waitlist Build with Gemini Jakarta. Pesan terbuka ditujukan kepada Ihsanuddin. Pendaftaran belum menjadi konfirmasi hadir.
+01.41 Gmail: permintaan konfirmasi Send Mail as contact@enviid.web.id, terkait pengaturan alamat pengirim. Tautan atau kode verifikasi tidak digunakan.
+02.52 Google Drive: notifikasi berbagi Project Gasification dari Ihsanuddin.
+
+Tidak ada perubahan password, pembayaran, atau pengiriman balasan yang dilakukan.

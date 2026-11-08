@@ -1,0 +1,19 @@
+LATIHAN INTERVIEW
+Naskah sekitar satu menit. Rekam, lalu ukur durasi. Bicara perlahan dan jelas.
+
+Nama saya Ardhya Novri Ramadhan, lulusan Teknik Elektro Universitas Diponegoro. Dalam proyek akhir rehabilitasi tangan, saya mengerjakan akuisisi dan pengolahan sinyal EMG menggunakan STM32. Alurnya meliputi pembacaan sensor, filter digital, ekstraksi RMS dan MAV, lalu pengiriman data melalui UART. Saya juga mengimplementasikan GUI Python/Tkinter untuk menampilkan telemetry, grafik pemantauan dan log CSV. Coding agent membantu implementasi dan penelusuran masalah, lalu saya memeriksa hasilnya. Saya memiliki pengalaman awal pada elektronika serta paparan sistem UPS dan converter selama magang. Sekarang saya mencari posisi junior atau magang di bidang elektronika, embedded, testing, maintenance atau technical support, terutama dekat Bekasi.
+
+VERSI INGGRIS SEDERHANA
+My name is Ardhya Novri Ramadhan. I graduated in Electrical Engineering from Diponegoro University. My final project involved EMG acquisition and signal processing using STM32. I also implemented a Python/Tkinter GUI for serial telemetry, monitoring plots and CSV logging. Coding agents helped with implementation and troubleshooting, and I checked the results. I have early experience in electronics and exposure to UPS and converter systems. I am looking for an entry-level role or internship where I can develop my technical skills.
+
+LIMA PERTANYAAN LATIHAN
+Apa masalah konkret yang GUI-mu selesaikan?
+Bagaimana data UART berubah menjadi grafik atau CSV?
+Sebut satu bug nyata. Apa gejalanya, bagaimana kamu mencari penyebabnya, dan apa hasil perbaikannya?
+Bagaimana kamu memeriksa kode bantuan AI sebelum menggunakannya?
+Mengapa RMS/MAV dan jendela 100 ms dipakai? Apa batas interpretasi hasilnya?
+
+Tiga kata kunci jawaban proyek: sensor, proses, tampilan.
+EMG menunjukkan aktivitas listrik otot. Jangan langsung menyebut amplitude sebagai kekuatan otot. Self-test kode tidak membuktikan keselamatan alat secara klinis.
+Latihan 15 menit: baca sekali, jelaskan tanpa naskah, rekam satu menit, lalu perbaiki satu bagian. Gunakan satu bug yang benar-benar kamu alami. Jangan mengarang hasil pengujian atau angka perbaikan.
+Penilaian teks suara hanya menilai isi dan struktur. Pengucapan serta intonasi memerlukan audio yang bisa didengar.

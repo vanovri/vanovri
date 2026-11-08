@@ -1,0 +1,43 @@
+[
+  {
+    "name": "body-data-viewer",
+    "path": "C:\\Users\\ardhy\\Projects\\body-data-viewer",
+    "commit": "a48e8698df8b4bf0f62a4b20e4cd6839c712657f",
+    "status": ""
+  },
+  {
+    "name": "cislunar-oem-replay",
+    "path": "C:\\Users\\ardhy\\Projects\\cislunar-oem-replay",
+    "commit": "5c28781502729616401cadf00dc9dfa8f06d180c",
+    "status": ""
+  },
+  {
+    "name": "sensor-enclosure-cad",
+    "path": "C:\\Users\\ardhy\\Projects\\sensor-enclosure-cad",
+    "commit": "6fd95044d297e218f4c646ff69a5886cbe41b5a3",
+    "status": ""
+  },
+  {
+    "name": "motion-rally",
+    "path": "C:\\Users\\ardhy\\Projects\\motion-rally",
+    "commit": "25e6bf22ad66fe7b2fd501ccd4e3dc3d188b949a",
+    "status": ""
+  },
+  {
+    "name": "run-ledger",
+    "path": "C:\\Users\\ardhy\\Projects\\run-ledger",
+    "commit": "22aa894e606a4e9895d5a0a86cd3185edeb73c39",
+    "status": ""
+  },
+  {
+    "name": "bounded-refactor",
+    "path": "C:\\Users\\ardhy\\Projects\\bounded-refactor",
+    "commit": "2f5e200ff1dadb2bd51782016b8344a457feaba9",
+    "status": ""
+  },
+  {
+    "name": "fir-parity",
+    "path": "C:\\Users\\ardhy\\Projects\\fir-parity",
+    "status": "local files, not yet a Git repository"
+  }
+]

@@ -1,0 +1,7 @@
+I've updated my portfolio with projects in embedded systems, Python, and software development, along with notes on my process and contributions.
+
+There's also an interactive signal demo you can try.
+
+You can find it here: https://ardhyanovri.my.id/
+
+Feedback is welcome.

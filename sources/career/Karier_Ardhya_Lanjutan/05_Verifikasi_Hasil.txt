@@ -1,0 +1,8 @@
+VERIFIKASI
+CV Embedded, Electrical dan salinan portfolio: masing-masing satu halaman. PDF memuat teks yang dapat diekstrak. Sumber lama dipertahankan. Salinan website hanya mencantumkan Bekasi dan LinkedIn tanpa nomor telepon/email.
+GUI.py --self-test: PASS, 10 kelompok pemeriksaan. Batas perangkat lunak, bukan validasi fisik/klinis.
+Game: 42 tes lulus, 0 gagal. Pemeriksaan statis: 33 referensi lokal, tidak ada aset hilang. Browser desktop: peta world, interaksi proyek EMG, studi kasus, dan CV tersedia. Percobaan override viewport tidak mengubah lebar aktual, sehingga pembaruan ini tidak diklaim telah diuji pada HP asli.
+Deployment: succeeded. Source commit 5351242cab98077351758c01fe4cf426530a2e8c. Setelah persetujuan pengguna, akses diubah menjadi public. Tool Sites mengonfirmasi access_mode public, revision 2. Recruiter dapat mengakses URL publik.
+https://anak-kos-survival-ardhya.maryclarkm-385.chatgpt.site
+LinkedIn About dan pendidikan sudah memuat seluruh implementasi GUI berbantuan coding agent. About memuat prioritas tempat kerja dekat Jatiwaringin, Jabodetabek tetap terbuka, dan tautan portfolio publik. Bukti screenshot disertakan.
+Paket Engineering merupakan persiapan lokal, belum diunggah atau dikirim ke Komatsu.

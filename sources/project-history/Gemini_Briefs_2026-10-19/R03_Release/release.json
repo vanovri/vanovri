@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/vanovri/run-ledger",
+  "release": "https://github.com/vanovri/run-ledger/releases/tag/v0.2.0",
+  "commit": "4efc950b568acf8c7422bf72b5e4368beb1b340f",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39250590303,
+      "headSha": "4efc950b568acf8c7422bf72b5e4368beb1b340f",
+      "status": "completed",
+      "url": "https://github.com/vanovri/run-ledger/actions/runs/39250590303"
+    }
+  ],
+  "archive": "run-ledger-v0.2.0.zip",
+  "sha256": "08c6372f8456de71aa2ae5b236e1352166448427e47a8a38234713cd811fa76a",
+  "size": 72235,
+  "published_bytes_verified": true
+}

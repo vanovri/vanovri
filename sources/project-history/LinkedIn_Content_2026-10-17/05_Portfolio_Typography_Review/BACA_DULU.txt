@@ -1,0 +1,14 @@
+PORTFOLIO 2026. REVISI TIPOGRAFI
+
+11 halaman landscape, 1600 x 1000 piksel per halaman.
+PDF adalah file untuk review dan unggah dokumen LinkedIn. Tampilannya tetap menggunakan font yang sudah dirender.
+PPTX menyediakan teks dan gambar yang dapat diedit. Font Anton dan Inter, beserta lisensinya, tersedia dalam folder Fonts untuk pengeditan PowerPoint.
+Caption_EN.txt merupakan usulan utama. Caption_ID.txt adalah alternatif Indonesia.
+
+Revisi mengikuti arah visual referensi terbaru Afferli Seftian. Anton menjadi padanan visual untuk judul tebal dan padat. Inter untuk teks isi. Ini pilihan font desain, bukan klaim identifikasi font asli referensi.
+https://www.linkedin.com/posts/afferliseftian_afferli-seftian-portfolio-ugcPost-7511687669119262720-nv2i/
+
+Tidak ada karya, angka pencapaian atau foto milik penulis referensi dalam paket ini. Semua isi tetap berdasarkan karya dan pengalaman Ardhya.
+Kontribusi pribadi, proyek tim dan bantuan AI tetap dijelaskan. Digital MRV merupakan demonstrasi.
+
+Status: menunggu review pengguna. Belum diunggah, diposting atau dijadwalkan di LinkedIn.

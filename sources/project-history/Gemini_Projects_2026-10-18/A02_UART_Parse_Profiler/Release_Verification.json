@@ -1,0 +1,22 @@
+[
+  {
+    "file": "uart_fixture_kit-0.2.0-py3-none-any.whl",
+    "sha256": "6de502b0f8d99556f914b4dc55c1a980b2f80d82966b1658837193cec19bd119",
+    "matches": true
+  },
+  {
+    "file": "uart_fixture_kit-0.2.0.tar.gz",
+    "sha256": "a844ea54b99e45bc21135a195057321e0d9f55188cb6a92a2931c621b0811dc2",
+    "matches": true
+  },
+  {
+    "file": "Profile_Result.json",
+    "sha256": "0095c84cbe952e860b4ae4c66ce76f7d58ca5270cd067cf5aeffede4a568b7d8",
+    "matches": true
+  },
+  {
+    "file": "Profile_Result.html",
+    "sha256": "2c1785d1477c2549de8f21bb147c3ebaf9a62cf2b85882406d87f10d1797f41d",
+    "matches": true
+  }
+]

@@ -1,0 +1,11 @@
+POSTING PERTAMA: PENGENALAN WEB PORTOFOLIO
+
+Status: siap untuk review pengguna. Belum diposting atau diunggah ke LinkedIn.
+PDF berisi tujuh slide 4:5. PPTX menyediakan teks dan screenshot yang dapat diedit.
+Caption_Final_EN.txt adalah usulan caption terbaru sesuai referensi posting Khansa Naira. Caption_Final_ID.txt adalah alternatif bahasa Indonesia. Caption Natural sebelumnya merupakan versi terdahulu.
+Versi terbaru memakai label slide yang langsung menyebut isi, tanpa slogan atau pertanyaan penutup yang dipaksakan.
+Semua screenshot berasal dari web publik Ardhya, diperiksa 17 Oktober 2026.
+Gaya memakai prinsip apple-design: hierarki, konsistensi ruang, warna terbatas, tipografi sistem dan satu fokus per slide. Carousel PDF bersifat statis.
+Data pada lab sinyal sintetis. Proyek skripsi adalah proyek tim, dengan kontribusi pribadi dijelaskan.
+Posting pertama ini menggantikan RepairGate sebagai prioritas pembuka. Draft RepairGate sebelumnya ditunda untuk revisi.
+Rutinitas tetap dua hari sekali pukul 19.17 WIB. Setiap posting wajib menunggu ACC eksplisit pengguna atas hasil akhir.

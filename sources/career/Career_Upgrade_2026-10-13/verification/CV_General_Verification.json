@@ -1,0 +1,62 @@
+{
+  "purpose": "General complete-history CV for private advisor review",
+  "pages": 4,
+  "text_characters": 11071,
+  "source_sha256": "68c1e369681a562a65cdafffd4a66f05481da79c6489ad593587482dafb47236",
+  "pdf_sha256": "e016930f9e6e7ee1fabf1e7d08951d74afecdfcad0c163602d0669357fc06721",
+  "editor_compiler": "success",
+  "visual_review": "All four rendered pages inspected; no clipping or overlap",
+  "page_bounds": [
+    {
+      "page": 1,
+      "min_y": 48.96,
+      "max_y": 823.97
+    },
+    {
+      "page": 2,
+      "min_y": 53.1,
+      "max_y": 823.97
+    },
+    {
+      "page": 3,
+      "min_y": 53.1,
+      "max_y": 823.97
+    },
+    {
+      "page": 4,
+      "min_y": 53.1,
+      "max_y": 823.97
+    }
+  ],
+  "expected_content_checked": [
+    "five weeks",
+    "three weeks",
+    "protection relays",
+    "SCADA",
+    "PLC installations",
+    "Mutihan",
+    "SEED",
+    "CINOTIC",
+    "Leadership Regeneration",
+    "PMB",
+    "2023",
+    "KMI",
+    "Google Student Ambassador",
+    "Redesma",
+    "ENVIID",
+    "RepairGate",
+    "ApplyProof",
+    "DataRescue",
+    "uart-fixture-kit",
+    "Biofiltration",
+    "Timor-Leste"
+  ],
+  "english_test_removed": true,
+  "private_phone_included": true,
+  "company_targeting": false,
+  "job_application_submitted": false,
+  "template": "Simple monochrome article, Times New Roman; user requested reference style",
+  "upstream_guidance": "MadsLorentzen/ai-job-search factual grounding and writing guidance",
+  "scope": "All identified professional roles, committees, community activities, projects and courses. No claim of exhaustive personal-history discovery.",
+  "portfolio_domain": "ardhyanovri.my.id"
+}

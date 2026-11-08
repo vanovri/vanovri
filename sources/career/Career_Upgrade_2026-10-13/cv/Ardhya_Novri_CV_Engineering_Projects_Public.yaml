@@ -1,0 +1,157 @@
+cv:
+  name: Ardhya Novri Ramadhan
+  headline: Electrical Engineering Graduate | Embedded Systems and Python Tools
+  location: Bekasi, Indonesia
+  email: ardhyasan@gmail.com
+  website: https://ardhyanovri.my.id
+  social_networks:
+  - network: LinkedIn
+    username: dhya
+  - network: GitHub
+    username: vanovri
+  sections:
+    Professional Summary:
+    - Electrical Engineering graduate with STM32, Python and electronics project experience. Develops AI-assisted
+      tools and verifies their behavior with tests. Based in Bekasi and open to junior engineering roles across Jabodetabek
+      across Jabodetabek.
+    Education:
+    - institution: Diponegoro University
+      degree: B.Eng.
+      area: Electrical Engineering
+      date: Sep 2026
+      highlights:
+      - 'GPA: 3.43/4.00. Graduated 29 September 2026.'
+    Practical Experience:
+    - company: PT Angkasa Pura Indonesia
+      position: Internship Trainee
+      date: Jul - Aug 2025
+      highlights:
+      - Gained field exposure to UPS and converter systems at Soekarno-Hatta International Airport.
+    - company: Redesma Technologies
+      position: Electronics Technician
+      date: Jan - Feb 2025
+      highlights:
+      - Worked on electronics tasks involving IoT temperature monitoring and DC motor control.
+    Technical Skills:
+    - label: Firmware and Software
+      details: C, STM32 HAL, ADC/DMA, UART, digital filtering, Python/Tkinter, React, FastAPI and automated tests.
+    Selected Projects:
+    - name: '[RepairGate](https://github.com/vanovri/repairgate)'
+      date: Oct 2026
+      highlights:
+      - Built a local code-repair verifier with protected tests, independent holdout checks and exported patch decisions.
+        Includes an optional Ollama proposal adapter; demo uses recorded candidates.
+    - name: '[ApplyProof](https://github.com/vanovri/applyproof)'
+      date: Oct 2026
+      highlights:
+      - Built an application workspace that separates office and worksite locations, compares explicit skill tags
+        against reviewed candidate facts and creates traceable drafts.
+    - name: '[DataRescue](https://github.com/vanovri/datarescue)'
+      date: Oct 2026
+      highlights:
+      - Built schema-driven CSV/JSON repair with quarantine and auditable exports; verified backend behavior and
+        browser workflows.
+    - name: EMG Acquisition and Python Monitoring GUI
+      date: Thesis, 2026
+      highlights:
+      - Implemented STM32 signal acquisition, digital filtering and the full Python/Tkinter monitoring GUI with
+        coding-agent assistance. Teammates handled stimulation and fuzzy control.
+    Campus Leadership:
+    - company: Google Student Ambassador Program
+      position: Google Student Ambassador
+      date: Class of 2025
+      highlights:
+      - Completed the student ambassador program; recognized for leadership in championing Google AI within the
+        campus community.
+    Selected Training:
+    - label: Electrical and IoT
+      details: 'Automation Clinic: Motor Protection and Control (Sep 2024); Cisco Introduction to Internet of Things
+        (Sep 2026).'
+design:
+  theme: engineeringclassic
+  page:
+    size: a4
+    top_margin: 0.55in
+    bottom_margin: 0.55in
+    left_margin: 0.6in
+    right_margin: 0.6in
+    show_footer: false
+    show_top_note: false
+  colors:
+    body: rgb(29,29,31)
+    name: rgb(29,29,31)
+    connections: rgb(29,29,31)
+    section_titles: rgb(29,29,31)
+    headline: rgb(0,99,204)
+    links: rgb(0,99,204)
+  typography:
+    font_family:
+      body: Segoe UI
+      name: Segoe UI
+      headline: Segoe UI
+      connections: Segoe UI
+      section_titles: Segoe UI
+    font_size:
+      body: 10.5pt
+      name: 24pt
+      headline: 10.5pt
+      connections: 9.5pt
+      section_titles: 12pt
+    alignment: left
+    line_spacing: 0.3em
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
+  links:
+    underline: false
+    show_external_link_icon: false
+  header:
+    alignment: left
+    space_below_name: 0.12cm
+    space_below_headline: 0.18cm
+    space_below_connections: 0.20cm
+    connections:
+      show_icons: false
+      separator: '|'
+      display_urls_instead_of_usernames: true
+      space_between_connections: 0.25cm
+  section_titles:
+    type: without_line
+    space_above: 0.3cm
+    space_below: 0.15cm
+  sections:
+    space_between_regular_entries: 0.5em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in: []
+  entries:
+    date_and_location_width: 3.3cm
+    side_space: 0cm
+    space_between_columns: 0.25cm
+    highlights:
+      bullet: •
+      space_left: 0.1cm
+      space_between_items: 0.06cm
+      space_above: 0.05cm
+  templates:
+    date_range: START_DATE - END_DATE
+    education_entry:
+      main_column: '**INSTITUTION**
+
+        DEGREE in AREA
+
+        HIGHLIGHTS'
+      degree_column: ''
+      date_and_location_column: DATE
+    experience_entry:
+      main_column: '**POSITION**
+
+        COMPANY
+
+        HIGHLIGHTS'
+      date_and_location_column: DATE
+locale:
+  language: english
+settings:
+  current_date: '2026-10-13'

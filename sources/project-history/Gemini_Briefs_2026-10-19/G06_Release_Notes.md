@@ -1,0 +1,5 @@
+WebGPU fur and cable laboratory with 16,384 independent strands, eight segments per strand, fixed-step motion, pinned roots, length projection, double-buffered state and instanced line strips. Includes a smaller Canvas CPU reference and a self-contained HTML artifact.
+
+Ten Node tests pass. Actual Brave WebGPU execution passed four CPU/GPU comparisons and full-scene readback. Sustained captures cover 110.18 simulated seconds of fur and 43.93 seconds of cable motion, with zero root drift and maximum relative segment-length errors approximately 0.0777% and 0.0537%. JSON export was downloaded and matched the in-app report byte-for-byte. CPU selection, restart, camera controls and narrow layout were checked.
+
+Includes actual reports and screenshots. CI reruns CPU tests and checks saved GPU records; it does not claim a fresh CI GPU run. The solver uses synthetic scenes and nominal units, with no measured material validation or claimed GPU speedup. Device-loss recovery is implemented but was not forcibly exercised. Direct file-protocol execution is not browser-verified.

@@ -1,0 +1,581 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "Search":
+    - paragraph: I'm looking for…
+  - dialog:
+    - status
+    - search:
+      - textbox "I'm looking for…"
+  - navigation:
+    - list:
+      - button "Home, 0 new notifications":
+        - generic: Home
+      - link "My Network, 1 new notification":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "1"
+        - generic: My Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 1 new notification":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "1"
+        - generic: Notifications
+      - button "More":
+        - text: More
+  - button "Ardhya Novri Ramadhan Me":
+    - generic "Ardhya Novri Ramadhan Me":
+      - figure
+      - paragraph: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Sales Navigator, 1 new notification":
+        - /url: https://www.linkedin.com/sales/?trk=d_flagship3_nav
+        - generic: "1"
+        - generic: Sales Nav
+  - figure
+- toolbar:
+  - link "Ardhya Novri Ramadhan":
+    - /url: https://www.linkedin.com/in/dhya/
+    - generic "Ardhya Novri Ramadhan":
+      - figure
+      - paragraph: Ardhya Novri Ramadhan
+      - paragraph: Bachelor of Engineering | CTO / Technical Lead at ENVIID | Embedded Systems, Python & AI-Assisted Software
+- main:
+  - region "Primary content":
+    - button "Navigate back to profile main screen":
+    - paragraph: Licenses & certifications
+    - link "Add a certification":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/new/?profileFormEntryPoint=Detail
+    - link:
+      - /url: https://www.linkedin.com/company/1441/
+      - figure:
+        - img "Google logo"
+    - paragraph: Google Student Ambassador - Class of 2025 Certificate of Graduation
+    - paragraph: Google
+    - link "Google Student Ambassador | Class of 2025 Original Certificate of Graduation for Ardhya Novri Ramadhan, Google Student Ambassador Class of 2025.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304740270/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Google Student Ambassador | Class of 2025"
+      - paragraph: Google Student Ambassador | Class of 2025
+      - paragraph: Original Certificate of Graduation for Ardhya Novri Ramadhan, Google Student Ambassador Class of 2025.
+    - link "Edit license or certification Google Student Ambassador - Class of 2025 Certificate of Graduation":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304740270/
+    - link:
+      - /url: https://www.linkedin.com/school/16202254/
+      - figure:
+        - img "Cisco Networking Academy logo"
+    - paragraph: Introduction to Internet of Things - Course Completion
+    - paragraph: Cisco Networking Academy
+    - paragraph: Issued Sep 2026
+    - link "Cisco Networking Academy | Introduction to Internet of Things Original course completion certificate for Ardhya Novri Ramadhan, September 2026.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304655147/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Cisco Networking Academy | Introduction to Internet of Things"
+      - paragraph: Cisco Networking Academy | Introduction to Internet of Things
+      - paragraph: Original course completion certificate for Ardhya Novri Ramadhan, September 2026.
+    - link "Edit license or certification Introduction to Internet of Things - Course Completion":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304655147/
+    - link:
+      - /url: https://www.linkedin.com/school/1813177/
+      - figure:
+        - img "Diponegoro University logo"
+    - paragraph: SEED 2025 Media Division Head - Certificate of Appreciation
+    - paragraph: Diponegoro University
+    - paragraph: Issued Aug 2026
+    - link "SEED 2025 | Media Division Head Certificate Original certificate naming Ardhya Novri Ramadhan as Media Division Head for SEED 2025. The certificate was issued in August 2026.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304617164/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for SEED 2025 | Media Division Head Certificate"
+      - paragraph: SEED 2025 | Media Division Head Certificate
+      - paragraph: Original certificate naming Ardhya Novri Ramadhan as Media Division Head for SEED 2025. The certificate was issued in August 2026.
+    - link "Edit license or certification SEED 2025 Media Division Head - Certificate of Appreciation":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304617164/
+    - link:
+      - /url: https://www.linkedin.com/school/1813177/
+      - figure:
+        - img "Diponegoro University logo"
+    - paragraph: SEU's Prediction Test - TOEFL-equivalent score 632 (institutional)
+    - paragraph: Diponegoro University
+    - paragraph: Issued Jun 2026 · Expires Jun 2028
+    - paragraph: Credential ID 225/UN7.F6/SR/VI/2026
+    - link "SEU UNDIP | Institutional English Prediction Test Original SEU Diponegoro University test result for Ardhya Novri Ramadhan. The score shown is an institutional TOEFL-equivalent prediction score, not an official ETS TOEFL credential.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304579705/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for SEU UNDIP | Institutional English Prediction Test"
+      - paragraph: SEU UNDIP | Institutional English Prediction Test
+      - paragraph: Original SEU Diponegoro University test result for Ardhya Novri Ramadhan. The score shown is an institutional TOEFL-equivalent prediction score, not an official ETS TOEFL credential.
+    - link "Edit license or certification SEU's Prediction Test - TOEFL-equivalent score 632 (institutional)":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304579705/
+    - link:
+      - /url: https://www.linkedin.com/company/14414294/
+      - figure:
+        - img "SPE Universitas Diponegoro SC logo"
+    - paragraph: "SPENTRODUCE: Exploring the Downstream Oil and Gas Industry - Participation"
+    - paragraph: SPE Universitas Diponegoro SC
+    - paragraph: Issued Sep 2025
+    - 'link "SPENTRODUCE | Participation Certificate Original certificate for Ardhya Novri Ramadhan at Exploring the Downstream Oil and Gas Industry: Refinery Operations, Energy Distribution, and Career Opportunities, 27 September 2025."':
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304534100/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for SPENTRODUCE | Participation Certificate"
+      - paragraph: SPENTRODUCE | Participation Certificate
+      - paragraph: "Original certificate for Ardhya Novri Ramadhan at Exploring the Downstream Oil and Gas Industry: Refinery Operations, Energy Distribution, and Career Opportunities, 27 September 2025."
+    - 'link "Edit license or certification SPENTRODUCE: Exploring the Downstream Oil and Gas Industry - Participation"':
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304534100/
+    - link:
+      - /url: https://www.linkedin.com/school/1813177/
+      - figure:
+        - img "Diponegoro University logo"
+    - paragraph: Basic Electronics Practicum Assistant - Certificate of Appreciation
+    - paragraph: Diponegoro University
+    - paragraph: Issued Jul 2025
+    - paragraph: Credential ID 02/UN7.5.3/HK/2025
+    - link "Basic Electronics Practicum Assistant | 6 July 2025 Certificate of Appreciation issued by Diponegoro University, no. 02/UN7.5.3/HK/2025. The certificate documents the practicum assistant role and was issued on 6 July 2025.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304494925/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Basic Electronics Practicum Assistant | 6 July 2025"
+      - paragraph: Basic Electronics Practicum Assistant | 6 July 2025
+      - paragraph: Certificate of Appreciation issued by Diponegoro University, no. 02/UN7.5.3/HK/2025. The certificate documents the practicum assistant role and was issued on 6 July 2025.
+    - link "Edit license or certification Basic Electronics Practicum Assistant - Certificate of Appreciation":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304494925/
+    - link:
+      - /url: https://www.linkedin.com/company/67280347/
+      - figure:
+        - img "Google Digital Academy (Skillshop) logo"
+    - paragraph: AI-Powered Shopping ads Certification
+    - paragraph: Google Digital Academy (Skillshop)
+    - paragraph: Issued Jan 2025 · Expired Jan 2026
+    - paragraph: Credential ID 130550334
+    - link "Show credential for AI-Powered Shopping ads Certification":
+      - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fskillshop%2Ecredential%2Enet%2F93dbe46f-eb64-47a8-9c21-e657bdfc4e9c&urlhash=opPQ&mt=3mER-ihZhNVULA7CgZZQt5u2KmqIrex7dZqFcNTeUrkK5I-QpBetO1uR-HT7Dgmu-JOivx5k6uN5cuGmpSsnRnz1ghRz&isSdui=true
+      - generic: Show credential
+    - 'link "Skills: Shopping Centers, Market Research"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304460787/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Shopping Centers, Market Research
+    - link "AI-Powered Shopping ads AI-Powered Shopping ads leverage Google's advanced AI technology to optimize your product listings and improve ad performance. These ads use machine learning to automatically adjust bids, target the right audiences, and create compelling ad creatives, helping you drive better results with less manual effort1.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304460787/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for AI-Powered Shopping ads"
+      - paragraph: AI-Powered Shopping ads
+      - paragraph: AI-Powered Shopping ads leverage Google's advanced AI technology to optimize your product listings and improve ad performance. These ads use machine learning to automatically adjust bids, target the right audiences, and create compelling ad creatives, helping you drive better results with less manual effort1.
+    - link "Edit license or certification AI-Powered Shopping ads Certification":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304460787/
+    - link:
+      - /url: https://www.linkedin.com/company/71622436/
+      - figure:
+        - img "Himpunan Mahasiswa Elektro Fakultas Teknik Universitas Diponegoro (HME FT UNDIP) logo"
+    - paragraph: ENIGMA VOL 3
+    - paragraph: Himpunan Mahasiswa Elektro Fakultas Teknik Universitas Diponegoro (HME FT UNDIP)
+    - paragraph: Issued Oct 2024
+    - 'link "Skills: Teaching"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304435622/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Teaching
+    - link "(Bulk 1) BIRO SEED.zip - SERTIFIKAT ARDHYA NOVRI.png":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304435622/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for (Bulk 1) BIRO SEED.zip - SERTIFIKAT ARDHYA NOVRI.png"
+      - paragraph: (Bulk 1) BIRO SEED.zip - SERTIFIKAT ARDHYA NOVRI.png
+    - link "Edit license or certification ENIGMA VOL 3":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304435622/
+    - link:
+      - /url: https://www.linkedin.com/company/13613889/
+      - figure:
+        - img "IATMI SM ITB logo"
+    - paragraph: Workover and Well Service Talks - Participation
+    - paragraph: IATMI SM ITB
+    - paragraph: Issued Oct 2024
+    - paragraph: Credential ID 13/078/IATMI SM-ITB/X/2024
+    - link "Workover and Well Service Talks | Participation Certificate Original IATMI SM ITB participation certificate for Ardhya Novri Ramadhan, October 2024, no. 13/078/IATMI SM-ITB/X/2024.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304404152/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Workover and Well Service Talks | Participation Certificate"
+      - paragraph: Workover and Well Service Talks | Participation Certificate
+      - paragraph: Original IATMI SM ITB participation certificate for Ardhya Novri Ramadhan, October 2024, no. 13/078/IATMI SM-ITB/X/2024.
+    - link "Edit license or certification Workover and Well Service Talks - Participation":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304404152/
+    - link:
+      - /url: https://www.linkedin.com/company/23356/
+      - figure:
+        - img "Society of Petroleum Engineers International logo"
+    - paragraph: Society of Petroleum Engineers Membership
+    - paragraph: Society of Petroleum Engineers International
+    - paragraph: Issued Sep 2024 · Expired Dec 2025
+    - paragraph: Credential ID 5761434
+    - 'link "Skills: Project Management, Geothermal drilling, +3 skills"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304376895/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Project Management, Geothermal drilling, +3 skills
+    - link "Member Certificate for 5761434.pdf Membership Certificate SPE Student Membership Universitas Diponegoro Chapter":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304376895/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Member Certificate for 5761434.pdf"
+      - paragraph: Member Certificate for 5761434.pdf
+      - paragraph: Membership Certificate SPE Student Membership Universitas Diponegoro Chapter
+    - link "Edit license or certification Society of Petroleum Engineers Membership":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304376895/
+    - link:
+      - /url: https://www.linkedin.com/company/96339979/
+      - figure:
+        - img "Indonesia International Sustainability Forum 2024 logo"
+    - paragraph: Delegate of Organization
+    - paragraph: Indonesia International Sustainability Forum 2024
+    - paragraph: Issued Sep 2024
+    - link "IMG_8805.jpg":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304345762/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for IMG_8805.jpg"
+      - paragraph: IMG_8805.jpg
+    - link "IMG_8811.jpg The Indonesia Sustainability Forum (ISF) is established as a platform to foster collaborations and best practice sharing across stakeholders in decarbonization actions, ultimately advancing the global concerted effort in pursuing a sustainable growth.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304345762/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for IMG_8811.jpg"
+      - paragraph: IMG_8811.jpg
+      - paragraph: The Indonesia Sustainability Forum (ISF) is established as a platform to foster collaborations and best practice sharing across stakeholders in decarbonization actions, ultimately advancing the global concerted effort in pursuing a sustainable growth.
+    - link "Edit license or certification Delegate of Organization":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304345762/
+    - link:
+      - /url: https://www.linkedin.com/company/23356/
+      - figure:
+        - img "Society of Petroleum Engineers International logo"
+    - paragraph: Geothermal Drilling in Volcanic-Metamorphic (VMR) Basins - Challenges, Collaborative Engagements, Best Practices, and Performance Improvements
+    - paragraph: Society of Petroleum Engineers International
+    - paragraph: Issued Sep 2024
+    - paragraph: Credential ID 5761434
+    - link "Show credential for Geothermal Drilling in Volcanic-Metamorphic (VMR) Basins - Challenges, Collaborative Engagements, Best Practices, and Performance Improvements":
+      - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fstreaming%2Espe%2Eorg%2Fgeothermal-drilling-in-volcanic-metamorphic-vmr-basins-challenges-collaborative-engagements-best-practices-and-performance-improvements-2&urlhash=iO-l&mt=fUyLUHYolbFroIgtoPhubzqbHzPjtyraBKMzTCof02OSlEVZkowAX7huWM48tX9O5rQ8kbmSH_IG-VITCYXfvGS3GC34&isSdui=true
+      - generic: Show credential
+    - 'link "Skills: Geothermal drilling, Drilling Engineering"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304285390/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Geothermal drilling, Drilling Engineering
+    - link "ardhya-ramadhan-geothermal-drilling-in-volcanic-metamorphic-vmr-basins-challenges-collaborative-engagements-best-practices-and-performance-improvements-3083.pdf Geothermal drilling faces several challenges, as the industry strives to improve drilling efficiency and reduce current high operational costs. The condition is influenced by the direct deployment of oil and gas drilling systems, processes, and operational strategies, without the needed specific adaptations for geothermal environments.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304285390/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for ardhya-ramadhan-geothermal-drilling-in-volcanic-metamorphic-vmr-basins-challenges-collaborative-engagements-best-practices-and-performance-improvements-3083.pdf"
+      - paragraph: ardhya-ramadhan-geothermal-drilling-in-volcanic-metamorphic-vmr-basins-challenges-collaborative-engagements-best-practices-and-performance-improvements-3083.pdf
+      - paragraph: Geothermal drilling faces several challenges, as the industry strives to improve drilling efficiency and reduce current high operational costs. The condition is influenced by the direct deployment of oil and gas drilling systems, processes, and operational strategies, without the needed specific adaptations for geothermal environments.
+    - link "Edit license or certification Geothermal Drilling in Volcanic-Metamorphic (VMR) Basins - Challenges, Collaborative Engagements, Best Practices, and Performance Improvements":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304285390/
+    - link:
+      - /url: https://www.linkedin.com/company/23356/
+      - figure:
+        - img "Society of Petroleum Engineers International logo"
+    - paragraph: How to Write a Good Technical Paper
+    - paragraph: Society of Petroleum Engineers International
+    - paragraph: Issued Sep 2024
+    - paragraph: Credential ID 5761434
+    - link "Show credential for How to Write a Good Technical Paper":
+      - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fstreaming%2Espe%2Eorg%2Fhow-to-write-a-good-technical-paper-5&urlhash=RCR5&mt=BpmeVzPDpOgFxwlLIjoaDEAizc2QH6agojvP4-626kQDGJyNZJn6QwTDr3yMEukuFm7PsemjhZ1LpH65yi0SpQmTqpNq&isSdui=true
+      - generic: Show credential
+    - 'link "Skills: Technical Papers"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304259800/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Technical Papers
+    - link "ardhya-ramadhan-how-to-write-a-good-technical-paper-3083.pdf SPE is committed to helping authors submit their best possible paper to conferences and journals. This session will cover the basic methods on how to write a good technical paper.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304259800/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for ardhya-ramadhan-how-to-write-a-good-technical-paper-3083.pdf"
+      - paragraph: ardhya-ramadhan-how-to-write-a-good-technical-paper-3083.pdf
+      - paragraph: SPE is committed to helping authors submit their best possible paper to conferences and journals. This session will cover the basic methods on how to write a good technical paper.
+    - link "Edit license or certification How to Write a Good Technical Paper":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304259800/
+    - link:
+      - /url: https://www.linkedin.com/company/20338563/
+      - figure:
+        - img "Skilvul logo"
+    - paragraph: "Ethics of Artificial Intelligence: Navigating Responsible Technology for the Future"
+    - paragraph: Skilvul
+    - paragraph: Issued Sep 2024
+    - paragraph: Credential ID SKILVUL/CERT/SKILHUB/2024.IX/0385
+    - 'link "Skills: Artificial Intelligence (AI)"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304230877/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Artificial Intelligence (AI)
+    - link "Ardhya Novri Ramadhan - Sertifikat Webinar SkilHub x Nocturnailed _Ethics of Artificial Intelligence_ Navigating Responsible Technology for the Future_.pdf Ethics in artificial intelligence involves principles such as proportionality, safety and security, the right to privacy, and multi-stakeholder governance.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304230877/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Ardhya Novri Ramadhan - Sertifikat Webinar SkilHub x Nocturnailed _Ethics of Artificial Intelligence_ Navigating Responsible Technology for the Future_.pdf"
+      - paragraph: Ardhya Novri Ramadhan - Sertifikat Webinar SkilHub x Nocturnailed _Ethics of Artificial Intelligence_ Navigating Responsible Technology for the Future_.pdf
+      - paragraph: Ethics in artificial intelligence involves principles such as proportionality, safety and security, the right to privacy, and multi-stakeholder governance.
+    - 'link "Edit license or certification Ethics of Artificial Intelligence: Navigating Responsible Technology for the Future"':
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304230877/
+    - link:
+      - /url: https://www.linkedin.com/company/14414294/
+      - figure:
+        - img "SPE Universitas Diponegoro SC logo"
+    - paragraph: "Strategies in Geothermal Exploration: Maximizing Indonesia's Potential"
+    - paragraph: SPE Universitas Diponegoro SC
+    - paragraph: Issued Sep 2024
+    - paragraph: Credential ID 5761434
+    - 'link "Show credential for Strategies in Geothermal Exploration: Maximizing Indonesia''s Potential"':
+      - /url: https://www.linkedin.com/posts/spe-undip-student-chapter_speundipsc2024-empoweringgrowth-activity-7239861394857213952-aaxQ/?utm_source=share&utm_medium=member_desktop
+      - generic: Show credential
+    - 'link "Skills: Geothermal"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304197406/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Geothermal
+    - link "8.png SPE Guest Lecture is a series webinar which is held by SPE UNDIP SC that will talk about all of the processes that happen in oil and gas. This webinar will explore the latest advancements in geothermal exploration, discussing strategies to overcome the challenges and leverage Indonesia's geothermal potential.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304197406/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for 8.png"
+      - paragraph: 8.png
+      - paragraph: SPE Guest Lecture is a series webinar which is held by SPE UNDIP SC that will talk about all of the processes that happen in oil and gas. This webinar will explore the latest advancements in geothermal exploration, discussing strategies to overcome the challenges and leverage Indonesia's geothermal potential.
+    - 'link "Edit license or certification Strategies in Geothermal Exploration: Maximizing Indonesia''s Potential"':
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304197406/
+    - link:
+      - /url: https://www.linkedin.com/company/69358509/
+      - figure:
+        - img "Engineering Academy logo"
+    - paragraph: Automation Clinic Motor Protection and Control
+    - paragraph: Engineering Academy
+    - paragraph: Issued Sep 2024
+    - paragraph: Credential ID FC/SCH/09/2024/0327
+    - 'link "Skills: Motor Control"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304166322/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Motor Control
+    - link "FC_SCH_09_2024_0327-Ardhya Novri Ramadhan.pdf Motor protection and control systems are crucial for ensuring the safe and efficient operation of electric motors in industrial settings.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304166322/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for FC_SCH_09_2024_0327-Ardhya Novri Ramadhan.pdf"
+      - paragraph: FC_SCH_09_2024_0327-Ardhya Novri Ramadhan.pdf
+      - paragraph: Motor protection and control systems are crucial for ensuring the safe and efficient operation of electric motors in industrial settings.
+    - link "Edit license or certification Automation Clinic Motor Protection and Control":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304166322/
+    - link:
+      - /url: https://www.linkedin.com/company/67280347/
+      - figure:
+        - img "Google Digital Academy (Skillshop) logo"
+    - paragraph: Fundamentals of digital marketing
+    - paragraph: Google Digital Academy (Skillshop)
+    - paragraph: Issued May 2024
+    - paragraph: Credential ID 249487696
+    - link "Show credential for Fundamentals of digital marketing":
+      - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fskillshop%2Eexceedlms%2Ecom%2Fstudent%2Faward%2Fyr2mRCSHRrucEiMDz38Cpgt2&urlhash=zXRH&mt=cl6rAtsEgWIFoYG3DvkNMrfPVFbhTP9WgQ-gQPFB0_XF8GEKgOnutlc57i5RoopXIUBlWFDOWJbzDCrOJRS8HXXrOCyf&isSdui=true
+      - generic: Show credential
+    - link "Digital Marketing.jpeg Digital marketing is the component of marketing that uses the Internet and online-based digital technologies such as desktop computers, mobile phones, and other digital media and platforms to promote products and services.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304125142/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Digital Marketing.jpeg"
+      - paragraph: Digital Marketing.jpeg
+      - paragraph: Digital marketing is the component of marketing that uses the Internet and online-based digital technologies such as desktop computers, mobile phones, and other digital media and platforms to promote products and services.
+    - link "Edit license or certification Fundamentals of digital marketing":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304125142/
+    - link:
+      - /url: https://www.linkedin.com/school/6128/
+      - figure:
+        - img "The Open University logo"
+    - paragraph: An introduction to electronics
+    - paragraph: The Open University
+    - paragraph: Issued May 2024
+    - paragraph: Credential ID T212_1
+    - link "Show credential for An introduction to electronics":
+      - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fwww%2Eopen%2Eedu%2Fopenlearn%2Fscience-maths-technology%2Fan-introduction-electronics%2Fcontent-section-0&urlhash=1gvN&mt=5ezQlED4NsofOvXRjORZ4LNODjFedC9hINFkdQ09Ze0WDj5ckBwHJrPHVO3zCTaKPbDkUi3K1ho_y7k2yYtpz9mRH_jQ&isSdui=true
+      - generic: Show credential
+    - 'link "Skills: Electronics Manufacturing, Electronics Hardware Design, +3 skills"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304095432/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Electronics Manufacturing, Electronics Hardware Design, +3 skills
+    - link "An introduction to electronics.pdf Electronics is fundamental to modern life. Using an interactive website, videos, and easy-to-use electronic circuit design and simulation software, this free course, An introduction to electronics, will show how electronic devices and systems pervade everything we do, and teach some of the basic ideas.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304095432/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for An introduction to electronics.pdf"
+      - paragraph: An introduction to electronics.pdf
+      - paragraph: Electronics is fundamental to modern life. Using an interactive website, videos, and easy-to-use electronic circuit design and simulation software, this free course, An introduction to electronics, will show how electronic devices and systems pervade everything we do, and teach some of the basic ideas.
+    - link "Edit license or certification An introduction to electronics":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304095432/
+    - link:
+      - /url: https://www.linkedin.com/school/6128/
+      - figure:
+        - img "The Open University logo"
+    - paragraph: "IT: device to device communication"
+    - paragraph: The Open University
+    - paragraph: Issued May 2024
+    - paragraph: Credential ID T175_1
+    - 'link "Show credential for IT: device to device communication"':
+      - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fwww%2Eopen%2Eedu%2Fopenlearn%2Fscience-maths-technology%2Fit-device-device-communication%2Fcontent-section-0&urlhash=uSMy&mt=QdDnOnM0T9D5d74BkcGzf3p4bw8QI57Mh-A-vMwBPg5f8UfkPxhMkao75Bs8kfUIJUxKLEc1Vu7yr4JolvjP4RyhBAx1&isSdui=true
+      - generic: Show credential
+    - 'link "Skills: Semiconductor Device, Device Drivers, +3 skills"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304063135/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Semiconductor Device, Device Drivers, +3 skills
+    - 'link "IT device to device communication.pdf Are you a technophobe? Bluetooth, Ethernet, WiFi; are they terms that mean nothing to you? IT: device to device communication, is a free course that will gently guide you to an understanding of how devices ''talk'' to each other and what technologies and processes are involved. You will also look at wired and wireless communication technologies, introducing you to some of the key methods involved."':
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304063135/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for IT device to device communication.pdf"
+      - paragraph: IT device to device communication.pdf
+      - paragraph: "Are you a technophobe? Bluetooth, Ethernet, WiFi; are they terms that mean nothing to you? IT: device to device communication, is a free course that will gently guide you to an understanding of how devices 'talk' to each other and what technologies and processes are involved. You will also look at wired and wireless communication technologies, introducing you to some of the key methods involved."
+    - 'link "Edit license or certification IT: device to device communication"':
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304063135/
+    - link:
+      - /url: https://www.linkedin.com/company/2850862/
+      - figure:
+        - img "Canva logo"
+    - paragraph: Canva 100 Design Achievement Badge
+    - paragraph: Canva
+    - paragraph: Issued May 2024
+    - 'link "Skills: Design, Graphic Design, +1 skill"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1304006217/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Design, Graphic Design, +1 skill
+    - link "Canva 100 Design Achievement Badge.png":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1304006217/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Canva 100 Design Achievement Badge.png"
+      - paragraph: Canva 100 Design Achievement Badge.png
+    - link "Edit license or certification Canva 100 Design Achievement Badge":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1304006217/
+    - link:
+      - /url: https://www.linkedin.com/company/99134355/
+      - figure:
+        - img "College Copilot (AI) logo"
+    - paragraph: College Copilot Bootcamp (Caboot)
+    - paragraph: College Copilot (AI)
+    - paragraph: Issued Mar 2024
+    - 'link "Skills: Artificial Intelligence (AI), ChatGPT"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1303948113/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Artificial Intelligence (AI), ChatGPT
+    - link "College Copilot Bootcamp (Caboot).png College Copilot is an innovative AI community dedicated to empowering its members to harness the potential of artificial intelligence for enhanced productivity, efficiency, and personal growth.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1303948113/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for College Copilot Bootcamp (Caboot).png"
+      - paragraph: College Copilot Bootcamp (Caboot).png
+      - paragraph: College Copilot is an innovative AI community dedicated to empowering its members to harness the potential of artificial intelligence for enhanced productivity, efficiency, and personal growth.
+    - link "Edit license or certification College Copilot Bootcamp (Caboot)":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1303948113/
+    - link:
+      - /url: https://www.linkedin.com/school/1813177/
+      - figure:
+        - img "Diponegoro University logo"
+    - paragraph: LKMMPD Event Committee
+    - paragraph: Diponegoro University
+    - paragraph: Issued Dec 2023
+    - 'link "Skills: Logistics Management, Equipment Maintenance"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1303900532/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Logistics Management, Equipment Maintenance
+    - link "LKKMPD Event Committee.png LKMMPD, or \"Latihan Kader Mahasiswa dan Pengembangan Diri,\" is a mandatory activity for new students at Universitas Diponegoro, specifically for the year 2023 students in the Electrical Engineering program. The event includes delivering materials by facilitators aimed at developing students' skills and competencies.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1303900532/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for LKKMPD Event Committee.png"
+      - paragraph: LKKMPD Event Committee.png
+      - paragraph: LKMMPD, or "Latihan Kader Mahasiswa dan Pengembangan Diri," is a mandatory activity for new students at Universitas Diponegoro, specifically for the year 2023 students in the Electrical Engineering program. The event includes delivering materials by facilitators aimed at developing students' skills and competencies.
+    - link "Edit license or certification LKMMPD Event Committee":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1303900532/
+    - link:
+      - /url: https://www.linkedin.com/school/1813177/
+      - figure:
+        - img "Diponegoro University logo"
+    - paragraph: PKKMB and Character Education 2022/2023 - Participation
+    - paragraph: Diponegoro University
+    - paragraph: Issued Aug 2022
+    - link "PKKMB and Character Education | Participation Certificate Original Diponegoro University participation certificate for Ardhya Novri Ramadhan, PKKMB and Character Education 2022/2023, 15–20 August 2022, 40 hours.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1303864866/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for PKKMB and Character Education | Participation Certificate"
+      - paragraph: PKKMB and Character Education | Participation Certificate
+      - paragraph: Original Diponegoro University participation certificate for Ardhya Novri Ramadhan, PKKMB and Character Education 2022/2023, 15–20 August 2022, 40 hours.
+    - link "Edit license or certification PKKMB and Character Education 2022/2023 - Participation":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1303864866/
+    - link:
+      - /url: https://www.linkedin.com/school/53268174/
+      - figure:
+        - img "SMAN 5 Bekasi logo"
+    - paragraph: ICT 2021 Vice Secretary - Certificate of Appreciation
+    - paragraph: SMAN 5 Bekasi
+    - paragraph: Issued Dec 2021
+    - paragraph: Credential ID 422/1270/SMAN.5/CDP WIL.III
+    - link "ICT 2021 | Vice Secretary Certificate Original certificate for Ardhya Novri Ramadhan as Vice Secretary, ICT SMAN 5 Bekasi, December 2021, no. 422/1270/SMAN.5/CDP WIL.III.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1303823472/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for ICT 2021 | Vice Secretary Certificate"
+      - paragraph: ICT 2021 | Vice Secretary Certificate
+      - paragraph: Original certificate for Ardhya Novri Ramadhan as Vice Secretary, ICT SMAN 5 Bekasi, December 2021, no. 422/1270/SMAN.5/CDP WIL.III.
+    - link "Edit license or certification ICT 2021 Vice Secretary - Certificate of Appreciation":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1303823472/
+    - link:
+      - /url: https://www.linkedin.com/school/53268174/
+      - figure:
+        - img "SMAN 5 Bekasi logo"
+    - paragraph: SCIENCE TECHNO & JOURNALISTIC COMPETITION (CINOTIC) 2021
+    - paragraph: SMAN 5 Bekasi
+    - paragraph: Issued Nov 2021
+    - 'link "Skills: Executive Administrative Assistance, Legal Assistants"':
+      - /url: https://www.linkedin.com/in/dhya/overlay/1303779328/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Executive Administrative Assistance, Legal Assistants
+    - link "CINOTIC.pdf CINOTIC is an event that stands for a Science, Technology, and Journalistic Competition. It is organized by institutions such as OSIS, ICT, and SMAN 5 Bekasi, focusing on challenging participants in various fields related to science and technology along with journalistic skills.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1303779328/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for CINOTIC.pdf"
+      - paragraph: CINOTIC.pdf
+      - paragraph: CINOTIC is an event that stands for a Science, Technology, and Journalistic Competition. It is organized by institutions such as OSIS, ICT, and SMAN 5 Bekasi, focusing on challenging participants in various fields related to science and technology along with journalistic skills.
+    - link "Edit license or certification SCIENCE TECHNO & JOURNALISTIC COMPETITION (CINOTIC) 2021":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1303779328/
+    - link:
+      - /url: https://www.linkedin.com/company/97296706/
+      - figure:
+        - img "Pelatihan Olimpiade Sains (www.pelatihan-osn.com) logo"
+    - paragraph: Geography KSN-K Preparation - Training Participation
+    - paragraph: Pelatihan Olimpiade Sains (www.pelatihan-osn.com)
+    - paragraph: Issued Feb 2021
+    - paragraph: Credential ID GEO3500006/pelatihan-osn.com/ADM/Eks/II/2021
+    - link "Geography KSN-K Preparation | Training Certificate Original training participation certificate for Ardhya Novri Ramadhan, pelatihan-osn.com, February 2021, no. GEO3500006/pelatihan-osn.com/ADM/Eks/II/2021.":
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1303700810/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for Geography KSN-K Preparation | Training Certificate"
+      - paragraph: Geography KSN-K Preparation | Training Certificate
+      - paragraph: Original training participation certificate for Ardhya Novri Ramadhan, pelatihan-osn.com, February 2021, no. GEO3500006/pelatihan-osn.com/ADM/Eks/II/2021.
+    - link "Edit license or certification Geography KSN-K Preparation - Training Participation":
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1303700810/
+    - link:
+      - /url: https://www.linkedin.com/company/67533837/
+      - figure:
+        - img "SPE Java Indonesia Section logo"
+    - paragraph: "ML/AI Fundamentals: How Machine Learning is Shaping the Oil and Gas Industry - Participation"
+    - paragraph: SPE Java Indonesia Section
+    - 'link "SPE Java Section | ML/AI Fundamentals Original participation certificate for Ardhya Novri Ramadhan, SPE Innovation Hub Talk Series: ML/AI Fundamentals: How Machine Learning is Shaping the Oil and Gas Industry."':
+      - /url: https://www.linkedin.com/in/dhya/overlay/Certifications/1303576094/treasury/?profileId=ACoAAD7kBXgBzTQHRxonzcDgdODPyGbcjAxSCaY
+      - figure:
+        - img "Thumbnail for SPE Java Section | ML/AI Fundamentals"
+      - paragraph: SPE Java Section | ML/AI Fundamentals
+      - paragraph: "Original participation certificate for Ardhya Novri Ramadhan, SPE Innovation Hub Talk Series: ML/AI Fundamentals: How Machine Learning is Shaping the Oil and Gas Industry."
+    - 'link "Edit license or certification ML/AI Fundamentals: How Machine Learning is Shaping the Oil and Gas Industry - Participation"':
+      - /url: https://www.linkedin.com/in/dhya/details/certifications/edit/forms/1303576094/
+  - 

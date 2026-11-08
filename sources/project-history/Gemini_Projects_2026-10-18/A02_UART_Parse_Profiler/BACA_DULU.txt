@@ -1,0 +1,20 @@
+A02. UART PARSE PROFILER
+
+Perluasan uart-fixture-kit. Parser lama tetap menjadi default.
+PR: https://github.com/vanovri/uart-fixture-kit/pull/1
+
+Buka Profile_Result.html untuk tabel hasil dan cProfile hotspots. Profile_Result.json menyimpan sampel waktu mentah, hash source/fixture, parameter dan lingkungan pengujian.
+
+Replay:
+python -m uart_fixture_kit profile --records 2048 --repeats 9 --warmups 3 --output uart-profile.json --html uart-profile.html
+
+Wheel dapat dipasang tanpa dependensi runtime:
+python -m pip install uart_fixture_kit-0.2.0-py3-none-any.whl
+
+193 tes lokal lulus. Demo 15/15 fixture lulus. Source/wheel berhasil dibangun, lalu wheel dipasang dalam lingkungan bersih di luar source dan diverifikasi.
+
+Pada satu run Windows CPython 3.14.7, bulk median 18,368 ms menjadi 8,669 ms. Saat setiap byte menjadi event terpisah, median justru 44,280 ms menjadi 56,507 ms. Hasil bergantung pada pola chunk dan lingkungan. Tidak mengukur kecepatan UART fisik.
+
+Semua data sintetis. Tidak ada capture privat, data subjek atau kode skripsi bersama. Dikembangkan dengan bantuan Codex. Posting LinkedIn ditunda untuk paket gabungan 3-5 proyek setelah siap.
+
+Selesai: PR sudah merged. Release v0.2.0 terbit. Enam job CI main lulus. Empat aset unduhan publik cocok dengan hash lokal.

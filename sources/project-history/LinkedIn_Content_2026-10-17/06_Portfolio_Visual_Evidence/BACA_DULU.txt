@@ -1,0 +1,16 @@
+PORTFOLIO 2026. REVISI FOTO DAN BUKTI VISUAL
+
+16 halaman landscape, 1600 x 1000 piksel per halaman.
+Bagian Angkasa Pura sekarang dua halaman khusus di awal. Empat foto asli meliputi dokumentasi apron, Main Power Station, pembelajaran UPS, dan kunjungan fasilitas listrik.
+Logo asli UNDIP, InJourney Airports, Redesma, ENVIID, dan Google melengkapi identitas yang relevan.
+Halaman EMG memakai foto perangkat, diagram kabel, serta plot sinyal dari dokumentasi proyek.
+Lima dokumen asli tampil langsung: sertifikat asisten praktikum, GSA, SEED, Cisco IoT, serta pernyataan partisipasi OpenLearn.
+Screenshot aplikasi berasal dari proyek sendiri. Redesma memakai skema dokumentasi, dengan label yang jelas.
+
+PDF adalah file untuk review dan unggah dokumen LinkedIn. Font sudah dirender sehingga tampilannya tetap.
+PPTX menyediakan teks dan gambar yang dapat diedit. Font Anton dan Inter beserta lisensinya tersedia dalam folder Fonts.
+Caption_EN.txt usulan utama. Caption_ID.txt alternatif Indonesia. PNG seluruh halaman ada dalam ZIP.
+
+Kontribusi pribadi, proyek tim, dan bantuan AI tetap dijelaskan. Digital MRV merupakan demonstrasi.
+Paket ini menggantikan versi 05_Portfolio_Typography_Review untuk posting pertama.
+Status: menunggu review pengguna. Belum diunggah, diposting, atau dijadwalkan di LinkedIn.

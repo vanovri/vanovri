@@ -1,0 +1,27 @@
+Have you participated in another tech ambassador program?
+Google Student Ambassador, Class of 2025 (completed). Recognized for championing Google AI within my campus community.
+[118/500 characters]
+
+Why do you want to become a Codex Ambassador?
+I graduated in Electrical Engineering from Universitas Diponegoro in September 2026. As a former Google Student Ambassador, workshop instructor and lab assistant, I want to help Indonesian engineers learn Codex through small, testable projects. I would run beginner-friendly sessions in Bahasa Indonesia, share reusable materials, and bring participants' questions and failure cases back to OpenAI. My focus is helping people build, check and explain their own tools.
+[467/500 characters]
+
+What’s your favorite thing you’ve built with Codex?
+RepairGate, a local code-repair verifier I built with Codex. It separates proposed fixes from acceptance: protected test files, visible tests, independent holdout cases, and exported diffs and logs. A recorded-candidate demo makes the checks reproducible. I would use it in workshops to show why plausible AI-written code still needs independent verification. Code and walkthrough: https://github.com/vanovri/repairgate
+[419/500 characters]
+
+Event Ambassador applicants: Have you hosted a tech event previously?
+I have contributed as an instructor and event secretary, rather than as a sole host. I taught basic electronics at ENIGMA Vol. 3 (6 October 2024), was event secretary for CINOTIC (2021), and guided students as a Basic Electronics Practicum Assistant (2025). I cannot verify attendance, so I do not claim a 50+ audience. Role history: https://ardhyanovri.my.id/experience.html
+[375/500 characters]
+
+Would your events or content focus on speaking to a specific audience, industry, or niche?
+Indonesian engineering students and early-career engineers, especially in electronics, embedded systems and IoT. I would start with my UNDIP network and local peers in Bekasi/Jakarta. Sessions would connect Codex to familiar tasks such as sensor-data dashboards, CSV analysis and serial parsers. Beginners could use simulated data without buying hardware. Small exercises, pair work and time for questions would make sessions accessible across experience levels.
+[462/500 characters]
+
+Would you host events or create content in a language other than English?
+Yes, Bahasa Indonesia for live instruction, discussion and follow-up guides. Repositories would include English technical terms and code comments so others can reuse them. I would explain unfamiliar terms, provide setup instructions in advance, and publish a written walkthrough for people unable to attend.
+[307/500 characters]
+
+If selected as a Codex Ambassador, what would your first contribution be?
+A 2-hour pilot workshop, "Codex for Engineers", in Bahasa Indonesia for my UNDIP network and local engineering peers. Participants would build a sensor dashboard using simulated data, then review the diff, add tests and fix a planted input bug. Each would leave with a working repository and review checklist. I would publish the tutorial and anonymized lessons, collect feedback, and offer a follow-up Q&A. Venue and date would be arranged after interest and access needs are confirmed.
+[487/500 characters]

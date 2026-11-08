@@ -1,0 +1,38 @@
+- banner
+- main:
+  - generic: Langkah 9 dari 9
+  - heading [level=5]: Pencari Kerja
+  - generic: Silahkan isi form dibawah ini agar kami dapat mengetahui kondisi keberkerjaanmu saat ini.
+  - generic: Bidang pekerjaan yang diinginkan
+  - generic: Teknik, Perangkat Keras
+  - generic: Teknik, Perangkat Lunak
+  - textbox
+  - button:
+    - generic: Pilih bidang pekerjaan
+  - generic: Lokasi yang diinginkan
+  - generic: KOTA BEKASI
+  - generic: DKI JAKARTA
+  - textbox
+  - button:
+    - generic: Pilih lokasi
+  - generic: Industri/sektor yang diinginkan
+  - generic: Science & Technology
+  - textbox
+  - button:
+    - generic: Pilih industri/sektor
+  - generic: Gaji minimum yang diinginkan?
+  - button:
+    - generic: Rp 7,01 – 10 juta
+  - generic: Kondisi kebekerjaan saat ini
+  - button:
+    - generic: Fresh Graduate
+  - generic: Dimana kamu ingin bekerja?
+  - checkbox [checked]:
+    - generic: Dalam Negeri
+  - checkbox [checked]:
+    - generic: Luar Negeri
+  - generic: Pilih negara tujuan bekerja
+  - checkbox [checked] [active]:
+    - generic: Saya tidak memiliki referensi negara tujuan
+- contentinfo:
+  - button

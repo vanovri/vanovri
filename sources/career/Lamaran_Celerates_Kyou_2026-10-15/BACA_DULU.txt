@@ -1,0 +1,82 @@
+PAKET LAMARAN CELERATES DAN KYOU
+15 Oktober 2026
+
+FILE YANG DIPAKAI
+
+Untuk form Celerates, upload Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.pdf.
+Form yang sudah Anda isi: https://docs.google.com/forms/d/1pmhAlpuXokzmdtWjsdhK2I6v2PM54teEiOmmYyf7_AY/viewform?edit_requested=true
+Posisi pada form: IoT Developer. Batas file 10 MB. CV dalam paket ini berukuran di bawah 1 MB.
+Form tidak diubah atau dikirim selama penyusunan paket ini.
+
+Untuk Kyou, gunakan Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.pdf.
+Penerima: hataraku@kyou.id
+Subjek sesuai slide resmi: [TECH ENGINEER] - ARDHYA NOVRI RAMADHAN - BEKASI
+Draft_Email_Kyou.txt berisi teks siap salin.
+Draft_Email_Kyou.eml memuat penerima, subjek, isi, dan lampiran CV Kyou. Buka melalui aplikasi email yang mendukung EML. File merupakan draft lokal, belum dikirim.
+Sumber .tex disertakan agar kedua CV dapat diedit dan dikompilasi ulang. CV umum lama dipertahankan.
+
+ARAH PENYESUAIAN
+
+Celerates
+CV mendahulukan bukti ESP32, DS18B20, STM32, SEN0240, ADC/DMA, UART, monitoring Python, dokumentasi dan instalasi. Magang Angkasa Pura diposisikan sebagai pembelajaran lapangan, dengan lima minggu UPS/converter dan tiga minggu proteksi. PLC hanya observasi. Proyek UART sintetis dijelaskan sebagai pengujian parser tanpa hardware.
+Form aktif menyebut project di Pulo Gadung, Jakarta Timur, kontrak 24 bulan, dan MCU. Data pribadi serta tanggal mulai tetap mengikuti isian pengguna. Tidak ada informasi gaji, kesehatan, tinggi/berat badan atau nomor identitas dalam CV.
+Pencarian publik juga menemukan iklan Celerates berjudul Junior IoT Operation yang meminta Raspberry Pi dan kesiapan shift. Ini dicatat sebagai konteks tambahan. Form yang diberikan pengguna tetap menjadi sumber utama nama posisi dan penempatan.
+Pengguna menyatakan Raspberry Pi hanya dilihat pada proyek teman. Pengalaman implementasi Raspberry Pi tidak ditulis. MQTT ditulis sebagai pemahaman dasar. Tidak ada klaim implementasi AWS IoT, Azure IoT, pengalaman tambang, atau kesiapan shift tanpa konfirmasi.
+
+Kyou
+CV mendahulukan DataRescue, RepairGate dan ApplyProof untuk menunjukkan tools, workflow, pengujian, API, dokumentasi, dan pengembangan berbantuan AI.
+DataRescue memberi contoh preview sebelum ekspor, alasan penolakan data, dan perlindungan file asli. Itu dipakai sebagai bukti keputusan antarmuka yang membantu pengguna, tanpa mengklaim riset pengguna formal atau penghematan waktu yang belum diukur.
+HTTP/JSON API dan validasi input didukung source FastAPI serta API ENVIID. SQL/database ditulis tingkat dasar sesuai klarifikasi pengguna.
+Pengguna mengonfirmasi domisili Bekasi, kesiapan WFO Harapan Indah mulai 1 November 2026, dan minat menonton anime sekitar 10 tahun sejak SMP. Minat anime tidak ditulis sebagai pengalaman kerja atau keahlian merchandise berlisensi. Email menyatakan kesiapan mempelajari produk dan operasionalnya.
+Portfolio dan GitHub sudah dicantumkan pada CV serta email karena lowongan mewajibkan portofolio.
+
+SUMBER LOWONGAN YANG DIBACA
+
+Kyou, unggahan akun kyouhobbyshop pada 12 Oktober 2026, dibaca langsung melalui Brave:
+https://www.instagram.com/p/DeZB0SHgQU6/
+Slide General Requirement, Tech Engineer, dan Apply Here diperiksa visual. Lokasi WFO Harapan Indah, Bekasi. Format subjek: [POSISI] - NAMA LENGKAP - DOMISILI. Caption menyatakan tidak ada deadline submission. Requirement merchandise berlisensi dicatat terpisah dari minat anime.
+
+Celerates, form aktif di atas, diperiksa langsung tanpa mengubah isian.
+Konteks requirement teknis dari iklan Celerates sendiri di LinkedIn:
+https://id.linkedin.com/jobs/view/iot-developer-at-celerates-4325024982
+Iklan lama tersebut sudah tidak menerima lamaran, sehingga tidak dipakai sebagai bukti bahwa aplikasi saat ini masih aktif.
+Iklan Junior IoT Operation dari Celerates:
+https://id.linkedin.com/jobs/view/junior-iot-operation-at-celerates-4477971623
+Posting perusahaan yang mengarahkan pelamar IoT Operations ke shortlink formulir:
+https://id.linkedin.com/company/celerates
+Status lowongan dapat berubah. Paket mengikuti formulir yang dibagikan pengguna dan requirement yang berhasil dibaca.
+
+BUKTI KANDIDAT YANG DIPAKAI
+
+CV umum, profil bukti lokal, klarifikasi pengguna dan portofolio terbaru:
+C:\Users\ardhy\Documents\Career_Upgrade_2026-10-13\cv\01-candidate-profile.md
+C:\Users\ardhy\Documents\Career_Upgrade_2026-10-13\cv\main_pt_shimizu_bangun_cipta_kontraktor_mep_engineer_electrical.tex
+https://ardhyanovri.my.id/experience.html
+https://ardhyanovri.my.id/projects.html
+
+Sertifikat Cisco IoT dan GSA diperiksa dari file lokal serta dirender untuk pemeriksaan visual:
+C:\Users\ardhy\OneDrive\Documents\My Certificates\IoT Ardhya Novri.pdf
+C:\Users\ardhy\OneDrive\Documents\My Certificates\Ardhya Novri Ramadhan GSA.pdf
+
+SOP IoT Drive, judul diverifikasi melalui pratinjau:
+https://drive.google.com/file/d/1rqTNeVXqP5PFD-gozQrqxWuAg-M6R2Ul/view
+Analisis Komparatif Platform IoT Blynk vs Thinger.io dalam Monitoring Suhu Real-time. Kepengarangan bersama sudah tercatat pada audit sumber sebelumnya. Pratinjau sesi ini tidak menyediakan teks penuh.
+
+README, API dan dokumentasi proyek lokal:
+C:\Users\ardhy\Projects\datarescue\README.md
+C:\Users\ardhy\Projects\datarescue\datarescue\api.py
+C:\Users\ardhy\Projects\datarescue\docs\VALIDATION.md
+C:\Users\ardhy\Projects\repairgate\README.md
+C:\Users\ardhy\Projects\applyproof\README.md
+C:\Users\ardhy\Projects\uart-fixture-kit\README.md
+C:\Users\ardhy\enviid-redesign\api\carbon.js
+C:\Users\ardhy\enviid-redesign\api\dmrv.js
+C:\Users\ardhy\enviid-redesign\js\dmrv-ledger.js
+
+Implementasi yang dibaca menunjukkan API dan data terstruktur, tetapi tidak membuktikan penggunaan database SQL. DataRescue dan ApplyProof menggunakan proses lokal/stateless. Logika MRV ENVIID memproses array dan objek, bukan bukti penyimpanan SQL.
+
+Hasil audit Drive/Photos terdahulu dipakai untuk deduplikasi dan batas kepemilikan. Pencarian Photos sesi ini berfokus pada sertifikat. Tidak menganggap seluruh foto/file di akun sebagai karya atau pengalaman pengguna. Beberapa file OneDrive yang belum tersedia offline tidak dapat dibaca karena layanan cloud lokal tidak berjalan. Sumber lokal yang berhasil dibaca, repositori, dan dokumen terverifikasi menjadi dasar CV.
+Penghargaan Kelompok 8 Selling Something, sertifikat HKI orang lain, dan proyek milik rekan tidak dimasukkan. Skor English tetap tidak ditampilkan sesuai instruksi sebelumnya.
+
+VERIFIKASI
+Kedua CV diperiksa sebagai PDF dengan teks yang dapat dipilih, tautan aktif, dan dua halaman per CV. Seluruh halaman dirender dan diperiksa visual. Tidak ada angka dampak bisnis, tingkat keberhasilan model AI, atau tingkat kemahiran industri yang ditambahkan tanpa bukti.

@@ -1,0 +1,17 @@
+PORTFOLIO EDITORIAL 2026
+
+PDF berisi 11 halaman landscape, 1600 x 1000 piksel per halaman.
+Gunakan PDF sebagai dokumen LinkedIn. PPTX menyediakan teks, foto dan screenshot yang dapat diedit.
+Caption_EN.txt adalah usulan utama. Caption_ID.txt adalah alternatif Indonesia.
+Preview_4_Pages.jpg menampilkan contoh empat halaman. Overview_11_Pages.jpg menampilkan seluruh susunan.
+
+Status: menunggu review pengguna. Belum diunggah, diposting atau dijadwalkan di LinkedIn.
+Persetujuan posting tetap diperlukan untuk hasil akhir ini.
+
+Desain isi mengikuti prinsip visual referensi Khansa dan Yulia: cover dengan portrait, hierarki tipografi besar, perkenalan, karya terpilih dan pengalaman. Semua isi dan bukti berasal dari Ardhya. Tidak memakai foto atau karya kedua penulis referensi.
+
+Portrait_Cutout.png memakai foto asli Ardhya, dengan background dihapus melalui built-in imagegen. Prompt: remove only the blue background, preserve identity, face, hair, expression, pose, clothing and blue rim lighting, keep original framing, actual alpha transparency, no text or added elements.
+
+ENVIID: sole website developer dengan bantuan AI. Kalkulator dan digital MRV adalah demonstrasi.
+EMG: proyek tim. Kontribusi Ardhya mencakup akuisisi, DSP dan GUI Python. Rekan tim menangani stimulasi dan fuzzy control.
+Software: screenshot asli, data contoh atau recorded proposal demo. Bantuan AI untuk pengembangan dicantumkan.

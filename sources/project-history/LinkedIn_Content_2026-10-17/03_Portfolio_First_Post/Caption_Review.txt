@@ -1,0 +1,19 @@
+Saya merapikan web portofolio agar kamu bisa melihat proyek, kontribusi saya, dan dokumen pendukungnya dalam satu tempat.
+
+Latar saya Teknik Elektro. Pekerjaan yang saya tampilkan mencakup embedded systems, pengolahan sinyal, Python, dan pengembangan software dengan bantuan AI.
+
+Di dalamnya, kamu bisa:
+• Menjelajahi proyek berdasarkan kategori.
+• Membuka catatan masalah, pendekatan, kontribusi, dan hasil.
+• Mencoba lab sinyal interaktif dengan data sintetis.
+• Melihat dokumen pendukung serta mengakses CV dan GitHub.
+
+Salah satu contohnya proyek EMG. Saya menjelaskan bagian akuisisi STM32, pengolahan sinyal, dan antarmuka Python yang saya kerjakan. Kontribusi anggota tim juga saya bedakan di catatan proyek.
+
+Saya ingin pembaca lebih mudah memahami isi setiap karya. Proyek yang sudah dibangun, demonstrasi, dan proposal saya beri konteks sesuai statusnya. Bantuan AI juga saya jelaskan pada catatan yang relevan.
+
+Carousel ini menjadi tur singkat sebelum kamu mencoba websitenya langsung.
+
+https://ardhyanovri.my.id/
+
+Kalau kamu membuka portofolio engineer, bagian mana yang biasanya kamu lihat dulu?

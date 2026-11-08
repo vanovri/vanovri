@@ -1,0 +1,34 @@
+{
+  "checked_date_wib": "2026-10-16",
+  "production": "https://ardhyanovri.my.id",
+  "deployment": "https://ardhya-novri-6sl3fl9yf-dhya3.vercel.app",
+  "routes": {
+    "/about": 200,
+    "/experience": 200,
+    "/credentials": 200,
+    "/cv-ardhya.pdf": 200,
+    "/img/cert/practicum-assistant-2025.webp": 200,
+    "/img/cert/ai-fundamentals-completion.jpg": 200
+  },
+  "public_pdf_exact_match": true,
+  "public_pdf_pages": 4,
+  "public_pdf_phone_removed": true,
+  "public_pdf_sha256": "6228cc9a29a3d7036a194020f0fc28c3f05cdf13e08e15ee5f39e40ff684982c",
+  "user_confirmed_service": "Odd semester 2024 and even semester 2025, semesters 5 and 6, two six-month semesters, one academic year",
+  "linkedin_month_range": "Aug 2024 - Jul 2025, normalized academic-year span; not exact dates stated in the certificate",
+  "linkedin_display": "1 yr",
+  "linkedin_about_updated": true,
+  "certificate_verified": "6 July 2025, No. 02/UN7.5.3/HK/2025",
+  "separate_earlier_semester_certificate_found": false,
+  "coursera_evidence": "100% course complete in authenticated account; certificate access locked",
+  "automation": {
+    "id": "draft-linkedin-tiap-2-hari",
+    "destination": "current Codex chat",
+    "status": "ACTIVE",
+    "schedule": "Every 2 days at 19:17 WIB",
+    "grok_weekly_routine": "Paused; readback verified",
+    "publishing": "Drafts only"
+  },
+  "pdf_qa": "Changed pages visually inspected. Remaining pages pixel-identical to the previous inspected PDFs.",
+  "mobile_preview": "No horizontal overflow at 390px."
+}

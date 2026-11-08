@@ -1,0 +1,77 @@
+% Adapted from MadsLorentzen/ai-job-search cv/main_example.tex (MIT).
+% Candidate facts: local 01-candidate-profile.md. Compile with LuaLaTeX.
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+\AtEndPreamble{\hypersetup{colorlinks=true,urlcolor=color1,
+  pdftitle={Ardhya Novri Ramadhan - CV},pdfauthor={Ardhya Novri Ramadhan},
+  pdfpagemode=UseNone}}
+\name{Ardhya Novri}{Ramadhan}
+\title{Electrical Engineering Graduate}
+\address{Bekasi, Indonesia}{}{}
+\email{ardhyasan@gmail.com}
+
+\extrainfo{\href{https://ardhyanovri.my.id}{ardhyanovri.my.id}\enspace |\enspace
+\href{https://www.linkedin.com/in/dhya/}{linkedin.com/in/dhya}\enspace |\enspace
+\href{https://github.com/vanovri}{github.com/vanovri}}
+\begin{document}
+\makecvtitle
+
+\small{Electrical Engineering graduate with STM32, Python and practical electronics
+experience. Builds AI-assisted developer tools and verifies their behavior with
+automated tests. Based in Bekasi and open to junior engineering roles across
+Jabodetabek.}
+
+\section{Core Competencies}
+\begin{itemize}
+\item \textbf{Embedded firmware}: C, STM32 HAL, STM32CubeIDE, ADC, DMA, UART and digital filtering.
+\item \textbf{Desktop monitoring}: Python/Tkinter, serial telemetry, live plots and CSV export.
+\item \textbf{Web applications}: React interfaces and FastAPI services for implemented portfolio tools.
+\item \textbf{Verification}: Protected tests, independent holdout checks and auditable processing reports.
+\item \textbf{Electronics}: DC motor control, IoT temperature monitoring and airport UPS/converter systems exposure.
+\end{itemize}
+
+\section{Education}
+\cventry{Sep 2026}{B.Eng. in Electrical Engineering}{Diponegoro University}{}{}{
+GPA: 3.43/4.00. Graduated on 29 September 2026.}
+
+\section{Practical Experience}
+\cventry{Jul 2025 - Aug 2025}{Internship Trainee}{PT Angkasa Pura Indonesia}{Soekarno-Hatta International Airport}{}{
+Gained field exposure to airport UPS and converter systems.}
+\cventry{Jan 2025 - Feb 2025}{Electronics Technician}{Redesma Technologies}{}{}{
+Worked on electronics tasks involving IoT temperature monitoring and DC motor control.}
+
+\section{Selected Projects}
+\cventry{Oct 2026}{Code-repair Verification Tool}{\href{https://github.com/vanovri/repairgate}{RepairGate}}{}{}{
+\begin{itemize}
+\item Built a verifier with protected tests, independent holdout checks and exported patch decisions. Verified 21 core and adapter tests.
+\item Added an optional local Ollama proposal adapter. The demo uses recorded candidates; no live-model benchmark was performed.
+\end{itemize}}
+\cventry{Oct 2026}{Evidence-based Application Workspace}{\href{https://github.com/vanovri/applyproof}{ApplyProof}}{}{}{
+\begin{itemize}
+\item Built a workspace that separates office and worksite locations, compares explicit skill tags with reviewed facts and creates traceable drafts.
+\item Verified 19 core and adapter tests. Optional AI selects fact IDs; final draft text uses the selected facts verbatim.
+\end{itemize}}
+\cventry{Oct 2026}{Structured Data Repair Tool}{\href{https://github.com/vanovri/datarescue}{DataRescue}}{}{}{
+Built a local CSV/JSON validation workbench and CLI with rule-based normalization, quarantine of rejected rows and audit-report exports, covered by automated tests; browser workflow verified.}
+\cventry{Thesis, 2026}{EMG Acquisition and Python Monitoring Interface}{Diponegoro University}{}{}{
+Implemented STM32 acquisition, digital filtering and the full Python/Tkinter monitoring interface with coding-agent assistance. Teammates handled stimulation and fuzzy control.}
+
+\section{Campus Leadership}
+\cventry{Class of 2025}{Google Student Ambassador}{Google Student Ambassador Program}{}{}{
+Completed the student program; recognized for leadership in championing Google AI within the campus community.}
+
+\section{Selected Training and English}
+\cvitem{Training}{Automation Clinic: Motor Protection and Control (Sep 2024); Cisco Introduction to Internet of Things (Sep 2026).}
+\cvitem{English}{SEU UNDIP institutional English Proficiency Test: score 81, TOEFL prediction equivalent 632 (Jun 2026).}
+\end{document}

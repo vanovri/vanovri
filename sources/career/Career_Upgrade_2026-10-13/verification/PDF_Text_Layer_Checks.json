@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CV ATS ARDHYA NOVRI RAMADHAN_compressed.pdf",
+    "pages": 2,
+    "characters_by_page": [
+      0,
+      0
+    ],
+    "status": "needs_text_layer_review",
+    "stored": false,
+    "note": "Text-layer check only. It does not measure ATS ranking or layout quality."
+  },
+  {
+    "file": "CV ATS - Ardhya Novri Ramadhan.pdf",
+    "pages": 2,
+    "characters_by_page": [
+      2833,
+      3504
+    ],
+    "status": "text_layer_found",
+    "stored": false,
+    "note": "Text-layer check only. It does not measure ATS ranking or layout quality."
+  },
+  {
+    "file": "Ardhya_Novri_CV_SBCK_MEP_Electrical_ATS.pdf",
+    "pages": 1,
+    "characters_by_page": [
+      2289
+    ],
+    "status": "text_layer_found",
+    "stored": false,
+    "note": "Text-layer check only. It does not measure ATS ranking or layout quality."
+  },
+  {
+    "file": "Ardhya_Novri_CV_Engineering_Projects_Public.pdf",
+    "pages": 1,
+    "characters_by_page": [
+      2228
+    ],
+    "status": "text_layer_found",
+    "stored": false,
+    "note": "Text-layer check only. It does not measure ATS ranking or layout quality."
+  }
+]

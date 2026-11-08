@@ -1,0 +1,154 @@
+cv:
+  name: Ardhya Novri Ramadhan
+  headline: Electrical Engineering Graduate | MEP Engineer (Electrical) Applicant
+  location: Bekasi, Indonesia
+  email: ardhyasan@gmail.com
+  phone: '+6281291552970'
+  website: https://ardhyanovri.my.id
+  social_networks:
+  - network: LinkedIn
+    username: dhya
+  - network: GitHub
+    username: vanovri
+  sections:
+    Professional Summary:
+    - Electrical Engineering graduate with field exposure to airport UPS/converter systems and practical electronics
+      experience. Built STM32 acquisition firmware and a Python monitoring interface. Seeking a fresh-graduate MEP
+      Engineer (Electrical) opportunity, with interest in critical power systems.
+    Education:
+    - institution: Diponegoro University
+      degree: B.Eng.
+      area: Electrical Engineering
+      date: Sep 2026
+      highlights:
+      - 'GPA: 3.43/4.00. Graduated 29 September 2026.'
+    Practical Experience:
+    - company: PT Angkasa Pura Indonesia
+      position: Internship Trainee
+      date: Jul - Aug 2025
+      highlights:
+      - Gained field exposure to UPS and converter systems at Soekarno-Hatta International Airport.
+    - company: Redesma Technologies
+      position: Electronics Technician
+      date: Jan - Feb 2025
+      highlights:
+      - Worked on electronics tasks involving IoT temperature monitoring and DC motor control.
+    - company: Diponegoro University
+      position: Basic Electronics Practicum Assistant
+      date: Year 2025
+      highlights:
+      - Assisted students with basic electronics laboratory activities and electronic components.
+    Technical Skills:
+    - label: Electrical and Electronics
+      details: UPS/converter systems exposure, DC motor control, sensor integration and IoT temperature monitoring.
+    - label: Firmware and Tools
+      details: C, STM32 HAL, STM32CubeIDE, ADC, DMA, timers, UART, Python/Tkinter, live plots and CSV logging.
+    Engineering Project:
+    - name: Academic EMG Acquisition and Monitoring System
+      date: Thesis, 2026
+      highlights:
+      - Implemented 12-bit ADC acquisition with DMA on STM32F411, digital filtering and RMS/MAV feature extraction.
+      - Built the complete Python/Tkinter GUI for UART telemetry, live plots, status monitoring and CSV logging.
+      - Used coding-agent assistance. Teammates handled the stimulator and fuzzy-control design.
+    Campus Leadership:
+    - company: Google Student Ambassador Program
+      position: Google Student Ambassador
+      date: Class of 2025
+      highlights:
+      - Completed the student ambassador program; recognized for leadership in championing Google AI within the
+        campus community.
+    Selected Training and English:
+    - label: Electrical and IoT
+      details: 'Automation Clinic: Motor Protection and Control (Sep 2024); Cisco Introduction to Internet of Things
+        (Sep 2026).'
+    - label: English
+      details: 'SEU UNDIP institutional English Proficiency Test: score 81, TOEFL prediction equivalent 632 (Jun
+        2026).'
+design:
+  theme: engineeringclassic
+  page:
+    size: a4
+    top_margin: 0.55in
+    bottom_margin: 0.55in
+    left_margin: 0.6in
+    right_margin: 0.6in
+    show_footer: false
+    show_top_note: false
+  colors:
+    body: rgb(29,29,31)
+    name: rgb(29,29,31)
+    connections: rgb(29,29,31)
+    section_titles: rgb(29,29,31)
+    headline: rgb(0,99,204)
+    links: rgb(0,99,204)
+  typography:
+    font_family:
+      body: Segoe UI
+      name: Segoe UI
+      headline: Segoe UI
+      connections: Segoe UI
+      section_titles: Segoe UI
+    font_size:
+      body: 10.5pt
+      name: 24pt
+      headline: 10.5pt
+      connections: 9.5pt
+      section_titles: 12pt
+    alignment: left
+    line_spacing: 0.3em
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
+  links:
+    underline: false
+    show_external_link_icon: false
+  header:
+    alignment: left
+    space_below_name: 0.12cm
+    space_below_headline: 0.18cm
+    space_below_connections: 0.20cm
+    connections:
+      show_icons: false
+      separator: '|'
+      display_urls_instead_of_usernames: true
+      space_between_connections: 0.25cm
+  section_titles:
+    type: without_line
+    space_above: 0.3cm
+    space_below: 0.15cm
+  sections:
+    space_between_regular_entries: 0.5em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in: []
+  entries:
+    date_and_location_width: 3.3cm
+    side_space: 0cm
+    space_between_columns: 0.25cm
+    highlights:
+      bullet: •
+      space_left: 0.1cm
+      space_between_items: 0.06cm
+      space_above: 0.05cm
+  templates:
+    date_range: START_DATE - END_DATE
+    education_entry:
+      main_column: '**INSTITUTION**
+
+        DEGREE in AREA
+
+        HIGHLIGHTS'
+      degree_column: ''
+      date_and_location_column: DATE
+    experience_entry:
+      main_column: '**POSITION**
+
+        COMPANY
+
+        HIGHLIGHTS'
+      date_and_location_column: DATE
+locale:
+  language: english
+settings:
+  current_date: '2026-10-13'

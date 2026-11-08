@@ -1,0 +1,13 @@
+I've added a new set of open-source engineering and software projects to my portfolio and GitHub.
+
+The attached PDF covers the main projects from this batch:
+- RepairGate and Bounded Refactor, for checking proposed code changes against protected tests and independent holdout cases
+- UART Fixture Kit, a serial frame testbench and parser profiler for testing broken or delayed byte streams without hardware attached
+- Legacy Orbital Port and FIR Parity, comparing Fortran, Rust, and C++ numerical outputs against reference models
+- Sensor Enclosure CAD and Spatial Electronics Lab, covering parametric OpenSCAD enclosures and a shared 2D/3D circuit scene for web and Android
+- Browser simulation and 3D tools using WebGPU, headless Blender, and synthetic orbital trajectory data
+
+I built these projects with AI assistance using synthetic and public reference data. Each repository includes the source code, test suite, and notes on how to run and check the results.
+
+Projects and notes: https://ardhyanovri.my.id/projects
+GitHub: https://github.com/vanovri

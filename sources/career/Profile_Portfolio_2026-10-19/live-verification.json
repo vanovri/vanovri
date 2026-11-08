@@ -1,0 +1,242 @@
+{
+  "deployment": "https://ardhya-novri-6g9i90nho-dhya3.vercel.app",
+  "domain": "https://ardhyanovri.my.id",
+  "project_cards": 27,
+  "local_references_checked": 1219,
+  "missing_local_references": 0,
+  "portfolio_tests_passed": 6,
+  "public_cv_unchanged": true,
+  "responses": [
+    {
+      "path": "projects.html",
+      "url": "https://ardhyanovri.my.id/projects",
+      "status": 200,
+      "sha256": "a6f242d3e10180498ef832488763473c887f5138f3599666b3ed9a0676295817",
+      "matches_local": true
+    },
+    {
+      "path": "about.html",
+      "url": "https://ardhyanovri.my.id/about",
+      "status": 200,
+      "sha256": "9353ace901249edc321c9d8c5448adde033afd59f8600e2559282e26769665c5",
+      "matches_local": true
+    },
+    {
+      "path": "projects/repairgate.html",
+      "url": "https://ardhyanovri.my.id/projects/repairgate",
+      "status": 200,
+      "sha256": "ca263068efd08cf104d56786048c2fab0c77d1f24138eb4bdca74a890650f18b",
+      "matches_local": true
+    },
+    {
+      "path": "projects/uart-fixture-kit.html",
+      "url": "https://ardhyanovri.my.id/projects/uart-fixture-kit",
+      "status": 200,
+      "sha256": "8645d08e4f3157d414e4d3154fdfc98b24b47e204dd582de3cafcef95731d5bb",
+      "matches_local": true
+    },
+    {
+      "path": "js/search-index.js",
+      "url": "https://ardhyanovri.my.id/js/search-index.js",
+      "status": 200,
+      "sha256": "34c4f9fe3d84537b560ee393074794c504c7861f27d7544bcc4b815898d80686",
+      "matches_local": true
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://ardhyanovri.my.id/sitemap.xml",
+      "status": 200,
+      "sha256": "b4ada1112be73d83f80bacd5f21a6bba8706e60e442cf036c3c05cd8e0c90362",
+      "matches_local": true
+    },
+    {
+      "path": "cv-ardhya.pdf",
+      "url": "https://ardhyanovri.my.id/cv-ardhya.pdf",
+      "status": 200,
+      "sha256": "6228cc9a29a3d7036a194020f0fc28c3f05cdf13e08e15ee5f39e40ff684982c",
+      "matches_local": true
+    },
+    {
+      "path": "projects/legacy-orbital-port.html",
+      "url": "https://ardhyanovri.my.id/projects/legacy-orbital-port",
+      "status": 200,
+      "sha256": "cfae79123ed1402909010293094c4ee50bf669512efa60e622b5d7590d5ea511",
+      "matches_local": true
+    },
+    {
+      "path": "projects/agent-runtime-lab.html",
+      "url": "https://ardhyanovri.my.id/projects/agent-runtime-lab",
+      "status": 200,
+      "sha256": "7c397f2a4a5c15be2ef5f3cc478e05fbc090933ad3b19bf2326d8bf1dae44702",
+      "matches_local": true
+    },
+    {
+      "path": "projects/spatial-electronics-lab.html",
+      "url": "https://ardhyanovri.my.id/projects/spatial-electronics-lab",
+      "status": 200,
+      "sha256": "13385440c1a6f432d6e651cb13176f70e5249da6d5b667c5b0ca323858739d45",
+      "matches_local": true
+    },
+    {
+      "path": "projects/desk-circuit-racer.html",
+      "url": "https://ardhyanovri.my.id/projects/desk-circuit-racer",
+      "status": 200,
+      "sha256": "708f89af392bdf392fb3729deba8527e06a2c782139d60027ed007c46c2187da",
+      "matches_local": true
+    },
+    {
+      "path": "projects/parametric-pavilion.html",
+      "url": "https://ardhyanovri.my.id/projects/parametric-pavilion",
+      "status": 200,
+      "sha256": "e9a6053ccc6d6beaffbe413ecce9830f65491a7d238eb542eb164f195fc312aa",
+      "matches_local": true
+    },
+    {
+      "path": "projects/webgpu-cable-lab.html",
+      "url": "https://ardhyanovri.my.id/projects/webgpu-cable-lab",
+      "status": 200,
+      "sha256": "10ae313d96f8a9c63a7ec38cbc65187aef757d4b9dcde31ce42f5569feb81f92",
+      "matches_local": true
+    },
+    {
+      "path": "projects/body-data-viewer.html",
+      "url": "https://ardhyanovri.my.id/projects/body-data-viewer",
+      "status": 200,
+      "sha256": "e90f849b55d5799d45bd5ed2aa486d7130031f3c811768270146aad0d019f383",
+      "matches_local": true
+    },
+    {
+      "path": "projects/cislunar-oem-replay.html",
+      "url": "https://ardhyanovri.my.id/projects/cislunar-oem-replay",
+      "status": 200,
+      "sha256": "510577ff70b90a613516f535116b95e8b93b24189bd512f6ea5cd768a2ca4f57",
+      "matches_local": true
+    },
+    {
+      "path": "projects/sensor-enclosure-cad.html",
+      "url": "https://ardhyanovri.my.id/projects/sensor-enclosure-cad",
+      "status": 200,
+      "sha256": "8f5d32f4909f002519f7888281bb13f2a26ad7a5bf442801ebe9a3ba4ea7212f",
+      "matches_local": true
+    },
+    {
+      "path": "projects/motion-rally.html",
+      "url": "https://ardhyanovri.my.id/projects/motion-rally",
+      "status": 200,
+      "sha256": "7d70ec041e044ddfac1f4d466006e3b145ca0c2f992839360775fdc771897ec0",
+      "matches_local": true
+    },
+    {
+      "path": "projects/run-ledger.html",
+      "url": "https://ardhyanovri.my.id/projects/run-ledger",
+      "status": 200,
+      "sha256": "f8800a75e31e9afb97a05f97dc9f5f6b3875a282f84cdcca422b86ba109625dd",
+      "matches_local": true
+    },
+    {
+      "path": "projects/bounded-refactor.html",
+      "url": "https://ardhyanovri.my.id/projects/bounded-refactor",
+      "status": 200,
+      "sha256": "ecd43b55e2b80d01425ba10c3655752ba3d0bfd69e2f18276ec583c6e1ef0d49",
+      "matches_local": true
+    },
+    {
+      "path": "projects/fir-parity.html",
+      "url": "https://ardhyanovri.my.id/projects/fir-parity",
+      "status": 200,
+      "sha256": "a67d56b4d1b0f1e70d0e691c8ef23ad59449e78bbf15fa191be93574b37f118e",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/legacy-orbital-port.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/legacy-orbital-port.png",
+      "status": 200,
+      "sha256": "41c50d670ec22ef3a3264f56d23b7b3287f3fd3236290209b0ad8885d6d9e549",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/agent-runtime-lab.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/agent-runtime-lab.png",
+      "status": 200,
+      "sha256": "df3c2281061574bf22acbf2b7e883bbeab4960ef3e691dc3f8a006c7bc3cdb31",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/spatial-electronics-lab.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/spatial-electronics-lab.png",
+      "status": 200,
+      "sha256": "cb09f9922414c1c39d43dcab821ec92804e1a70326647a9dc16fbc0fb17861ec",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/desk-circuit-racer.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/desk-circuit-racer.png",
+      "status": 200,
+      "sha256": "9c288ffbf12cc23443a4e498113a030c2dfec6e84b1672b3343438feb847154f",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/parametric-pavilion.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/parametric-pavilion.png",
+      "status": 200,
+      "sha256": "bc7bcc86d7809d9b3b3a553871affecf2e24e65e72c6e69b8fcbcd3fbcb41788",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/webgpu-cable-lab.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/webgpu-cable-lab.png",
+      "status": 200,
+      "sha256": "d18719de66bba76e9f23dc70c86a252ab839a24743900aac2753f4e581980f0b",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/body-data-viewer.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/body-data-viewer.png",
+      "status": 200,
+      "sha256": "1c7f0c1c550ea4e2e4406f455dc2cf2945f5b7f424f705c3450e06ed458433a9",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/cislunar-oem-replay.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/cislunar-oem-replay.png",
+      "status": 200,
+      "sha256": "a4aee82ff813c4220aa5da30576e1a3c8f272a247f029891d9ca0f04777a96e5",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/sensor-enclosure-cad.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/sensor-enclosure-cad.png",
+      "status": 200,
+      "sha256": "95d5beba2220a77f6466891d21fe2da01b85c372aa61ae57eabfe30bdbdc8953",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/motion-rally.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/motion-rally.png",
+      "status": 200,
+      "sha256": "90922408188e3de476c1d87a3d089c575e0617f8a686b5ff5dd95e7a34668d6f",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/run-ledger.png",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/run-ledger.png",
+      "status": 200,
+      "sha256": "53353724022135732b0d525c10c3a765c416f81c2b1dd85fa8786b60b6299509",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/bounded-refactor.svg",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/bounded-refactor.svg",
+      "status": 200,
+      "sha256": "3f80473eb1ac76cdd5ebe7f9a927cdb9b6f94649c63f977db9779498bbc641e1",
+      "matches_local": true
+    },
+    {
+      "path": "img/proj/releases/fir-parity.svg",
+      "url": "https://ardhyanovri.my.id/img/proj/releases/fir-parity.svg",
+      "status": 200,
+      "sha256": "1614d2f09649e832ec641c4c756f341cc37b464722d0c8d1b806de14e5025a92",
+      "matches_local": true
+    }
+  ]
+}

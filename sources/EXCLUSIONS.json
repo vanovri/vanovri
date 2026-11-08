@@ -1,0 +1,18 @@
+{
+  "excluded_files": [
+    {
+      "source": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\NPWP Ardhya Novri.pdf",
+      "reason": "government_identity_tax_or_financial_document_excluded"
+    }
+  ],
+  "excluded_categories": [
+    "Passwords, API keys, tokens, OAuth grants, cookies, browser sessions and credential stores",
+    "Raw Codex conversations, hidden reasoning, databases and machine configuration",
+    "Government tax identity document NPWP and identity/signature application forms",
+    "Third-party dependency trees, caches, binaries and build output",
+    "Complete source histories for other repositories; only README snapshots and links included",
+    "Unselected photo variants, third-party reference photos and duplicate files with identical SHA-256"
+  ],
+  "scope": "A personal knowledge and evidence package from identified local sources. Not a full disk, mailbox, Google Drive, or entire life-history backup.",
+  "onedrive_hydrated_files": 40
+}

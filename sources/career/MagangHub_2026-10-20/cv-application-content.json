@@ -1,0 +1,364 @@
+[
+  {
+    "title": "Education",
+    "entries": [
+      {
+        "period": "Aug 2022 - Sep 2026",
+        "role": "Bachelor of Engineering in Electrical Engineering",
+        "organization": "Diponegoro University",
+        "location": "",
+        "description": "GPA: 3.43/4.00. Graduated on 29 September 2026.",
+        "url": ""
+      },
+      {
+        "period": "Jul 2019 - May 2022",
+        "role": "Natural Sciences",
+        "organization": "SMA Negeri 5 Bekasi",
+        "location": "",
+        "description": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "title": "Professional and Community Experience",
+    "entries": [
+      {
+        "period": "Jan 2026 - Feb 2026",
+        "role": "Community Service Participant (KKN)",
+        "organization": "Diponegoro University",
+        "location": "Mutihan, Klaten",
+        "description": "• Helped assemble and install a solar-powered Smart Owl House, including sensors, battery and controller. Prepared operating and maintenance guidance. • Assisted village administration, Posyandu activities, BUMDes bookkeeping and community cleanups. Joined mosque and cemetery painting activities. • Supported school scouting activities and earthquake preparedness education. Helped produce and hand over the village profile video.",
+        "url": ""
+      },
+      {
+        "period": "Jul 2025 - Aug 2025",
+        "role": "Internship Trainee",
+        "organization": "PT Angkasa Pura Indonesia",
+        "location": "",
+        "description": "• Rotated for five weeks in UPS/converter systems and three weeks in electrical protection at Soekarno-Hatta International Airport. • Visited substations and focused on learning protection relays. Received SCADA instruction and observed PLC installations.",
+        "url": ""
+      },
+      {
+        "period": "2024 - 2025",
+        "role": "Basic Electronics Practicum Assistant",
+        "organization": "Diponegoro University",
+        "location": "",
+        "description": "Served for two consecutive semesters in the 2024/2025 academic year, one academic year in total. Assisted students with laboratory activities and basic electronic components.",
+        "url": ""
+      },
+      {
+        "period": "Jan 2025 - Feb 2025",
+        "role": "Electronics Technician",
+        "organization": "Redesma Technologies",
+        "location": "",
+        "description": "Worked on IoT temperature monitoring and DC motor control. Co-authored an SOP for comparing Blynk and Thinger.io using ESP32 and a DS18B20 sensor.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "title": "Skills",
+    "entries": [
+      {
+        "label": "Electrical and embedded",
+        "description": "Electronics, sensor integration, C, STM32 HAL, STM32CubeIDE, ADC, DMA, timers and UART. Field learning in UPS/converters, protection relays and SCADA."
+      },
+      {
+        "label": "Software and media",
+        "description": "Python, Tkinter, React, FastAPI, Git, automated tests, digital filtering, RMS/MAV extraction, CSV/JSON processing and Canva."
+      }
+    ]
+  },
+  {
+    "title": "Organizations and Event Committees",
+    "entries": [
+      {
+        "period": "2025",
+        "role": "Secretary-Treasurer, Kantor Media Informasi (KMI)",
+        "organization": "HME, Diponegoro University",
+        "location": "",
+        "description": "Served for one year in 2025, following the Creative Design Staff role in 2024."
+      },
+      {
+        "period": "2025",
+        "role": "Head of Media Division",
+        "organization": "Society of Electronics Engineering Division (SEED)",
+        "location": "",
+        "description": "Served as Head of Media for the 2025 student bureau at Diponegoro University.",
+        "url": ""
+      },
+      {
+        "period": "Class of 2025",
+        "role": "Google Student Ambassador",
+        "organization": "Google Student Ambassador Program",
+        "location": "",
+        "description": "Completed the student program and received recognition for championing Google AI within the campus community.",
+        "url": ""
+      },
+      {
+        "period": "Sep 2024 - Dec 2025",
+        "role": "Student Member",
+        "organization": "Society of Petroleum Engineers (SPE)",
+        "location": "",
+        "description": "Joined professional learning activities, including technical writing and geothermal drilling sessions.",
+        "url": ""
+      },
+      {
+        "period": "Oct 2024",
+        "role": "Workshop Instructor",
+        "organization": "ENIGMA Vol. 3, SEED / HME UNDIP",
+        "location": "",
+        "description": "Taught basic electronics workshop activities involving circuits, wiring and PCB work.",
+        "url": ""
+      },
+      {
+        "period": "Sep 2024",
+        "role": "Organizational Delegate",
+        "organization": "Indonesia International Sustainability Forum (ISF)",
+        "location": "",
+        "description": "Participated in the sustainability forum as an organizational delegate.",
+        "url": ""
+      },
+      {
+        "period": "2024",
+        "role": "Creative Design Staff, Kantor Media Informasi (KMI)",
+        "organization": "Himpunan Mahasiswa Elektro, Diponegoro University",
+        "location": "",
+        "description": "Supported student organization media and design work. Assigned as a co-responsible staff member for the HME Rewind documentation program.",
+        "url": ""
+      },
+      {
+        "period": "2023",
+        "role": "Event Committee Member",
+        "organization": "LKMM-PD, HME UNDIP",
+        "location": "",
+        "description": "Served on the committee for introductory student management and leadership training.",
+        "url": ""
+      },
+      {
+        "period": "2023",
+        "role": "Logistics / Equipment Committee Member",
+        "organization": "PMB Teknik Elektro, Diponegoro University",
+        "location": "",
+        "description": "Prepared equipment and facilitated the needs of the new-student welcoming activities.",
+        "url": ""
+      },
+      {
+        "period": "Nov 2022 - Jan 2023",
+        "role": "Campaign Contributor",
+        "organization": "Decarbonizing Indonesia",
+        "location": "",
+        "description": "Created social media campaign and design materials about decarbonization.",
+        "url": ""
+      },
+      {
+        "period": "Aug 2022",
+        "role": "Participant",
+        "organization": "PKKMB and Pendikar, Diponegoro University",
+        "location": "",
+        "description": "Completed the 40-hour new-student orientation and character education program, 15-20 August 2022.",
+        "url": ""
+      },
+      {
+        "period": "Jan 2021 - Dec 2021",
+        "role": "Vice Secretary",
+        "organization": "Information and Communication Technology (ICT), SMA Negeri 5 Bekasi",
+        "location": "",
+        "description": "Prepared work-program and accountability documents, and maintained attendance and member assessment records.",
+        "url": ""
+      },
+      {
+        "period": "Nov 2021",
+        "role": "Committee Secretary and Session Instructor",
+        "organization": "ICT Leadership Regeneration, SMA Negeri 5 Bekasi",
+        "location": "",
+        "description": "Prepared event administration and delivered the secretarial training session for incoming ICT committee members.",
+        "url": ""
+      },
+      {
+        "period": "2021",
+        "role": "Event Secretary",
+        "organization": "CINOTIC, SMA Negeri 5 Bekasi",
+        "location": "",
+        "description": "Supported proposals, reporting and event administration for the Science Techno & Journalistic Competition.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "title": "Projects and Technical Proposals",
+    "entries": [
+      {
+        "period": "Oct 2026",
+        "role": "Code-repair Verification Tool",
+        "organization": "RepairGate",
+        "location": "",
+        "description": "Developed a code-repair verifier with protected tests, independent holdout checks and exported patch decisions. Includes an optional local Ollama adapter and a recorded-candidate demonstration.",
+        "url": "https://github.com/vanovri/repairgate"
+      },
+      {
+        "period": "Oct 2026",
+        "role": "Evidence-based Application Workspace",
+        "organization": "ApplyProof",
+        "location": "",
+        "description": "Developed an application workspace with a reviewed fact ledger, explicit skill comparison, office/worksite distinction and traceable application drafts. Optional AI selects fact IDs for verbatim drafting.",
+        "url": "https://github.com/vanovri/applyproof"
+      },
+      {
+        "period": "Oct 2026",
+        "role": "Structured Data Repair Tool",
+        "organization": "DataRescue",
+        "location": "",
+        "description": "Built a local CSV/JSON validation workbench and CLI with rule-based normalization, quarantine of rejected rows and audit-report exports, covered by automated tests.",
+        "url": "https://github.com/vanovri/datarescue"
+      },
+      {
+        "period": "Oct 2026",
+        "role": "Serial Parser Test Toolkit",
+        "organization": "uart-fixture-kit",
+        "location": "",
+        "description": "Developed reusable synthetic UART fixtures and virtual-time replay to reproduce fragmented, malformed and concatenated byte streams without serial hardware.",
+        "url": "https://github.com/vanovri/uart-fixture-kit"
+      },
+      {
+        "period": "2026",
+        "role": "Engineering Portfolio and Browser Game",
+        "organization": "Personal Portfolio / Anak Kos Survival",
+        "location": "",
+        "description": "Developed an engineering portfolio with project evidence and a simulated EMG preview. Earlier work includes a seven-day browser game and an interactive portfolio world, retained in the project archive.",
+        "url": "https://ardhyanovri.my.id"
+      },
+      {
+        "period": "2026",
+        "role": "Solar UAV Concept and Interactive Demonstration",
+        "organization": "Nusantara SolarWing",
+        "location": "",
+        "description": "Prepared a model-based concept package using historical solar data, wind sensitivity and battery reserve planning for maritime patrol scenarios.",
+        "url": ""
+      },
+      {
+        "period": "Thesis, 2026",
+        "role": "Academic Thesis",
+        "organization": "EMG Acquisition and Monitoring System",
+        "location": "",
+        "description": "Academic thesis, Diponegoro University. • Implemented 12-bit ADC acquisition with DMA on STM32F411CEU6 and SEN0240 at a nominal 4 kHz sampling rate. • Applied 20 Hz high-pass, 500 Hz low-pass and 50 Hz notch filtering, with RMS/MAV extraction over 400 samples. • Built the Python/Tkinter interface for UART telemetry at 115200 baud, live plots, status monitoring and CSV export, with coding-agent assistance. Teammates handled the stimulator and fuzzy control.",
+        "url": ""
+      },
+      {
+        "period": "2025",
+        "role": "Engineering Economics Group Assignment",
+        "organization": "PLTA Jatigede Case Study",
+        "location": "",
+        "description": "Contributed the introduction and task allocation to a group presentation covering NPV, benefit-cost ratio and payback period.",
+        "url": ""
+      },
+      {
+        "period": "2025",
+        "role": "Technology Development Proposal",
+        "organization": "Redesma Technologies / Timor-Leste Concept",
+        "location": "",
+        "description": "Authored a proposal for rural technology options, including solar-powered irrigation, community warning systems and digital monitoring.",
+        "url": ""
+      },
+      {
+        "period": "2024",
+        "role": "Environmental Technology Concept",
+        "organization": "EnvironmentID: IoT-powered Biofiltration",
+        "location": "",
+        "description": "Co-authored an abstract proposing smart sensors and oyster ecosystems for coastal water-quality monitoring and biofiltration.",
+        "url": ""
+      },
+      {
+        "period": "2024",
+        "role": "Public Service Technology Proposal",
+        "organization": "GOVTECH / Gov-AI Hackathon Proposal",
+        "location": "",
+        "description": "Prepared a proposal for integrated digital public services using APIs, responsive interfaces and AI-assisted information services.",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "title": "Courses, Workshops and Certifications",
+    "entries": [
+      {
+        "label": "Sep 2026",
+        "description": "Introduction to Internet of Things, Cisco Networking Academy. Completed 27 September 2026."
+      },
+      {
+        "label": "Sep 2026",
+        "description": "AI Fundamentals, Google via Coursera. Completed 26 September 2026. Evidence is a course-completion screenshot, not an issued certificate."
+      },
+      {
+        "label": "Sep 2025",
+        "description": "SPENTRODUCE: Exploring the Downstream Oil and Gas Industry, SPE UNDIP Student Chapter. Participant."
+      },
+      {
+        "label": "Jan 2025",
+        "description": "AI-Powered Shopping Ads Certification, Google Skillshop. Historical credential, expired January 2026."
+      },
+      {
+        "label": "Oct 2024",
+        "description": "Workover and Well Service Talks, IATMI Student Chapter ITB. Participant."
+      },
+      {
+        "label": "Sep 2024",
+        "description": "Automation Clinic: Motor Protection and Control, Engineering Academy. Participant."
+      },
+      {
+        "label": "Sep 2024",
+        "description": "How to Write a Good Technical Paper, SPE. 1.5-hour continuing education session."
+      },
+      {
+        "label": "Sep 2024",
+        "description": "Geothermal Drilling in Volcanic and Metamorphic Basins, SPE. 1.5-hour continuing education session."
+      },
+      {
+        "label": "Sep 2024",
+        "description": "Strategies in Geothermal Exploration: Maximizing Indonesia's Potential, SPE UNDIP Student Chapter. Guest lecture participant."
+      },
+      {
+        "label": "Sep 2024",
+        "description": "Ethics of Artificial Intelligence: Navigating Responsible Technology for the Future, SkilHub Community by Skilvul / Nocturnailed. Webinar participant."
+      },
+      {
+        "label": "May 2024",
+        "description": "Fundamentals of Digital Marketing, Google Digital Academy / Skillshop. Completed 27 May 2024."
+      },
+      {
+        "label": "May 2024",
+        "description": "Introduction to Electronics, The Open University OpenLearn. Completed a 10-hour course on 21 May 2024."
+      },
+      {
+        "label": "May 2024",
+        "description": "IT: Device to Device Communication, The Open University OpenLearn. Completed a 20-hour course on 19 May 2024."
+      },
+      {
+        "label": "Mar 2024 - May 2024",
+        "description": "College Copilot Bootcamp (CABOOT). Completed six sessions, 20 March - 4 May 2024."
+      },
+      {
+        "label": "Nov 2020 - Feb 2021",
+        "description": "KSN-K Geography Preparation. Participant in the 8 November 2020 - 7 February 2021 training program."
+      },
+      {
+        "label": "Date not recorded",
+        "description": "ML/AI Fundamentals: How Machine Learning Is Shaping the Oil & Gas Industry, SPE Java Section."
+      }
+    ]
+  },
+  {
+    "title": "Additional Recognition",
+    "entries": [
+      {
+        "label": "May 2024",
+        "description": "100 Design Achievement Badge, Canva."
+      },
+      {
+        "label": "2019",
+        "description": "Try Out Akbar Winner, Penerbit Erlangga. Score: 100, SMP/MTs category, Jakarta. SMP Angkasa Halim Perdanakusuma."
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+Tes yang lolos tetap perlu diperiksa cakupannya.
+
+Di RepairGate, saya memakai replay tiga proposal untuk memperlihatkan perbedaannya:
+• Hapus tes. Ditolak.
+• Hardcode contoh. Gagal pada tes tambahan.
+• Perbaiki pembagian sisa dan validasi input. Lolos kedua kelompok tes.
+
+Proposalnya sudah direkam. Evaluator menjalankan pemeriksaan sesungguhnya. Ini demo verifikasi, belum menjadi benchmark keberhasilan model AI langsung.
+
+Kalau kamu memakai coding agent, kasus apa yang sengaja kamu simpan di luar contoh awal?
+
+https://github.com/vanovri/repairgate

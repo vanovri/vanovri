@@ -1,0 +1,89 @@
+{
+  "version": "0.1.0",
+  "status": "accepted",
+  "provider": "recorded proposals",
+  "source_digest": "132d7bfd7b0a1c7df16de064a4da69ae555e40d25fdcbddf5f7c97b6473227ff",
+  "holdout_digest": "187562d40aa7c0a0be8350bc5d5a13f2a8a9c6aaabebfdf835cef1069732582a",
+  "attempts": [
+    {
+      "number": 1,
+      "status": "rejected",
+      "reason": "Only existing src/**/*.py files can change. Tests and configuration are protected.",
+      "diff": ""
+    },
+    {
+      "number": 2,
+      "status": "rejected",
+      "reason": "Holdout tests failed. Candidate overfits or introduces a regression.",
+      "diff": "--- src/money.py\n+++ src/money.py\n@@ -1,2 +1,2 @@\n def split_cents(total, people):\n-    return [round(total / people)] * people\n+    return [34, 33, 33] if total == 100 else [30, 30, 30]\n",
+      "visible": {
+        "passed": true,
+        "tests": 2,
+        "exit_code": 0,
+        "timed_out": false,
+        "output_bytes": 241,
+        "log": "test_even_split (tests.test_money.SplitTests.test_even_split) ... ok\r\ntest_remainder (tests.test_money.SplitTests.test_remainder) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 2 tests in 0.001s\r\n\r\nOK\r\n",
+        "duration_ms": 246
+      },
+      "holdout": {
+        "passed": false,
+        "tests": 3,
+        "exit_code": 1,
+        "timed_out": false,
+        "output_bytes": 2100,
+        "log": "test_conservation_and_fairness (_repairgate_holdout.test_invariants.HoldoutTests.test_conservation_and_fairness) ... FAIL\r\ntest_invalid_amount (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_amount) ... FAIL\r\ntest_invalid_count (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_count) ... FAIL\r\n\r\n======================================================================\r\nFAIL: test_conservation_and_fairness (_repairgate_holdout.test_invariants.HoldoutTests.test_conservation_and_fairness)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\ardhy\\AppData\\Local\\Temp\\repairgate-nl4_w3nl\\attempt-2\\_repairgate_holdout\\test_invariants.py\", line 9, in test_conservation_and_fairness\r\n    self.assertEqual(len(shares), people)\r\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: 3 != 1\r\n\r\n======================================================================\r\nFAIL: test_invalid_amount (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_amount)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\ardhy\\AppData\\Local\\Temp\\repairgate-nl4_w3nl\\attempt-2\\_repairgate_holdout\\test_invariants.py\", line 21, in test_invalid_amount\r\n    with self.assertRaises(ValueError):\r\n         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\r\nAssertionError: ValueError not raised\r\n\r\n======================================================================\r\nFAIL: test_invalid_count (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_count)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\ardhy\\AppData\\Local\\Temp\\repairgate-nl4_w3nl\\attempt-2\\_repairgate_holdout\\test_invariants.py\", line 16, in test_invalid_count\r\n    with self.assertRaises(ValueError):\r\n         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\r\nAssertionError: ValueError not raised\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.002s\r\n\r\nFAILED (failures=3)\r\n",
+        "duration_ms": 239
+      },
+      "integrity_passed": true
+    },
+    {
+      "number": 3,
+      "status": "accepted",
+      "reason": "Visible and holdout tests passed; file integrity preserved.",
+      "diff": "--- src/money.py\n+++ src/money.py\n@@ -1,2 +1,7 @@\n def split_cents(total, people):\n-    return [round(total / people)] * people\n+    if isinstance(total, bool) or not isinstance(total, int) or total < 0:\n+        raise ValueError(\"total must be a non-negative integer\")\n+    if isinstance(people, bool) or not isinstance(people, int) or people <= 0:\n+        raise ValueError(\"people must be a positive integer\")\n+    base, remainder = divmod(total, people)\n+    return [base + (1 if i < remainder else 0) for i in range(people)]\n",
+      "visible": {
+        "passed": true,
+        "tests": 2,
+        "exit_code": 0,
+        "timed_out": false,
+        "output_bytes": 241,
+        "log": "test_even_split (tests.test_money.SplitTests.test_even_split) ... ok\r\ntest_remainder (tests.test_money.SplitTests.test_remainder) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 2 tests in 0.000s\r\n\r\nOK\r\n",
+        "duration_ms": 257
+      },
+      "holdout": {
+        "passed": true,
+        "tests": 3,
+        "exit_code": 0,
+        "timed_out": false,
+        "output_bytes": 420,
+        "log": "test_conservation_and_fairness (_repairgate_holdout.test_invariants.HoldoutTests.test_conservation_and_fairness) ... ok\r\ntest_invalid_amount (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_amount) ... ok\r\ntest_invalid_count (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_count) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.001s\r\n\r\nOK\r\n",
+        "duration_ms": 326
+      },
+      "integrity_passed": true
+    }
+  ],
+  "accepted_changes": {
+    "src/money.py": "def split_cents(total, people):\n    if isinstance(total, bool) or not isinstance(total, int) or total < 0:\n        raise ValueError(\"total must be a non-negative integer\")\n    if isinstance(people, bool) or not isinstance(people, int) or people <= 0:\n        raise ValueError(\"people must be a positive integer\")\n    base, remainder = divmod(total, people)\n    return [base + (1 if i < remainder else 0) for i in range(people)]\n"
+  },
+  "baseline": {
+    "visible": {
+      "passed": false,
+      "tests": 2,
+      "exit_code": 1,
+      "timed_out": false,
+      "output_bytes": 875,
+      "log": "test_even_split (tests.test_money.SplitTests.test_even_split) ... ok\r\ntest_remainder (tests.test_money.SplitTests.test_remainder) ... FAIL\r\n\r\n======================================================================\r\nFAIL: test_remainder (tests.test_money.SplitTests.test_remainder)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\ardhy\\AppData\\Local\\Temp\\repairgate-nl4_w3nl\\baseline\\tests\\test_money.py\", line 6, in test_remainder\r\n    self.assertEqual(split_cents(100, 3), [34, 33, 33])\r\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: Lists differ: [33, 33, 33] != [34, 33, 33]\r\n\r\nFirst differing element 0:\r\n33\r\n34\r\n\r\n- [33, 33, 33]\r\n+ [34, 33, 33]\r\n\r\n----------------------------------------------------------------------\r\nRan 2 tests in 0.002s\r\n\r\nFAILED (failures=1)\r\n",
+      "duration_ms": 430
+    },
+    "holdout": {
+      "passed": false,
+      "tests": 3,
+      "exit_code": 1,
+      "timed_out": false,
+      "output_bytes": 2274,
+      "log": "test_conservation_and_fairness (_repairgate_holdout.test_invariants.HoldoutTests.test_conservation_and_fairness) ... FAIL\r\ntest_invalid_amount (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_amount) ... FAIL\r\ntest_invalid_count (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_count) ... ERROR\r\n\r\n======================================================================\r\nERROR: test_invalid_count (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_count)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\ardhy\\AppData\\Local\\Temp\\repairgate-nl4_w3nl\\baseline\\_repairgate_holdout\\test_invariants.py\", line 17, in test_invalid_count\r\n    split_cents(100, people)\r\n    ~~~~~~~~~~~^^^^^^^^^^^^^\r\n  File \"C:\\Users\\ardhy\\AppData\\Local\\Temp\\repairgate-nl4_w3nl\\baseline\\src\\money.py\", line 2, in split_cents\r\n    return [round(total / people)] * people\r\n                  ~~~~~~^~~~~~~~\r\nZeroDivisionError: division by zero\r\n\r\n======================================================================\r\nFAIL: test_conservation_and_fairness (_repairgate_holdout.test_invariants.HoldoutTests.test_conservation_and_fairness)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\ardhy\\AppData\\Local\\Temp\\repairgate-nl4_w3nl\\baseline\\_repairgate_holdout\\test_invariants.py\", line 10, in test_conservation_and_fairness\r\n    self.assertEqual(sum(shares), total)\r\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: 0 != 1\r\n\r\n======================================================================\r\nFAIL: test_invalid_amount (_repairgate_holdout.test_invariants.HoldoutTests.test_invalid_amount)\r\n----------------------------------------------------------------------\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\ardhy\\AppData\\Local\\Temp\\repairgate-nl4_w3nl\\baseline\\_repairgate_holdout\\test_invariants.py\", line 21, in test_invalid_amount\r\n    with self.assertRaises(ValueError):\r\n         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\r\nAssertionError: ValueError not raised\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.005s\r\n\r\nFAILED (failures=2, errors=1)\r\n",
+      "duration_ms": 237
+    }
+  },
+  "original_unchanged": true
+}

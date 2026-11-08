@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/vanovri/webgpu-cable-lab",
+  "release": "https://github.com/vanovri/webgpu-cable-lab/releases/tag/v0.1.0",
+  "commit": "41d09bcd9826660f1d6edcf23b772daf1207e7e4",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39224888973,
+      "headSha": "41d09bcd9826660f1d6edcf23b772daf1207e7e4",
+      "status": "completed",
+      "url": "https://github.com/vanovri/webgpu-cable-lab/actions/runs/39224888973"
+    }
+  ],
+  "archive": "webgpu-cable-lab-v0.1.0.zip",
+  "sha256": "3d7967dd4ca45dd574b6112652f10ac0b507f69fe036641d6d443791383a23e0",
+  "size": 234287,
+  "published_bytes_verified": true
+}

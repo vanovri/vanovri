@@ -1,0 +1,10 @@
+Saya ingin membagikan portofolio yang berisi beberapa proyek dan pengalaman saya di bidang teknik elektro, embedded systems, Python, dan pengembangan software.
+
+Di dalamnya ada proyek EMG berbasis STM32, website ENVIID, dan beberapa tools yang saya bangun dengan bantuan AI. Saya juga menyertakan pengalaman magang, mengajar, dan berorganisasi selama kuliah.
+
+Catatan tiap proyek menjelaskan kontribusi saya dan proses pengerjaannya.
+
+Silakan lihat portofolionya. Saya senang menerima masukan atau terhubung untuk membahas proyek engineering dan software.
+
+Portofolio: https://ardhyanovri.my.id/
+GitHub: https://github.com/vanovri

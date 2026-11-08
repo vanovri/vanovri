@@ -1,0 +1,387 @@
+Langsung kita sikat **Project #2: ADK Python Optimization (02:17)**.
+
+Di demo aslinya, Gemini 4 Argon dilepas selama **11 jam tanpa pengawasan (unattended)** di repo `google/adk-python` (~205.000 baris kode, ~800 file, 17.000 unit test). Masalah utamanya ada dua:
+
+1. **Cold Import Bottleneck:** Setiap kali package di-import, semua submodule berat (telemetry, schema compiler, konektor eksternal) ikut di-load di awal walaupun nggak dipakai.
+2. **Session Preparation Overhead (50 & 150 Turns):** Setiap turn baru, fungsi `prepare_session()` melakukan `copy.deepcopy()` ke seluruh riwayat *event*, menghitung ulang *state delta* dari turn ke-0 ($O(N)$ per turn $\rightarrow O(N^2)$ per sesi), dan meng-compile ulang JSON schema untuk *tool declarations*.
+
+Di bawah ini adalah **implementasi lengkap yang bisa langsung lu jalankan** untuk mereplikasi pola optimasi tersebut, terdiri dari:
+
+1. **`adk_runtime_legacy.py`**: Kode *Before* dengan *bottleneck* klasik di *agent framework*.
+2. **`adk_runtime_optimized.py`**: Kode *After* hasil refactor (PEP 562 *lazy module loading*, *immutable tuple event log*, *incremental state cursor*, dan *cached tool schema compilation*).
+3. **`referee_adk_bench.py`**: Script *Referee* otomatis (gabungan *unit test suite* + *profiler memory/latency* di 50 & 150 turns + *subprocess cold-import benchmark*) yang menjadi *acceptance gate* si agent.
+4. **`AGENT_GOAL_PROMPT.md`**: Template prompt `/goal` untuk menjalankan *unattended optimization loop* ini di repo Python lu sendiri.
+
+---
+
+### 1. Kode Sebelum Optimasi (`adk_runtime_legacy.py`)
+
+Simpan sebagai `adk_runtime_legacy.py`. Perhatikan tiga dosa performa yang sering kejadian di *agent runtime*: *eager heavy import* di level atas, `copy.deepcopy()` di setiap turn, dan kompilasi ulang *tool schema* berulang-ulang.
+
+```python
+import copy
+import hashlib
+import json
+import re
+import time
+from typing import Any, Callable, Dict, List
+
+
+# [BOTTLENECK 1] Eager top-level initialization of heavy optional subsystems
+def _init_heavy_telemetry_and_validators() -> Dict[str, re.Pattern]:
+  # Simulasi kompilasi ratusan regex/schema berat saat module baru di-import
+  patterns = {}
+  for i in range(400):
+    patterns[f"rule_{i}"] = re.compile(
+        rf"^(?:agent|tool|session)_id_{i}_[a-zA-Z0-9_\-]{{8,64}}$"
+    )
+  time.sleep(0.015)  # Simulasi I/O & inisialisasi registry berat saat cold start
+  return patterns
+
+
+GLOBAL_VALIDATOR_REGISTRY = _init_heavy_telemetry_and_validators()
+
+
+class ToolDefinition:
+
+  def __init__(self, name: str, description: str, parameters: Dict[str, Any]):
+    self.name = name
+    self.description = description
+    self.parameters = parameters
+
+  def to_schema(self) -> Dict[str, Any]:
+    # [BOTTLENECK 2] Deepcopy & deterministic hash dihitung ulang setiap turn
+    params_copy = copy.deepcopy(self.parameters)
+    raw = json.dumps(params_copy, sort_keys=True).encode("utf-8")
+    schema_hash = hashlib.sha256(raw).hexdigest()[:12]
+    return {
+        "name": self.name,
+        "description": self.description,
+        "parameters": params_copy,
+        "schema_version": schema_hash,
+    }
+
+
+class LegacyAgentSession:
+
+  def __init__(self, session_id: str, tools: List[ToolDefinition]):
+    self.session_id = session_id
+    self.tools = tools
+    self.events: List[Dict[str, Any]] = []
+
+  def append_turn(
+      self, role: str, content: str, state_delta: Dict[str, Any]
+  ) -> None:
+    self.events.append({
+        "turn": len(self.events),
+        "role": role,
+        "content": content,
+        "state_delta": copy.deepcopy(state_delta),
+    })
+
+  def prepare_session_payload(self) -> Dict[str, Any]:
+    # [BOTTLENECK 3] Deep-copying seluruh history & re-computing state dari nol setiap turn
+    events_snapshot = copy.deepcopy(self.events)
+
+    merged_state: Dict[str, Any] = {}
+    transcript: List[Dict[str, str]] = []
+
+    for ev in events_snapshot:
+      for k, v in ev["state_delta"].items():
+        merged_state[k] = copy.deepcopy(v)
+      transcript.append({"role": ev["role"], "content": ev["content"]})
+
+    compiled_tools = [t.to_schema() for t in self.tools]
+
+    return {
+        "session_id": self.session_id,
+        "turn_count": len(events_snapshot),
+        "state": merged_state,
+        "messages": transcript,
+        "tools": compiled_tools,
+    }
+
+```
+
+---
+
+### 2. Kode Hasil Optimasi Agent (`adk_runtime_optimized.py`)
+
+Simpan sebagai `adk_runtime_optimized.py`. Kontrak API publik dan struktur *output dictionary*-nya **100% identik** dengan versi *legacy*, tapi arsitektur internalnya dirombak total:
+
+* **PEP 562 `__getattr__` Lazy Loading:** `GLOBAL_VALIDATOR_REGISTRY` baru dibangun kalau benar-benar dipanggil.
+* **`__slots__` & Pre-Cached Tool Schema:** Schema tool dihitung sekali saat inisialisasi, bukan diulang $150 \times N_{\text{tools}}$ kali.
+* **Incremental State Folding ($O(1)$ per turn):** State dan *message transcript* di-update secara inkremental saat `append_turn`, tanpa `copy.deepcopy()` penuh di setiap turn.
+
+```python
+import hashlib
+import json
+import re
+import time
+from typing import Any, Dict, List, Optional
+
+# [OPTIMIZATION 1] PEP 562 Lazy Module Attribute Loading — 0ms overhead saat cold import
+_LAZY_VALIDATOR_REGISTRY: Optional[Dict[str, re.Pattern]] = None
+
+
+def __getattr__(name: str) -> Any:
+  global _LAZY_VALIDATOR_REGISTRY
+  if name == "GLOBAL_VALIDATOR_REGISTRY":
+    if _LAZY_VALIDATOR_REGISTRY is None:
+      _LAZY_VALIDATOR_REGISTRY = {
+          f"rule_{i}": re.compile(
+              rf"^(?:agent|tool|session)_id_{i}_[a-zA-Z0-9_\-]{{8,64}}$"
+          )
+          for i in range(400)
+      }
+      time.sleep(0.015)
+    return _LAZY_VALIDATOR_REGISTRY
+  raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+
+
+class ToolDefinition:
+  __slots__ = ("name", "description", "parameters", "_cached_schema")
+
+  def __init__(self, name: str, description: str, parameters: Dict[str, Any]):
+    self.name = name
+    self.description = description
+    self.parameters = parameters
+    self._cached_schema: Optional[Dict[str, Any]] = None
+
+  def to_schema(self) -> Dict[str, Any]:
+    # [OPTIMIZATION 2] Compute once & cache immutable schema payload
+    if self._cached_schema is None:
+      raw = json.dumps(self.parameters, sort_keys=True).encode("utf-8")
+      schema_hash = hashlib.sha256(raw).hexdigest()[:12]
+      self._cached_schema = {
+          "name": self.name,
+          "description": self.description,
+          "parameters": self.parameters,
+          "schema_version": schema_hash,
+      }
+    return self._cached_schema
+
+
+class OptimizedAgentSession:
+  __slots__ = (
+      "session_id",
+      "tools",
+      "events",
+      "_merged_state",
+      "_transcript",
+      "_compiled_tools_cache",
+  )
+
+  def __init__(self, session_id: str, tools: List[ToolDefinition]):
+    self.session_id = session_id
+    self.tools = tools
+    self.events: List[Dict[str, Any]] = []
+    self._merged_state: Dict[str, Any] = {}
+    self._transcript: List[Dict[str, str]] = []
+    self._compiled_tools_cache: Optional[List[Dict[str, Any]]] = None
+
+  def append_turn(
+      self, role: str, content: str, state_delta: Dict[str, Any]
+  ) -> None:
+    turn_idx = len(self.events)
+    self.events.append({
+        "turn": turn_idx,
+        "role": role,
+        "content": content,
+        "state_delta": state_delta,
+    })
+    # [OPTIMIZATION 3] O(1) incremental state & transcript update
+    if state_delta:
+      self._merged_state.update(state_delta)
+    self._transcript.append({"role": role, "content": content})
+
+  def prepare_session_payload(self) -> Dict[str, Any]:
+    if self._compiled_tools_cache is None:
+      self._compiled_tools_cache = [t.to_schema() for t in self.tools]
+
+    return {
+        "session_id": self.session_id,
+        "turn_count": len(self.events),
+        "state": dict(self._merged_state),
+        "messages": list(self._transcript),
+        "tools": self._compiled_tools_cache,
+    }
+
+```
+
+---
+
+### 3. Automated Referee & Profiler Harness (`referee_adk_bench.py`)
+
+Ini adalah bagian paling krusial di Demo #2: **script wasit yang tidak boleh diedit oleh agent**. Script ini memverifikasi bahwa:
+
+1. Seluruh unit test & output JSON antara *Legacy* vs *Optimized* **100% identik**.
+2. Cold import time turun drastis.
+3. Latency `prepare_session_payload()` pada simulasi **50 turns** dan **150 turns** memenuhi target minimal penurunan **40%**.
+
+```python
+#!/usr/bin/env python3
+import subprocess
+import sys
+import time
+import tracemalloc
+import unittest
+from adk_runtime_legacy import LegacyAgentSession, ToolDefinition as LegacyTool
+from adk_runtime_optimized import OptimizedAgentSession, ToolDefinition as OptTool
+
+
+def build_sample_tools(tool_cls):
+  return [
+      tool_cls(
+          name=f"search_tool_{i}",
+          description=f"Executes query against shard {i}",
+          parameters={
+              "type": "object",
+              "properties": {
+                  "query": {"type": "string"},
+                  "limit": {"type": "integer", "default": 10},
+                  "filters": {"type": "array", "items": {"type": "string"}},
+              },
+              "required": ["query"],
+          },
+      )
+      for i in range(15)
+  ]
+
+
+class TestADKBehavioralParity(unittest.TestCase):
+
+  def test_exact_payload_parity_at_50_and_150_turns(self):
+    legacy_sess = LegacyAgentSession(
+        "sess_01", build_sample_tools(LegacyTool)
+    )
+    opt_sess = OptimizedAgentSession("sess_01", build_sample_tools(OptTool))
+
+    for turn in range(1, 151):
+      role = "user" if turn % 2 == 1 else "assistant"
+      content = f"Turn {turn} message payload with context tokens."
+      delta = {f"key_{turn % 20}": turn, "last_active_turn": turn}
+
+      legacy_sess.append_turn(role, content, delta)
+      opt_sess.append_turn(role, content, delta)
+
+      if turn in (1, 50, 150):
+        self.assertEqual(
+            legacy_sess.prepare_session_payload(),
+            opt_sess.prepare_session_payload(),
+            f"Parity mismatch at turn {turn}!",
+        )
+
+
+def measure_cold_import_ms(module_name: str, runs: int = 5) -> float:
+  timings = []
+  for _ in range(runs):
+    cmd = [
+        sys.executable,
+        "-c",
+        (
+            "import time; t0=time.perf_counter();"
+            f" import {module_name};"
+            " print((time.perf_counter()-t0)*1000)"
+        ),
+    ]
+    out = subprocess.check_output(cmd, text=True).strip()
+    timings.append(float(out))
+  return sum(timings) / len(timings)
+
+
+def benchmark_session_turns(session_cls, tool_cls, total_turns: int) -> tuple[float, int]:
+  tracemalloc.start()
+  t0 = time.perf_counter()
+
+  sess = session_cls("bench_sess", build_sample_tools(tool_cls))
+  for turn in range(total_turns):
+    sess.append_turn(
+        role="user" if turn % 2 == 0 else "assistant",
+        content=f"Message body for turn {turn}",
+        state_delta={f"slot_{turn % 30}": f"val_{turn}", "cursor": turn},
+    )
+    _ = sess.prepare_session_payload()
+
+  elapsed_ms = (time.perf_counter() - t0) * 1000.0
+  _, peak_bytes = tracemalloc.get_traced_memory()
+  tracemalloc.stop()
+  return elapsed_ms, peak_bytes
+
+
+def main():
+  print("=== [STAGE 1] Running Behavioral Parity Unit Tests ===")
+  suite = unittest.defaultTestLoader.loadTestsFromTestCase(
+      TestADKBehavioralParity
+  )
+  runner = unittest.TextTestRunner(verbosity=2)
+  if not runner.run(suite).wasSuccessful():
+    sys.exit(1)
+
+  print("\n=== [STAGE 2] Cold Package Import Benchmark ===")
+  imp_legacy = measure_cold_import_ms("adk_runtime_legacy")
+  imp_opt = measure_cold_import_ms("adk_runtime_optimized")
+  imp_saving = (1.0 - (imp_opt / imp_legacy)) * 100.0
+  print(f"Legacy Cold Import   : {imp_legacy:.2f} ms")
+  print(
+      f"Optimized Cold Import: {imp_opt:.2f} ms ({imp_saving:+.1f}% speedup)"
+  )
+
+  print("\n=== [STAGE 3] Session Preparation Benchmark (50 & 150 Turns) ===")
+  for turns in (50, 150):
+    leg_ms, leg_mem = benchmark_session_turns(
+        LegacyAgentSession, LegacyTool, turns
+    )
+    opt_ms, opt_mem = benchmark_session_turns(
+        OptimizedAgentSession, OptTool, turns
+    )
+    time_saving = (1.0 - (opt_ms / leg_ms)) * 100.0
+    mem_saving = (1.0 - (opt_mem / leg_mem)) * 100.0
+    print(
+        f"[{turns:3d} Turns] Legacy: {leg_ms:7.2f} ms ({leg_mem/1024:.1f} KB) | "
+        f"Optimized: {opt_ms:6.2f} ms ({opt_mem/1024:.1f} KB) -> "
+        f"Latency: -{time_saving:.1f}%, Peak Mem: -{mem_saving:.1f}%"
+    )
+    if time_saving < 40.0:
+      print(f"GATE FAILED: Expected >= 40% latency reduction at {turns} turns.")
+      sys.exit(1)
+
+  print(
+      "\nALL GATES PASSED: 100% Test Parity + >40% Session Prep Overhead"
+      " Reduction."
+  )
+
+
+if __name__ == "__main__":
+  main()
+
+```
+
+---
+
+### 4. Prompt `/goal` untuk Unattended Agent Loop (`AGENT_GOAL_PROMPT.md`)
+
+Kalau lu mau pasang pola yang sama di repo Python lu sendiri menggunakan agent (baik di Antigravity, Codex, atau Claude Code), gunakan struktur instruksi berpagar ini:
+
+```markdown
+/goal Optimize runtime session preparation latency and cold package import time in this repository without breaking public API contracts.
+
+### 1. Baseline & Referee Gate (IMMUTABLE)
+- Before editing any source file, execute `python3 referee_adk_bench.py` and record the baseline metrics.
+- You are strictly FORBIDDEN from modifying `referee_adk_bench.py` or any file inside `tests/`.
+
+### 2. Optimization Targets
+- Reduce 50-turn and 150-turn session preparation latency by at least 40%.
+- Reduce cold module import time by at least 20% using PEP 562 lazy module loading (`__getattr__`) and `TYPE_CHECKING` guards.
+- Replace redundant `copy.deepcopy()` calls and $O(N)$ per-turn history scans with incremental state folding and cached schema serialization.
+
+### 3. Hard Security & Scope Constraints
+- Do NOT add external third-party dependencies.
+- Do NOT alter public class names, method signatures, or return dictionary schemas.
+- After every patch iteration, run `python3 referee_adk_bench.py`. Revert immediately if any unit test fails or if latency regresses.
+
+```
+
+---
+
+Siap lanjut ke **Project #3: Autonomous Android UI (2D Map ke 3D Spatial Interface + Self-Healing Compiler/Build Loop)**, bro?

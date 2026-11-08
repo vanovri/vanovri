@@ -1,0 +1,3320 @@
+[
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-24\\bro-x20\\work\\vanovri\\README.md",
+    "path": "sources/profile/github-profile-before-migration.md",
+    "sha256": "0bac58e7bd49ca8b3aefb8d91f4d4f01144b9dec700240c75533f2e97e54190c",
+    "bytes": 14188,
+    "source_modified_utc": "2026-10-24T08:36:30.886267+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.pdf",
+    "path": "sources/career/Profile_Update_2026-10-15/Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.pdf",
+    "sha256": "3f648458deba76a6791711ac9ae8b5da4a4b4a7cc6c6968f0915c007d6d7098a",
+    "bytes": 98810,
+    "source_modified_utc": "2026-10-15T15:14:54.579783+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.tex",
+    "path": "sources/career/Profile_Update_2026-10-15/Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.tex",
+    "sha256": "9e8c2ecf70637775030779b555ba339cd4d8845d692fe72f7ed161b897f8c037",
+    "bytes": 6719,
+    "source_modified_utc": "2026-10-15T15:14:19.036740+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.pdf",
+    "path": "sources/career/Profile_Update_2026-10-15/Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.pdf",
+    "sha256": "2a166b0658a82c0127d09b7b2ca047baa5d4c2dde84b85d7fcf1870bbd8cb465",
+    "bytes": 96651,
+    "source_modified_utc": "2026-10-15T15:14:54.604655+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.tex",
+    "path": "sources/career/Profile_Update_2026-10-15/Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.tex",
+    "sha256": "e347a005d22df26bffc839e79e4e4103f436d19dec85b8e13b2d55da1567bc06",
+    "bytes": 6574,
+    "source_modified_utc": "2026-10-15T15:14:19.037740+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Public.pdf",
+    "path": "sources/career/Profile_Update_2026-10-15/Ardhya_Novri_Ramadhan_CV_Public.pdf",
+    "sha256": "37fb4a6c3d6eff5a6d6a278c43dc69ddefa8e0556e7b0f9a07c858580ae2ae51",
+    "bytes": 117106,
+    "source_modified_utc": "2026-10-15T15:16:43.131512+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Umum.pdf",
+    "path": "sources/career/Profile_Update_2026-10-15/Ardhya_Novri_Ramadhan_CV_Umum.pdf",
+    "sha256": "70d9ce19a3bdfaa918889f3ad488f8fb9fea108ba9e8321ac2ef753e84fbc216",
+    "bytes": 109972,
+    "source_modified_utc": "2026-10-15T15:14:41.440254+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Umum.tex",
+    "path": "sources/career/Profile_Update_2026-10-15/Ardhya_Novri_Ramadhan_CV_Umum.tex",
+    "sha256": "674e5696d26910a0ccc86aca7aa072ca640b7b479267759ced05405a06469915",
+    "bytes": 13035,
+    "source_modified_utc": "2026-10-15T15:14:19.029649+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\BACA_DULU.txt",
+    "path": "sources/career/Profile_Update_2026-10-15/BACA_DULU.txt",
+    "sha256": "a75247c8e93aaa301d166d860ddccb7c367cf99926e931f4130817e7b5e6fb2b",
+    "bytes": 2118,
+    "source_modified_utc": "2026-10-15T21:43:07.708903+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\Ringkasan_Email_Google_2026-10-15.txt",
+    "path": "sources/career/Profile_Update_2026-10-15/Ringkasan_Email_Google_2026-10-15.txt",
+    "sha256": "7c6e03da815f4ce51bde469ed3429b683a87fce3d168649324dad3cff9ac9be2",
+    "bytes": 1265,
+    "source_modified_utc": "2026-10-15T21:43:07.709904+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\verification-live.json",
+    "path": "sources/career/Profile_Update_2026-10-15/verification-live.json",
+    "sha256": "cd87e6e6de58475defda321d7a663b8b5c36df6612863689d6034ad362a8b1ce",
+    "bytes": 1054,
+    "source_modified_utc": "2026-10-15T21:43:07.708903+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-15\\verification-local.json",
+    "path": "sources/career/Profile_Update_2026-10-15/verification-local.json",
+    "sha256": "aa19827b846c2c0d81b5e819e242f428db04306cf8b426183021c60a65dc0c8d",
+    "bytes": 293,
+    "source_modified_utc": "2026-10-15T21:40:04.237998+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.pdf",
+    "path": "sources/career/Profile_Update_2026-10-16/Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.pdf",
+    "sha256": "849bc6299eff3e9bf95a8f2e10c4e3ce44c28b8b8d60a7d49cb0a59dec3793c7",
+    "bytes": 98863,
+    "source_modified_utc": "2026-10-15T22:24:23.312666+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.tex",
+    "path": "sources/career/Profile_Update_2026-10-16/Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.tex",
+    "sha256": "2305f23831bbd41512c528e680f4d6e58a6ae1e7c0713569a3a411f240e1231f",
+    "bytes": 6784,
+    "source_modified_utc": "2026-10-15T22:24:07.246531+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.pdf",
+    "path": "sources/career/Profile_Update_2026-10-16/Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.pdf",
+    "sha256": "36452ab856d52690a9804f948dd396a1abc8bfca1850ff3c69af3984737e23a1",
+    "bytes": 96667,
+    "source_modified_utc": "2026-10-15T22:24:26.085578+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.tex",
+    "path": "sources/career/Profile_Update_2026-10-16/Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.tex",
+    "sha256": "4fc8a836ecffa47f8bcae8b9bec8a84979fe007e82ba5c6dbe9dbd717f9eef25",
+    "bytes": 6596,
+    "source_modified_utc": "2026-10-15T22:24:07.246531+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\Ardhya_Novri_Ramadhan_CV_Public.pdf",
+    "path": "sources/career/Profile_Update_2026-10-16/Ardhya_Novri_Ramadhan_CV_Public.pdf",
+    "sha256": "6228cc9a29a3d7036a194020f0fc28c3f05cdf13e08e15ee5f39e40ff684982c",
+    "bytes": 117193,
+    "source_modified_utc": "2026-10-15T22:25:49.847980+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\Ardhya_Novri_Ramadhan_CV_Umum.pdf",
+    "path": "sources/career/Profile_Update_2026-10-16/Ardhya_Novri_Ramadhan_CV_Umum.pdf",
+    "sha256": "3814783a3e13d05561a2ec0100c950fa80a4dcf856508a8af247cc11ee783bdf",
+    "bytes": 110049,
+    "source_modified_utc": "2026-10-15T22:24:28.844824+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\Ardhya_Novri_Ramadhan_CV_Umum.tex",
+    "path": "sources/career/Profile_Update_2026-10-16/Ardhya_Novri_Ramadhan_CV_Umum.tex",
+    "sha256": "016bdee803bc1591eef8f23a0a83c0b30735611f6617ddcdeda2983523b7ef54",
+    "bytes": 13140,
+    "source_modified_utc": "2026-10-15T22:24:07.246531+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\BACA_DULU.txt",
+    "path": "sources/career/Profile_Update_2026-10-16/BACA_DULU.txt",
+    "sha256": "af2ccbfb9695f676bc6d40c5de2d435f3c471fde045d9e2c1f63c8208c61b778",
+    "bytes": 3622,
+    "source_modified_utc": "2026-10-15T22:32:11.607501+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\pdf-verification.json",
+    "path": "sources/career/Profile_Update_2026-10-16/pdf-verification.json",
+    "sha256": "0f774f0adcd62b751bc786ff0b5d34adb4d3fb72ee03973311599949d75c9eb1",
+    "bytes": 380,
+    "source_modified_utc": "2026-10-15T22:25:51.021783+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Update_2026-10-16\\VERIFIKASI_FINAL.json",
+    "path": "sources/career/Profile_Update_2026-10-16/VERIFIKASI_FINAL.json",
+    "sha256": "0fa71d6f4f820ed5927bf071fa8827342c25ba3fee84cb84ee67fa2c1df7f7de",
+    "bytes": 1559,
+    "source_modified_utc": "2026-10-15T22:32:11.605483+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\Ardhya_Novri_Ramadhan_CV_Aplikasi.pdf",
+    "path": "sources/career/MagangHub_2026-10-20/Ardhya_Novri_Ramadhan_CV_Aplikasi.pdf",
+    "sha256": "432f93892ac5a444e254b9bb4053308481760d4709df3387a524f8e3cb720040",
+    "bytes": 12953,
+    "source_modified_utc": "2026-10-20T21:36:25.894183+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\Ardhya_Novri_Ramadhan_CV_Aplikasi_Tanpa_ENVIID.pdf",
+    "path": "sources/career/MagangHub_2026-10-20/Ardhya_Novri_Ramadhan_CV_Aplikasi.pdf",
+    "sha256": "432f93892ac5a444e254b9bb4053308481760d4709df3387a524f8e3cb720040",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\cv-application-content.json",
+    "path": "sources/career/MagangHub_2026-10-20/cv-application-content.json",
+    "sha256": "e6dc9738776e0cfe5b4151713a2c30d8df2139fc4963e6c00c319f2db6f8f921",
+    "bytes": 15989,
+    "source_modified_utc": "2026-10-20T21:36:25.988324+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\cv-application-extracted.txt",
+    "path": "sources/career/MagangHub_2026-10-20/cv-application-extracted.txt",
+    "sha256": "1c27d36d89d9cdd7e16d072ee1684c32e2118fbfd97b70a1eb82398bbe72372f",
+    "bytes": 9449,
+    "source_modified_utc": "2026-10-20T21:36:25.989288+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\education-crosscheck.json",
+    "path": "sources/career/MagangHub_2026-10-20/education-crosscheck.json",
+    "sha256": "0c9f2b8ffd36d0a078cbf9c8a61f6dcee5d43679c8a9452b3b0aafc1825aa812",
+    "bytes": 1042,
+    "source_modified_utc": "2026-10-20T23:07:52.975627+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\education-verified.txt",
+    "path": "sources/career/MagangHub_2026-10-20/education-verified.txt",
+    "sha256": "2bc8dfe18a5863edd67a976848b2b3b315b66c721b353770b0e6dc6527470e3d",
+    "bytes": 1260,
+    "source_modified_utc": "2026-10-20T11:57:36.376209+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\karirjakarta-experience-education.txt",
+    "path": "sources/career/MagangHub_2026-10-20/karirjakarta-experience-education.txt",
+    "sha256": "250a5300665dfb8a154d51c82963bfb51a11cd924ace518504da5add35fc8cd2",
+    "bytes": 2103,
+    "source_modified_utc": "2026-10-20T21:44:25.128384+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\siapkerja-preferences-final.txt",
+    "path": "sources/career/MagangHub_2026-10-20/siapkerja-preferences-final.txt",
+    "sha256": "2000d72ed5861028e8c395093ad2246badac7a5435f129fed2f389afd1a98b67",
+    "bytes": 1122,
+    "source_modified_utc": "2026-10-20T21:44:17.040280+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\siapkerja-preferences.txt",
+    "path": "sources/career/MagangHub_2026-10-20/siapkerja-preferences-final.txt",
+    "sha256": "2000d72ed5861028e8c395093ad2246badac7a5435f129fed2f389afd1a98b67",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\MagangHub_2026-10-20\\verification-status.json",
+    "path": "sources/career/MagangHub_2026-10-20/verification-status.json",
+    "sha256": "acc53fc2115918a13c7fea3cb5c7e140b11d782374c693ababb3b385502950bb",
+    "bytes": 2383,
+    "source_modified_utc": "2026-10-20T23:29:30.421893+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Portfolio_2026-10-19\\linkedin-about.txt",
+    "path": "sources/career/Profile_Portfolio_2026-10-19/linkedin-about.txt",
+    "sha256": "fc4fd9390abae3539a115792120581803c19c3586e7e9f36fd3307304b3206db",
+    "bytes": 774,
+    "source_modified_utc": "2026-10-20T06:49:35.450302+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Portfolio_2026-10-19\\linkedin-projects-verified.json",
+    "path": "sources/career/Profile_Portfolio_2026-10-19/linkedin-projects-verified.json",
+    "sha256": "ae4ffdcba48e16d63b40aca385b421b7b9078d256978f3372b7345a92c84336f",
+    "bytes": 2214,
+    "source_modified_utc": "2026-10-20T06:49:35.116921+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Portfolio_2026-10-19\\live-verification.json",
+    "path": "sources/career/Profile_Portfolio_2026-10-19/live-verification.json",
+    "sha256": "15d6d58e4404d5a8689cf956cfd3aa809080c752e14fec052dc4fe4db72f303e",
+    "bytes": 9308,
+    "source_modified_utc": "2026-10-20T06:46:22.752628+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Portfolio_2026-10-19\\projects-published.json",
+    "path": "sources/career/Profile_Portfolio_2026-10-19/projects-published.json",
+    "sha256": "0392657ee2194504014c7fa60cd4ea45048092b149cd59ca1a1ad749bfcdc3b6",
+    "bytes": 10401,
+    "source_modified_utc": "2026-10-19T13:03:14.597386+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Portfolio_2026-10-19\\projects.json",
+    "path": "sources/career/Profile_Portfolio_2026-10-19/projects.json",
+    "sha256": "5cdedca6ea1afa7b6bfccf23e41fbc01df99a002b67c403d1755eb1390d56044",
+    "bytes": 6894,
+    "source_modified_utc": "2026-10-19T13:01:01.310365+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Portfolio_2026-10-19\\RESULT.md",
+    "path": "sources/career/Profile_Portfolio_2026-10-19/RESULT.md",
+    "sha256": "f4b24a606a6a909c90d7b3c246277ccf2d7e690def917935a767ecef4bbb48f6",
+    "bytes": 1660,
+    "source_modified_utc": "2026-10-20T06:51:30.986095+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Profile_Portfolio_2026-10-19\\ui-verification.json",
+    "path": "sources/career/Profile_Portfolio_2026-10-19/ui-verification.json",
+    "sha256": "f44c8ffd8eba94432b2bbe94a0fc32337bbbcec0141fa27ef2255b8ed3473b90",
+    "bytes": 198,
+    "source_modified_utc": "2026-10-20T06:50:18.960761+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_About_2026-10-17\\About_Before.txt",
+    "path": "sources/career/LinkedIn_About_2026-10-17/About_Before.txt",
+    "sha256": "32a91bdadc5d537804da7760cf16533f8b8c3a0706a66a348b5351acfbd30e71",
+    "bytes": 2119,
+    "source_modified_utc": "2026-10-16T18:18:55.326846+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_About_2026-10-17\\About_Short.txt",
+    "path": "sources/career/LinkedIn_About_2026-10-17/About_Short.txt",
+    "sha256": "a46c5be76e5090af280489501b99fd93bf90a02cb7128f7dbd5ab2ccccaf3405",
+    "bytes": 752,
+    "source_modified_utc": "2026-10-16T18:18:55.327861+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_About_2026-10-17\\Verification.json",
+    "path": "sources/career/LinkedIn_About_2026-10-17/Verification.json",
+    "sha256": "a41dad8539d42d242b75454ec2145b0a14b31e025b6788bbbe96f92be76bac98",
+    "bytes": 92,
+    "source_modified_utc": "2026-10-16T18:22:01.931689+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_KMI_2026-10-17\\Status.json",
+    "path": "sources/career/LinkedIn_KMI_2026-10-17/Status.json",
+    "sha256": "1ec4d5a3f2a8aa9cf39063082f21dba27009dc65c3ae15f14735807492a52d3a",
+    "bytes": 692,
+    "source_modified_utc": "2026-10-17T02:14:38.090363+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\ApplyProof_Project_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/ApplyProof_Project_Before.txt",
+    "sha256": "a23171d14347eb79a9d22d195ff9bae36438f290ba53693cd0319ba14cb74a45",
+    "bytes": 5802,
+    "source_modified_utc": "2026-10-18T11:17:09.762330+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Cisco_Entry.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Cisco_Entry.txt",
+    "sha256": "0aae0aee5a67e8bfbde0f64a70dfee98820efc4bd1b26b84354911b872165a82",
+    "bytes": 1400,
+    "source_modified_utc": "2026-10-18T06:17:26.409072+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Completed.json",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Completed.json",
+    "sha256": "dd665353d3491936c422cdeae043193d3b0ccc22d81f2e122b292f68d0f63b07",
+    "bytes": 7413,
+    "source_modified_utc": "2026-10-18T06:49:30.880843+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\DataRescue_Project_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/DataRescue_Project_Before.txt",
+    "sha256": "ff0809d46339120534c1c8da9a5bc524833c1117603df3914e9fd7e4d748752b",
+    "bytes": 5741,
+    "source_modified_utc": "2026-10-18T11:19:31.042919+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Decarbonizing_Volunteer_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Decarbonizing_Volunteer_Before.txt",
+    "sha256": "cf72863e2aa5ef776a822da88eb0ff846d4543fda84d2e33c935212e50b89453",
+    "bytes": 5237,
+    "source_modified_utc": "2026-10-18T11:14:51.731236+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Entry_Links.json",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Entry_Links.json",
+    "sha256": "92731ceaccb39dd1873f3389e9c5b912d4f07e3aa8d259dcbdfbd179ca92beaa",
+    "bytes": 5371,
+    "source_modified_utc": "2026-10-18T06:18:07.802899+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\ENVIID_Role_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/ENVIID_Role_Before.txt",
+    "sha256": "837e0b8e2b9d81aab5acade9af315618a30403600ca19c8b8d06f434dbcfd1e8",
+    "bytes": 5211,
+    "source_modified_utc": "2026-10-18T06:52:11.784115+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Experience_Before_Logo_Audit.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Experience_Before_Logo_Audit.txt",
+    "sha256": "698032a91aa1f722c0e13e34ab0aed401b15f37ad735c809f191f6a32092fcc0",
+    "bytes": 22062,
+    "source_modified_utc": "2026-10-18T06:50:57.714767+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Final_Entry_Links.json",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Final_Entry_Links.json",
+    "sha256": "a1ccb9c8f5689224c591c2400ba301d6cc39750703dac28a842eadbea97339e0",
+    "bytes": 5392,
+    "source_modified_utc": "2026-10-18T06:53:04.674984+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Final_List_Backup.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Final_List_Backup.txt",
+    "sha256": "d6f0a8bae363f2b41185dd491d68d5ec857ac4fefe02955c811b2a25ac8a9b98",
+    "bytes": 43205,
+    "source_modified_utc": "2026-10-18T06:53:18.478616+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Final_Logo_Inventory.json",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Final_Logo_Inventory.json",
+    "sha256": "db6ccbb600e984e639534df8052e22a5902ed4247e6b244bd8e81bb7860dbdeb",
+    "bytes": 4574,
+    "source_modified_utc": "2026-10-18T06:53:18.341146+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Forms_Backup.json",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Forms_Backup.json",
+    "sha256": "b83948d0069243a3ac275b6dd6e4b32906ae50785c9b7838e0c21ddc1800c28a",
+    "bytes": 207968,
+    "source_modified_utc": "2026-10-18T06:20:48.354652+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\KKN_Volunteer_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/KKN_Volunteer_Before.txt",
+    "sha256": "8cb4536ca1ea160e2a47d196801f8934a36d141737157540d7005dbb2357a27b",
+    "bytes": 5921,
+    "source_modified_utc": "2026-10-18T11:13:29.598694+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\LKMM_Volunteer_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/LKMM_Volunteer_Before.txt",
+    "sha256": "02bbbc3d2d523161bdebf8f911d82cc31ec5326b60b011b544ce0ca1a754f858",
+    "bytes": 5635,
+    "source_modified_utc": "2026-10-18T11:14:08.389993+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Organizations_Audit.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Organizations_Audit.txt",
+    "sha256": "5132249b87118c31719a8be4297aafb4711dc1d4a0712fac4e43dd812320af9f",
+    "bytes": 7652,
+    "source_modified_utc": "2026-10-18T11:15:42.930109+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\PMB_Volunteer_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/PMB_Volunteer_Before.txt",
+    "sha256": "7dac782bfbe88d5c2364ba1300edd678e5945b597363c5cca7e8aee8160cda46",
+    "bytes": 5881,
+    "source_modified_utc": "2026-10-18T11:14:32.875248+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Practicum_Role_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Practicum_Role_Before.txt",
+    "sha256": "80ef2a0a59b3f42028e5a4a12de6cf6c4cf2e4133c4ec2e3e9dd99fa56be7657",
+    "bytes": 6480,
+    "source_modified_utc": "2026-10-18T06:51:21.842961+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Profile_Before_Logo_Audit.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Profile_Before_Logo_Audit.txt",
+    "sha256": "5fb0778e19b946f7b0bb0501d72101c0ff18f4bb241cdf5589a43ac705ab82e7",
+    "bytes": 92056,
+    "source_modified_utc": "2026-10-18T06:50:02.038799+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Projects_After.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Projects_After.txt",
+    "sha256": "1ea48c2c9e787f29a1883f091b67c97a5f3d1ac4fb5c7107876d61595a0b00b1",
+    "bytes": 6615,
+    "source_modified_utc": "2026-10-18T11:21:08.661761+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Projects_Audit.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Projects_Audit.txt",
+    "sha256": "b44295ade690c62adba218759203cff56f359f9b8be4e6097da3d26a27cce468",
+    "bytes": 5416,
+    "source_modified_utc": "2026-10-18T11:16:34.007800+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Proposed_Order.json",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Proposed_Order.json",
+    "sha256": "045327d22363960589cef6e123311adb156782731b19d0cb78f8d9bc2e8ed9c8",
+    "bytes": 8178,
+    "source_modified_utc": "2026-10-18T06:21:21.061332+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Rebuild_Plan.json",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Rebuild_Plan.json",
+    "sha256": "607733d1cd9538fe10039f182e5e156dcf4639007082e04485e1eac3131d2ff0",
+    "bytes": 187398,
+    "source_modified_utc": "2026-10-18T06:46:32.018762+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\RepairGate_Project_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/RepairGate_Project_Before.txt",
+    "sha256": "3420552d44c8ba7906131a761558edcddcf86f2c73120ad6ce1845c883cb51e8",
+    "bytes": 5894,
+    "source_modified_utc": "2026-10-18T11:19:46.849005+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\SEED_Entry.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/SEED_Entry.txt",
+    "sha256": "175035d23183fc29ba13a352b828e8a12fb0c20ee2a3b3a33b8d429c609d35e9",
+    "bytes": 5371,
+    "source_modified_utc": "2026-10-18T06:17:53.079726+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Skill_Associations.json",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Skill_Associations.json",
+    "sha256": "c31c3ea293cde9c609f97388a9cef204b125158390531a585517d505e1a252f1",
+    "bytes": 1103,
+    "source_modified_utc": "2026-10-18T06:28:36.130729+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\STATUS.json",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/STATUS.json",
+    "sha256": "8a7f9f6fd1fd03d013990a9522f978a544c6519cea529875cb29eb6b9029cf11",
+    "bytes": 2704,
+    "source_modified_utc": "2026-10-18T11:22:34.844630+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\uart-fixture-kit_Project_Before.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/uart-fixture-kit_Project_Before.txt",
+    "sha256": "0cdf755463003377cafd7390904d438706a59206e9e6470970e0389bd6f9aefe",
+    "bytes": 5787,
+    "source_modified_utc": "2026-10-18T11:20:07.590592+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Visible_Profile_Backup.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Visible_Profile_Backup.txt",
+    "sha256": "32a0fade8414a75d5e5c57d6a85166496b43fb6b5078bee88379c1e86cdcb6c6",
+    "bytes": 41921,
+    "source_modified_utc": "2026-10-18T06:17:15.262372+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Volunteering_After.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Volunteering_After.txt",
+    "sha256": "49824623090d4faaa99405d0ebd14001d435da25e2a6d2f9eba1c67534ad7ef6",
+    "bytes": 25370,
+    "source_modified_utc": "2026-10-18T11:15:15.889580+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Volunteering_After_Three_Changes.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Volunteering_After_Three_Changes.txt",
+    "sha256": "7591362e16011da45d45eb86dab1cc14258de0ef5064d1ccdefedacf02c19997",
+    "bytes": 25092,
+    "source_modified_utc": "2026-10-18T11:14:50.412437+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Certification_Order_2026-10-18\\Volunteering_Before_Logo_Audit.txt",
+    "path": "sources/career/LinkedIn_Certification_Order_2026-10-18/Volunteering_Before_Logo_Audit.txt",
+    "sha256": "f35402de4533077844e711db210f84bc3403c543dc8abe61e0e37a1beb697037",
+    "bytes": 17756,
+    "source_modified_utc": "2026-10-18T06:53:44.888633+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Codex_Ambassador_2026-10-15\\Jawaban_Final.txt",
+    "path": "sources/career/Codex_Ambassador_2026-10-15/Jawaban_Final.txt",
+    "sha256": "20f1ecc2a685b51e8eec4391d7ced7361ea7ca8eed7faa25d82db83b28fe0a3f",
+    "bytes": 3263,
+    "source_modified_utc": "2026-10-15T15:02:23.731027+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Lamaran_Celerates_Kyou_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.pdf",
+    "path": "sources/career/Lamaran_Celerates_Kyou_2026-10-15/Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.pdf",
+    "sha256": "3ff7a26f41cdef8e6d35397b5bcfd871c111634e2dc94e2a9741c00a993bcc7b",
+    "bytes": 98827,
+    "source_modified_utc": "2026-10-15T14:34:37.346584+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Lamaran_Celerates_Kyou_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.tex",
+    "path": "sources/career/Lamaran_Celerates_Kyou_2026-10-15/Ardhya_Novri_Ramadhan_CV_Celerates_IoT_Developer.tex",
+    "sha256": "6f3f4f452908f58d890373e9d94164f94bdd8964621052cf3c728f4f300d389a",
+    "bytes": 6665,
+    "source_modified_utc": "2026-10-15T14:34:34.232841+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Lamaran_Celerates_Kyou_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.pdf",
+    "path": "sources/career/Lamaran_Celerates_Kyou_2026-10-15/Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.pdf",
+    "sha256": "60ba99921e75d93e393f6fe6fa178e45a32dfde059fbe02f48e89031aa2b051c",
+    "bytes": 96630,
+    "source_modified_utc": "2026-10-15T14:34:40.622676+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Lamaran_Celerates_Kyou_2026-10-15\\Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.tex",
+    "path": "sources/career/Lamaran_Celerates_Kyou_2026-10-15/Ardhya_Novri_Ramadhan_CV_Kyou_Tech_Engineer.tex",
+    "sha256": "759d456af6ea4ba474b5a75b3362970de043592804fbf8c9df838ef16d7d5823",
+    "bytes": 6519,
+    "source_modified_utc": "2026-10-15T14:34:34.233835+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Lamaran_Celerates_Kyou_2026-10-15\\BACA_DULU.txt",
+    "path": "sources/career/Lamaran_Celerates_Kyou_2026-10-15/BACA_DULU.txt",
+    "sha256": "0b395dc74c464a66455789b78abbfe4d0bb08f04b1e6f353a9a61269dc365baa",
+    "bytes": 6678,
+    "source_modified_utc": "2026-10-15T14:36:08.616155+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Lamaran_Celerates_Kyou_2026-10-15\\Draft_Email_Kyou.txt",
+    "path": "sources/career/Lamaran_Celerates_Kyou_2026-10-15/Draft_Email_Kyou.txt",
+    "sha256": "20e82fc4251283e87ea6764933fd8b2afa66ee639d96dc2ecc87df001988054a",
+    "bytes": 3708,
+    "source_modified_utc": "2026-10-15T14:36:08.613845+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-16\\01_ENVIID_Draft_Carousel.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-16/01_ENVIID_Draft_Carousel.txt",
+    "sha256": "a33923ea531fb83977621c2ee05d9526205a96f968487ef1484656c2fec67bea",
+    "bytes": 3864,
+    "source_modified_utc": "2026-10-15T22:25:21.808118+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-16\\01_ENVIID_Review\\Alternatif_Post_Teks.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-16/01_ENVIID_Review/Alternatif_Post_Teks.txt",
+    "sha256": "758ac9edaed43b4d055d9ac5447b46e88e26d0211d91dea0ac5cb433cf242ff9",
+    "bytes": 494,
+    "source_modified_utc": "2026-10-16T12:15:47.433281+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-16\\01_ENVIID_Review\\BACA_DULU.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-16/01_ENVIID_Review/BACA_DULU.txt",
+    "sha256": "d8e856fe444859bed4dfb49a71b829149ca2d2893398d47c33e2f5fc5f312d57",
+    "bytes": 628,
+    "source_modified_utc": "2026-10-16T12:15:47.434280+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-16\\01_ENVIID_Review\\Caption_Review.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-16/01_ENVIID_Review/Caption_Review.txt",
+    "sha256": "44386e55d03f0ef6247f6fd20e4d7a0f34aee70f71df74422ebbade1e7c11693",
+    "bytes": 1218,
+    "source_modified_utc": "2026-10-16T12:15:47.433281+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-16\\RENCANA_KONTEN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-16/RENCANA_KONTEN.txt",
+    "sha256": "71a53547045a6b87dd7a83c4ce6e79d9fbbfe5b5ee8afe5aac0480666219f2a7",
+    "bytes": 4068,
+    "source_modified_utc": "2026-10-15T22:25:21.805405+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-16\\topic-log.json",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-16/topic-log.json",
+    "sha256": "0bf0eb49a20f9086fa638f8eb06230625ecc5fd912d5b426d1d07ce77e29c365",
+    "bytes": 7603,
+    "source_modified_utc": "2026-10-17T10:22:36.403596+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\02_Verifikasi_AI_Review\\Alternatif_Post_Teks.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/02_Verifikasi_AI_Review/Alternatif_Post_Teks.txt",
+    "sha256": "6a58a6ec2270e25ce8f2cf0298c34ef835b08af74675bddf1c7210fecb084be8",
+    "bytes": 572,
+    "source_modified_utc": "2026-10-16T18:42:36.654347+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\02_Verifikasi_AI_Review\\BACA_DULU.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/02_Verifikasi_AI_Review/BACA_DULU.txt",
+    "sha256": "36eb21a90a7cabd00bbd3c78276630a4f1fe307dd235f7e92148eee9f1236cb3",
+    "bytes": 694,
+    "source_modified_utc": "2026-10-16T18:42:36.655309+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\02_Verifikasi_AI_Review\\Caption_Review.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/02_Verifikasi_AI_Review/Caption_Review.txt",
+    "sha256": "bc96b8873ed79604374d49b8b06d098604d3c9305e1e7ef05f74dd944b8ad1bb",
+    "bytes": 1266,
+    "source_modified_utc": "2026-10-16T18:42:36.654347+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\03_Portfolio_First_Post\\Alternatif_Post_Teks.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Alternatif_Post_Teks.txt",
+    "sha256": "0e84385e2c6238963ebbeb577cba523988cd35e9852c4e7fac0db9f99d6c908d",
+    "bytes": 461,
+    "source_modified_utc": "2026-10-16T18:55:42.576298+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\03_Portfolio_First_Post\\BACA_DULU.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/BACA_DULU.txt",
+    "sha256": "a6f332d09ef42e6ed7dbbc6fe15c877b43f58ecb9fd4884eefd994de65a24bf3",
+    "bytes": 1108,
+    "source_modified_utc": "2026-10-17T02:17:50.642860+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\03_Portfolio_First_Post\\Caption_Final_EN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Caption_Final_EN.txt",
+    "sha256": "3746c32fc33c07a5aa135c3d0b9a548fff77a6e68b479e77c52487e865b2eaf4",
+    "bytes": 639,
+    "source_modified_utc": "2026-10-17T02:17:50.630861+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\03_Portfolio_First_Post\\Caption_Final_ID.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Caption_Final_ID.txt",
+    "sha256": "c4538a9e89045ca734b814772a2466d8d1700260d35dba3ccc4015d0c41fdf4d",
+    "bytes": 631,
+    "source_modified_utc": "2026-10-17T02:17:50.634859+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\03_Portfolio_First_Post\\Caption_Natural_EN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Caption_Natural_EN.txt",
+    "sha256": "6ee82fab73e67c228d5024b19fa7165158f8d8529e9e145d9ad67ed1ec72778e",
+    "bytes": 278,
+    "source_modified_utc": "2026-10-17T02:04:43.745926+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\03_Portfolio_First_Post\\Caption_Natural_ID.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Caption_Natural_ID.txt",
+    "sha256": "75075c95c9cfabb6f6f611f6c7478b10c05352c0378af96822af9138704b5a2c",
+    "bytes": 318,
+    "source_modified_utc": "2026-10-17T02:04:43.745926+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\03_Portfolio_First_Post\\Caption_Review.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Caption_Review.txt",
+    "sha256": "bc92164d93295ee356b2df8d435ebb75fa456a8f064a5bb706ffdc43bfe2c97d",
+    "bytes": 1137,
+    "source_modified_utc": "2026-10-16T18:55:42.575068+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\04_Portfolio_Editorial_Review\\BACA_DULU.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/04_Portfolio_Editorial_Review/BACA_DULU.txt",
+    "sha256": "6e01729f3377aafa2fa673a5f1f654520fc80b93652ee5e889fda3688ef4cc64",
+    "bytes": 1428,
+    "source_modified_utc": "2026-10-17T02:33:47.731850+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\04_Portfolio_Editorial_Review\\Caption_EN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Caption_Final_EN.txt",
+    "sha256": "3746c32fc33c07a5aa135c3d0b9a548fff77a6e68b479e77c52487e865b2eaf4",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\04_Portfolio_Editorial_Review\\Caption_ID.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Caption_Final_ID.txt",
+    "sha256": "c4538a9e89045ca734b814772a2466d8d1700260d35dba3ccc4015d0c41fdf4d",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\05_Portfolio_Typography_Review\\BACA_DULU.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/05_Portfolio_Typography_Review/BACA_DULU.txt",
+    "sha256": "ac9567558e85d962478fbebcbe2387287bf9aae31802a754cb0e7fe599e31447",
+    "bytes": 1105,
+    "source_modified_utc": "2026-10-17T06:08:35.328961+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\05_Portfolio_Typography_Review\\Caption_EN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Caption_Final_EN.txt",
+    "sha256": "3746c32fc33c07a5aa135c3d0b9a548fff77a6e68b479e77c52487e865b2eaf4",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\05_Portfolio_Typography_Review\\Caption_ID.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/03_Portfolio_First_Post/Caption_Final_ID.txt",
+    "sha256": "c4538a9e89045ca734b814772a2466d8d1700260d35dba3ccc4015d0c41fdf4d",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\06_Portfolio_Visual_Evidence\\BACA_DULU.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/06_Portfolio_Visual_Evidence/BACA_DULU.txt",
+    "sha256": "a2e2129737a85339cbb15cac0571ff788dad7e81797ed8db4bacae29f6b1e405",
+    "bytes": 1322,
+    "source_modified_utc": "2026-10-17T08:22:15.198935+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\06_Portfolio_Visual_Evidence\\Caption_EN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/06_Portfolio_Visual_Evidence/Caption_EN.txt",
+    "sha256": "290b33bd92355275ebf6c602279b9a8abce7e426622715c662fd106b2390ae7d",
+    "bytes": 658,
+    "source_modified_utc": "2026-10-17T08:22:14.299918+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\06_Portfolio_Visual_Evidence\\Caption_ID.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/06_Portfolio_Visual_Evidence/Caption_ID.txt",
+    "sha256": "b66ac99b159a793382a31d122b015b68042490d52a4fa7b48a6654ccbe181d9d",
+    "bytes": 673,
+    "source_modified_utc": "2026-10-17T08:22:14.299918+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\06_Portfolio_Visual_Evidence\\Sumber_Visual.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/06_Portfolio_Visual_Evidence/Sumber_Visual.txt",
+    "sha256": "8e646406b0dca04d4213c0de1bcf9ffa22ce4e5e7d3db2a8e59cd95fc5969248",
+    "bytes": 1486,
+    "source_modified_utc": "2026-10-17T08:22:15.199934+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\07_Portfolio_10_Slides\\BACA_DULU.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/07_Portfolio_10_Slides/BACA_DULU.txt",
+    "sha256": "63b4ecbec42d8d28dbc6402fa76052325b1fa9f9e596ecc35424c7cd974eb701",
+    "bytes": 1009,
+    "source_modified_utc": "2026-10-17T09:44:13.777058+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\07_Portfolio_10_Slides\\Caption_EN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/06_Portfolio_Visual_Evidence/Caption_EN.txt",
+    "sha256": "290b33bd92355275ebf6c602279b9a8abce7e426622715c662fd106b2390ae7d",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\07_Portfolio_10_Slides\\Caption_ID.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/06_Portfolio_Visual_Evidence/Caption_ID.txt",
+    "sha256": "b66ac99b159a793382a31d122b015b68042490d52a4fa7b48a6654ccbe181d9d",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\07_Portfolio_10_Slides\\Certificate_Collection\\INDEX.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/07_Portfolio_10_Slides/Certificate_Collection/INDEX.txt",
+    "sha256": "ffb304284c47e00a8ca4954803ebee1549a4181d0330b99d17a4d04fa1ce76c3",
+    "bytes": 2761,
+    "source_modified_utc": "2026-10-17T09:44:13.775551+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\07_Portfolio_10_Slides\\Sumber_Visual.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/07_Portfolio_10_Slides/Sumber_Visual.txt",
+    "sha256": "a5b2e3f6df3d0935e049f74b2c41b7c54922aee5f8e901a585a209e461a0d6c9",
+    "bytes": 1750,
+    "source_modified_utc": "2026-10-17T09:44:13.778101+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\08_Portfolio_Published\\BACA_DULU.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/08_Portfolio_Published/BACA_DULU.txt",
+    "sha256": "a21c292d98c7c37385a311167f27440c9cbf0964627520d5d1cf2f9300802a5c",
+    "bytes": 799,
+    "source_modified_utc": "2026-10-17T10:00:47.083838+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\08_Portfolio_Published\\Caption_EN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/06_Portfolio_Visual_Evidence/Caption_EN.txt",
+    "sha256": "290b33bd92355275ebf6c602279b9a8abce7e426622715c662fd106b2390ae7d",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\08_Portfolio_Published\\Caption_ID.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/06_Portfolio_Visual_Evidence/Caption_ID.txt",
+    "sha256": "b66ac99b159a793382a31d122b015b68042490d52a4fa7b48a6654ccbe181d9d",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\08_Portfolio_Published\\Certificate_Collection\\INDEX.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/07_Portfolio_10_Slides/Certificate_Collection/INDEX.txt",
+    "sha256": "ffb304284c47e00a8ca4954803ebee1549a4181d0330b99d17a4d04fa1ce76c3",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\08_Portfolio_Published\\Post_Link.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/08_Portfolio_Published/Post_Link.txt",
+    "sha256": "c2d2faac49c39e376eac4c0669c253d40a50f0b291ba8b209b5fd8ecb4c925de",
+    "bytes": 75,
+    "source_modified_utc": "2026-10-17T10:00:47.082839+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\08_Portfolio_Published\\Publication_Status.json",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/08_Portfolio_Published/Publication_Status.json",
+    "sha256": "d5c7f86d880f650176ee4ab70f18694a1b15c124d2eb2a3b779e3a93efced263",
+    "bytes": 847,
+    "source_modified_utc": "2026-10-17T10:00:47.082839+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\08_Portfolio_Published\\Sumber_Visual.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/07_Portfolio_10_Slides/Sumber_Visual.txt",
+    "sha256": "a5b2e3f6df3d0935e049f74b2c41b7c54922aee5f8e901a585a209e461a0d6c9",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\08_Portfolio_Published\\Urutan_Slide.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/08_Portfolio_Published/Urutan_Slide.txt",
+    "sha256": "19b633634e7389fe7e032f409314c71a0a683f3234ee00b2cae458269fba15bd",
+    "bytes": 150,
+    "source_modified_utc": "2026-10-17T09:56:19.690233+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\Bank_15_Ide_Proyek.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/Bank_15_Ide_Proyek.txt",
+    "sha256": "2707b5aded32ca22d8f6648910263db8be12c16dc0488dcdbd0db9fcb532fbbf",
+    "bytes": 11570,
+    "source_modified_utc": "2026-10-16T18:44:06.559415+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\Reference\\Editorial_Notes.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/Reference/Editorial_Notes.txt",
+    "sha256": "a679c4de5b35ac1be29920b789627e5ac058581665a4deb02bb266f4e767ff20",
+    "bytes": 3427,
+    "source_modified_utc": "2026-10-16T18:39:55.380558+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\Reference\\Posting_Style_Reference.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/Reference/Posting_Style_Reference.txt",
+    "sha256": "e528d5b1041c60c320b5492245b954183340f20a886529f2c1ccacbf022103d9",
+    "bytes": 1133,
+    "source_modified_utc": "2026-10-17T02:17:50.637864+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\Reference\\RepairGate_Replay.json",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/Reference/RepairGate_Replay.json",
+    "sha256": "a0061e86bd8898ba4676ee950a36889662ee9b10738451c0ce9eda55a5a0a488",
+    "bytes": 9848,
+    "source_modified_utc": "2026-10-16T18:40:16.681287+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\Reference\\User_Material_10_Demos.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/Reference/User_Material_10_Demos.txt",
+    "sha256": "e5d531319fd70a6701f99389c57bc95dca26a9e912fa3c5a1abd03d3d96781a2",
+    "bytes": 6240,
+    "source_modified_utc": "2026-10-16T18:33:58.969934+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\Reference\\User_Material_5_Angles.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/Reference/User_Material_5_Angles.txt",
+    "sha256": "ab4765fac83c82a80cc8e3dce1b0d75dfd33c0263f2b56c3f791c728e4b3958f",
+    "bytes": 10037,
+    "source_modified_utc": "2026-10-16T18:35:49.817333+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-17\\Status.json",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-17/Status.json",
+    "sha256": "a356435955ffe9c2c3234bdb1fa75246ab33261a31a9769aaaa253fe75c3b04f",
+    "bytes": 1512,
+    "source_modified_utc": "2026-10-16T18:44:54.478427+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-24\\09_Engineering_Labs_Showcase\\Alternatif_Caption_EN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-24/09_Engineering_Labs_Showcase/Alternatif_Caption_EN.txt",
+    "sha256": "6de5083882602232b757ab009984a4fcb84c4e7b899fcd2d2c3839c24073df88",
+    "bytes": 1620,
+    "source_modified_utc": "2026-10-24T08:39:17.878107+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-24\\09_Engineering_Labs_Showcase\\BACA_DULU.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-24/09_Engineering_Labs_Showcase/BACA_DULU.txt",
+    "sha256": "2cdcb5030a5bc845d65a6d1967cb5b551507be9ee3e5de2aa51e7cf26cdf2804",
+    "bytes": 902,
+    "source_modified_utc": "2026-10-24T08:39:17.879109+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-24\\09_Engineering_Labs_Showcase\\Caption_EN.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-24/09_Engineering_Labs_Showcase/Caption_EN.txt",
+    "sha256": "76874f468c1f92265c394dbe25907bceeafc67892bfdc54f60431099b3c3a935",
+    "bytes": 1070,
+    "source_modified_utc": "2026-10-24T08:39:17.875485+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-24\\09_Engineering_Labs_Showcase\\Caption_ID.txt",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-24/09_Engineering_Labs_Showcase/Caption_ID.txt",
+    "sha256": "cd8cd4317ae178e8438449e38818b1cb042e77e70dc64ef7d1de1d49366fbbe6",
+    "bytes": 1149,
+    "source_modified_utc": "2026-10-24T08:39:17.876561+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\LinkedIn_Content_2026-10-24\\09_Engineering_Labs_Showcase\\Status.json",
+    "path": "sources/project-history/LinkedIn_Content_2026-10-24/09_Engineering_Labs_Showcase/Status.json",
+    "sha256": "13a9e341ecfc0ad04c2cd384517fd6703bfaadfe4bea6fca02fe9145d321690a",
+    "bytes": 205,
+    "source_modified_utc": "2026-10-24T08:39:17.893280+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\A02_UART_Parse_Profiler\\BACA_DULU.txt",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/A02_UART_Parse_Profiler/BACA_DULU.txt",
+    "sha256": "c147cbf5768cf6f995fc800aee9a940d827766d041ac18d111d3073b794a0cbf",
+    "bytes": 1308,
+    "source_modified_utc": "2026-10-18T00:21:54.200063+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\A02_UART_Parse_Profiler\\Methodology.md",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/A02_UART_Parse_Profiler/Methodology.md",
+    "sha256": "1f416921adf06ba56e0492df36175cbdfb8efe9310177c1e7f914c8ef4b8ce89",
+    "bytes": 5540,
+    "source_modified_utc": "2026-10-18T00:18:45.578126+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\A02_UART_Parse_Profiler\\Release_Verification.json",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/A02_UART_Parse_Profiler/Release_Verification.json",
+    "sha256": "591677abf9b624267b3b1bd89686eacd9ed09d18f56591e3395ece9da9421c7c",
+    "bytes": 639,
+    "source_modified_utc": "2026-10-18T00:20:36.212457+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\A02_UART_Parse_Profiler\\Status.json",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/A02_UART_Parse_Profiler/Status.json",
+    "sha256": "3c48098136e0e4ba93233aa385287b160d82a9aee8d91cc76a30b7bf17633d1d",
+    "bytes": 837,
+    "source_modified_utc": "2026-10-18T00:21:54.199062+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\Project_Queue.json",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/Project_Queue.json",
+    "sha256": "f21ce66924779885932bb32e27c0335ecfd51ea542d98d7ac23bfe43882ab645",
+    "bytes": 4972,
+    "source_modified_utc": "2026-10-19T12:44:57.391257+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R01_RepairGate\\BACA_DULU.txt",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/R01_RepairGate/BACA_DULU.txt",
+    "sha256": "b1b3d73a904a22938d89fbf512291548d02a563c66d242d46eed10d40cf5d283",
+    "bytes": 1957,
+    "source_modified_utc": "2026-10-18T00:05:02.145864+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R01_RepairGate\\Carousel\\Ready\\BACA_DULU.txt",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/R01_RepairGate/Carousel/Ready/BACA_DULU.txt",
+    "sha256": "e4d1f47165aa9418cd1d7e1fd3dbb3007413ede1e69085310c5cd1ba070e7900",
+    "bytes": 857,
+    "source_modified_utc": "2026-10-18T00:02:30.473675+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R01_RepairGate\\Carousel\\Ready\\Caption_LinkedIn.txt",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/R01_RepairGate/Carousel/Ready/Caption_LinkedIn.txt",
+    "sha256": "a0c9afddfec38c78754251021db661c8688d88bed95354df4d21752df80bf3af",
+    "bytes": 631,
+    "source_modified_utc": "2026-10-18T00:02:30.473675+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R01_RepairGate\\Carousel\\Ready\\Status.json",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/R01_RepairGate/Carousel/Ready/Status.json",
+    "sha256": "22168d7686bd55403bf61be883331dab00be95a0e8a800ac1110c523cb8b2cfe",
+    "bytes": 617,
+    "source_modified_utc": "2026-10-18T00:12:28.406603+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R01_RepairGate\\Case_Contracts.md",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/R01_RepairGate/Case_Contracts.md",
+    "sha256": "1ef97827c39476e7c8d7072763989170ad97df105c2356a7f79b2b86fdd82d74",
+    "bytes": 6151,
+    "source_modified_utc": "2026-10-17T22:55:03.074101+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R01_RepairGate\\Draft_LinkedIn.txt",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/R01_RepairGate/Draft_LinkedIn.txt",
+    "sha256": "332f768e5ade12ca9a93fb9999d93695f339bd3e8c69b5819a7d38112dedd64c",
+    "bytes": 933,
+    "source_modified_utc": "2026-10-17T22:55:03.074101+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R01_RepairGate\\Regression_Lab_Report.json",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/R01_RepairGate/Regression_Lab_Report.json",
+    "sha256": "5f0ba17d2dac38b7adb7841bba76fb35e1c19cd4b7c56a9d2d121328a82c9d71",
+    "bytes": 159460,
+    "source_modified_utc": "2026-10-17T22:55:03.070170+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R01_RepairGate\\Status.json",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/R01_RepairGate/Status.json",
+    "sha256": "aa9728b32516898c0c6ffc708cc7a5ac798ac248d65eeb796f66be2e02566106",
+    "bytes": 1843,
+    "source_modified_utc": "2026-10-18T00:12:28.406603+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Projects_2026-10-18\\R05_Checkpoint.txt",
+    "path": "sources/project-history/Gemini_Projects_2026-10-18/R05_Checkpoint.txt",
+    "sha256": "3d3f3a28993473cf30457bf5586ca95b423563cdf2bfca93479ef2cd571d0892",
+    "bytes": 407,
+    "source_modified_utc": "2026-10-18T23:16:30.073363+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\A01_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/A01_Release/release.json",
+    "sha256": "ba99e2dde33e532fbb8c6d5ad6560a4bbc0e6c1165780e16dd154766779605e1",
+    "bytes": 643,
+    "source_modified_utc": "2026-10-19T12:27:51.193892+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\A01_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/A01_Release_Notes.md",
+    "sha256": "35fbc75e1a28854f5a5cbc8f8179a118008719692f06b7e0d1e598596d850263",
+    "bytes": 608,
+    "source_modified_utc": "2026-10-19T12:27:28.428495+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Briefs_06_10_Manifest.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Briefs_06_10_Manifest.json",
+    "sha256": "c7322574efccc7a632c963de99015601cbee331891b07f446cf11142e9d14832",
+    "bytes": 2011,
+    "source_modified_utc": "2026-10-19T08:00:19.505097+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\CI_Summary.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/CI_Summary.json",
+    "sha256": "ecafecfe68116491f317418b42c97e62fb4d64d22c58abe3f7e544f34d8e23d3",
+    "bytes": 1589,
+    "source_modified_utc": "2026-10-18T23:00:03.052097+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\CURRENT_EXECUTION.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/CURRENT_EXECUTION.txt",
+    "sha256": "0c2a58ffac8ff00855b97a84df85af35e9ccbe0754d0925d0c79ced2b4973737",
+    "bytes": 1021,
+    "source_modified_utc": "2026-10-19T12:44:57.335249+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\discovered.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/discovered.json",
+    "sha256": "dd9a1545ad7c6a94727845b6fe7f3f0980069bfbf4d97f7b0f7f7a0304530da2",
+    "bytes": 1239,
+    "source_modified_utc": "2026-10-19T12:13:20.040288+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\final-github-audit.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/final-github-audit.json",
+    "sha256": "b89352945c47b5ba20386b8c36ca92b0e38a4a9dae01221220e62ed0a4ba4f50",
+    "bytes": 17565,
+    "source_modified_utc": "2026-10-19T12:44:57.055275+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\repairgate-regression.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/repairgate-regression.json",
+    "sha256": "6762a337290bc091ff755ea2e21ae0a81139ad5161e6e6df6deaa00b4e8487a9",
+    "bytes": 159460,
+    "source_modified_utc": "2026-10-19T12:19:20.665116+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\.pytest_cache\\README.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/.pytest_cache/README.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "bytes": 302,
+    "source_modified_utc": "2026-10-19T12:38:59.714714+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\build\\tmp\\fortran.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/build/tmp/fortran.txt",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "bytes": 3,
+    "source_modified_utc": "2026-10-19T12:38:59.563666+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\build\\tmp\\rust.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/build/tmp/rust.txt",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "bytes": 2,
+    "source_modified_utc": "2026-10-19T12:38:59.578658+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\fixtures\\constant.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/fixtures/constant.txt",
+    "sha256": "755011000817012683cdae1f62f715e6e2d331f42af561a2f5b3a6895827e34c",
+    "bytes": 122,
+    "source_modified_utc": "2026-10-19T12:38:53.005502+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\fixtures\\empty.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/build/tmp/rust.txt",
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\fixtures\\impulse.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/fixtures/impulse.txt",
+    "sha256": "38e80393b380da7d74ffae28c2536fea3cbfc1cc01123a9e1206cf77c7bce040",
+    "bytes": 92,
+    "source_modified_utc": "2026-10-19T12:38:53.008013+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\fixtures\\short.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/fixtures/short.txt",
+    "sha256": "c075c5123e4f9778148f7cc61570ff21e25174c227e2c8b68c09148fbed9f4ce",
+    "bytes": 48,
+    "source_modified_utc": "2026-10-19T12:38:53.009028+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\fixtures\\signal.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/fixtures/signal.txt",
+    "sha256": "722be572f2513ef3f8da23cceff98d0c6b691f14088ba7a64384875d9ecae1ae",
+    "bytes": 498,
+    "source_modified_utc": "2026-10-19T12:38:53.010027+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\fixtures\\single_tap.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/fixtures/single_tap.txt",
+    "sha256": "92663f2cc840c4ad36b3d635eb1b456d7c34544a807c8a9b9ba3fb5f0bf15bca",
+    "bytes": 63,
+    "source_modified_utc": "2026-10-19T12:38:53.011026+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\fixtures\\single_taps.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/fixtures/single_taps.txt",
+    "sha256": "5c5d511ced97663c386b57c5b76c1aa7320fa43d5a642516ed0be055c8a00510",
+    "bytes": 17,
+    "source_modified_utc": "2026-10-19T12:38:53.012028+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\fixtures\\taps.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/fixtures/taps.txt",
+    "sha256": "1914d56f36f8f6b81d7bf3f0901541d478bd201510d2ffd07105f0c9caafe5ff",
+    "bytes": 77,
+    "source_modified_utc": "2026-10-19T12:38:53.013025+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\README.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/README.md",
+    "sha256": "bfe3d7318a721e11b3516ef8a0414ff9f7f93d01940a7bbb01ad7a0386e5f3cf",
+    "bytes": 3790,
+    "source_modified_utc": "2026-10-19T12:38:53.002502+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\reports\\parity.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/reports/parity.json",
+    "sha256": "89dd11f04dfea3d04b48035f6a88e23513cfca556d1893b0302dec664c447029",
+    "bytes": 370,
+    "source_modified_utc": "2026-10-19T12:38:55.667088+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-clean\\reports\\toolchains.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-clean/reports/toolchains.json",
+    "sha256": "c3af48ae4e21079fe07f4cd139a3067d4914575b2bfd869b8031185166a4bf04",
+    "bytes": 225,
+    "source_modified_utc": "2026-10-19T12:38:53.018025+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\replay-fir-evidence\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/replay-fir-evidence/release.json",
+    "sha256": "77238e2ff78008795ef9dc5794efa9978f8f81467a1b20eb1571438e31a7d62c",
+    "bytes": 673,
+    "source_modified_utc": "2026-10-19T12:39:02.992694+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\DeepSeek_Crosscheck\\RESULT.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/DeepSeek_Crosscheck/RESULT.md",
+    "sha256": "e7688763afe43dfc7d4d46cb9bed633e1d17875d131d49a6abc9cbcae620a04c",
+    "bytes": 9409,
+    "source_modified_utc": "2026-10-19T12:45:36.609205+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G02_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G02_Release/release.json",
+    "sha256": "be348d00ea9c344094f619cbb42497503bfc6f76a483f84c0c85f02d6c638265",
+    "bytes": 672,
+    "source_modified_utc": "2026-10-18T23:21:28.142793+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G02_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G02_Release_Notes.md",
+    "sha256": "6e4e64801e24ba444d1d332987140efda438958cf971d90f70ac57d4cb1c69bb",
+    "bytes": 931,
+    "source_modified_utc": "2026-10-18T23:20:32.199514+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G03_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G03_Release/release.json",
+    "sha256": "e34db37391095447d421d300847af8e8dbe801c2e3d9d435458921d674485fe6",
+    "bytes": 696,
+    "source_modified_utc": "2026-10-18T23:42:05.073921+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G03_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G03_Release_Notes.md",
+    "sha256": "e71385e4314d9977c063d56d126db98df04c2e1d71a1934315998724138be696",
+    "bytes": 1070,
+    "source_modified_utc": "2026-10-18T23:38:56.322839+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G04_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G04_Release/release.json",
+    "sha256": "db255f6227a34b8adb683ba5c4cfbf7e867472877131f111854ea0e42b3681f7",
+    "bytes": 676,
+    "source_modified_utc": "2026-10-19T00:02:35.300853+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G04_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G04_Release_Notes.md",
+    "sha256": "312a47ba282434bb46a32b8669b41c5c007099d1cb6bd82d69fff26b9b8ab775",
+    "bytes": 790,
+    "source_modified_utc": "2026-10-19T00:02:22.394622+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G05_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G05_Release/release.json",
+    "sha256": "ef55255cceec239627bca38fe09d19ea01138bfb36090660cf32898b91d7252b",
+    "bytes": 1090,
+    "source_modified_utc": "2026-10-19T08:17:08.747393+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G05_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G05_Release_Notes.md",
+    "sha256": "1a477206bf615aedfa64394b547cc204c25d46ebe6fd701b4ed7ae1e36fb903b",
+    "bytes": 1126,
+    "source_modified_utc": "2026-10-19T07:59:51.271364+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G06_Implementation_Contract.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G06_Implementation_Contract.md",
+    "sha256": "469333aef90ed63eb19cc9adefdb58491f9a309887495028df35217c0b79b4e8",
+    "bytes": 2335,
+    "source_modified_utc": "2026-10-19T08:15:00.477519+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G06_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G06_Release/release.json",
+    "sha256": "e0544a3e6de134504219171080c09b0c465701ef03e676bf02dcf1acf951c4d3",
+    "bytes": 668,
+    "source_modified_utc": "2026-10-19T08:47:19.981162+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G06_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G06_Release_Notes.md",
+    "sha256": "bb0887ea09ecb4c6dbc1079331400a4b284e2840127b44b288508786dac32f07",
+    "bytes": 1080,
+    "source_modified_utc": "2026-10-19T08:45:39.786650+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G07_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G07_Release/release.json",
+    "sha256": "d7793843c1b0edaa695a90c2b866b45faf3aed73dfa801f2be1c2d674b7c3dbe",
+    "bytes": 651,
+    "source_modified_utc": "2026-10-19T09:44:26.271546+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G07_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G07_Release_Notes.md",
+    "sha256": "8a39a1452cbca59cf8bd5b1fd07f8d59d5759ebffc2f47dc2f6ad7bb460cab03",
+    "bytes": 1845,
+    "source_modified_utc": "2026-10-19T09:43:29.372391+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G08_Audit_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G08_Audit_Release/release.json",
+    "sha256": "bc442437243ccb675e616b92e2ea4fdee9bf81b9599fa2abeed637f191bbb835",
+    "bytes": 681,
+    "source_modified_utc": "2026-10-19T12:31:21.538235+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G08_Audit_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G08_Audit_Release_Notes.md",
+    "sha256": "af26cf52bc14fc027ac43554755780a9008dafc9abd57885369c716f91193518",
+    "bytes": 573,
+    "source_modified_utc": "2026-10-19T12:31:13.561188+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G08_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G08_Release/release.json",
+    "sha256": "b97d9899a34884eaf311fb7959ce265e897df6ec59513b06fee8d9cb5957aa20",
+    "bytes": 663,
+    "source_modified_utc": "2026-10-19T10:03:36.919523+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G08_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G08_Release_Notes.md",
+    "sha256": "d59ca8a4fa187769b0bea69638385e4dcc605d8c1d81d3a9621dbac993861034",
+    "bytes": 2155,
+    "source_modified_utc": "2026-10-19T10:00:40.181971+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G09_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G09_Release/release.json",
+    "sha256": "87b26d2e3caef2be4e68429aadb3aba8490d0c1141051677d9ce2028661abd72",
+    "bytes": 667,
+    "source_modified_utc": "2026-10-19T10:40:25.471173+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G09_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G09_Release_Notes.md",
+    "sha256": "b80e02d23df08e6a11c6d579815e52ce7cef4fd5ea642d98d16681e8a1b9a2ad",
+    "bytes": 2153,
+    "source_modified_utc": "2026-10-19T10:39:50.862945+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G10_Audit_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G10_Audit_Release/release.json",
+    "sha256": "9f5e882a2d0af1619e8fcbee30988f318a1e28a19dcbe4d635d45ae9c741def4",
+    "bytes": 652,
+    "source_modified_utc": "2026-10-19T12:31:28.906569+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G10_Audit_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G10_Audit_Release_Notes.md",
+    "sha256": "7379765445c1e16e855e78b3e5255359bf951ff9fc2b838cea4df385993742ba",
+    "bytes": 669,
+    "source_modified_utc": "2026-10-19T12:31:13.561188+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G10_Final_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G10_Final_Release/release.json",
+    "sha256": "1dffedfc09b7960a977f5142e592e6101cdfd7f8a4cbac86f28608b7f8c67ab8",
+    "bytes": 674,
+    "source_modified_utc": "2026-10-19T12:44:51.443336+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G10_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G10_Release/release.json",
+    "sha256": "c62e96c440efd3a461b324f977323c0c4f24843bf1212f4859a23b55e5fa4432",
+    "bytes": 634,
+    "source_modified_utc": "2026-10-19T11:00:53.013852+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G10_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G10_Release_Notes.md",
+    "sha256": "07b0290fce33bc031c5b6f554444c28966f258f53d7ae53e40a7fb2be190683b",
+    "bytes": 2391,
+    "source_modified_utc": "2026-10-19T11:00:22.081184+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\G10_Visual_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/G10_Visual_Release_Notes.md",
+    "sha256": "a5fb837a2b1965e74d335c5cbbaff5e2abda85272ebd8ec3a1762e0fb5ef3fee",
+    "bytes": 521,
+    "source_modified_utc": "2026-10-19T12:43:33.338399+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\MASTER_EXECUTION.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/MASTER_EXECUTION.json",
+    "sha256": "e4bf119b83cc6ae620ef8c9f08af07ddf619af0df223970d2800ec4a793b6352",
+    "bytes": 15150,
+    "source_modified_utc": "2026-10-19T12:45:19.514238+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_01_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_01_Original_Brief.txt",
+    "sha256": "3c5c64f4ffed68fddb53e55a2da18350ae8fd03a4d0b88841c8768c810b1579a",
+    "bytes": 9148,
+    "source_modified_utc": "2026-10-18T22:39:52.829614+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_02_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_02_Original_Brief.txt",
+    "sha256": "deb0733f8bc16f5a14ff1a86a10ebe8e36d63ee027e0cea84136fc03ddd2ac99",
+    "bytes": 14553,
+    "source_modified_utc": "2026-10-18T22:41:18.475184+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_03_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_03_Original_Brief.txt",
+    "sha256": "c826ebcefb383caaa1d99a9d1bf59b713a5be45d871b4b4bb3ac669f36476901",
+    "bytes": 17996,
+    "source_modified_utc": "2026-10-18T22:41:39.282061+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_04_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_04_Original_Brief.txt",
+    "sha256": "22a039c04c34fb9c7137ed40dc6b0468b1f3ad56938171d3c02e851b0f605605",
+    "bytes": 21072,
+    "source_modified_utc": "2026-10-18T22:43:23.907647+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_05_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_05_Original_Brief.txt",
+    "sha256": "f6954c81b88165cecda5736326f0ec2d305b2cf1edb10099af0c3cfc82bbbcbd",
+    "bytes": 27924,
+    "source_modified_utc": "2026-10-18T22:46:41.798543+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_06_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_06_Original_Brief.txt",
+    "sha256": "138553ee4cc91e098c5986ac0289c6cac5f01e68a6186fd78aae1666e168c2c3",
+    "bytes": 14400,
+    "source_modified_utc": "2026-10-19T07:53:55.644585+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_07_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_07_Original_Brief.txt",
+    "sha256": "7adb8dd40c7b6e8d0e6d4392f03214e68c224a32c7bb0b7294301d0af9031b52",
+    "bytes": 22608,
+    "source_modified_utc": "2026-10-19T07:56:23.210087+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_08_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_08_Original_Brief.txt",
+    "sha256": "a7319b5ece1d42a799820db0bb4d2d67a43775dc715e7a07607d66d1214adc79",
+    "bytes": 26851,
+    "source_modified_utc": "2026-10-19T07:58:32.416403+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_09_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_09_Original_Brief.txt",
+    "sha256": "00a787501f556aae79414c49ee9832ba8910acf4b99075e22b9dc7d804e9a8af",
+    "bytes": 11689,
+    "source_modified_utc": "2026-10-19T07:59:01.149237+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_10_Original_Brief.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Project_10_Original_Brief.txt",
+    "sha256": "a3889d42d069a7b5d40f1c4aedbadbf74485c569965eb91a32b51bbc407a40f5",
+    "bytes": 16285,
+    "source_modified_utc": "2026-10-19T07:59:41.172837+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\R01_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/R01_Release/release.json",
+    "sha256": "214e71ed953e48e3983435923f35acf7cae9669586794eb33d4ebe8b5db75a90",
+    "bytes": 644,
+    "source_modified_utc": "2026-10-19T12:37:00.795517+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\R01_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/R01_Release_Notes.md",
+    "sha256": "158dc5f148655f8353573828b7b3c7aadae39988bc42cfcbf5e13e65e7e7a150",
+    "bytes": 611,
+    "source_modified_utc": "2026-10-19T12:36:52.694477+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\R03_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/R03_Release/release.json",
+    "sha256": "0cf663be57f4b5b2d3b6168108bc9a08668dde48452511666c77f934bb12484b",
+    "bytes": 643,
+    "source_modified_utc": "2026-10-19T12:27:35.833973+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\R03_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/R03_Release_Notes.md",
+    "sha256": "a11603f0d88665a337eb99f7db2630708708f7037a17ff2135db0478d4edc26a",
+    "bytes": 571,
+    "source_modified_utc": "2026-10-19T12:27:28.421954+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\R04_Release\\release.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/R04_Release/release.json",
+    "sha256": "9cf45de28dab57554d577791cd0862cb39cc77b08eec04f671df984a6aff8742",
+    "bytes": 667,
+    "source_modified_utc": "2026-10-19T12:27:43.464580+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\R04_Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/R04_Release_Notes.md",
+    "sha256": "e7dce40466718bcfbbd9ba7af6130262c4ef1bb8abeb89b439b62890bef915f5",
+    "bytes": 658,
+    "source_modified_utc": "2026-10-19T12:27:28.425115+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\R05_PR.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/R05_PR.md",
+    "sha256": "f210fc2f9b9f766eff6b88fa2f723bc8c3df49a715745868ec32c9dc29a4230d",
+    "bytes": 630,
+    "source_modified_utc": "2026-10-18T23:10:10.649062+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Release_Notes.md",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Release_Notes.md",
+    "sha256": "1dfc0e696bc14df2eab8b55186c89cbfc164e4ef48242b807371e990b92dbf27",
+    "bytes": 1072,
+    "source_modified_utc": "2026-10-18T22:59:44.538387+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Release_Verification.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Release_Verification.json",
+    "sha256": "a6dc9676c3ba3da577b177137b8dd27187b0fe313af3e96f968004900331fda6",
+    "bytes": 309,
+    "source_modified_utc": "2026-10-18T23:00:24.263098+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Sequential_Plan.json",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/Sequential_Plan.json",
+    "sha256": "a423dab1bc3416fead403faef2938f7cac2e55bf1e003019dece9e13f711d850",
+    "bytes": 10462,
+    "source_modified_utc": "2026-10-19T12:44:57.358253+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\START_HERE.txt",
+    "path": "sources/project-history/Gemini_Briefs_2026-10-19/START_HERE.txt",
+    "sha256": "e1f0d86af862397cadfdc9846e963302b4367e668e5b1faedbc9f1dc99d8872f",
+    "bytes": 2397,
+    "source_modified_utc": "2026-10-18T23:37:10.126100+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Crosscheck_Google_CV_Portfolio_LinkedIn_2026-10-15.txt",
+    "path": "sources/career/google-profile-crosscheck-2026-10-15.txt",
+    "sha256": "c381af1f6d70f5f3673a2628b874cd17586e1282989a0a75a3e5fbd340d91a66",
+    "bytes": 6236,
+    "source_modified_utc": "2026-10-14T20:31:51.444757+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Ardhya_CV_Umum_Terbaru.pdf",
+    "path": "sources/career/Profile_Update_2026-10-16/Ardhya_Novri_Ramadhan_CV_Umum.pdf",
+    "sha256": "3814783a3e13d05561a2ec0100c950fa80a4dcf856508a8af247cc11ee783bdf",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\01_Mulai_Di_Sini.txt",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/01_Mulai_Di_Sini.txt",
+    "sha256": "0f8bd917bf69ad231c77f78f42237da9970dcd497138e79659223dc9c56373f0",
+    "bytes": 5755,
+    "source_modified_utc": "2026-10-07T14:18:00.092753+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\02_LinkedIn.txt",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/02_LinkedIn.txt",
+    "sha256": "6b7dc798db26a22731b18f131af29abe5ef4103d5accc07b06fddf156cef63f4",
+    "bytes": 2783,
+    "source_modified_utc": "2026-10-07T14:28:23.405153+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\03_Latihan_Interview.txt",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/03_Latihan_Interview.txt",
+    "sha256": "2056f90b60e4d5cead5483e9cb5b7939f62d142c7b971569ec72366945c25010",
+    "bytes": 2483,
+    "source_modified_utc": "2026-10-07T14:18:00.092753+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\04_Audit_CV_dan_Bukti.txt",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/04_Audit_CV_dan_Bukti.txt",
+    "sha256": "6915b9098bacc0f197fd81c34ed018d84ce2e2bdc5f50b306945c4b9994f473e",
+    "bytes": 1528,
+    "source_modified_utc": "2026-10-07T14:18:00.093753+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\05_Draf_Lamaran.txt",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/05_Draf_Lamaran.txt",
+    "sha256": "fded6746c149cf16831da887221d4766191349cd547406b73e318c3e8035ff1e",
+    "bytes": 2792,
+    "source_modified_utc": "2026-10-07T14:23:10.378760+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\06_Shortlist_dan_Sumber.txt",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/06_Shortlist_dan_Sumber.txt",
+    "sha256": "404af8fa26b2a34a4012ace8405964e86941eba0985c9f7937ebd51657865a88",
+    "bytes": 4202,
+    "source_modified_utc": "2026-10-07T14:28:23.404150+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\CV_ATS_Ardhya_Electrical.docx",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/CV_ATS_Ardhya_Electrical.docx",
+    "sha256": "a1f38d6efc7aa7d1c74005713aa278c636e4d115d850c9112c9390f692d2f549",
+    "bytes": 37865,
+    "source_modified_utc": "2026-10-07T14:18:00.031456+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\CV_ATS_Ardhya_Electrical.pdf",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/CV_ATS_Ardhya_Electrical.pdf",
+    "sha256": "397811b3cade77a0be422d9efaea1be3a6475d9918d13f885de5f29aacd9c605",
+    "bytes": 161949,
+    "source_modified_utc": "2026-10-07T14:18:24.928304+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\CV_ATS_Ardhya_Electrical.txt",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/CV_ATS_Ardhya_Electrical.txt",
+    "sha256": "f5ba575dd8a92c86199c10e47c20426f800a4b5e44047583a8e17d8da0503359",
+    "bytes": 2098,
+    "source_modified_utc": "2026-10-07T14:18:00.033455+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\CV_ATS_Ardhya_Embedded.docx",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/CV_ATS_Ardhya_Embedded.docx",
+    "sha256": "83c9b728df383304e6a61beaba2b620e3eaf4432c910487cba16f31ba7b514de",
+    "bytes": 37849,
+    "source_modified_utc": "2026-10-07T14:17:59.969730+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\CV_ATS_Ardhya_Embedded.pdf",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/CV_ATS_Ardhya_Embedded.pdf",
+    "sha256": "f4c607528c516c81e8fc1e68c0d994f6267c9f3a4027d4e135dfb970319448ae",
+    "bytes": 161961,
+    "source_modified_utc": "2026-10-07T14:18:25.291778+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_2026-10-07\\CV_ATS_Ardhya_Embedded.txt",
+    "path": "sources/career/Karier_Ardhya_2026-10-07/CV_ATS_Ardhya_Embedded.txt",
+    "sha256": "cdef8186b9448faa6689d1f3a264d0b0755931e2e1566bdecdd445a5d98202a6",
+    "bytes": 2065,
+    "source_modified_utc": "2026-10-07T14:17:59.972732+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\01_Prioritas_Kerja.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/01_Prioritas_Kerja.txt",
+    "sha256": "6aab9ed92b800b408df70b7855e9a4e94ed31151f67ac762967c86598a0b4e82",
+    "bytes": 5848,
+    "source_modified_utc": "2026-10-08T00:42:18+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\02_Prompt_CV_dan_Portfolio.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/02_Prompt_CV_dan_Portfolio.txt",
+    "sha256": "af98c95129c714fa2e20c2edac4cf11db7ee1de2ebfb43b18264993a15ab8147",
+    "bytes": 2443,
+    "source_modified_utc": "2026-10-08T04:50:46+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\03_Interview_60_Detik.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/03_Interview_60_Detik.txt",
+    "sha256": "6127d4b07958cc7b11932082ca06a873fb121254201ab3b920a09766c8edd068",
+    "bytes": 2330,
+    "source_modified_utc": "2026-10-08T00:19:28+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\04_Audit_Sertifikat.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/04_Audit_Sertifikat.txt",
+    "sha256": "153813c7ee5b2f7bd9eb38e376deeace7d144200a5c4958b136c89227b160314",
+    "bytes": 3287,
+    "source_modified_utc": "2026-10-08T00:30:18+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\05_Verifikasi_Hasil.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/05_Verifikasi_Hasil.txt",
+    "sha256": "8fde887e5c7e4abe0d3f1165506cb9eab96a58b3d269f66a9cabf2cccb1dd98d",
+    "bytes": 1248,
+    "source_modified_utc": "2026-10-08T00:28:28+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\06_Teks_Lamaran.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/06_Teks_Lamaran.txt",
+    "sha256": "956e1150f937d0d70321a421bce404062747b580b344423ba1fafb43754ab18a",
+    "bytes": 2301,
+    "source_modified_utc": "2026-10-08T00:30:02+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\07_Latihan_Interview_Bukti_Kode.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/07_Latihan_Interview_Bukti_Kode.txt",
+    "sha256": "0c52aaea91c2578624888e4ac0427abc5ffa089a58d8c109b131c3dc70df12ee",
+    "bytes": 3793,
+    "source_modified_utc": "2026-10-08T00:41:02+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\08_Seleksi_Instagram_Lanjutan.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/08_Seleksi_Instagram_Lanjutan.txt",
+    "sha256": "e05b559deeeff09e5c6cdee53c369ece7cd6ec2b961edb6605c38c4e17bda3e5",
+    "bytes": 7388,
+    "source_modified_utc": "2026-10-08T04:50:44+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\09_Audit_19_Sumber_CV.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/09_Audit_19_Sumber_CV.txt",
+    "sha256": "4267fa0a8b36e086adc206383a7548be115d072152e9da406ed56ae06aa281cd",
+    "bytes": 5092,
+    "source_modified_utc": "2026-10-08T04:47:08+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\Audit_Kontribusi_GUI.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/Audit_Kontribusi_GUI.txt",
+    "sha256": "1a1ddd1ec219b7cd1be137cfcbcf52c00ac0c23d743eb48bb1209d8b76117809",
+    "bytes": 418,
+    "source_modified_utc": "2026-10-08T00:06:26+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\CV_ATS_Ardhya_Electrical.docx",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/CV_ATS_Ardhya_Electrical.docx",
+    "sha256": "f2fc21eec372610d693d0279c5727b7fe70066504911da3cc3375ffa545f357e",
+    "bytes": 37855,
+    "source_modified_utc": "2026-10-08T00:06:26+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\CV_ATS_Ardhya_Electrical.pdf",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/CV_ATS_Ardhya_Electrical.pdf",
+    "sha256": "ee1ca7c6964ed1cadbef838b994a3613dfd5259f898aaf4558f3447e63cc1c0c",
+    "bytes": 161895,
+    "source_modified_utc": "2026-10-08T00:06:52+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\CV_ATS_Ardhya_Electrical.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/CV_ATS_Ardhya_Electrical.txt",
+    "sha256": "1042978cd88125bfb32eac25f41c4211b4bcfcb99febb153b6d69a8cd6902d70",
+    "bytes": 2092,
+    "source_modified_utc": "2026-10-08T00:06:26+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\CV_ATS_Ardhya_Embedded.docx",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/CV_ATS_Ardhya_Embedded.docx",
+    "sha256": "ef32e18c04562ab0f8645f654af5037992313577513de00a2f8b486707332b4e",
+    "bytes": 37834,
+    "source_modified_utc": "2026-10-08T00:06:26+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\CV_ATS_Ardhya_Embedded.pdf",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/CV_ATS_Ardhya_Embedded.pdf",
+    "sha256": "9d78dfea11080383b7f71e73caa2d458d6eed3a182b4c533a3fd3d2730477c36",
+    "bytes": 161887,
+    "source_modified_utc": "2026-10-08T00:06:52+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\CV_ATS_Ardhya_Embedded.txt",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/CV_ATS_Ardhya_Embedded.txt",
+    "sha256": "2d6d579e32c2b9e1d2a4eaef72a1c3214cecb2b0b225262f1c3ebc6889c016d5",
+    "bytes": 2048,
+    "source_modified_utc": "2026-10-08T00:06:26+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\Engineering_Ardhya_Novri_Ramadhan_CV.pdf",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/Engineering_Ardhya_Novri_Ramadhan_CV.pdf",
+    "sha256": "fb68c8067b111f36705fac16ee68f1418b687a66cae3f339061482a3ca401cda",
+    "bytes": 2848850,
+    "source_modified_utc": "2026-10-08T00:19:28+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\Sumber_Instagram.json",
+    "path": "sources/career/Karier_Ardhya_Lanjutan/Sumber_Instagram.json",
+    "sha256": "5f48ba3780202a66a68bc6a77bd90eba084baa09ce81677ba12e04beb0681301",
+    "bytes": 7054,
+    "source_modified_utc": "2026-10-08T04:50:46+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\RenderCV_Final\\Ardhya_Novri_CV_Public.yaml",
+    "path": "documents/cv/rendercv-2026-10-07/Ardhya_Novri_CV_Public.yaml",
+    "sha256": "e63d272c05fc0c4f04309fa71550befb9db5330f57425235ec4979220e58a68c",
+    "bytes": 5098,
+    "source_modified_utc": "2026-10-14T01:04:00.021017+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\RenderCV_Final\\Ardhya_Novri_CV_RenderCV.docx",
+    "path": "documents/cv/rendercv-2026-10-07/Ardhya_Novri_CV_RenderCV.docx",
+    "sha256": "d904476578c5cbe90de31c61ac9b395316fe72ddff54a5cb2b1c64a841543b38",
+    "bytes": 38193,
+    "source_modified_utc": "2026-10-14T01:04:00.079218+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\RenderCV_Final\\Ardhya_Novri_CV_RenderCV.pdf",
+    "path": "documents/cv/rendercv-2026-10-07/Ardhya_Novri_CV_RenderCV.pdf",
+    "sha256": "7b253101b086705e16b1977d71160c6a24321a61fe926ac3c6f63dd3cbecd495",
+    "bytes": 44663,
+    "source_modified_utc": "2026-10-09T16:41:16.250773+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\RenderCV_Final\\Ardhya_Novri_CV_RenderCV.yaml",
+    "path": "documents/cv/rendercv-2026-10-07/Ardhya_Novri_CV_RenderCV.yaml",
+    "sha256": "af44b5a4e71ad1f4c80b5eb82dd26ba6ffeec4c65ba2c9f44c71deb594607c12",
+    "bytes": 5125,
+    "source_modified_utc": "2026-10-14T01:04:00.082186+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\RenderCV_Final\\private\\Ardhya_Novri_Ramadhan_CV.pdf",
+    "path": "documents/cv/rendercv-2026-10-07/Ardhya_Novri_CV_RenderCV.pdf",
+    "sha256": "7b253101b086705e16b1977d71160c6a24321a61fe926ac3c6f63dd3cbecd495",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\RenderCV_Final\\public\\Ardhya_Novri_Ramadhan_CV.pdf",
+    "path": "documents/cv/rendercv-2026-10-07/public/Ardhya_Novri_Ramadhan_CV.pdf",
+    "sha256": "73e55cb26e8d306058837833b8d480fe811a09876a8123146290a1f630a9e45f",
+    "bytes": 43540,
+    "source_modified_utc": "2026-10-09T16:41:18.394427+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Karier_Ardhya_Lanjutan\\RenderCV_Final\\README.txt",
+    "path": "documents/cv/rendercv-2026-10-07/README.txt",
+    "sha256": "f1928d3d017ed611c8c12d1bb13299338d5096aa55ef6abcb718b1369801e8f6",
+    "bytes": 1111,
+    "source_modified_utc": "2026-10-09T16:42:51.665532+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\ApplyProof_SBCK_Evidence_Review.json",
+    "path": "documents/cv/variants/ApplyProof_SBCK_Evidence_Review.json",
+    "sha256": "0889d86253517b77eddf02cf6dceff07227052ded8b04ffcef679efa38eb5c30",
+    "bytes": 7459,
+    "source_modified_utc": "2026-10-13T12:04:00+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\ApplyProof_SBCK_Evidence_Review.md",
+    "path": "documents/cv/variants/ApplyProof_SBCK_Evidence_Review.md",
+    "sha256": "1fb2bf426c6f9b49188ff2a868b5a281d4b42645fa1fdd0bf4fcfec265d157a7",
+    "bytes": 1951,
+    "source_modified_utc": "2026-10-13T12:04:00+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\Ardhya_Novri_CV_Engineering_Projects_Public.pdf",
+    "path": "documents/cv/variants/Ardhya_Novri_CV_Engineering_Projects_Public.pdf",
+    "sha256": "854e087f524bf1f63ae6f9e7c9992dcff4a809b4a86cb142f74538921fd9977d",
+    "bytes": 44535,
+    "source_modified_utc": "2026-10-13T17:25:22.322983+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\Ardhya_Novri_CV_Engineering_Projects_Public.yaml",
+    "path": "documents/cv/variants/Ardhya_Novri_CV_Engineering_Projects_Public.yaml",
+    "sha256": "aa13be28792d31c3857408a81753637c7cfa25cb750ab056f683843124caed28",
+    "bytes": 5253,
+    "source_modified_utc": "2026-10-13T07:19:52+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\Ardhya_Novri_CV_Full_4page_Backup.pdf",
+    "path": "documents/cv/variants/Ardhya_Novri_CV_Full_4page_Backup.pdf",
+    "sha256": "1773952a76877c539804535f63feb850e2c0fbf21c7abc4e6a404af8fee4cbaf",
+    "bytes": 110118,
+    "source_modified_utc": "2026-10-13T17:25:24.465608+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\Ardhya_Novri_CV_General_for_Stephan.pdf",
+    "path": "documents/cv/variants/Ardhya_Novri_CV_General_for_Stephan.pdf",
+    "sha256": "ebe748ecd943c7da99f7f287517c54614843858085292f3988a2dd9e6d4da2b8",
+    "bytes": 103672,
+    "source_modified_utc": "2026-10-13T18:37:42.660956+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\Ardhya_Novri_CV_SBCK_MEP_Electrical_ATS.yaml",
+    "path": "documents/cv/variants/Ardhya_Novri_CV_SBCK_MEP_Electrical_ATS.yaml",
+    "sha256": "289b4e1c060709a81a047cfdaf67ff73a3a9fd9ac13f556997824939b3b6756d",
+    "bytes": 5161,
+    "source_modified_utc": "2026-10-13T07:19:52+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\Ardhya_Novri_CV_Shimizu_MEP_Electrical.pdf",
+    "path": "documents/cv/variants/Ardhya_Novri_CV_Shimizu_MEP_Electrical.pdf",
+    "sha256": "3f4c9ed0277131138804f5831d86d0238bda1442fc927738d7b9ee9d1f72c680",
+    "bytes": 102254,
+    "source_modified_utc": "2026-10-13T18:34:47.823062+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\Cover_Letter_SBCK_MEP_Electrical.pdf",
+    "path": "documents/cv/variants/Cover_Letter_SBCK_MEP_Electrical.pdf",
+    "sha256": "e1e06c2f73c194162791dafdccbbb1f5a16ec026d473a2b9c55e03b043f26da8",
+    "bytes": 43218,
+    "source_modified_utc": "2026-10-13T07:18:28+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\cv\\Cover_Letter_SBCK_MEP_Electrical.txt",
+    "path": "documents/cv/variants/Cover_Letter_SBCK_MEP_Electrical.txt",
+    "sha256": "88385da84ac2e3ed463b209f03081ab1aea6845cea269b83f725d128b05336c2",
+    "bytes": 1352,
+    "source_modified_utc": "2026-10-13T07:19:52+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\01-candidate-profile.md",
+    "path": "sources/career/Career_Upgrade_2026-10-13/cv/01-candidate-profile.md",
+    "sha256": "ec64013c0336efcc28acf3b9546dcc50cd3d9dfd0a4302d01b86738f282b1c0f",
+    "bytes": 11912,
+    "source_modified_utc": "2026-10-15T22:32:11.653829+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\ApplyProof_SBCK_Evidence_Review.json",
+    "path": "documents/cv/variants/ApplyProof_SBCK_Evidence_Review.json",
+    "sha256": "0889d86253517b77eddf02cf6dceff07227052ded8b04ffcef679efa38eb5c30",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\ApplyProof_SBCK_Evidence_Review.md",
+    "path": "documents/cv/variants/ApplyProof_SBCK_Evidence_Review.md",
+    "sha256": "1fb2bf426c6f9b49188ff2a868b5a281d4b42645fa1fdd0bf4fcfec265d157a7",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\ApplyProof_SBCK_Private_Case.json",
+    "path": "sources/career/Career_Upgrade_2026-10-13/cv/ApplyProof_SBCK_Private_Case.json",
+    "sha256": "8f5dd44e83f92fb23fd290dc53d4bab9d0f575312be9bf1326c5f9ef4a1f7888",
+    "bytes": 6157,
+    "source_modified_utc": "2026-10-13T12:04:01.487015+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\Ardhya_CV_ENVIID_Stephan.tex",
+    "path": "sources/career/Career_Upgrade_2026-10-13/cv/Ardhya_CV_ENVIID_Stephan.tex",
+    "sha256": "37a9c84e319f531c596858ccf0637eac614ef5ef08487a1b4329dda0a223d4a1",
+    "bytes": 5885,
+    "source_modified_utc": "2026-10-14T01:03:59.776476+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\Ardhya_CV_Shimizu_MEP_Electrical_Condensed.tex",
+    "path": "sources/career/Career_Upgrade_2026-10-13/cv/Ardhya_CV_Shimizu_MEP_Electrical_Condensed.tex",
+    "sha256": "82a9a720cf6d0f70b7225d72ebf19d41ad813ed2ba2cc9762d4fc09a9fa5bb29",
+    "bytes": 6054,
+    "source_modified_utc": "2026-10-14T01:03:59.780427+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\Ardhya_Novri_CV_Engineering_Projects_Public.yaml",
+    "path": "sources/career/Career_Upgrade_2026-10-13/cv/Ardhya_Novri_CV_Engineering_Projects_Public.yaml",
+    "sha256": "144f63f33f2aec91d79fa6ca44b3aa00e5c87a7ce90f61c62de8d118350a9171",
+    "bytes": 5248,
+    "source_modified_utc": "2026-10-14T01:03:59.785466+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\Ardhya_Novri_CV_SBCK_MEP_Electrical_ATS.yaml",
+    "path": "sources/career/Career_Upgrade_2026-10-13/cv/Ardhya_Novri_CV_SBCK_MEP_Electrical_ATS.yaml",
+    "sha256": "924545d5568e0d25a4d80f6200b9bf5d570ab466ab9b49b097308dda25623436",
+    "bytes": 5155,
+    "source_modified_utc": "2026-10-14T01:03:59.789464+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\Cover_Letter_SBCK_MEP_Electrical.txt",
+    "path": "documents/cv/variants/Cover_Letter_SBCK_MEP_Electrical.txt",
+    "sha256": "88385da84ac2e3ed463b209f03081ab1aea6845cea269b83f725d128b05336c2",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\main_ardhya_engineering_projects_public.tex",
+    "path": "sources/career/Career_Upgrade_2026-10-13/cv/main_ardhya_engineering_projects_public.tex",
+    "sha256": "8747302755c097da1348caf06d1f61c6abaf35daed6cfa4d9dbac9e6261aac0e",
+    "bytes": 4568,
+    "source_modified_utc": "2026-10-14T01:03:59.794470+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\main_pt_shimizu_bangun_cipta_kontraktor_mep_engineer_electrical.tex",
+    "path": "sources/career/Profile_Update_2026-10-16/Ardhya_Novri_Ramadhan_CV_Umum.tex",
+    "sha256": "016bdee803bc1591eef8f23a0a83c0b30735611f6617ddcdeda2983523b7ef54",
+    "identical_duplicate": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\rendered_Public\\Ardhya_Novri_Ramadhan_CV.md",
+    "path": "sources/career/Career_Upgrade_2026-10-13/cv/rendered_Public/Ardhya_Novri_Ramadhan_CV.md",
+    "sha256": "4f567c7377219c19b44ceda9ecce7e5ed0ecbc698a797b6f9bb81b28779839bc",
+    "bytes": 2635,
+    "source_modified_utc": "2026-10-14T01:03:59.758683+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\cv\\rendered_SBCK\\Ardhya_Novri_Ramadhan_CV.md",
+    "path": "sources/career/Career_Upgrade_2026-10-13/cv/rendered_SBCK/Ardhya_Novri_Ramadhan_CV.md",
+    "sha256": "96760663ea96ae8023dd84c2e631e3a30df158d9dc7b1830c17e957b8afc082e",
+    "bytes": 2568,
+    "source_modified_utc": "2026-10-14T01:03:59.766364+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\verification\\Career_Source_Discovery.json",
+    "path": "sources/career/Career_Upgrade_2026-10-13/verification/Career_Source_Discovery.json",
+    "sha256": "ec6c486b3edbacb615799e6bf7f54c56db88014e426591815186252e8d51338a",
+    "bytes": 203007,
+    "source_modified_utc": "2026-10-13T15:35:10.764327+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\verification\\CV_General_Text_Layer.txt",
+    "path": "sources/career/Career_Upgrade_2026-10-13/verification/CV_General_Text_Layer.txt",
+    "sha256": "7df9218f7f6315701f834f046970dea0115657f0a60fd06ba1051b40df0bb88d",
+    "bytes": 11317,
+    "source_modified_utc": "2026-10-14T07:59:49.560719+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\verification\\CV_General_Verification.json",
+    "path": "sources/career/Career_Upgrade_2026-10-13/verification/CV_General_Verification.json",
+    "sha256": "8fe651eada9a01fde8026251daa880ab0b46242625f14d653cf94f727039ce6b",
+    "bytes": 1716,
+    "source_modified_utc": "2026-10-14T08:00:54.643806+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\verification\\KKN_Logbook_Extract.txt",
+    "path": "sources/career/Career_Upgrade_2026-10-13/verification/KKN_Logbook_Extract.txt",
+    "sha256": "3baba94128a65c1741aa66d15c1c5ccca4d310a008ebeb46336f953378bd6260",
+    "bytes": 22916,
+    "source_modified_utc": "2026-10-13T13:50:12.780126+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\verification\\Package_Manifest.json",
+    "path": "sources/career/Career_Upgrade_2026-10-13/verification/Package_Manifest.json",
+    "sha256": "841688401e67f31e7af5540c21a08962e99d91891f10953980903a56aecec5b2",
+    "bytes": 785,
+    "source_modified_utc": "2026-10-14T09:02:27.549692+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\verification\\PDF_Text_Layer_Checks.json",
+    "path": "sources/career/Career_Upgrade_2026-10-13/verification/PDF_Text_Layer_Checks.json",
+    "sha256": "b28c95c06db9acd3a3d24f62fc9bf354550b86301907a178d5e2cf7196453238",
+    "bytes": 1157,
+    "source_modified_utc": "2026-10-13T12:04:02.038769+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\verification\\Profile_Portfolio_Sync.json",
+    "path": "sources/career/Career_Upgrade_2026-10-13/verification/Profile_Portfolio_Sync.json",
+    "sha256": "89ce89c3bf01c538ea09f4c07138cf8543ac9cda7772c42fe536bc8a3dd7fbf7",
+    "bytes": 1142,
+    "source_modified_utc": "2026-10-13T21:58:31.481544+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\references\\CV_History_Evidence.txt",
+    "path": "sources/career/Career_Upgrade_2026-10-13/references/CV_History_Evidence.txt",
+    "sha256": "1a78edf4d4893ab13585dffae8a46bc95d6c13fb40fe9b87d6e09dd10111f03f",
+    "bytes": 5423,
+    "source_modified_utc": "2026-10-13T21:46:17.652710+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\references\\Font_Backup.txt",
+    "path": "sources/career/Career_Upgrade_2026-10-13/references/Font_Backup.txt",
+    "sha256": "1e6580da04d4093cc4c6b6a71d28aad6b4d169b0368a1c49bff6067885fed3cc",
+    "bytes": 739,
+    "source_modified_utc": "2026-10-13T06:39:13.360671+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\references\\SBCK_Job_Review.txt",
+    "path": "sources/career/Career_Upgrade_2026-10-13/references/SBCK_Job_Review.txt",
+    "sha256": "49623940317c9953972a5878eb0db1e7dff8a43dd9bb2c725f27350db3adbe8f",
+    "bytes": 2043,
+    "source_modified_utc": "2026-10-13T07:14:52.146678+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\ARDHYA NOVRI Enigma.png",
+    "path": "documents/certificates/originals/ARDHYA NOVRI Enigma.png",
+    "sha256": "d3cdeee7c7261846489285e0949a8576943195ed5d825cbaf410b63a04ea5738",
+    "bytes": 9997358,
+    "source_modified_utc": "2026-09-27T23:13:09.419432+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\Ardhya Novri Ramadhan Asprak Dasel.png",
+    "path": "documents/certificates/originals/Ardhya Novri Ramadhan Asprak Dasel.png",
+    "sha256": "1133b78ff843f39e3aada72ec086673031969d346cab5fece4fc57dfe8fac7d9",
+    "bytes": 21458521,
+    "source_modified_utc": "2026-09-27T23:12:23.346248+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\Ardhya Novri Ramadhan GSA.pdf",
+    "path": "documents/certificates/originals/Ardhya Novri Ramadhan GSA.pdf",
+    "sha256": "6a525322ead4e61d3bb8e1f1d48933b10b830ccb577367393bebe2f4d0163e34",
+    "bytes": 2048592,
+    "source_modified_utc": "2026-09-27T23:19:06.804797+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\Ardhya Novri Ramadhan SEED.pdf",
+    "path": "documents/certificates/originals/Ardhya Novri Ramadhan SEED.pdf",
+    "sha256": "4fab1e4ef1c543292e49c4289886f40b772f5dea50d82d1f9ee38171d517d1d4",
+    "bytes": 1411137,
+    "source_modified_utc": "2026-09-27T23:08:15.133259+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\ARDHYA NOVRI RAMADHAN SEU UNDIP.pdf",
+    "path": "documents/certificates/originals/ARDHYA NOVRI RAMADHAN SEU UNDIP.pdf",
+    "sha256": "ad1b59d2750e4774618385dbe415a04e067098aec9a01e1099820bb4c9333275",
+    "bytes": 913465,
+    "source_modified_utc": "2026-09-09T09:56:08.655493+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\Ardhya Novri Ramadhan SPE Java.jpg",
+    "path": "documents/certificates/originals/Ardhya Novri Ramadhan SPE Java.jpg",
+    "sha256": "34afa006d04f415d920e01de83af4cd01a330fad5c63a3dfbf972b55f6d47656",
+    "bytes": 525499,
+    "source_modified_utc": "2026-09-27T23:20:30.516553+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\Ardhya Novri Ramadhan SPE.png",
+    "path": "documents/certificates/originals/Ardhya Novri Ramadhan SPE.png",
+    "sha256": "ce6893d3c3a1318f66a234a7bc8bc183d549ca3a82494a85f7f700776e5e02c1",
+    "bytes": 1717615,
+    "source_modified_utc": "2026-09-27T23:20:11.954165+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\Ardhya Novri Ramadhan Workover.png",
+    "path": "documents/certificates/originals/Ardhya Novri Ramadhan Workover.png",
+    "sha256": "b3ab39d16d9dea68b3ca2a615a937c1fca89ddd05d28bf4f3924b12d9ae4af89",
+    "bytes": 340458,
+    "source_modified_utc": "2026-09-27T23:16:59.189533+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\Ardhya Novri Ramadhan.pdf",
+    "path": "documents/certificates/originals/Ardhya Novri Ramadhan.pdf",
+    "sha256": "2bba881c7eeaf49adeddc6ff4f23608239966288d9d59f6eaec7c308b32d5253",
+    "bytes": 7351267,
+    "source_modified_utc": "2026-10-08T04:44:43.501423+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\CV ATS ARDHYA NOVRI RAMADHAN.pdf",
+    "path": "documents/certificates/originals/CV ATS ARDHYA NOVRI RAMADHAN.pdf",
+    "sha256": "086b6f2772c9962412c766e02fe9740d130e691e2522e33fb62a99e671b5e801",
+    "bytes": 1229255,
+    "source_modified_utc": "2025-03-22T11:57:29+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\IoT Ardhya Novri.pdf",
+    "path": "documents/certificates/originals/IoT Ardhya Novri.pdf",
+    "sha256": "44472acf1ac29cbd6e4460208ce6b616bc49b1ec34d75f8ef3ce8db65448309e",
+    "bytes": 1101776,
+    "source_modified_utc": "2026-09-27T14:34:03.958166+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Certificates\\Sertifikat Pendukung - Ardhya Novri Ramadhan.pdf",
+    "path": "documents/certificates/originals/Sertifikat Pendukung - Ardhya Novri Ramadhan.pdf",
+    "sha256": "cdddb2707605fcb866eaf0db2c8def9f09b510571afaa540c033bd399e49f3fb",
+    "bytes": 5797012,
+    "source_modified_utc": "2026-09-27T23:15:25.101705+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Sertifikat-Wisuda-2026\\Output\\1_Sertifikat_Perlombaan_dan_Seminar.pdf",
+    "path": "documents/certificates/collections/1_Sertifikat_Perlombaan_dan_Seminar.pdf",
+    "sha256": "bfd02ee2737d07cefb5ee82be06f7a79b9ab7da33db8a740439fba72ebac191b",
+    "bytes": 1519798,
+    "source_modified_utc": "2026-10-19T21:44:22.299121+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Sertifikat-Wisuda-2026\\Output\\2_Sertifikat_Pendidikan_Non-Formal.pdf",
+    "path": "documents/certificates/collections/2_Sertifikat_Pendidikan_Non-Formal.pdf",
+    "sha256": "2617f24eef81748baeb72d4610991d57f571afc5325c8b43b5a1846494c26580",
+    "bytes": 4620949,
+    "source_modified_utc": "2026-10-19T21:44:24.512732+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Sertifikat-Wisuda-2026\\Output\\3_Sertifikat_Asisten_Dosen_Organisasi_Kepanitiaan.pdf",
+    "path": "documents/certificates/collections/3_Sertifikat_Asisten_Dosen_Organisasi_Kepanitiaan.pdf",
+    "sha256": "e2b7f22a35b17c7a290cde9d456ceda7ff6165520947a34231cbab617c339b6e",
+    "bytes": 6467623,
+    "source_modified_utc": "2026-10-19T21:44:37.783185+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Sertifikat-Wisuda-2026\\Sertifikat-Tambahan\\2_Google AI Fundamentals Coursera 2026-09-26 - bukti penyelesaian (screenshot).jpg",
+    "path": "documents/certificates/additional/2_Google AI Fundamentals Coursera 2026-09-26 - bukti penyelesaian (screenshot).jpg",
+    "sha256": "88e8ba910c090650d75a57507cf203486eaecf52c6cd0d8884285ad1a7df6fbe",
+    "bytes": 63755,
+    "source_modified_utc": "2026-10-19T21:43:09.912212+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Sertifikat-Wisuda-2026\\MANIFEST.md",
+    "path": "sources/certificates/MANIFEST.md",
+    "sha256": "41ff7d7c40ee2d500da93091e0c33fc6c52be3e70ee46d381ebd47558dea7ad6",
+    "bytes": 2937,
+    "source_modified_utc": "2026-10-19T21:44:37.798998+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Sertifikat-Wisuda-2026\\ISIAN_FORMULIR.md",
+    "path": "sources/certificates/ISIAN_FORMULIR.md",
+    "sha256": "eb622dfb210b0f87cc5e4d32c457f9e3d6d068688aaf0a17f0ad07e3b169dd5a",
+    "bytes": 7041,
+    "source_modified_utc": "2026-10-19T21:44:13.673233+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Sertifikat-Wisuda-2026\\inventory.json",
+    "path": "sources/certificates/inventory.json",
+    "sha256": "4c63947bc86833ee83b2094a478ed8df1470a1bc6c2a89b57c40a435951071d0",
+    "bytes": 20936,
+    "source_modified_utc": "2026-10-19T21:17:20.255703+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Sertifikat-Wisuda-2026\\inventory.txt",
+    "path": "sources/certificates/inventory.txt",
+    "sha256": "e06b384d9649809147bf23d201c3c6b4ce003bd9cd22208a469d724154469359",
+    "bytes": 16864,
+    "source_modified_utc": "2026-10-19T21:17:20.257074+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Sertifikat-Wisuda-2026\\cv_text.txt",
+    "path": "sources/certificates/cv_text.txt",
+    "sha256": "fe6e99a148eaa6cba23726b1e1915045ca27867cee9d4ebf7fa237afc1db6afc",
+    "bytes": 10564,
+    "source_modified_utc": "2026-10-19T21:27:23.004992+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\Ardhya Novri Ramadhan - CV ATS.pdf",
+    "path": "documents/education-and-internship/Ardhya Novri Ramadhan - CV ATS.pdf",
+    "sha256": "c0a566b32a6cee1472509d2a01bab538dbdf95494fc7df45adcd61e41f3f8bc3",
+    "bytes": 99026,
+    "source_modified_utc": "2026-10-22T18:21:48.823834+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\Ardhya Novri Ramadhan_21060122130096_Proposal KP PT Angkasa Pura.pdf",
+    "path": "documents/education-and-internship/Ardhya Novri Ramadhan_21060122130096_Proposal KP PT Angkasa Pura.pdf",
+    "sha256": "7e1d2b402c5d77be1b876186371bd5b8ebed207cca342637d193f522b0c41e5c",
+    "bytes": 542889,
+    "source_modified_utc": "2025-03-19T16:19:16+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\Ardhya Novri Ramadhan_21060122130096_Proposal KP.docx",
+    "path": "documents/education-and-internship/Ardhya Novri Ramadhan_21060122130096_Proposal KP.docx",
+    "sha256": "1cfccd493e85acdbfe0e90efcef360b029109a54c3eb7c852c388b06b7e3158d",
+    "bytes": 1441245,
+    "source_modified_utc": "2025-03-19T16:19:25+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\b5ardhyanovri.pdf",
+    "path": "documents/education-and-internship/b5ardhyanovri.pdf",
+    "sha256": "b09c7747a3bf3573107967020f932b1a4dee9eb63cdce51f337f309ec62be8fa",
+    "bytes": 146717,
+    "source_modified_utc": "2026-03-09T06:13:13.021785+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\irs smt 8 ardhya novri.pdf",
+    "path": "documents/education-and-internship/irs smt 8 ardhya novri.pdf",
+    "sha256": "7a930659efe378d6602fc46c9ae51edfefa8d8e58581f0d77f0d21d32002548a",
+    "bytes": 525943,
+    "source_modified_utc": "2026-06-13T09:35:54.469856+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\SAMPUL UNDIP Ardhya Novri Ramadhan 21060122130096.docx",
+    "path": "documents/education-and-internship/SAMPUL UNDIP Ardhya Novri Ramadhan 21060122130096.docx",
+    "sha256": "195c63d1a8a45e04ea14ce9ea682d23c55133ceece978b38b208e123258562fe",
+    "bytes": 291767,
+    "source_modified_utc": "2026-06-02T05:48:31.161758+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\SKL ARDHYA NOVRI.pdf",
+    "path": "documents/education-and-internship/SKL ARDHYA NOVRI.pdf",
+    "sha256": "79e722e641f33d7fce21c003c0094fe7214e9856f0fa0c30da40c7db6b81a21b",
+    "bytes": 461678,
+    "source_modified_utc": "2026-10-07T13:48:23.582929+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\transkrip ardhya novri.pdf",
+    "path": "documents/education-and-internship/transkrip ardhya novri.pdf",
+    "sha256": "655a91e98d1eadd6dcee9aacdf0f601180b31855ef1775c78fc9c5915b103f2e",
+    "bytes": 495653,
+    "source_modified_utc": "2026-10-19T20:58:06.681753+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Laporan Individu.docx",
+    "path": "documents/thesis/Laporan Individu.docx",
+    "sha256": "27e663fb0166c137ed662e3bcd76640cea0b280f2d5f560316c5de0f6ff65bf8",
+    "bytes": 9326666,
+    "source_modified_utc": "2026-09-23T18:34:13.461449+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Laporan Individu.pdf",
+    "path": "documents/thesis/Laporan Individu.pdf",
+    "sha256": "0d86e3e988b1a9227fe0e33fc4cdd124237d84babdc53dae1507939e4722a428",
+    "bytes": 4402859,
+    "source_modified_utc": "2026-09-30T06:44:55.474122+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Makalah.docx",
+    "path": "documents/thesis/Makalah.docx",
+    "sha256": "e492341b8cfc3258452c96ada207607483323f8caa9b1b1b5633d0c8d3f9efb4",
+    "bytes": 566844,
+    "source_modified_utc": "2026-09-28T04:14:13.756323+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Makalah.pdf",
+    "path": "documents/thesis/Makalah.pdf",
+    "sha256": "54ab206b778017b939f0880b3c817e400b58e469b71feff065baf73d999d4b58",
+    "bytes": 1995576,
+    "source_modified_utc": "2026-09-28T03:56:45.503656+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\B100-500.pdf",
+    "path": "documents/thesis/B100-500.pdf",
+    "sha256": "3116c151eba22f0442feb9bb494b82edf2805ade9feaf77d8260fd0014d9fb35",
+    "bytes": 2298345,
+    "source_modified_utc": "2026-09-28T04:23:29.401048+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\HKI\\00_BACA_DULU_Status_Paket.txt",
+    "path": "documents/thesis/copyright/00_BACA_DULU_Status_Paket.txt",
+    "sha256": "b5678bdd4af4342c6bb8924be65c32f1624118a99e2a957deaf1d5fe91ddfe89",
+    "bytes": 3631,
+    "source_modified_utc": "2026-09-29T06:47:27.936662+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\HKI\\01_Buku_Panduan_Program_TEST2_Ardhya.docx",
+    "path": "documents/thesis/copyright/01_Buku_Panduan_Program_TEST2_Ardhya.docx",
+    "sha256": "133f937b9f13ad9e4021caf3e5abeb6cbe1f66b69b730c50c1eb2cea79d380de",
+    "bytes": 1169673,
+    "source_modified_utc": "2026-09-29T06:47:58.702015+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\HKI\\01_Buku_Panduan_Program_TEST2_Ardhya.pdf",
+    "path": "documents/thesis/copyright/01_Buku_Panduan_Program_TEST2_Ardhya.pdf",
+    "sha256": "c414602e281dbc11d7511750b1630a8ff7bd77643deae14cf68faf814eb45f2b",
+    "bytes": 2190744,
+    "source_modified_utc": "2026-09-29T06:49:31.227413+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\emg_app.c",
+    "path": "sources/thesis/firmware/Core/Src/emg_app.c",
+    "sha256": "167ea97a6ded729a1e525ee6ff452c9229455726a635063394338ccb81e31ae3",
+    "bytes": 18452,
+    "source_modified_utc": "2026-08-13T17:25:24+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\fatigue_detector.c",
+    "path": "sources/thesis/firmware/Core/Src/fatigue_detector.c",
+    "sha256": "15c9451b89f61bd3473927b27995c4d1c28eacd2142ca284b6a26065a1400879",
+    "bytes": 1508,
+    "source_modified_utc": "2026-09-01T19:26:42+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\fuzzy_current.c",
+    "path": "sources/thesis/firmware/Core/Src/fuzzy_current.c",
+    "sha256": "2b3bc970e9100197880214f779838253812d2013a8bc4fc64c53d12620d97a42",
+    "bytes": 2730,
+    "source_modified_utc": "2026-08-13T17:12:55+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\fuzzy_pw.c",
+    "path": "sources/thesis/firmware/Core/Src/fuzzy_pw.c",
+    "sha256": "e3fb77c3b4b26f4228512a065026780f69ac4a5d6e6ef09247095a79522b0d64",
+    "bytes": 2512,
+    "source_modified_utc": "2026-09-01T19:26:41+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\fuzzy_pwm.c",
+    "path": "sources/thesis/firmware/Core/Src/fuzzy_pwm.c",
+    "sha256": "11d6992ed42388da58f1f22f52422098aca9a54c7656036b5b27f10ea52c7bb8",
+    "bytes": 5108,
+    "source_modified_utc": "2026-08-24T12:48:23+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\hbridge.c",
+    "path": "sources/thesis/firmware/Core/Src/hbridge.c",
+    "sha256": "ee570b7a396daa3072f035a520323e0391dfd921aac0ede6e021ae19f5c3b1d5",
+    "bytes": 5458,
+    "source_modified_utc": "2026-08-29T11:23:51+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\lsm6ds3.c",
+    "path": "sources/thesis/firmware/Core/Src/lsm6ds3.c",
+    "sha256": "0ee1181b9b52e32ec084ddba71e781efa89edf487e377ebe5601d0b9a351c91b",
+    "bytes": 2078,
+    "source_modified_utc": "2026-08-17T12:07:46+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\main.c",
+    "path": "sources/thesis/firmware/Core/Src/main.c",
+    "sha256": "cfd7f0363d3e8bd72c24b1b07af6758f9a7dd359b0c83179bf1d265b0140e1f4",
+    "bytes": 73884,
+    "source_modified_utc": "2026-09-02T17:18:22.264131+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\mcp4725.c",
+    "path": "sources/thesis/firmware/Core/Src/mcp4725.c",
+    "sha256": "d531b41f3c643ac30b044d397bd1e474288bb7627166be31339bdd1ba8201fbd",
+    "bytes": 701,
+    "source_modified_utc": "2026-08-13T17:10:44+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\stim4_fsm.c",
+    "path": "sources/thesis/firmware/Core/Src/stim4_fsm.c",
+    "sha256": "ad18038d9e840c3e5ce516cccba6383b013d74b365ce20d4bd3540520e18bedd",
+    "bytes": 7251,
+    "source_modified_utc": "2026-09-02T03:58:51+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\stm32f4xx_hal_msp.c",
+    "path": "sources/thesis/firmware/Core/Src/stm32f4xx_hal_msp.c",
+    "sha256": "5ef235d1a26cbac34c0ca1bb3ca503bf2e46377490609c6942000243a494a4d4",
+    "bytes": 9929,
+    "source_modified_utc": "2026-09-02T06:59:53.966281+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\stm32f4xx_it.c",
+    "path": "sources/thesis/firmware/Core/Src/stm32f4xx_it.c",
+    "sha256": "950ac6c81a8a988eca6efb8cc24cce113ecaf8fd4d367346b4e56b49b7af43cf",
+    "bytes": 6427,
+    "source_modified_utc": "2026-08-17T08:07:41+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\syscalls.c",
+    "path": "sources/thesis/firmware/Core/Src/syscalls.c",
+    "sha256": "bd0dc62401d75ae673303c243d85daa609173dddc5f5645fa266e9ebde58b402",
+    "bytes": 1820,
+    "source_modified_utc": "2026-08-13T17:10:43+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\sysmem.c",
+    "path": "sources/thesis/firmware/Core/Src/sysmem.c",
+    "sha256": "6d31725e74054e772d000b0ecf8b1dc342308cdd5d49b5e00d2221bf33216893",
+    "bytes": 612,
+    "source_modified_utc": "2026-08-13T17:10:43+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Src\\system_stm32f4xx.c",
+    "path": "sources/thesis/firmware/Core/Src/system_stm32f4xx.c",
+    "sha256": "80782c088b41833cb5a0153171993fcd8ea396e803207a8dc345ffbd14a19816",
+    "bytes": 707,
+    "source_modified_utc": "2026-08-13T17:10:44+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\emg_app.h",
+    "path": "sources/thesis/firmware/Core/Inc/emg_app.h",
+    "sha256": "7d8acf92e34cd4648ad4fecc8e4ea0602cfd6f15e768d8fcf3393c6b1889cf56",
+    "bytes": 2333,
+    "source_modified_utc": "2026-08-13T17:10:43+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\fatigue_detector.h",
+    "path": "sources/thesis/firmware/Core/Inc/fatigue_detector.h",
+    "sha256": "e18fd7060e22a4b52b614642b163f67db85a8551a11fa2378ce2859968902773",
+    "bytes": 861,
+    "source_modified_utc": "2026-09-01T19:26:42+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\fuzzy_current.h",
+    "path": "sources/thesis/firmware/Core/Inc/fuzzy_current.h",
+    "sha256": "886158498cab4aba43c0ded167e67b366e6682efdd87fc93da4ca544c86c6aeb",
+    "bytes": 388,
+    "source_modified_utc": "2026-08-13T17:10:43+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\fuzzy_pw.h",
+    "path": "sources/thesis/firmware/Core/Inc/fuzzy_pw.h",
+    "sha256": "4aca240147254e095cc0302a3f76ac41456519ac5923dc41d6cb1443e8de2f5d",
+    "bytes": 570,
+    "source_modified_utc": "2026-09-01T19:31:06+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\fuzzy_pwm.h",
+    "path": "sources/thesis/firmware/Core/Inc/fuzzy_pwm.h",
+    "sha256": "e23b00691ab7a6a50db334d3f1bdb98be22840c03b499397fddfbb2a7cde6034",
+    "bytes": 1334,
+    "source_modified_utc": "2026-08-24T12:48:23+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\hbridge.h",
+    "path": "sources/thesis/firmware/Core/Inc/hbridge.h",
+    "sha256": "9c39d67cf5f0e316f3a77d3b290e8dbce0263ac6962bb8d09d47b66e4c1e0a5c",
+    "bytes": 315,
+    "source_modified_utc": "2026-08-13T17:10:43+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\lsm6ds3.h",
+    "path": "sources/thesis/firmware/Core/Inc/lsm6ds3.h",
+    "sha256": "b5e73a75cee96c35df2c13d0e9f127b76ec3b09b2d38e80f0738f743a56492bf",
+    "bytes": 1132,
+    "source_modified_utc": "2026-08-13T17:10:44+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\main.h",
+    "path": "sources/thesis/firmware/Core/Inc/main.h",
+    "sha256": "e07a43ebc634ce451e2f80884378d112e048e06235fb49fdc2d9a2b5057d28c5",
+    "bytes": 2003,
+    "source_modified_utc": "2026-08-17T08:07:42+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\mcp4725.h",
+    "path": "sources/thesis/firmware/Core/Inc/mcp4725.h",
+    "sha256": "eaab5388824784c8b4a1dcd3a59f6a28be337acff4f54b3b081395b1fe5752ed",
+    "bytes": 214,
+    "source_modified_utc": "2026-08-13T17:10:44+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\stim4_config.h",
+    "path": "sources/thesis/firmware/Core/Inc/stim4_config.h",
+    "sha256": "5fa4bcc4e98e12fb5bdd71be31540b632211d63ce5af2555c90cd7223342e670",
+    "bytes": 5410,
+    "source_modified_utc": "2026-09-02T17:24:07.357922+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\stim4_fsm.h",
+    "path": "sources/thesis/firmware/Core/Inc/stim4_fsm.h",
+    "sha256": "35ab65d97b70c75c4972be208111d0d6105650df8115ea6c53e11cd02d5ad6fe",
+    "bytes": 2377,
+    "source_modified_utc": "2026-09-02T03:58:51+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\stm32f4xx_hal_conf.h",
+    "path": "sources/thesis/firmware/Core/Inc/stm32f4xx_hal_conf.h",
+    "sha256": "40b8453df9da858f96d4d5434560f62cf8e863061604b271b1199dbedd05f060",
+    "bytes": 20026,
+    "source_modified_utc": "2026-08-17T08:07:42+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\Core\\Inc\\stm32f4xx_it.h",
+    "path": "sources/thesis/firmware/Core/Inc/stm32f4xx_it.h",
+    "sha256": "5e0c5142cef0ea66d18436cb0587ea407a0f9205fdd027bed34ba6450368e650",
+    "bytes": 2023,
+    "source_modified_utc": "2026-08-17T08:07:41+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\GUI\\GUI.py",
+    "path": "sources/thesis/firmware/GUI/GUI.py",
+    "sha256": "805b45245ab69a1dbab143d1e90c37a3af47e5639fee3688131b97d4fe583e54",
+    "bytes": 230944,
+    "source_modified_utc": "2026-09-02T17:27:43.925725+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\GUI\\GUI_sync_STM32.py",
+    "path": "sources/thesis/firmware/GUI/GUI_sync_STM32.py",
+    "sha256": "a123a6c6c592be0d2fd74853b827d4b150606271e8866fc0a1c6d0c98313ab20",
+    "bytes": 154937,
+    "source_modified_utc": "2026-09-02T08:15:38.762246+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\TEST STM2\\TEST STM2\\TEST2\\TEST2.ioc",
+    "path": "sources/thesis/firmware/TEST2.ioc",
+    "sha256": "9c7dfdce78448d93edb00fa3974cab00e88ac0a1fd71fbf5b2069846953c1903",
+    "bytes": 7099,
+    "source_modified_utc": "2026-09-01T20:38:22.082508+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\CLEAN_REST_CHECK.csv",
+    "path": "sources/thesis/raw-capture-data/CLEAN_REST_CHECK.csv",
+    "sha256": "6006b71f595f63ee09d0d7955c124f01b6c15c7d612f5c9507e4e597c4225217",
+    "bytes": 734694,
+    "source_modified_utc": "2026-08-19T09:50:00+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\EMG_GUI_2026-08-05_15-25-34_483.csv",
+    "path": "sources/thesis/raw-capture-data/EMG_GUI_2026-08-05_15-25-34_483.csv",
+    "sha256": "4f4af80b5d3f1ff6860db189c01ad1d1cc0c1c7a974507e75445403c3173d74a",
+    "bytes": 215643,
+    "source_modified_utc": "2026-08-05T08:27:58+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\LIGHT_RAW_01.csv",
+    "path": "sources/thesis/raw-capture-data/LIGHT_RAW_01.csv",
+    "sha256": "0c3bc66b8a03149b31e7ebcba6357baee9974497624b54fa84df5c0e079a3353",
+    "bytes": 752675,
+    "source_modified_utc": "2026-08-19T09:26:40+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\LIGHT_RAW_02.csv",
+    "path": "sources/thesis/raw-capture-data/LIGHT_RAW_02.csv",
+    "sha256": "c23c88a893709cf264cc47bd55d6c6374caec214ff35b568e1f90112c6607bcf",
+    "bytes": 746942,
+    "source_modified_utc": "2026-08-19T09:29:14+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\LIGHT_RAW_03.csv",
+    "path": "sources/thesis/raw-capture-data/LIGHT_RAW_03.csv",
+    "sha256": "c8c372a8c0ad826ff54d3754175403ce1a270bf1bcac5c2660d826c8a90ace44",
+    "bytes": 748941,
+    "source_modified_utc": "2026-08-19T09:29:40+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_01.csv",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_01.csv",
+    "sha256": "5335c62fa056ed11f7cbb5767369e86f86675a1954c5b65194f235348886a4c2",
+    "bytes": 746616,
+    "source_modified_utc": "2026-08-19T09:30:26+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_01_RETRY.csv",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_01_RETRY.csv",
+    "sha256": "dff9e25ca5ba944cbfe427d3327d282875be2848b708431492fc5d8fa9354a29",
+    "bytes": 750037,
+    "source_modified_utc": "2026-08-19T09:31:34+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_02.csv",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_02.csv",
+    "sha256": "3253d989aa03a4bc3e231ea7e700c25793623607971d1960e645007af3fd859e",
+    "bytes": 742252,
+    "source_modified_utc": "2026-08-19T09:32:20+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_02_RETRY.csv",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_02_RETRY.csv",
+    "sha256": "865c6ff16acc3b86b9c5c2213aaa48112aa17331e07884f18942c5fbd5b95837",
+    "bytes": 747905,
+    "source_modified_utc": "2026-08-19T09:33:40+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_03.csv",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_03.csv",
+    "sha256": "b146cd69fe987deeeb416dcc83df7f684e64e60b8d65cfec86b25790ee187690",
+    "bytes": 742954,
+    "source_modified_utc": "2026-08-19T09:32:42+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_03_RETRY.csv",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_03_RETRY.csv",
+    "sha256": "2b0b26e052badd29778cec0abc92673a41c905a4da6a6dc391cf7d0219f02326",
+    "bytes": 750863,
+    "source_modified_utc": "2026-08-19T09:34:16+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RPE5_RAW_01.csv",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RPE5_RAW_01.csv",
+    "sha256": "ec0602dd5674a7f87e4c83f2648882f1c8ab73e2beb1af61c1c244f440f33a10",
+    "bytes": 758531,
+    "source_modified_utc": "2026-08-19T09:38:00+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RPE5_RAW_02.csv",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RPE5_RAW_02.csv",
+    "sha256": "4ea9cf28a4b6295fa2b20e1d147ef9af858454a8fae90342976e8d12386f6a12",
+    "bytes": 751361,
+    "source_modified_utc": "2026-08-19T09:45:44+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RPE5_RAW_03.csv",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RPE5_RAW_03.csv",
+    "sha256": "3a91ace2e658bb7350f91af4d8ff4bd1f56d9b1c3c88e7fcb9f8cd3ecf66b8d8",
+    "bytes": 751523,
+    "source_modified_utc": "2026-08-19T09:46:16+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_CLEAN_01.csv",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_CLEAN_01.csv",
+    "sha256": "7c9558933d2d24eb2119d8e2399b070964c480226e0e10ed454df1d87a903ce7",
+    "bytes": 734280,
+    "source_modified_utc": "2026-08-19T09:50:42+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_CLEAN_02.csv",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_CLEAN_02.csv",
+    "sha256": "03e20c31de6fee034804e5ca7c2588c4f0cf97d6c07c964e4fd29b442a3f128d",
+    "bytes": 734075,
+    "source_modified_utc": "2026-08-19T09:51:04+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_RAW_01.csv",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_RAW_01.csv",
+    "sha256": "a1dedccdbf700a88a83fb1b8ecfb62d128a34bd97b20163b0786c16db663b3a2",
+    "bytes": 775867,
+    "source_modified_utc": "2026-08-19T09:47:02+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_RAW_02.csv",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_RAW_02.csv",
+    "sha256": "734a5b4241952adb2fce70bd634b9217f5985f6c43c0f39389129df45d65a34d",
+    "bytes": 776124,
+    "source_modified_utc": "2026-08-19T09:47:28+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_RAW_03.csv",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_RAW_03.csv",
+    "sha256": "a8d862d50f37c42ecff27bdadb534e8eef839c74a09ca59182233c0c7c193a5b",
+    "bytes": 776098,
+    "source_modified_utc": "2026-08-19T09:47:50+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\RELAX_RAW_01.csv",
+    "path": "sources/thesis/raw-capture-data/RELAX_RAW_01.csv",
+    "sha256": "ee8eda1bfa75e7d0c8cb35d8aa8b34f61b0ac10498b06506af58d1976a32c267",
+    "bytes": 733341,
+    "source_modified_utc": "2026-08-19T09:20:08+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\RELAX_RAW_02.csv",
+    "path": "sources/thesis/raw-capture-data/RELAX_RAW_02.csv",
+    "sha256": "3932b4b4489a64325d0ca3c2acd6158c5615358c772e3cca6b148a8579640aca",
+    "bytes": 743516,
+    "source_modified_utc": "2026-08-19T09:25:14+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\RELAX_RAW_03.csv",
+    "path": "sources/thesis/raw-capture-data/RELAX_RAW_03.csv",
+    "sha256": "b8bbef06ccd065a666d816854ee7a37a9841412b004de5762217afa395ab7ba6",
+    "bytes": 743334,
+    "source_modified_utc": "2026-08-19T09:25:38+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\STRONG_RAW_01.csv",
+    "path": "sources/thesis/raw-capture-data/STRONG_RAW_01.csv",
+    "sha256": "622c352586fb1c96cdd2ba566de5a33288fe1b28bab240beee921e96ef69911a",
+    "bytes": 763510,
+    "source_modified_utc": "2026-08-19T09:34:56+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\STRONG_RAW_02.csv",
+    "path": "sources/thesis/raw-capture-data/STRONG_RAW_02.csv",
+    "sha256": "076f47b5a09a2811979b9c39c0020edbcdcc5341cc99f02b34f5ae870e29f48a",
+    "bytes": 755672,
+    "source_modified_utc": "2026-08-19T09:35:32+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\STRONG_RAW_03.csv",
+    "path": "sources/thesis/raw-capture-data/STRONG_RAW_03.csv",
+    "sha256": "8740cfb87a47685cbbc5de0a8d8d173b1788e7cd9ad02fd671dd15b0fa7a4c78",
+    "bytes": 760179,
+    "source_modified_utc": "2026-08-19T09:35:54+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\EMG_GUI_Logs\\EMG_GUI_2026-07-29_19-41-33_122.csv",
+    "path": "sources/thesis/gui-logs/EMG_GUI_2026-07-29_19-41-33_122.csv",
+    "sha256": "4250443b773fbaffbe9373eb72b1c582456e68b1467756cf023dfa09156ec279",
+    "bytes": 104028,
+    "source_modified_utc": "2026-07-29T12:42:46+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-24\\bro-x20\\work\\extracted\\cv-general.md",
+    "path": "sources/extracted/cv-general.md",
+    "sha256": "0c55f627edddeb2e53762cc12d4fd63527dd2cf150fd4d09553f16f64ac98f9b",
+    "bytes": 8979,
+    "source_modified_utc": "2026-10-24T08:37:39.635302+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-24\\bro-x20\\work\\extracted\\thesis-individual.md",
+    "path": "sources/extracted/thesis-individual.md",
+    "sha256": "9cf36e4078c6040572adc291cf68a195ee24666c735cdb7c3199573e1b2cf47b",
+    "bytes": 113021,
+    "source_modified_utc": "2026-10-24T08:37:43.152407+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\headshot\\Ardhya_Headshot_Upright_EyeContact.png",
+    "path": "documents/profile-photo/Ardhya_Headshot_Upright_EyeContact.png",
+    "sha256": "a6e5fc126f4801ab75f43974b49e2fca256825d56c67a5e1813fe2f017261544",
+    "bytes": 2056112,
+    "source_modified_utc": "2026-10-13T12:35:30.492032+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\headshot\\Ardhya_Headshot_Aligned_Gaze_Preview.png",
+    "path": "documents/profile-photo/Ardhya_Headshot_Aligned_Gaze_Preview.png",
+    "sha256": "4661c855e64e6c82e9df1a27317d0d9d97b4a5cd45623299769d42cb6fb85d7e",
+    "bytes": 2186856,
+    "source_modified_utc": "2026-10-13T12:49:53.177919+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Career_Upgrade_2026-10-13\\README_Hasil.txt",
+    "path": "sources/career/package-history-2026-10-14.txt",
+    "sha256": "8dcc2d75cbc7fb35184e98d0f8c7516418e906686ceb4a99b908c37c12dbec5b",
+    "bytes": 7596,
+    "source_modified_utc": "2026-10-14T09:02:24.130465+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\404.html",
+    "path": "sources/portfolio-pages/404.html",
+    "sha256": "d0fcb72cedfc53506d50193b5554fb476455feef54065298e67f2e1455cb7e11",
+    "bytes": 5320,
+    "source_modified_utc": "2026-10-14T15:18:32.990239+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\about.html",
+    "path": "sources/portfolio-pages/about.html",
+    "sha256": "9353ace901249edc321c9d8c5448adde033afd59f8600e2559282e26769665c5",
+    "bytes": 11581,
+    "source_modified_utc": "2026-10-19T13:03:14.001881+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\contact.html",
+    "path": "sources/portfolio-pages/contact.html",
+    "sha256": "6e114f70ff559dcde0a4003cffafa48342d84334acc04701971a53ca955c8e72",
+    "bytes": 8911,
+    "source_modified_utc": "2026-10-14T15:18:32.993202+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\credentials.html",
+    "path": "sources/portfolio-pages/credentials.html",
+    "sha256": "e8d1717750a31fd77c469d038f2039bf1c46ce08fb77c328647309f45d8ebd6c",
+    "bytes": 23554,
+    "source_modified_utc": "2026-10-15T22:24:07.326996+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\emg.html",
+    "path": "sources/portfolio-pages/emg.html",
+    "sha256": "640db0b6eb421f285f7c5cba3b888d068377f488ac941e1a4b0929a767780e89",
+    "bytes": 3884,
+    "source_modified_utc": "2026-10-14T15:18:32.996201+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\experience.html",
+    "path": "sources/portfolio-pages/experience.html",
+    "sha256": "edc5fd3b76464973cd113086b38118efb56d0a3c611ae3985737063925436032",
+    "bytes": 20577,
+    "source_modified_utc": "2026-10-22T23:16:22.764442+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\index.html",
+    "path": "sources/portfolio-pages/index.html",
+    "sha256": "2c7c9014c5d690e8698d092dca8156b1901d8484f3f4c1915ddd07a102c85691",
+    "bytes": 12368,
+    "source_modified_utc": "2026-10-24T03:03:57.822085+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\lab.html",
+    "path": "sources/portfolio-pages/lab.html",
+    "sha256": "73ce55c4f6f27d281cbe59505267efc7526e922ef1538a0cb567dca04ebc2f9c",
+    "bytes": 8723,
+    "source_modified_utc": "2026-10-15T15:14:18.927849+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\portfolio.html",
+    "path": "sources/portfolio-pages/portfolio.html",
+    "sha256": "9e118a919fd2fe90918b7afb71021ddceccbead0b145dbe78bbfb5041e581791",
+    "bytes": 763,
+    "source_modified_utc": "2026-10-14T15:18:33.003201+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects.html",
+    "path": "sources/portfolio-pages/projects.html",
+    "sha256": "35f9dcce3e834884d27e897f4de58c4e683f66859a0cb6427c1a796ec9557eb9",
+    "bytes": 39013,
+    "source_modified_utc": "2026-10-24T03:04:53.404250+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\agent-runtime-lab.html",
+    "path": "sources/portfolio-pages/projects/agent-runtime-lab.html",
+    "sha256": "7c397f2a4a5c15be2ef5f3cc478e05fbc090933ad3b19bf2326d8bf1dae44702",
+    "bytes": 7935,
+    "source_modified_utc": "2026-10-19T13:03:13.800489+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\applyproof.html",
+    "path": "sources/portfolio-pages/projects/applyproof.html",
+    "sha256": "9e8b1b91e9b873dacdb492d81cf053843b687811a2f338aaa6df165f3b8c7d98",
+    "bytes": 10224,
+    "source_modified_utc": "2026-10-14T15:18:33.008211+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\biofiltration.html",
+    "path": "sources/portfolio-pages/projects/biofiltration.html",
+    "sha256": "861bd29de498ed9adcbea1014a37d8a2f74e4cf4611662254740817375b2312b",
+    "bytes": 7079,
+    "source_modified_utc": "2026-10-14T15:18:33.009212+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\body-data-viewer.html",
+    "path": "sources/portfolio-pages/projects/body-data-viewer.html",
+    "sha256": "e90f849b55d5799d45bd5ed2aa486d7130031f3c811768270146aad0d019f383",
+    "bytes": 7934,
+    "source_modified_utc": "2026-10-19T13:03:13.879784+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\bounded-refactor.html",
+    "path": "sources/portfolio-pages/projects/bounded-refactor.html",
+    "sha256": "ecd43b55e2b80d01425ba10c3655752ba3d0bfd69e2f18276ec583c6e1ef0d49",
+    "bytes": 7935,
+    "source_modified_utc": "2026-10-19T13:03:13.939360+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\cislunar-oem-replay.html",
+    "path": "sources/portfolio-pages/projects/cislunar-oem-replay.html",
+    "sha256": "510577ff70b90a613516f535116b95e8b93b24189bd512f6ea5cd768a2ca4f57",
+    "bytes": 7978,
+    "source_modified_utc": "2026-10-19T13:03:13.899921+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\claude-six-projects.html",
+    "path": "sources/portfolio-pages/projects/claude-six-projects.html",
+    "sha256": "aeaa710f9815e4554af96d85c7614a0553f7707928571b734a1fff628c579493",
+    "bytes": 11716,
+    "source_modified_utc": "2026-10-24T03:03:56.466027+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\datarescue.html",
+    "path": "sources/portfolio-pages/projects/datarescue.html",
+    "sha256": "9fd3653821c9681065c76b8f7c4b67e0f6e4989bbaa92f75e404a9125137c138",
+    "bytes": 10179,
+    "source_modified_utc": "2026-10-14T15:18:33.010215+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\desk-circuit-racer.html",
+    "path": "sources/portfolio-pages/projects/desk-circuit-racer.html",
+    "sha256": "708f89af392bdf392fb3729deba8527e06a2c782139d60027ed007c46c2187da",
+    "bytes": 7835,
+    "source_modified_utc": "2026-10-19T13:03:13.845288+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\emg-thesis.html",
+    "path": "sources/portfolio-pages/projects/emg-thesis.html",
+    "sha256": "a25156db293cfbc8aa9f78b0bd9dfe945c350b9b8cf8024cee6c962d5efceea9",
+    "bytes": 16708,
+    "source_modified_utc": "2026-10-14T15:18:33.011211+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\fir-parity.html",
+    "path": "sources/portfolio-pages/projects/fir-parity.html",
+    "sha256": "a67d56b4d1b0f1e70d0e691c8ef23ad59449e78bbf15fa191be93574b37f118e",
+    "bytes": 7842,
+    "source_modified_utc": "2026-10-19T13:03:13.958591+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\govtech.html",
+    "path": "sources/portfolio-pages/projects/govtech.html",
+    "sha256": "263cc31c328cd0c143f9628270c52e642b89bad99a935b2899afe790db14c738",
+    "bytes": 7041,
+    "source_modified_utc": "2026-10-14T15:18:33.012212+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\jatigede.html",
+    "path": "sources/portfolio-pages/projects/jatigede.html",
+    "sha256": "10a0a12fb368fb1e5c7a747a632de1baba63eb4f20a4033b10274ee6e89dbb57",
+    "bytes": 7051,
+    "source_modified_utc": "2026-10-14T15:18:33.013211+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\kkn-solar.html",
+    "path": "sources/portfolio-pages/projects/kkn-solar.html",
+    "sha256": "93fe979ccf9623116bee4c9729c2d71b126ec83fcca194d0f1c333e4782001ba",
+    "bytes": 9036,
+    "source_modified_utc": "2026-10-14T15:18:33.014212+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\legacy-orbital-port.html",
+    "path": "sources/portfolio-pages/projects/legacy-orbital-port.html",
+    "sha256": "cfae79123ed1402909010293094c4ee50bf669512efa60e622b5d7590d5ea511",
+    "bytes": 7891,
+    "source_modified_utc": "2026-10-19T13:03:13.795887+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\motion-rally.html",
+    "path": "sources/portfolio-pages/projects/motion-rally.html",
+    "sha256": "7d70ec041e044ddfac1f4d466006e3b145ca0c2f992839360775fdc771897ec0",
+    "bytes": 7865,
+    "source_modified_utc": "2026-10-19T13:03:13.920732+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\parametric-pavilion.html",
+    "path": "sources/portfolio-pages/projects/parametric-pavilion.html",
+    "sha256": "e9a6053ccc6d6beaffbe413ecce9830f65491a7d238eb542eb164f195fc312aa",
+    "bytes": 7947,
+    "source_modified_utc": "2026-10-19T13:03:13.860341+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\portfolio.html",
+    "path": "sources/portfolio-pages/projects/portfolio.html",
+    "sha256": "49c9315e4632143251568192b9081951550c2a71547241efcb45b0832a39f81d",
+    "bytes": 7358,
+    "source_modified_utc": "2026-10-14T15:18:33.015216+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\python-7-mini-projects.html",
+    "path": "sources/portfolio-pages/projects/python-7-mini-projects.html",
+    "sha256": "7666f3b8b162ac75bac76b79dd45f032f7f74f6b97da8b903abe0df4cf695509",
+    "bytes": 8977,
+    "source_modified_utc": "2026-10-24T02:47:53.180349+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\redesma-iot.html",
+    "path": "sources/portfolio-pages/projects/redesma-iot.html",
+    "sha256": "8a0f9e53379905770fdde049d8f632d48bd7f6c40e5a7c5fcea1c6b2f1edf704",
+    "bytes": 9361,
+    "source_modified_utc": "2026-10-14T15:18:33.016210+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\repairgate.html",
+    "path": "sources/portfolio-pages/projects/repairgate.html",
+    "sha256": "ca263068efd08cf104d56786048c2fab0c77d1f24138eb4bdca74a890650f18b",
+    "bytes": 10968,
+    "source_modified_utc": "2026-10-19T13:03:13.984300+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\run-ledger.html",
+    "path": "sources/portfolio-pages/projects/run-ledger.html",
+    "sha256": "f8800a75e31e9afb97a05f97dc9f5f6b3875a282f84cdcca422b86ba109625dd",
+    "bytes": 7861,
+    "source_modified_utc": "2026-10-19T13:03:13.935755+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\sensor-enclosure-cad.html",
+    "path": "sources/portfolio-pages/projects/sensor-enclosure-cad.html",
+    "sha256": "8f5d32f4909f002519f7888281bb13f2a26ad7a5bf442801ebe9a3ba4ea7212f",
+    "bytes": 7913,
+    "source_modified_utc": "2026-10-19T13:03:13.904603+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\solarwing.html",
+    "path": "sources/portfolio-pages/projects/solarwing.html",
+    "sha256": "55a048f8f141fecef229ff55f3ef6eadbcc293d314c623fb73d7f85b67f73ae0",
+    "bytes": 7262,
+    "source_modified_utc": "2026-10-14T15:18:33.018209+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\spatial-electronics-lab.html",
+    "path": "sources/portfolio-pages/projects/spatial-electronics-lab.html",
+    "sha256": "13385440c1a6f432d6e651cb13176f70e5249da6d5b667c5b0ca323858739d45",
+    "bytes": 7916,
+    "source_modified_utc": "2026-10-19T13:03:13.828837+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\timor-leste.html",
+    "path": "sources/portfolio-pages/projects/timor-leste.html",
+    "sha256": "de3397e92eb42708054d8384640f61e127d90d800a8925b2168029f64703545c",
+    "bytes": 7298,
+    "source_modified_utc": "2026-10-14T15:18:33.019213+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\uart-fixture-kit.html",
+    "path": "sources/portfolio-pages/projects/uart-fixture-kit.html",
+    "sha256": "8645d08e4f3157d414e4d3154fdfc98b24b47e204dd582de3cafcef95731d5bb",
+    "bytes": 11150,
+    "source_modified_utc": "2026-10-19T13:03:13.996180+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\anak-kos-survival\\dist\\projects\\webgpu-cable-lab.html",
+    "path": "sources/portfolio-pages/projects/webgpu-cable-lab.html",
+    "sha256": "10ae313d96f8a9c63a7ec38cbc65187aef757d4b9dcde31ce42f5569feb81f92",
+    "bytes": 7858,
+    "source_modified_utc": "2026-10-19T13:03:13.869901+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\isast-aerospace-challenge\\README.md",
+    "path": "sources/projects/nusantara-solarwing/README.md",
+    "sha256": "b9b775af7a2682459aa63ef12a400a052ffd213382f370eaea0980ef5b7e35a2",
+    "bytes": 3464,
+    "source_modified_utc": "2026-09-28T11:52:20.218291+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\isast-aerospace-challenge\\SUBMISSION_FORM_DATA.md",
+    "path": "sources/projects/nusantara-solarwing/SUBMISSION_FORM_DATA.md",
+    "sha256": "72136928d10369046842db2ec1aacfd8445c6f8a117c598162ce047aa40cc4b5",
+    "bytes": 2117,
+    "source_modified_utc": "2026-09-28T11:51:59.689798+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\isast-aerospace-challenge\\Nusantara_SolarWing_ISAST_2026_Public_Brief.pdf",
+    "path": "sources/projects/nusantara-solarwing/Nusantara_SolarWing_ISAST_2026_Public_Brief.pdf",
+    "sha256": "c2a8233b17fe61093497ea0b687d0458a45ac84ebb36614ec900504b50697997",
+    "bytes": 1051756,
+    "source_modified_utc": "2026-09-28T11:52:09.960067+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Projects\\isast-aerospace-challenge\\Nusantara_SolarWing_ISAST_2026_Submission.pdf",
+    "path": "sources/projects/nusantara-solarwing/Nusantara_SolarWing_ISAST_2026_Submission.pdf",
+    "sha256": "bb5b93bdaf2d0a8b731bd28eb0244a30c34f6933170b432e07f4e86337af73b2",
+    "bytes": 1190117,
+    "source_modified_utc": "2026-09-28T11:52:10.335163+00:00"
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\Permohonan Magang Ardhya Novri Ramadhan.docx",
+    "path": "documents/education-and-internship/Permohonan Magang Ardhya Novri Ramadhan.docx",
+    "sha256": "7f609f70329ce05e9bf4b9f8aaebf633e77d6a04d7462f8bf9e07960500b9ff6",
+    "bytes": 54563,
+    "source_modified_utc": "2025-03-10T15:59:59+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\My Docs\\Surat Permohonan Magang PT Angkasa Pura.pdf",
+    "path": "documents/education-and-internship/Surat Permohonan Magang PT Angkasa Pura.pdf",
+    "sha256": "0ee66433407d5d7be572bdfa3de45f0d6c8505cc6c16877facd0eb43b5f4dd0e",
+    "bytes": 16665,
+    "source_modified_utc": "2025-03-19T14:21:48+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Doc\\Jurnal Transient_Ardhya Novri Ramadhan - Revisi Judul.docx",
+    "path": "documents/thesis/revisions/Jurnal Transient_Ardhya Novri Ramadhan - Revisi Judul.docx",
+    "sha256": "7375601b45f2288e00d45b8ee1b614fafb18456bc2fbf3eb8307aa253a6a9d88",
+    "bytes": 1242668,
+    "source_modified_utc": "2026-09-08T22:31:39+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Doc\\Jurnal Transient_Ardhya Novri Ramadhan.docx",
+    "path": "documents/thesis/revisions/Jurnal Transient_Ardhya Novri Ramadhan.docx",
+    "sha256": "37a01d4e705ea0d8eb97a28f6f8a8e51a1a093145280a042a97c989de267a881",
+    "bytes": 1242738,
+    "source_modified_utc": "2026-09-08T22:32:54+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Doc\\Laporan Individu TA Ardhya Novri.docx",
+    "path": "documents/thesis/revisions/Laporan Individu TA Ardhya Novri.docx",
+    "sha256": "f8882757660c500419627d021213d71e1f9ba2df63ef85e0d69cd50dd9a66c62",
+    "bytes": 9715960,
+    "source_modified_utc": "2026-09-11T09:30:45+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Doc\\Log_ELF_2026-08-17_18h52m47s.csv",
+    "path": "documents/thesis/revisions/Log_ELF_2026-08-17_18h52m47s.csv",
+    "sha256": "246f562f9d8c106711d8eb0ce2dcbbc94c70ea2fe886cfd379fbb96f846167aa",
+    "bytes": 376497,
+    "source_modified_utc": "2026-08-17T11:54:57+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Doc\\Makalah TA Ardhya Novri - Revisi Judul.docx",
+    "path": "documents/thesis/revisions/Makalah TA Ardhya Novri - Revisi Judul.docx",
+    "sha256": "73455eb6d575d2a1727cf261b636c8a75fac241055f133b8e17409047643ab92",
+    "bytes": 2928783,
+    "source_modified_utc": "2026-09-08T22:30:36+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\Doc\\Makalah TA Ardhya Novri.docx",
+    "path": "documents/thesis/revisions/Makalah TA Ardhya Novri.docx",
+    "sha256": "0f37531b8bab043a36942270a4f94ae115942d424ab2af8373d7bc6a597a9b75",
+    "bytes": 3069955,
+    "source_modified_utc": "2026-09-15T03:13:05+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\CLEAN_REST_CHECK.json",
+    "path": "sources/thesis/raw-capture-data/CLEAN_REST_CHECK.json",
+    "sha256": "9f68462251d3baf89af733f0246831e6e6e45924811b4f1b600c57ecefc1b888",
+    "bytes": 2906,
+    "source_modified_utc": "2026-08-19T09:50:00+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\LIGHT_RAW_01.json",
+    "path": "sources/thesis/raw-capture-data/LIGHT_RAW_01.json",
+    "sha256": "0f14e669f25dc5c377151148541acb8f98cd5fe2ffe4d18b4c71fa5042ff9b5e",
+    "bytes": 2894,
+    "source_modified_utc": "2026-08-19T09:26:40+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\LIGHT_RAW_02.json",
+    "path": "sources/thesis/raw-capture-data/LIGHT_RAW_02.json",
+    "sha256": "c263b1c754873fc3d34d6a3a2ed6935402d9c2c2e682700c4185dcb423d55c99",
+    "bytes": 2894,
+    "source_modified_utc": "2026-08-19T09:29:14+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\LIGHT_RAW_03.json",
+    "path": "sources/thesis/raw-capture-data/LIGHT_RAW_03.json",
+    "sha256": "f7e62bcee48d70bd64034c4c25f45c18b3ec6e484219001a816872aabdafa9cf",
+    "bytes": 2895,
+    "source_modified_utc": "2026-08-19T09:29:40+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_01.json",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_01.json",
+    "sha256": "d5cecc88bf04cbf35319f4e905decf9c4279c2065127b2d61b3cb5d81a5f3174",
+    "bytes": 2890,
+    "source_modified_utc": "2026-08-19T09:30:27+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_01_RETRY.json",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_01_RETRY.json",
+    "sha256": "e1770af121ba9ce7a8bbd125d62067272daa14e785da206bcb3f9cc5e27abe51",
+    "bytes": 2915,
+    "source_modified_utc": "2026-08-19T09:31:34+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_02.json",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_02.json",
+    "sha256": "e9477f2f20e7a88f78059762c0bffb589f62ef4db8dfd78d2ca5d3975d6d3a87",
+    "bytes": 2895,
+    "source_modified_utc": "2026-08-19T09:32:21+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_02_RETRY.json",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_02_RETRY.json",
+    "sha256": "9c128218ab75e05d915ccad3aff7eae168e1d19a1bef232ab1ac1712865057a6",
+    "bytes": 2910,
+    "source_modified_utc": "2026-08-19T09:33:41+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_03.json",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_03.json",
+    "sha256": "f0d19a3f6ae834436b4654b80e9c15e3353e44d17c6172e3ce6000dd4971cc06",
+    "bytes": 2887,
+    "source_modified_utc": "2026-08-19T09:32:43+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RAW_03_RETRY.json",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RAW_03_RETRY.json",
+    "sha256": "c8711c67bc392501e7528fb7585f25d474437636e10445f0f9e217afaada08e5",
+    "bytes": 2911,
+    "source_modified_utc": "2026-08-19T09:34:17+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RPE5_RAW_01.json",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RPE5_RAW_01.json",
+    "sha256": "b65ceb4a02dda35139b3f0a734e35cd1378b50fcc837a842f951fdef3de5083f",
+    "bytes": 2914,
+    "source_modified_utc": "2026-08-19T09:38:00+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RPE5_RAW_02.json",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RPE5_RAW_02.json",
+    "sha256": "5616001950eb1901e792716069a1b92671072c10ad3d95af9f46e0af5eb784da",
+    "bytes": 2913,
+    "source_modified_utc": "2026-08-19T09:45:45+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\MEDIUM_RPE5_RAW_03.json",
+    "path": "sources/thesis/raw-capture-data/MEDIUM_RPE5_RAW_03.json",
+    "sha256": "4a264a79d9c14d84f78356e538c2216cf427005662d2a87a66b91ede261bbd60",
+    "bytes": 2913,
+    "source_modified_utc": "2026-08-19T09:46:16+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_CLEAN_01.json",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_CLEAN_01.json",
+    "sha256": "3f3ce860cb265a7ef3fd2fcea547d01d00cf30bdf78d2886e60add6bd91b13a6",
+    "bytes": 2905,
+    "source_modified_utc": "2026-08-19T09:50:43+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_CLEAN_02.json",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_CLEAN_02.json",
+    "sha256": "66d083c699ac8b0c80a3343bde6745de281cadf610f2b77dad3dae492b7f7930",
+    "bytes": 2911,
+    "source_modified_utc": "2026-08-19T09:51:05+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_RAW_01.json",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_RAW_01.json",
+    "sha256": "9b6862fa8ee23a80c393f9d4b7e5eaebc8fe8547470d7bacd2213af495bfd8c1",
+    "bytes": 2910,
+    "source_modified_utc": "2026-08-19T09:47:02+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_RAW_02.json",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_RAW_02.json",
+    "sha256": "c1ecbdbe6a2a63f91d2a38a61f61046b1bc9e4b2e5aeb4850d732976e69fd428",
+    "bytes": 2906,
+    "source_modified_utc": "2026-08-19T09:47:28+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\POST_RELAX_RAW_03.json",
+    "path": "sources/thesis/raw-capture-data/POST_RELAX_RAW_03.json",
+    "sha256": "2b82136d9ced0123ddcd5f9a52cf1c7d6179b06173103daf214f55bfdba30163",
+    "bytes": 2905,
+    "source_modified_utc": "2026-08-19T09:47:51+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\RELAX_RAW_01.json",
+    "path": "sources/thesis/raw-capture-data/RELAX_RAW_01.json",
+    "sha256": "92e8eb6c2de95c5d04afaec45e0f3e64659052c3f0a3325249812b2318ee484a",
+    "bytes": 2884,
+    "source_modified_utc": "2026-08-19T09:20:08+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\RELAX_RAW_02.json",
+    "path": "sources/thesis/raw-capture-data/RELAX_RAW_02.json",
+    "sha256": "96822b6bd3235caad77f97f361936945180ec2565210aec701401be022661b21",
+    "bytes": 2888,
+    "source_modified_utc": "2026-08-19T09:25:14+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\RELAX_RAW_03.json",
+    "path": "sources/thesis/raw-capture-data/RELAX_RAW_03.json",
+    "sha256": "724298bc3a9662871e99e49ad75f8897aabe004cb3d8846e50e7d99102cb1d30",
+    "bytes": 2887,
+    "source_modified_utc": "2026-08-19T09:25:39+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\REST_TEST_01.json",
+    "path": "sources/thesis/raw-capture-data/REST_TEST_01.json",
+    "sha256": "cc5034305a47fa540521fa684164a71d966c1a1fe7c0b33237b9581e7e33f7e8",
+    "bytes": 797,
+    "source_modified_utc": "2026-08-19T09:15:46+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\STRONG_RAW_01.json",
+    "path": "sources/thesis/raw-capture-data/STRONG_RAW_01.json",
+    "sha256": "d41c53eb38a7723ff9287615afe7a1d2aef7049ecfddde35cd585bd6909e576f",
+    "bytes": 2901,
+    "source_modified_utc": "2026-08-19T09:34:56+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\STRONG_RAW_02.json",
+    "path": "sources/thesis/raw-capture-data/STRONG_RAW_02.json",
+    "sha256": "e854ef3b367e61e1a100e68cf19cfd5b7a5cfad2d4fc19959e7419c768305fe5",
+    "bytes": 2902,
+    "source_modified_utc": "2026-08-19T09:35:32+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\RAW_CAPTURE_DATA\\STRONG_RAW_03.json",
+    "path": "sources/thesis/raw-capture-data/STRONG_RAW_03.json",
+    "sha256": "92f3bf18617196a94d531166fbb1cba9cac5979a2f3d5a75bfd4904d05ec742a",
+    "bytes": 2894,
+    "source_modified_utc": "2026-08-19T09:35:55+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\EMG_GUI_Logs\\EMG_GUI_2026-07-29_17-10-42_873.csv",
+    "path": "sources/thesis/gui-logs/EMG_GUI_2026-07-29_17-10-42_873.csv",
+    "sha256": "f4ae4937aecbd3f2b3506ea6b46ef048dfdeebe1e426a245b76cb0cb679e1335",
+    "bytes": 1251984,
+    "source_modified_utc": "2026-07-29T10:42:26+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\EMG_GUI_Logs\\EMG_GUI_2026-07-29_19-38-00_852.csv",
+    "path": "sources/thesis/gui-logs/EMG_GUI_2026-07-29_19-38-00_852.csv",
+    "sha256": "da03f06737706f320a484192a849d51fac4b5b5b072d6d8711e11efc9210e28c",
+    "bytes": 278712,
+    "source_modified_utc": "2026-07-29T12:41:19+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\EMG_GUI_Logs\\EMG_GUI_2026-07-29_20-58-49_985.csv",
+    "path": "sources/thesis/gui-logs/EMG_GUI_2026-07-29_20-58-49_985.csv",
+    "sha256": "394573a477d4c215697beebc91b0790b2d26bf4552414a061af5074d7011ba78",
+    "bytes": 181184,
+    "source_modified_utc": "2026-07-29T14:01:07+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\EMG_GUI_Logs\\EMG_GUI_2026-07-29_21-01-13_464.csv",
+    "path": "sources/thesis/gui-logs/EMG_GUI_2026-07-29_21-01-13_464.csv",
+    "sha256": "fe18b1e55483db068ba7aa42f37c751596115fe9c7ab73081f521405c577ea98",
+    "bytes": 49731,
+    "source_modified_utc": "2026-07-29T14:01:52+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\EMG_GUI_Logs\\EMG_GUI_2026-07-29_21-01-58_392.csv",
+    "path": "sources/thesis/gui-logs/EMG_GUI_2026-07-29_21-01-58_392.csv",
+    "sha256": "d6ccaebf85d24f82e679b74bcb9785f59ed0cb9424e422a6394c528174f496d3",
+    "bytes": 171549,
+    "source_modified_utc": "2026-07-29T14:04:10+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\EMG_GUI_Logs\\EMG_GUI_2026-07-29_21-04-11_791.csv",
+    "path": "sources/thesis/gui-logs/EMG_GUI_2026-07-29_21-04-11_791.csv",
+    "sha256": "5cb4a94aff4a371f7571cb22a73c956e1abf54d83532b01802d7cb21512bc33a",
+    "bytes": 43791,
+    "source_modified_utc": "2026-07-29T14:04:46+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\OneDrive\\Documents\\Skripsi\\EMG_GUI_Logs\\EMG_GUI_2026-08-05_15-25-34_483.csv",
+    "path": "sources/thesis/raw-capture-data/EMG_GUI_2026-08-05_15-25-34_483.csv",
+    "sha256": "4f4af80b5d3f1ff6860db189c01ad1d1cc0c1c7a974507e75445403c3173d74a",
+    "bytes": 215643,
+    "source_modified_utc": "2026-08-05T08:27:59+00:00",
+    "hydrated_from_onedrive": true
+  },
+  {
+    "source_local": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-24\\bro-x20\\work\\extracted\\thesis-journal.md",
+    "path": "sources/extracted/thesis-journal.md",
+    "sha256": "47b43b5da140067416e6ad38ebc3cc6d86dd7c174c9811a99d2ea910c431d780",
+    "bytes": 23855,
+    "description": "MarkItDown 0.1.7 extraction of the revised-title journal source; original DOCX preserved."
+  }
+]

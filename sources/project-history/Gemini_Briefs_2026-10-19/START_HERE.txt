@@ -1,0 +1,19 @@
+CURRENT EXECUTION: read CURRENT_EXECUTION.txt and MASTER_EXECUTION.json. User now requests ALL projects, including prior unfinished work, executed and uploaded sequentially. R05 and G02 are complete; G03/A03 is undergoing CI. The older snapshot below is retained for earlier reference only.
+
+Repo: C:\Users\ardhy\Projects\legacy-orbital-port
+GitHub: https://github.com/vanovri/legacy-orbital-port
+Release: https://github.com/vanovri/legacy-orbital-port/releases/tag/v0.1.0
+Commit: 6a0ef64a7785217765868e209f1339dbc610a6b6
+CI: https://github.com/vanovri/legacy-orbital-port/actions/runs/39174423811, all four jobs passed.
+
+10 referee tests pass on Windows/Linux Python. Optimized and checked builds pass 27 scenarios and 101 trajectory checkpoints, analytic oracles, convergence and invariant checks, 14 invalid-input/singular-stage cases per language, and the preserved supplied implicit-integer regression. A clean clone also passes. Published source ZIP SHA256: fd7ac91024bd37dd0fd9668dbe12e3f5a32ca359a2fdfa69fc55e122395082e6.
+
+The supplied Fortran example was faulty: K-stage names remained implicit integers. All 16 now have explicit double-precision declarations. Original fixture is preserved and rejected by the referee. Default steps changed from 1,000 to requested 10,000. This is synthetic legacy-style code with modern input checks, not authenticated 1960s source. No actual Gemini invocation or benchmark claim.
+
+Next: Project #2 ADK-style Python Runtime Optimization Lab. Read Sequential_Plan.json and Project_02_Original_Brief.txt completely before coding. Preserve deep-copy/mutation semantics, remove or clearly label artificial delay benchmarks, report real repeated measurements, and do not call this work an upstream Google ADK optimization.
+
+All five original briefs are copied here. Project #2-#5 are queued, not implemented. Follow them one at a time. Project #3 requires a real native Android build; #4 has example detection boxes, not the user's desk photograph; #5 requests an independent critic subagent and real Blender output.
+
+Previous R05 UART Twin Bench remains saved but incomplete. Do not clobber its branch or uncommitted files. See ../Gemini_Projects_2026-10-18/R05_Checkpoint.txt.
+
+Do not publish LinkedIn posts yet. User wants a combined 3-5 project post after projects are ready, with final review approval before posting. Posting automation remains paused.

@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/vanovri/cislunar-oem-replay",
+  "release": "https://github.com/vanovri/cislunar-oem-replay/releases/tag/v0.2.0",
+  "commit": "2363b9bfa2789ab2410204e0b4cb900650397fb3",
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 39252306413,
+      "headSha": "2363b9bfa2789ab2410204e0b4cb900650397fb3",
+      "status": "completed",
+      "url": "https://github.com/vanovri/cislunar-oem-replay/actions/runs/39252306413"
+    }
+  ],
+  "archive": "cislunar-oem-replay-v0.2.0.zip",
+  "sha256": "e7f589516b9707cd1d519c89d17df0ba332c9d1e56c8acc8abd9fd7726e3a9c3",
+  "size": 1620643,
+  "published_bytes_verified": true
+}

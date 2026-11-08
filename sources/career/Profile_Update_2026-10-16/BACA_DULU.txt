@@ -1,0 +1,40 @@
+PEMBARUAN PROFIL 16 OKTOBER 2026
+
+CV umum: Ardhya_Novri_Ramadhan_CV_Umum.pdf, 4 halaman, menyertakan nomor kontak pribadi untuk lamaran langsung.
+CV publik: Ardhya_Novri_Ramadhan_CV_Public.pdf, 4 halaman, tanpa nomor telepon pribadi. Versi yang sama telah terbit di portofolio.
+CV Celerates dan Kyou: masing-masing 2 halaman. Revisi ini disimpan terpisah dari dokumen yang sudah dikirim.
+File .tex merupakan sumber editable.
+
+ASISTEN PRAKTIKUM
+Pengguna mengonfirmasi dua semester berturut-turut pada tahun akademik 2024/2025. Semester ganjil 2024 adalah semester 5, semester genap 2025 adalah semester 6. Total satu tahun akademik, masing-masing semester enam bulan.
+CV dan portofolio memakai tahun 2024 - 2025 dan menjelaskan dua semester.
+LinkedIn menampilkan Aug 2024 - Jul 2025, 1 yr, sebagai normalisasi rentang satu tahun akademik. Deskripsi menjelaskan dasar rentang akademik tersebut. Tanggal mulai dan berakhir yang persis tidak tertulis pada sertifikat.
+Dasar bulan awal: kalender resmi Undip menyatakan awal kuliah semester gasal pada 19 Agustus 2024. Sumber: https://ft.undip.ac.id/jadwal-registrasi-administratif-mahasiswa-universitas-diponegoro-semester-gasal-tahun-akademik-2024-2025/
+
+SERTIFIKAT
+Sertifikat atas nama Ardhya Novri Ramadhan bertanggal 6 Juli 2025, No. 02/UN7.5.3/HK/2025, terverifikasi dari gambar asli lokal.
+Sumber: C:/Users/ardhy/OneDrive/Documents/My Certificates/Ardhya Novri Ramadhan Asprak Dasel.png
+Gambar tersebut kini tersedia di halaman Credentials portofolio dan terhubung dari Experience.
+Sertifikat terpisah semester ganjil 2024 belum ditemukan. Jangan membuat entri sertifikat kedua tanpa dokumen.
+Pencarian mencakup folder sertifikat lokal dan bundel PDF, Drive utama, Gmail utama, dan hasil pencarian relevan di Photos akun 0, 3 dan 6. Lembar pembagian asisten 2024 yang ditemukan belum dipakai sebagai bukti penugasan pribadi karena namanya belum diverifikasi. Foto sertifikat atas nama orang lain tidak digunakan.
+
+COURSERA
+Akun menampilkan AI Fundamentals dari Google, 100% complete. Bulan penyelesaian September 2026 dan email penyelesaian sebelumnya mencatat 26 September 2026.
+Sertifikat masih terkunci dengan tombol Get your certificate with Coursera Plus. Tidak ada pembelian atau perubahan langganan.
+Bukti_Coursera_AI_Fundamentals.jpg merupakan screenshot halaman penyelesaian, bukan sertifikat resmi.
+Tautan bukti sekarang tersedia di entri AI Fundamentals pada portofolio. Jangan mengklaim seluruh Google AI Professional Certificate selesai.
+
+RUTIN LINKEDIN
+Rutin mingguan Grok dijeda setelah pengguna meminta pindah ke Codex. Rutin baru draft-linkedin-tiap-2-hari aktif di chat Codex ini, setiap dua hari pukul 19.17 WIB.
+Setiap run menyiapkan draft carousel 6-8 slide dan alternatif post teks. Tidak memposting otomatis.
+Rencana 10 topik, naskah carousel ENVIID pertama, dan catatan rotasi ada dalam LinkedIn_Content_2026-10-16.
+Naskah pertama baru berupa teks dan caption, belum PDF slide. Rutin dapat menyusun PDF dari draft tersebut setelah memeriksa screenshot terbaru.
+LinkedIn mendukung unggahan dokumen PDF: https://www.linkedin.com/help/linkedin/answer/a518909
+
+TAUTAN
+https://ardhyanovri.my.id/experience
+https://ardhyanovri.my.id/credentials
+https://ardhyanovri.my.id/cv-ardhya.pdf
+https://www.linkedin.com/in/dhya/
+
+Verifikasi mencakup file publik yang identik dengan lokal, tampilan PDF yang berubah, gambar bukti dan readback LinkedIn. Halaman PDF yang tidak berubah dibanding versi sebelumnya identik secara piksel. Pemeriksaan konfigurasi memastikan header keamanan tetap sama dengan produksi sebelumnya.

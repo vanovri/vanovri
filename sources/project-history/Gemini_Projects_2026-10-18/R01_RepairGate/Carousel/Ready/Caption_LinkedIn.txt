@@ -1,0 +1,15 @@
+Saya menambah dua kasus regresi di RepairGate: penggabungan interval dan moving average data sensor sintetis.
+
+Di demo ini, ada perbaikan yang lolos dua contoh awal, tetapi gagal saat diperiksa dengan input lain.
+
+Pembaruan ini mencakup:
+- Replay tiga kasus dari sumber awal yang sama.
+- Perlindungan file tes dan pemeriksaan hash.
+- Laporan JSON berisi diff, hasil tes, dan keputusan.
+
+28 tes pytest dan CI GitHub sudah lulus. Kandidat perbaikannya direkam agar demo mudah diulang. Hasil tes dihitung setiap dijalankan.
+
+Kode dan dokumentasi:
+https://github.com/vanovri/repairgate
+
+Dikembangkan dengan bantuan Codex.

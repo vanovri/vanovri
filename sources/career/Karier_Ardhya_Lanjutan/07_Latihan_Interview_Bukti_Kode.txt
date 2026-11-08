@@ -1,0 +1,41 @@
+LATIHAN INTERVIEW BERDASARKAN KODE GUI
+Diperiksa 8 Oktober 2026. Sumber: GUI.py pada folder TEST STM2/TEST2/GUI. Ini bahan latihan, bukan klaim bahwa semua kasus berikut adalah bug yang pernah kamu temui langsung.
+
+PERBAIKAN JAWABAN SUARA SEBELUMNYA
+Mulai dari kontribusimu, lalu cara mengujinya. Sebut aktivitas listrik otot, bukan langsung kekuatan otot. Gunakan istilah RMS dan MAV untuk fitur sinyal, serta Python/Tkinter untuk GUI. Nama framework sudah diperiksa pada kode. Hindari kalimat "fitur safety semuanya lengkap". Sebut satu mekanisme yang bisa dijelaskan dan batas pengujiannya.
+
+PERTANYAAN 1. Bagaimana data UART masuk ke GUI?
+Jawaban latihan: Data serial dibaca dan diperiksa oleh parser telemetry. GUI mengambil nilai yang dikenali untuk pemantauan dan pencatatan CSV. Pada self-test, parser lama juga menerima EMG_RMS_MV,0.512 dan memeriksa hasil emg_rms_mv sebesar 0.512. Contoh ini menguji parser, bukan pembacaan sensor fisik.
+Tunjukkan: parse_telemetry_line dan run_self_test. Gunakan pencarian nama fungsi untuk membuka kasus parser legacy.
+
+PERTANYAAN 2. Apa yang terjadi jika pesan serial rusak?
+Jawaban latihan: Self-test membuat pesan JSON rusak dan kegagalan parser sintetis. Pengujian memeriksa pesan diagnostik dan status koneksi. Untuk kegagalan parser, thread pembaca harus tetap hidup dan koneksi tidak dianggap valid. Saya perlu membedakan data rusak dari data yang valid sebelum menampilkannya sebagai status sistem.
+Tunjukkan: pemeriksaan JSON malformed, parser error dan thread.is_alive di run_self_test.
+
+PERTANYAAN 3. Bagaimana tombol reset emergency bekerja?
+Jawaban latihan: Tombol reset mengirim RESET_ESTOP. Pengiriman perintah sendiri tidak membuka latch lokal. GUI menunggu telemetry yang mengonfirmasi emergency tidak aktif, output tidak aktif, dan state yang sesuai. Self-test memeriksa bahwa state aktif atau emergency yang masih benar tidak dianggap sebagai reset berhasil.
+Tunjukkan: telemetry_confirms_estop_reset, reset_estop dan pemeriksaan reset_gate.estop_latched.
+Batas jawaban: mekanisme kode ini belum membuktikan keselamatan fisik atau validasi klinis alat.
+
+PERTANYAAN 4. Bagaimana kamu memastikan hasil bantuan AI benar?
+Jawaban latihan: Saya harus memahami fungsi yang diubah, memeriksa alur data dan menjalankan pengujian yang relevan. Contoh yang bisa ditunjukkan adalah parser telemetry, gate emergency dan logger. Hasil PASS perlu dibaca sesuai cakupan pengujiannya. Saya tidak menyamakan pengujian software dengan pengukuran hardware.
+Isi tambahan hanya dengan pengalaman nyata: satu perubahan kode, alasan perubahan, pengujian yang kamu lakukan, dan hasil yang benar-benar kamu lihat. Jika belum memahami bagian tertentu, katakan masih mempelajarinya.
+
+PERTANYAAN 5. Mengapa proyek ini relevan untuk pekerjaan junior?
+Jawaban latihan: Proyek melatih saya mengikuti alur sensor, pemrosesan, komunikasi dan tampilan. Saya belajar memecah masalah per bagian dan mendokumentasikan hasil. Pengalaman ini dapat membantu pekerjaan testing, troubleshooting dan integrasi perangkat. Untuk PLC, instalasi panel atau MEP, kemampuan saya masih perlu dikembangkan sesuai kebutuhan pekerjaan.
+
+LATIHAN 15 MENIT
+Menit 0–3: baca satu pertanyaan dan buka fungsi yang disebut.
+Menit 3–6: jelaskan alur tanpa membaca naskah.
+Menit 6–9: rekam jawaban 45–60 detik.
+Menit 9–12: dengarkan dan tandai istilah yang salah atau klaim yang tidak bisa dibuktikan.
+Menit 12–15: ulangi dengan urutan masalah, tindakan, pengujian dan batas hasil.
+
+RUBRIK MANDIRI, MASING-MASING 0–2
+Kontribusi sendiri jelas.
+Alur teknis dapat dipahami.
+Ada contoh pengujian yang benar.
+Kontribusi tim dan bantuan AI dijelaskan tepat.
+Jawaban selesai dalam 60 detik tanpa klaim di luar bukti.
+Rubrik ini membantu latihan, bukan prediksi keputusan recruiter.
+

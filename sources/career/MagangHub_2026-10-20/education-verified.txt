@@ -1,0 +1,41 @@
+- banner
+- main:
+  - generic: Langkah 3 dari 9
+  - heading "Pendidikan" [level=5]
+  - generic: Tambahkan informasi pendidikan yang sudah pernah ditempuh.
+  - heading "Preview CV" [level=2]
+  - paragraph: Lihat preview CV berdasarkan form kelengkapan profil yang telah Anda lengkapi secara real-time.
+  - separator
+  - paragraph:
+    - generic: UNIVERSITAS DIPONEGORO
+  - paragraph: S1 • 3.43
+  - paragraph: 2022 - 2026
+  - generic: Tembalang, Tembalang, KOTA SEMARANG, JAWA TENGAH
+  - button:
+  - separator
+  - paragraph:
+    - generic: SMAN 5 Bekasi
+  - paragraph: SMA atau Sederajat
+  - paragraph: 2019 - 2022
+  - generic: Jatiwaringin, Pondokgede, KOTA BEKASI, JAWA BARAT
+  - button:
+  - separator
+  - paragraph:
+    - generic: SMP Angkasa
+  - paragraph: SMP atau Sederajat
+  - paragraph: 2016 - 2019
+  - generic: Halim Perdana Kusuma, Makasar, KOTA ADM. JAKARTA TIMUR, DKI JAKARTA
+  - button:
+  - separator
+  - paragraph:
+    - generic: Sekolah Dasar Islam As-Syafi'iyah 02
+  - paragraph: SD atau Sederajat
+  - paragraph: 2010 - 2016
+  - generic: Jaticempaka, Pondokgede, KOTA BEKASI, JAWA BARAT
+  - button:
+  - separator
+  - button "Tambah Pendidikan":
+    - generic: Tambah Pendidikan
+- contentinfo:
+  - button "Selanjutnya":
+    - generic: Selanjutnya

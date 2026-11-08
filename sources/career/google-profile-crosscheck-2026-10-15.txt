@@ -1,0 +1,71 @@
+CROSSCHECK INFORMASI PROFESIONAL ARDHYA
+15 Oktober 2026, Asia/Jakarta
+
+Tujuan
+Mencari informasi yang terlewat dari akun Google tambahan. Informasi yang sudah tercatat pada portfolio, CV publik, atau LinkedIn dilewati. Pemeriksaan ini tidak mengubah profil atau dokumen dan tidak melakukan deployment.
+
+Pembanding terbaru
+Portfolio live: https://ardhyanovri.my.id/
+Pengalaman: https://ardhyanovri.my.id/experience.html
+Proyek: https://ardhyanovri.my.id/projects.html
+Kredensial: https://ardhyanovri.my.id/credentials.html
+CV publik yang diunduh pada pemeriksaan ini: https://ardhyanovri.my.id/cv-ardhya.pdf
+SHA256 CV publik: bcf91c13e0be2db17b91509d78628debc0860cfe0ee228df9b79277a6d12d18a
+LinkedIn: https://www.linkedin.com/in/dhya/
+Kredensial LinkedIn: https://www.linkedin.com/in/dhya/details/certifications/
+Pengalaman LinkedIn: https://www.linkedin.com/in/dhya/details/experience/
+
+Temuan yang belum tercatat
+
+1. AI Fundamentals, Google melalui Coursera, September 2026
+Email Coursera tanggal 26 September 2026 secara eksplisit menyatakan Ardhya telah menyelesaikan AI Fundamentals. Email pendaftaran menyebutnya sebagai kursus pertama dalam Google AI Professional Certificate yang terdiri atas tujuh kursus.
+Kursus ini belum ditemukan dalam CV publik, halaman kredensial portfolio, atau daftar 27 kredensial LinkedIn yang diperiksa.
+Status yang dapat ditulis: kursus selesai. Belum ada bukti dalam pemeriksaan ini bahwa sertifikat PDF telah terbit atau tujuh kursus program penuh telah selesai.
+Email lain menyatakan penerbitan sertifikat bergantung pada berakhirnya trial dan dimulainya langganan. Pernyataan tersebut tidak membuktikan bahwa sertifikat kemudian benar-benar terbit. Tidak dilakukan pembelian atau perubahan langganan.
+Usulan kalimat CV: September 2026. AI Fundamentals, Google via Coursera. Course completed on 26 September 2026.
+Bukti penyelesaian: https://mail.google.com/mail/u/?authuser=ardhyasan%40gmail.com#all/1a0dddc0af50733e
+Bukti status sertifikat: https://mail.google.com/mail/u/?authuser=ardhyasan%40gmail.com#all/1a0dddc509f1f2f2
+Bukti cakupan program: https://mail.google.com/mail/u/?authuser=ardhyasan%40gmail.com#all/1a0ddc96eb7c96c3
+
+2. Kandidat penghargaan Selling Something 2022
+Google Photos akun ardhyanovri02@gmail.com memuat screenshot sertifikat Kelompok 8 sebagai Kelompok Tercuan pada acara Selling Something 2022, HME UNDIP, tanggal 19 dan 27 November 2022.
+Screenshot bertanggal 27 November 2022. Nama Ardhya tidak tercantum pada sertifikat kelompok tersebut.
+Photos juga memuat screenshot penghargaan kelompok lain, termasuk Kelompok 4, 5, dan 13. Menyimpan screenshot tidak membuktikan keanggotaan Ardhya pada salah satu kelompok.
+Status: menunggu konfirmasi keanggotaan dan peran dari pengguna. Jangan menambahkan penghargaan ini sebagai prestasi pribadi sebelum identitas kelompok jelas.
+Belum ditemukan pada CV publik atau portfolio yang diperiksa. Tidak terlihat dalam daftar kredensial LinkedIn yang diperiksa. Bagian penghargaan LinkedIn di luar daftar kredensial belum diperiksa tersendiri.
+Bukti Kelompok 8: https://photos.google.com/u/6/search/CgpzZXJ0aWZpa2F0IgwKCnNlcnRpZmlrYXQoiuTX4JM0OAM%3D/top/photo/AF1QipNp4VRHHhjXPP74sHC1XGOKrLduftyxTc330hGy
+
+Cakupan empat akun tambahan
+
+ardhyanovri02@gmail.com, Kazuha Kaedehara
+Drive: inventaris root My Drive dan dokumen relevan. Ditemukan catatan akademik Analisis dan Sintesis Sekuensial, Desain PID Orde Dua, Elkadus Buck & Thermal, serta berkas sekolah. CINOTIC yang dibagikan sudah tercatat.
+Dokumen Elkadus Buck & Thermal dibaca. Isinya pembahasan teori efisiensi buck dan manajemen termal. Tidak ditemukan bukti pengujian perangkat keras atau proyek lapangan pribadi dari dokumen itu. Tidak direkomendasikan sebagai proyek implementasi baru.
+Photos: pencarian sertifikat dan certificate, pemeriksaan visual kandidat. PKKMB/Pendikar sudah tercatat. Ijazah dan dokumen identitas tidak dijadikan entri profesional. Kandidat baru ialah penghargaan Selling Something.
+
+desamutihan98@gmail.com, mutihan98
+Drive: Home dan My Drive kosong pada pemeriksaan.
+Photos: halaman utama menunjukkan belum ada foto.
+Tidak ditemukan bukti tambahan untuk CV dari akun ini.
+
+reyosrey105@gmail.com, Rey Reyos
+Drive: arsip firmware STM32, GUI Python, folder gui, serta folder TA UJI COBA GUE WOI BISMILLAH DATA BENER. Nama file dan struktur cocok dengan proyek skripsi yang sudah tercatat.
+Photos: halaman utama menunjukkan belum ada foto.
+Arsip ini tidak dijadikan proyek baru. Tidak dilakukan audit ulang seluruh kode atau pengujian perangkat keras.
+
+novriardhya@gmail.com, Ardhya Novri
+Drive: My Drive berisi folder Anodrive, dengan arsip ZIP yang terlihat melalui Suggested files. Tidak terlihat berkas profesional yang relevan dari inventaris tersebut. Isi ZIP tidak dibuka.
+Photos: halaman utama menunjukkan belum ada foto.
+Tidak ditemukan informasi profesional tambahan yang tervalidasi.
+
+Sumber tambahan
+Gmail dan Drive konektor membaca akun utama ardhyasan@gmail.com. Pencarian Gmail tentang sertifikat dan penyelesaian kursus menemukan AI Fundamentals.
+Undangan Gemini Academy Master Trainer belum membuktikan penerimaan atau jabatan. Persetujuan registrasi ISF 2026 belum membuktikan kehadiran. Konfirmasi submission ISAST berkaitan dengan proyek SolarWing yang sudah tercatat. Ketiganya tidak dibuat sebagai pengalaman baru.
+
+Hasil deduplikasi
+Portfolio live memuat 13 proyek, 18 entri riwayat, dan 35 entri pada halaman kredensial. Informasi SLD, AutoCAD dasar, serta tiga prototipe Redesma sudah ada pada portfolio terbaru dan dilewati sesuai instruksi pengguna.
+Peran ENVIID, magang Angkasa Pura, Redesma, asisten praktikum, GSA, SEED, KMI, KKN, CINOTIC, PKKMB, dan proyek skripsi tidak dibangun atau ditulis ulang.
+
+Batas pemeriksaan
+Pemeriksaan berfokus pada informasi profesional dan empat akun tambahan. Lima akun yang sudah diperiksa pada checkpoint lama tidak dipindai ulang seluruhnya. Sumber utama diperiksa secara selektif untuk pembanding dan temuan baru.
+Ini bukan pemeriksaan seluruh file, foto, arsip ZIP, atau riwayat setiap akun. Keberadaan berkas dalam akun tidak digunakan sebagai bukti tunggal kepemilikan proyek atau prestasi.
+Tidak ada perubahan pada CV, portfolio, LinkedIn, file cloud, atau pengaturan akun.

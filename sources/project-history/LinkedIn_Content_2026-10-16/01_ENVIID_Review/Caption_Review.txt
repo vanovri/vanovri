@@ -1,0 +1,18 @@
+Website ENVIID saya bangun sendiri, dengan bantuan AI dalam proses pengembangannya.
+
+Saya mulai dari kebutuhan untuk menjelaskan perusahaan dan proyeknya lewat website yang bisa diakses publik. Di proyek ini, saya mengerjakan:
+
+• Halaman perusahaan dan informasi proyek.
+• Kalkulator karbon dengan asumsi yang bisa disesuaikan.
+• Demonstrasi alur digital MRV, yaitu pengukuran, pelaporan, dan verifikasi.
+
+Bagian yang paling saya perhatikan adalah konteks hasil. Angka pada kalkulator merupakan estimasi berdasarkan asumsi. Data pada demo MRV bersifat ilustratif. Keduanya perlu menyampaikan batas itu di antarmuka agar pembaca memahami hasil yang sedang dilihat.
+
+Saya juga belajar bahwa bantuan AI tetap memerlukan review manusia. Saya perlu memeriksa isi halaman, alur penggunaan, serta hubungan antara status bukti dan kesimpulan yang tampil. Misalnya, status bukti yang belum lengkap perlu terlihat saat pembaca meninjau contoh alur MRV.
+
+Carousel ini menunjukkan bagian website yang bisa kamu buka dan coba langsung.
+
+Website: https://enviid.web.id/
+Portofolio: https://ardhyanovri.my.id/
+
+Saat membuka website perusahaan teknologi, informasi apa yang paling ingin kamu lihat lebih dulu?

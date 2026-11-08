@@ -1,0 +1,13 @@
+Saya ingin membagikan portofolio yang berisi beberapa proyek dan pengalaman saya di teknik elektro, embedded systems, Python, dan pengembangan software.
+
+Beberapa yang saya masukkan:
+- Magang teknik elektro di Angkasa Pura Indonesia.
+- Proyek akuisisi dan monitoring EMG berbasis STM32.
+- Website ENVIID yang saya kembangkan dengan bantuan AI.
+- DataRescue, RepairGate, dan ApplyProof.
+- Pengalaman mengajar, organisasi kampus, dan sertifikat kursus pilihan.
+
+Saya juga menyertakan catatan proyek dan dokumentasi pendukung untuk menjelaskan kontribusi saya serta proses pengerjaannya.
+
+Portofolio: https://ardhyanovri.my.id/
+GitHub: https://github.com/vanovri

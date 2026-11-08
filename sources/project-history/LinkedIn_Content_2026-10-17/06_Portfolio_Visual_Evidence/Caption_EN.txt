@@ -1,0 +1,13 @@
+I'd like to share my portfolio, with a selection of my work in electrical engineering, embedded systems, Python, and software development.
+
+It includes:
+- My electrical engineering internship at Angkasa Pura Indonesia.
+- An STM32-based EMG acquisition and monitoring project.
+- The ENVIID website, which I developed with AI assistance.
+- DataRescue, RepairGate, and ApplyProof.
+- Teaching experience, campus roles, and selected course certificates.
+
+I've included project notes and supporting documentation so you can see my contribution and the process behind the work.
+
+Portfolio: https://ardhyanovri.my.id/
+GitHub: https://github.com/vanovri

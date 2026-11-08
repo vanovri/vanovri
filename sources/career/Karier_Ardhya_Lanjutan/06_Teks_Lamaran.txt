@@ -1,0 +1,12 @@
+TEKS PENGANTAR LAMARAN, BELUM DIKIRIM
+
+PT Gapura Sarana Cipta, Junior Engineer
+Saya Ardhya Novri Ramadhan, lulusan S1 Teknik Elektro Universitas Diponegoro dengan IPK 3,43. Saya berminat pada jalur Junior Engineer yang menerima fresh graduate. Pengalaman awal saya meliputi elektronika, pemantauan suhu berbasis IoT, kendali motor DC, serta paparan sistem UPS dan converter saat magang. Dalam proyek akhir, saya mengerjakan akuisisi dan pengolahan EMG berbasis STM32 serta implementasi GUI Python/Tkinter. Saya siap memperkuat kemampuan sesuai kebutuhan proyek. CV terlampir merangkum pengalaman yang dapat saya jelaskan dalam interview. Saya berdomisili di Bekasi. Mohon informasi alamat penempatan harian untuk posisi ini.
+
+PT Arista Pratama Jaya, Junior Engineer
+Saya Ardhya Novri Ramadhan, lulusan S1 Teknik Elektro Universitas Diponegoro dengan IPK 3,43. Saya berminat pada posisi Junior Engineer untuk fresh graduate. Saya memiliki dasar elektronika, dokumentasi teknis dan pengalaman proyek STM32/Python. Magang saya memberikan paparan awal pada sistem UPS dan converter di Bandara Soekarno-Hatta. Saya ingin mengembangkan kemampuan testing, maintenance dan troubleshooting dalam tim engineering. Saya berdomisili di Bekasi dan memprioritaskan penempatan sekitar Jakarta Timur atau Bekasi. Mohon informasi alamat proyek serta kebutuhan perjalanan dinas.
+
+Lacak.io, Presales Engineer Intern, hanya jika menerima uang saku di bawah target UMR
+Saya Ardhya Novri Ramadhan, lulusan S1 Teknik Elektro Universitas Diponegoro. Saya berminat pada Presales Engineer Intern di workshop Pondok Gede. Saya memiliki pengalaman awal pada pemantauan suhu berbasis IoT, kendali motor DC, serta proyek akuisisi EMG STM32 dan GUI Python/Tkinter. Saya ingin mempelajari produk IoT fleet management dan meningkatkan kemampuan menjelaskan solusi teknis kepada pelanggan. Saya berdomisili di Jatiwaringin, Bekasi. Saya melampirkan CV untuk pertimbangan dan ingin memastikan alamat workshop serta ketentuan magang enam bulan.
+
+Sebelum kirim, cocokkan judul posisi, lampiran dan alamat perusahaan. Teks tidak mengklaim penguasaan PLC, MEP lapangan, kemampuan sales, atau kepemilikan laptop/SIM C yang belum dikonfirmasi. Gunakan CV Electrical untuk dua posisi junior. CV Embedded juga dapat digunakan untuk posisi IoT.

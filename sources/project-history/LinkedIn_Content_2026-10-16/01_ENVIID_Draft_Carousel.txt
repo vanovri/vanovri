@@ -1,0 +1,70 @@
+DRAFT CAROUSEL PERTAMA
+Status: draft copy. Belum diposting. File ini berisi naskah, bukan PDF slide final.
+
+SLIDE 1
+Website ENVIID yang saya bangun sendiri
+Dengan bantuan AI, dari halaman perusahaan sampai demo alur digital.
+Visual: screenshot halaman utama ENVIID yang terbaru.
+
+SLIDE 2
+Kebutuhannya dimulai dari informasi perusahaan
+Saya ingin membantu ENVIID menjelaskan perusahaan, proyek dan pendekatan teknologinya lewat website yang bisa dibuka publik.
+Visual: halaman About atau Solutions, tanpa angka operasional tambahan.
+
+SLIDE 3
+Bagian yang saya kerjakan
+Saya menjadi satu-satunya developer website ENVIID. Saya memakai bantuan AI dalam proses pengembangannya.
+Lingkup web mencakup halaman perusahaan, informasi proyek, kalkulator karbon dan demonstrasi alur digital MRV.
+Visual: daftar halaman dan screenshot masing-masing fitur.
+
+SLIDE 4
+Kalkulator perlu menjelaskan batasannya
+Hasil kalkulator merupakan estimasi. Alur digital MRV memperlihatkan demonstrasi pengukuran, pelaporan dan verifikasi.
+Keduanya perlu dibaca sesuai konteks demonstrasi yang tampil di website.
+Visual: screenshot kalkulator dan label estimasi yang benar-benar tampil. Jangan menambahkan badge sertifikasi.
+
+SLIDE 5
+Website publik menjadi bukti pekerjaan
+Pembaca bisa membuka halaman dan melihat alurnya langsung di enviid.web.id.
+Untuk studi kasus ini, saya menunjukkan fitur yang tersedia. Saya belum memakai angka peningkatan pengunjung atau dampak bisnis yang belum terukur.
+Visual: screenshot website publik. Jangan membuat grafik kunjungan buatan.
+
+SLIDE 6
+Pelajaran yang saya bawa
+Bantuan AI tetap membutuhkan keputusan manusia tentang isi, alur dan batas klaim.
+Saya ingin terus membuat antarmuka yang membantu orang memahami konteks sebelum mengambil keputusan.
+Visual: potongan antarmuka dengan anotasi sederhana mengenai fungsi dan batasannya.
+
+SLIDE 7
+Lihat websitenya
+enviid.web.id
+Portofolio: ardhyanovri.my.id
+Saat membuka website perusahaan teknologi, informasi apa yang paling ingin kamu lihat lebih dulu?
+Visual: URL besar dan screenshot halaman utama berukuran kecil.
+
+CAPTION
+Website ENVIID saya develop sendiri, dengan bantuan AI dalam proses pengerjaannya.
+
+Saya mulai dari kebutuhan untuk menjelaskan perusahaan dan proyeknya lewat halaman yang bisa diakses publik. Lingkup yang saya kerjakan mencakup halaman perusahaan, informasi proyek, kalkulator karbon dan demonstrasi alur digital MRV. MRV berarti pengukuran, pelaporan dan verifikasi.
+
+Bagian yang perlu dijelaskan dengan hati-hati adalah konteks fitur. Kalkulator memberikan estimasi. Alur digital MRV menunjukkan demonstrasi. Saya ingin pembaca memahami batas itu saat mencoba websitenya.
+
+Saya membagikan studi kasus ini lewat fitur yang bisa dilihat langsung. Saya belum menyertakan klaim kenaikan traffic, penghematan waktu atau dampak bisnis yang belum saya ukur.
+
+Pengalaman ini membuat saya lebih memperhatikan hubungan antara informasi yang ditulis, interaksi di layar dan bukti yang tersedia. Bantuan AI mendukung proses pengembangan, sementara saya tetap meninjau keputusan dan hasil akhirnya.
+
+Website: https://enviid.web.id
+Portofolio: https://ardhyanovri.my.id
+
+Saat membuka website perusahaan teknologi, informasi apa yang paling ingin kamu lihat lebih dulu?
+
+ALTERNATIF POST TEKS
+Saya develop website ENVIID sendiri dengan bantuan AI.
+
+Lingkupnya mencakup halaman perusahaan, informasi proyek, kalkulator karbon dan demonstrasi alur digital MRV, yaitu pengukuran, pelaporan dan verifikasi.
+
+Saat membagikan proyek ini, saya berusaha menjelaskan batas setiap fitur. Hasil kalkulator merupakan estimasi. Alur MRV merupakan demonstrasi. Bukti yang saya tampilkan adalah website dan fitur yang bisa dicoba langsung.
+
+Proyeknya bisa dilihat di https://enviid.web.id.
+
+Menurut kamu, bagian apa yang paling penting dijelaskan ketika sebuah website menampilkan kalkulator atau simulasi?

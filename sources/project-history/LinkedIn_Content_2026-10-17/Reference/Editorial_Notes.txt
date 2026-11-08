@@ -1,0 +1,33 @@
+MATERI TAMBAHAN LINKEDIN
+Ditinjau 17 Oktober 2026. Materi pengguna adalah referensi editorial, bukan bukti pengalaman pribadi.
+
+SUMBER PRIMER
+Google Developers Blog, 13 Oktober 2026:
+https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/
+Kasus ADK: 11 jam, enam usulan optimasi, dua diterapkan setelah review. Empat usulan ditolak. Satu varian lolos 16.892 tes open-source tetapi gagal pada 25 target tes internal. Angka ini milik eksperimen Google, bukan hasil proyek Ardhya.
+
+Google AI for Developers, diperiksa 17 Oktober 2026:
+https://ai.google.dev/gemini-api/docs/latest-model
+Input, thinking dan output berbagi jendela 1.048.576 token. Long decode memerlukan background execution untuk respons melewati 65.536 token. Jangan menjanjikan satu juta token output tambahan di luar input dan thinking. Harga perkenalan API USD 2 per satu juta input dan USD 10 per satu juta output berlaku hingga 30 November 2026. Setelahnya USD 4 dan USD 20. Diskon cache 95 persen berlaku pada cache hit. Verifikasi ulang sebelum mengutip harga pada draft mendatang. Harga bukan biaya total sebuah run.
+
+Video yang cocok dengan judul materi:
+https://www.youtube.com/watch?v=gRhM1h10T3U
+Judul ditemukan. Transkrip lengkap belum diverifikasi. Detail sepuluh demo, timestamp, skor critic 9/10, ketepatan medis, CAD, NASA dan toleransi tidak menjadi klaim siap publikasi hanya karena muncul dalam ringkasan pengguna.
+
+BUKTI PROYEK PRIBADI
+https://github.com/vanovri/repairgate
+README lokal: C:/Users/ardhy/Projects/repairgate/README.md
+Demo memutar tiga proposal yang direkam. Evaluator menjalankan pemeriksaan sesungguhnya. Ini menunjukkan perilaku verifikasi, bukan tingkat keberhasilan model AI. Holdout contoh tersedia publik dan tidak menjadi benchmark rahasia. Salinan sementara dan pembatasan AST tidak menjadi security sandbox.
+
+LIMA ANGLE UNTUK ROTASI
+1. Verifikasi hasil AI. Draft hari ini menghubungkan kasus ADK dan RepairGate. Hindari mengulang angle ini pada run berikutnya.
+2. Cerita proses membangun. Gunakan kejadian nyata dari proyek pengguna. Jangan mengubah contoh cerita debugging semalaman menjadi pengalaman pribadi yang belum dikonfirmasi.
+3. Data dan biaya. Bedakan metrik tahap tertentu dari latensi aplikasi keseluruhan. Butuh log token, cache, biaya tool dan waktu manusia untuk membahas ROI. Tanpa data tersebut, buat checklist pengukuran, bukan angka penghematan.
+4. Playbook verifikasi. Target terukur, baseline, tes terlindungi, batas perubahan dan runtime, pemeriksaan independen, lalu review manusia. Tidak menjanjikan setup pasti selesai 30 menit atau kode bebas regresi.
+5. Software dan hardware. Kaitkan dengan pengalaman STM32, EMG dan UART yang sudah terbukti. Bahas kebutuhan kalibrasi dan pengujian fisik. Demo visual atau CAD tidak membuktikan keselamatan perangkat atau ketepatan medis.
+
+ATURAN EDITORIAL
+Bahasa Indonesia santai-profesional. Fakta pihak lain selalu diberi atribusi. Opini ditulis sebagai opini. Tidak mengaku sudah mencoba Gemini 4 Argon jika belum ada bukti. Tidak menyalin kata demi kata draft lampiran. Tidak memakai klaim kausal, angka dampak, peserta, atau cerita pribadi rekaan.
+
+JADWAL DAN REVIEW
+Draft langsung disiapkan 17 Oktober 2026. Rutinitas tetap dua hari sekali pukul 19.17 WIB. Semua berstatus draft sampai pengguna menyetujui hasil akhir. Dilarang mengunggah, menjadwalkan posting LinkedIn, atau memposting otomatis.

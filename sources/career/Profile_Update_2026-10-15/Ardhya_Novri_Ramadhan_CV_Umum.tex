@@ -1,0 +1,174 @@
+% General CV, simple monochrome layout requested by the user.
+% The existing filename is retained for the open document editor.
+% Candidate facts: local evidence profile, source documents and user clarifications.
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={Ardhya Novri Ramadhan - CV},pdfauthor={Ardhya Novri Ramadhan},
+  pdfpagemode=UseNone}
+\pagestyle{plain}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=1pt,topsep=2pt,parsep=0pt}
+\titleformat{\section}{\normalfont\bfseries\fontsize{11}{13}\selectfont}{}{0pt}{\MakeUppercase}[\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\newcommand{\cventry}[6]{%
+  \Needspace{4\baselineskip}%
+  \textbf{#3}\hfill #1\par
+  \textit{#2}\ifstrempty{#4}{}{\hfill #4}\par
+  #6\par\vspace{4pt}}
+\newcommand{\cvitem}[2]{\textbf{#1}: #2\par}
+\begin{document}
+\begin{center}
+{\fontsize{19}{22}\selectfont\bfseries Ardhya Novri Ramadhan}\par
+\vspace{3pt}
+{\small Bekasi, Indonesia\enspace |\enspace +62 812 9155 2970\enspace |\enspace
+\href{mailto:ardhyasan@gmail.com}{ardhyasan@gmail.com}}\par
+{\small \href{https://www.linkedin.com/in/dhya/}{linkedin.com/in/dhya}\enspace |\enspace
+\href{https://ardhyanovri.my.id}{ardhyanovri.my.id}\enspace |\enspace
+\href{https://github.com/vanovri}{github.com/vanovri}}
+\end{center}
+\raggedright
+
+Bachelor of Engineering in Electrical Engineering from Diponegoro University, with experience
+in electronics, airport electrical systems, student organizations and community projects. Develops embedded monitoring systems and
+AI-assisted software, and is the sole developer of ENVIID's company website.
+
+\section{Education}
+\cventry{Aug 2022 - Sep 2026}{Bachelor of Engineering in Electrical Engineering}{Diponegoro University}{}{}{
+GPA: 3.43/4.00. Graduated on 29 September 2026.}
+\cventry{Jul 2019 - May 2022}{Natural Sciences}{SMA Negeri 5 Bekasi}{}{}{}
+
+\section{Professional and Community Experience}
+% The user confirmed the role started when the website was made, 12 October 2026.
+\cventry{Oct 2026 - Present}{Chief Technology Officer / IT \& Digital Lead}{ENVIID Carbon Solutions}{}{}{
+Sole developer of the company website, built with AI assistance, including project information,
+a carbon calculator and a digital MRV workflow demonstration.}
+\cventry{Jan 2026 - Feb 2026}{Community Service Participant (KKN)}{Diponegoro University}{Mutihan, Klaten}{}{
+\begin{itemize}
+\item Helped assemble and install a solar-powered Smart Owl House, including sensors, battery and controller. Prepared operating and maintenance guidance.
+\item Assisted village administration, Posyandu activities, BUMDes bookkeeping and community cleanups. Joined mosque and cemetery painting activities.
+\item Supported school scouting activities and earthquake preparedness education. Helped produce and hand over the village profile video.
+\end{itemize}}
+\cventry{Jul 2025 - Aug 2025}{Internship Trainee}{PT Angkasa Pura Indonesia}{}{}{
+\begin{itemize}
+\item Rotated for five weeks in UPS/converter systems and three weeks in electrical protection at Soekarno-Hatta International Airport.
+\item Visited substations and focused on learning protection relays. Received SCADA instruction and observed PLC installations.
+\end{itemize}}
+\cventry{2025}{Basic Electronics Practicum Assistant}{Diponegoro University}{}{}{
+Assisted students with laboratory activities and basic electronic components.}
+\cventry{Jan 2025 - Feb 2025}{Electronics Technician}{Redesma Technologies}{}{}{
+Worked on IoT temperature monitoring and DC motor control. Co-authored an SOP
+for comparing Blynk and Thinger.io using ESP32 and a DS18B20 sensor.}
+
+\section{Skills}
+\cvitem{Electrical and embedded}{Electronics, sensor integration, C, STM32 HAL,
+STM32CubeIDE, ADC, DMA, timers and UART. Field learning in UPS/converters, protection relays and SCADA.}
+\cvitem{Software and media}{Python, Tkinter, React, FastAPI, Git, automated tests,
+digital filtering, RMS/MAV extraction, CSV/JSON processing and Canva.}
+
+\newpage
+\section{Organizations and Event Committees}
+\cventry{2025}{Head of Media Division}{Society of Electronics Engineering Division (SEED)}{}{}{
+Served as Head of Media for the 2025 student bureau at Diponegoro University.}
+\cventry{Class of 2025}{Google Student Ambassador}{Google Student Ambassador Program}{}{}{
+Completed the student program and received recognition for championing Google AI within the campus community.}
+\cventry{Sep 2024 - Dec 2025}{Student Member}{Society of Petroleum Engineers (SPE)}{}{}{
+Joined professional learning activities, including technical writing and geothermal drilling sessions.}
+\cventry{Oct 2024}{Workshop Instructor}{ENIGMA Vol. 3, SEED / HME UNDIP}{}{}{
+Taught basic electronics workshop activities involving circuits, wiring and PCB work.}
+\cventry{Sep 2024}{Organizational Delegate}{Indonesia International Sustainability Forum (ISF)}{}{}{
+Participated in the sustainability forum as an organizational delegate.}
+\cventry{2024}{Creative Design Staff, Kantor Media Informasi (KMI)}{Himpunan Mahasiswa Elektro, Diponegoro University}{}{}{
+Supported student organization media and design work. Assigned as a co-responsible staff member for the HME Rewind documentation program.}
+\cventry{2023}{Event Committee Member}{LKMM-PD, HME UNDIP}{}{}{
+Served on the committee for introductory student management and leadership training.}
+% Two official committee lists establish 2023; an older self-reported form says 2022.
+\cventry{2023}{Logistics / Equipment Committee Member}{PMB Teknik Elektro, Diponegoro University}{}{}{
+Prepared equipment and facilitated the needs of the new-student welcoming activities.}
+\cventry{Nov 2022 - Jan 2023}{Campaign Contributor}{Decarbonizing Indonesia}{}{}{
+Created social media campaign and design materials about decarbonization.}
+\cventry{Aug 2022}{Participant}{PKKMB and Pendikar, Diponegoro University}{}{}{
+Completed the 40-hour new-student orientation and character education program, 15-20 August 2022.}
+\cventry{Jan 2021 - Dec 2021}{Vice Secretary}{Information and Communication Technology (ICT), SMA Negeri 5 Bekasi}{}{}{
+Prepared work-program and accountability documents, and maintained attendance and member assessment records.}
+\cventry{Nov 2021}{Committee Secretary and Session Instructor}{ICT Leadership Regeneration, SMA Negeri 5 Bekasi}{}{}{
+Prepared event administration and delivered the secretarial training session for incoming ICT committee members.}
+\cventry{2021}{Event Secretary}{CINOTIC, SMA Negeri 5 Bekasi}{}{}{
+Supported proposals, reporting and event administration for the Science Techno \& Journalistic Competition.}
+
+\newpage
+\section{Projects and Technical Proposals}
+% Each project keeps one dated heading and its description, avoiding redundant role lines.
+\renewcommand{\cventry}[6]{%
+  \Needspace{3\baselineskip}%
+  \textbf{#3}\hfill #1\par
+  #6\par\vspace{5pt}}
+% Software implementation used AI coding assistance. Proposal outcomes are not field deployments.
+\cventry{Oct 2026}{Code-repair Verification Tool}{\href{https://github.com/vanovri/repairgate}{RepairGate}}{}{}{
+Developed a code-repair verifier with protected tests, independent holdout checks and exported patch decisions.
+Includes an optional local Ollama adapter and a recorded-candidate demonstration.}
+\cventry{Oct 2026}{Evidence-based Application Workspace}{\href{https://github.com/vanovri/applyproof}{ApplyProof}}{}{}{
+Developed an application workspace with a reviewed fact ledger, explicit skill comparison, office/worksite distinction
+and traceable application drafts. Optional AI selects fact IDs for verbatim drafting.}
+\cventry{Oct 2026}{Structured Data Repair Tool}{\href{https://github.com/vanovri/datarescue}{DataRescue}}{}{}{
+Built a local CSV/JSON validation workbench and CLI with rule-based normalization, quarantine of rejected rows and audit-report exports, covered by automated tests.}
+\cventry{Oct 2026}{Serial Parser Test Toolkit}{\href{https://github.com/vanovri/uart-fixture-kit}{uart-fixture-kit}}{}{}{
+Developed reusable synthetic UART fixtures and virtual-time replay to reproduce fragmented,
+malformed and concatenated byte streams without serial hardware.}
+\cventry{2026}{Engineering Portfolio and Browser Game}{\href{https://ardhyanovri.my.id}{Personal Portfolio / Anak Kos Survival}}{}{}{
+Developed an engineering portfolio with project evidence and a simulated EMG preview.
+Earlier work includes a seven-day browser game and an interactive portfolio world, retained in the project archive.}
+\cventry{2026}{Solar UAV Concept and Interactive Demonstration}{Nusantara SolarWing}{}{}{
+Prepared a model-based concept package using historical solar data, wind sensitivity
+and battery reserve planning for maritime patrol scenarios.}
+\cventry{Thesis, 2026}{Academic Thesis}{EMG Acquisition and Monitoring System}{}{}{
+Academic thesis, Diponegoro University.
+\begin{itemize}
+\item Implemented 12-bit ADC acquisition with DMA on STM32F411CEU6 and SEN0240 at a nominal 4 kHz sampling rate.
+\item Applied 20 Hz high-pass, 500 Hz low-pass and 50 Hz notch filtering, with RMS/MAV extraction over 400 samples.
+\item Built the Python/Tkinter interface for UART telemetry at 115200 baud, live plots, status monitoring and CSV export, with coding-agent assistance. Teammates handled the stimulator and fuzzy control.
+\end{itemize}}
+\cventry{2025}{Engineering Economics Group Assignment}{PLTA Jatigede Case Study}{}{}{
+Contributed the introduction and task allocation to a group presentation covering
+NPV, benefit-cost ratio and payback period.}
+\cventry{2025}{Technology Development Proposal}{Redesma Technologies / Timor-Leste Concept}{}{}{
+Authored a proposal for rural technology options, including solar-powered irrigation,
+community warning systems and digital monitoring.}
+\cventry{2024}{Environmental Technology Concept}{EnvironmentID: IoT-powered Biofiltration}{}{}{
+Co-authored an abstract proposing smart sensors and oyster ecosystems for coastal water-quality monitoring and biofiltration.}
+\cventry{2024}{Public Service Technology Proposal}{GOVTECH / Gov-AI Hackathon Proposal}{}{}{
+Prepared a proposal for integrated digital public services using APIs, responsive interfaces and AI-assisted information services.}
+
+\newpage
+\section{Courses, Workshops and Certifications}
+\cvitem{Sep 2026}{\textbf{Introduction to Internet of Things}, Cisco Networking Academy. Completed 27 September 2026.}
+\cvitem{Sep 2026}{\textbf{AI Fundamentals}, Google via Coursera. Completed 26 September 2026.}
+\cvitem{Sep 2025}{\textbf{SPENTRODUCE: Exploring the Downstream Oil and Gas Industry}, SPE UNDIP Student Chapter. Participant.}
+\cvitem{Jan 2025}{\textbf{AI-Powered Shopping Ads Certification}, Google Skillshop. Historical credential, expired January 2026.}
+\cvitem{Oct 2024}{\textbf{Workover and Well Service Talks}, IATMI Student Chapter ITB. Participant.}
+\cvitem{Sep 2024}{\textbf{Automation Clinic: Motor Protection and Control}, Engineering Academy. Participant.}
+\cvitem{Sep 2024}{\textbf{How to Write a Good Technical Paper}, SPE. 1.5-hour continuing education session.}
+\cvitem{Sep 2024}{\textbf{Geothermal Drilling in Volcanic and Metamorphic Basins}, SPE. 1.5-hour continuing education session.}
+\cvitem{Sep 2024}{\textbf{Strategies in Geothermal Exploration: Maximizing Indonesia's Potential}, SPE UNDIP Student Chapter. Guest lecture participant.}
+\cvitem{Sep 2024}{\textbf{Ethics of Artificial Intelligence: Navigating Responsible Technology for the Future}, SkilHub Community by Skilvul / Nocturnailed. Webinar participant.}
+\cvitem{May 2024}{\textbf{Fundamentals of Digital Marketing}, Google Digital Academy / Skillshop. Completed 27 May 2024.}
+\cvitem{May 2024}{\textbf{Introduction to Electronics}, The Open University OpenLearn. Completed a 10-hour course on 21 May 2024.}
+\cvitem{May 2024}{\textbf{IT: Device to Device Communication}, The Open University OpenLearn. Completed a 20-hour course on 19 May 2024.}
+\cvitem{Mar 2024 - May 2024}{\textbf{College Copilot Bootcamp (CABOOT)}. Completed six sessions, 20 March - 4 May 2024.}
+\cvitem{Nov 2020 - Feb 2021}{\textbf{KSN-K Geography Preparation}. Participant in the 8 November 2020 - 7 February 2021 training program.}
+% The live profile lists this course without an issue date; do not invent one.
+\cvitem{Date not recorded}{\textbf{ML/AI Fundamentals: How Machine Learning Is Shaping the Oil \& Gas Industry}, SPE Java Section.}
+
+\section{Additional Recognition}
+\cvitem{May 2024}{\textbf{100 Design Achievement Badge}, Canva.}
+\cvitem{2019}{\textbf{Try Out Akbar Winner}, Penerbit Erlangga. Score: 100, SMP/MTs category, Jakarta. SMP Angkasa Halim Perdanakusuma.}
+
+\end{document}

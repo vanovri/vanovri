@@ -1,0 +1,10 @@
+I'd like to share my portfolio, with a selection of projects and experiences in electrical engineering, embedded systems, Python, and software development.
+
+It includes my STM32-based EMG project, the ENVIID website, and several software tools I've built with AI assistance. I've also included my internship experience, teaching activities, and campus organization roles.
+
+The project notes explain what I contributed and the process behind the work.
+
+Feel free to have a look. I'd be happy to hear your feedback or connect about engineering and software projects.
+
+Portfolio: https://ardhyanovri.my.id/
+GitHub: https://github.com/vanovri

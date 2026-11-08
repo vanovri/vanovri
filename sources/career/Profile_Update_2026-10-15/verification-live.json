@@ -1,0 +1,35 @@
+{
+  "domain": "https://ardhyanovri.my.id",
+  "deployment": "https://ardhya-novri-mriojy3uj-dhya3.vercel.app",
+  "routes": {
+    "/": 200,
+    "/about": 200,
+    "/experience": 200,
+    "/projects": 200,
+    "/credentials": 200,
+    "/cv-ardhya.pdf": 200,
+    "/js/search-index.js": 200
+  },
+  "degree_wording_verified": true,
+  "sole_developer_verified": true,
+  "ai_fundamentals_verified": true,
+  "project_cards": 14,
+  "public_cv_exact_match": true,
+  "public_cv_pages": 4,
+  "public_cv_phone_removed": true,
+  "public_cv_sha256": "37fb4a6c3d6eff5a6d6a278c43dc69ddefa8e0556e7b0f9a07c858580ae2ae51",
+  "existing_security_headers_unchanged": true,
+  "responsive_preview": {
+    "mobile_width": 390,
+    "horizontal_overflow": false,
+    "enviid_filter": "1 of 14 projects",
+    "desktop_width": 1536
+  },
+  "linkedin": {
+    "headline_saved": true,
+    "about_saved": true,
+    "enviid_experience_saved_and_readback": true,
+    "cover_saved_and_visually_verified": true,
+    "ai_fundamentals_course_present": true
+  }
+}

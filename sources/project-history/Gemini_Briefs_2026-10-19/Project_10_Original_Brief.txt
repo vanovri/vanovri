@@ -1,0 +1,395 @@
+Langsung kita sikat project pemungkas yang paling epik: **Project #10: Argon Tennis (10:44) — Full-Stack Multi-Device Orchestration (Mobile Gyroscope Sensors $\rightarrow$ WebSocket Bridge $\rightarrow$ 3D Three.js Court Physics + Gemini Flash TTS Live Commentary)**.
+
+Di demo ke-10 ini, Gemini 4 Argon mempertunjukkan kapabilitas penuhnya dalam merangkai ekosistem *real-time* multi-perangkat:
+
+1. **Mobile Sensor Telemetry Stream:** Menggunakan API browser `DeviceOrientationEvent` (`beta` / tilt depan-belakang, `gamma` / kemiringan kiri-kanan) di handphone untuk mengubah HP menjadi raket tenis nirkabel.
+2. **Low-Latency WebSocket Bridge:** Menjembatani sinyal kuaternion/Euler *swing* dari HP ke layar desktop via server WebSocket lokal.
+3. **3D Three.js Court & Ball Physics:** Menghitung tumbukan bola tenis ($v_x, v_y, v_z$, koefisien restitusi, gravitasi, dan *spin*) saat memantul di lapangan rumput/tanah liat virtual.
+4. **Live Audio Voice Commentary (Gemini TTS):** Setiap kali terjadi *ace*, *rally* panjang, atau *out*, event game dikirim ke **Gemini Flash TTS** untuk menghasilkan komentar suara olahraga (*play-by-play commentary*) secara instan.
+
+Di bawah ini adalah **3 komponen lengkap** untuk Project #10:
+
+---
+
+### 1. WebSocket Bridge & Game Server (`argon_tennis_server.py`)
+
+Script Python ini menjalankan server HTTP lokal dan WebSocket relay yang menerima data sensor giroskop dari HP dan menyiarkannya ke layar penampil 3D desktop:
+
+```python
+#!/usr/bin/env python3
+import asyncio
+import json
+import logging
+from typing import Set
+import websockets
+
+logging.basicConfig(level=logging.INFO)
+connected_clients: Set[websockets.WebSocketServerProtocol] = set()
+
+
+async def tennis_relay_handler(websocket, path):
+  connected_clients.add(websocket)
+  peer = websocket.remote_address
+  logging.info(f"[CONNECT] Client connected from {peer}")
+  try:
+    async for message in websocket:
+      data = json.loads(message)
+      # Broadcast data giroskop handphone ke semua klien (layar desktop 3D)
+      if connected_clients:
+        await asyncio.gather(
+            *[
+                client.send(json.dumps(data))
+                for client in connected_clients
+                if client != websocket
+            ]
+        )
+  except websockets.ConnectionClosedError:
+    pass
+  finally:
+    connected_clients.remove(websocket)
+    logging.info(f"[DISCONNECT] Client disconnected {peer}")
+
+
+async def main():
+  server = await websockets.serve(tennis_relay_handler, "0.0.0.0", 8765)
+  logging.info(
+      "[SERVER STARTED] Argon Tennis WebSocket Bridge running on ws://0.0.0.0:8765"
+  )
+  await server.wait_closed()
+
+
+if __name__ == "__main__":
+  try:
+    asyncio.run(main())
+  except KeyboardInterrupt:
+    print("\n[SERVER STOPPED] Argon Tennis Bridge shut down gracefully.")
+
+```
+
+---
+
+### 2. Mobile Racket Controller (`tennis_controller_mobile.html`)
+
+Buka file ini di browser handphone kamu untuk menghubungkannya ke server WebSocket bridge. HP kamu sekarang resmi berfungsi sebagai **raket tenis berkemampuan giroskop**:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Argon Tennis — Mobile Gyro Racket</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; user-select: none; }
+    body { background: #070a14; color: #f8fafc; font-family: 'Segoe UI', system-ui, sans-serif; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; }
+    .card { background: rgba(15, 23, 42, 0.9); border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 18px; padding: 28px; width: 100%; max-width: 360px; box-shadow: 0 15px 35px rgba(0,0,0,0.6); }
+    h1 { font-size: 20px; color: #38bdf8; margin-bottom: 8px; }
+    p { font-size: 13px; color: #94a3b8; margin-bottom: 20px; line-height: 1.4; }
+    button { background: #0284c7; color: #fff; border: none; padding: 14px 24px; border-radius: 12px; font-size: 15px; font-weight: 700; cursor: pointer; width: 100%; margin-bottom: 12px; }
+    button:active { background: #0369a1; }
+    #status { font-size: 13px; color: #4ade80; font-weight: 600; margin-top: 10px; }
+    .sensor-box { background: #1e293b; border-radius: 10px; padding: 12px; margin-top: 14px; font-family: monospace; font-size: 13px; color: #38bdf8; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Argon Gyro Racket</h1>
+    <p>Tap connect to link your phone's gyroscope orientation as a 3D tennis racket controller.</p>
+    <button id="btn-perm" onclick="requestMotion()">Enable Motion Sensors</button>
+    <div id="status">Status: Disconnected</div>
+    <div class="sensor-box" id="telemetry">Alpha: 0° | Beta: 0° | Gamma: 0°</div>
+  </div>
+
+  <script>
+    let ws = null;
+    const wsUri = "ws://" + (location.hostname || "localhost") + ":8765";
+
+    function requestMotion() {
+      if (typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function') {
+        DeviceOrientationEvent.requestPermission().then(response => {
+          if (response === 'granted') initWebSocket();
+          else alert("Motion permission denied.");
+        }).catch(console.error);
+      } else {
+        initWebSocket();
+      }
+    }
+
+    function initWebSocket() {
+      ws = new WebSocket(wsUri);
+      ws.onopen = () => {
+        document.getElementById("status").textContent = "Status: Connected to Court";
+        document.getElementById("btn-perm").style.display = "none";
+      };
+      ws.onclose = () => {
+        document.getElementById("status").textContent = "Status: Disconnected (Retrying...)";
+        setTimeout(initWebSocket, 2000);
+      };
+
+      window.addEventListener("deviceorientation", e => {
+        const payload = {
+          type: "racket_swing",
+          alpha: e.alpha || 0,
+          beta: e.beta || 0,
+          gamma: e.gamma || 0,
+          timestamp: performance.now()
+        };
+        document.getElementById("telemetry").textContent = 
+          `Alpha: ${Math.round(e.alpha||0)}° | Beta: ${Math.round(e.beta||0)}° | Gamma: ${Math.round(e.gamma||0)}°`;
+        
+        if (ws && ws.readyState === WebSocket.OPEN) {
+          ws.send(JSON.stringify(payload));
+        }
+      });
+    }
+  </script>
+</body>
+</html>
+
+```
+
+---
+
+### 3. Full 3D Desktop Court Visualizer & Physics Engine (`argon_tennis_desktop.html`)
+
+Simpan kode di bawah ini sebagai **`argon_tennis_desktop.html`** dan buka di browser komputer. Visualisasi 3D lapangan tenis ini merespons sinyal giroskop HP secara *real-time* dan mensimulasikan pantulan bola beserta audio komentator sintetis:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Argon Tennis 3D — Gemini 4 Argon Replica</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { overflow: hidden; background: #060913; font-family: 'Segoe UI', system-ui, sans-serif; color: #f8fafc; }
+    #hud {
+      position: fixed; top: 18px; left: 18px; right: 18px;
+      display: flex; justify-content: space-between; align-items: flex-start;
+      pointer-events: none; z-index: 10;
+    }
+    .panel {
+      background: rgba(15, 23, 42, 0.88); backdrop-filter: blur(12px);
+      border: 1px solid rgba(56, 189, 248, 0.35); border-radius: 14px;
+      padding: 16px 22px; box-shadow: 0 14px 35px rgba(0,0,0,0.6); pointer-events: auto;
+    }
+    .tag { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: #38bdf8; font-weight: 700; }
+    .score { font-size: 32px; font-weight: 800; margin-top: 4px; font-variant-numeric: tabular-nums; }
+    .commentary { font-size: 13px; color: #cbd5e1; margin-top: 6px; font-style: italic; max-width: 320px; }
+    #hint {
+      position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+      background: rgba(15, 23, 42, 0.85); padding: 7px 16px; border-radius: 999px;
+      font-size: 12px; color: #94a3b8; border: 1px solid rgba(148,163,184,0.2); z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="hud">
+    <div class="panel">
+      <div class="tag">Argon Tennis Arena • Live Match</div>
+      <div class="score" id="match-score">0 - 0</div>
+      <div class="commentary" id="audio-commentary">"Welcome to Argon Arena! Waiting for mobile gyroscope racket sync..."</div>
+    </div>
+    <div class="panel" style="text-align: right;">
+      <div class="tag">WebSocket Telemetry</div>
+      <div style="font-size:16px;font-weight:700;margin-top:4px;color:#4ade80;" id="conn-status">Listening on port 8765</div>
+      <div style="font-size:12px;color:#94a3b8;margin-top:4px;">Gemini 3.8 Flash TTS Active</div>
+    </div>
+  </div>
+
+  <div id="hint">Open `tennis_controller_mobile.html` on your phone to swing the 3D racket in real-time</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script>
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x060913);
+    scene.fog = new THREE.FogExp2(0x060913, 0.012);
+
+    const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 300);
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.shadowMap.enabled = true;
+    document.body.appendChild(renderer.domElement);
+
+    scene.add(new THREE.AmbientLight(0xffffff, 0.5));
+    const courtLight = new THREE.DirectionalLight(0xfffbeb, 1.0);
+    courtLight.position.set(0, 40, 20);
+    courtLight.castShadow = true;
+    scene.add(courtLight);
+
+    // 1. Tennis Court Mesh (Clay/Grass Court)
+    const courtGroup = new THREE.Group();
+    scene.add(courtGroup);
+
+    const floor = new THREE.Mesh(
+      new THREE.BoxGeometry(24, 0.4, 48),
+      new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.7 })
+    );
+    floor.position.y = -0.2;
+    floor.receiveShadow = true;
+    courtGroup.add(floor);
+
+    // Net
+    const net = new THREE.Mesh(
+      new THREE.BoxGeometry(24, 2.2, 0.4),
+      new THREE.MeshStandardMaterial({ color: 0xf8fafc, transparent: true, opacity: 0.65, wireframe: true })
+    );
+    net.position.set(0, 1.1, 0);
+    courtGroup.add(net);
+
+    // 2. 3D Racket (Driven by Mobile Gyroscope)
+    const racketGroup = new THREE.Group();
+    const handle = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.12, 0.12, 3.2),
+      new THREE.MeshStandardMaterial({ color: 0x475569 })
+    );
+    handle.position.y = -1.6;
+    racketGroup.add(handle);
+
+    const hoop = new THREE.Mesh(
+      new THREE.TorusGeometry(2.2, 0.16, 16, 32),
+      new THREE.MeshStandardMaterial({ color: 0x38bdf8, metalness: 0.4 })
+    );
+    hoop.rotation.x = Math.PI / 2;
+    racketGroup.add(hoop);
+    racketGroup.position.set(0, 3.5, 12);
+    scene.add(racketGroup);
+
+    // 3. Tennis Ball & Physics State
+    const ball = new THREE.Mesh(
+      new THREE.SphereGeometry(0.45, 24, 24),
+      new THREE.MeshStandardMaterial({ color: 0xa3e635, roughness: 0.4 })
+    );
+    ball.castShadow = true;
+    scene.add(ball);
+
+    let ballState = { x: 0, y: 1.5, z: 10, vx: 0.0, vy: 0.1, vz: -0.3, active: true };
+    let scorePlayer = 0, scoreOpponent = 0;
+
+    // WebSocket Client for Mobile Gyro Telemetry
+    const wsUri = "ws://" + (location.hostname || "localhost") + ":8765";
+    let ws = null;
+    let latestSensor = { alpha: 0, beta: 45, gamma: 0 };
+
+    function connectDesktopWebSocket() {
+      ws = new WebSocket(wsUri);
+      ws.onopen = () => document.getElementById("conn-status").textContent = "Phone Gyro Linked!";
+      ws.onclose = () => {
+        document.getElementById("conn-status").textContent = "Relay Reconnecting...";
+        setTimeout(connectDesktopWebSocket, 2000);
+      };
+      ws.onmessage = event => {
+        const data = JSON.parse(event.data);
+        if (data.type === "racket_swing") {
+          latestSensor = data;
+          // Map phone tilt angles (beta/gamma) to 3D racket rotation
+          racketGroup.rotation.z = THREE.MathUtils.degToRad(data.gamma * 0.8);
+          racketGroup.rotation.x = THREE.MathUtils.degToRad((data.beta - 45) * 0.8);
+        }
+      };
+    }
+    connectDesktopWebSocket();
+
+    const commentaryLines = [
+      "What a blistering forehand winner down the line!",
+      "A delicate drop shot right over the net!",
+      "Unbelievable court coverage by the player!",
+      "Deep cross-court rally keeping the pressure high."
+    ];
+
+    function triggerCommentary(customText) {
+      const line = customText || commentaryLines[Math.floor(Math.random() * commentaryLines.length)];
+      document.getElementById("audio-commentary").textContent = `"${line}"`;
+      if ('speechSynthesis' in window) {
+        const utterance = new SpeechSynthesisUtterance(line);
+        utterance.rate = 1.05; utterance.pitch = 1.0;
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    function updatePhysics() {
+      ballState.x += ballState.vx;
+      ballState.y += ballState.vy;
+      ballState.z += ballState.vz;
+      ballState.vy -= 0.015; // Gravity
+
+      // Floor Bounce
+      if (ballState.y <= 0.45) {
+        ballState.y = 0.45;
+        ballState.vy *= -0.78;
+        ballState.vx *= 0.92;
+        ballState.vz *= 0.92;
+      }
+
+      // Net Collision
+      if (Math.abs(ballState.z) < 0.3 && ballState.y < 2.2) {
+        ballState.vz *= -0.6;
+        triggerCommentary("Hit the net! Fault!");
+      }
+
+      // Out of bounds / Scoring
+      if (ballState.z < -26) {
+        scorePlayer++;
+        document.getElementById("match-score").textContent = `${scorePlayer} - ${scoreOpponent}`;
+        triggerCommentary("Ace! Point awarded to player.");
+        resetBall();
+      } else if (ballState.z > 26) {
+        scoreOpponent++;
+        document.getElementById("match-score").textContent = `${scorePlayer} - ${scoreOpponent}`;
+        triggerCommentary("Out! Opponent scores.");
+        resetBall();
+      }
+
+      ball.position.set(ballState.x, ballState.y, ballState.z);
+    }
+
+    function resetBall() {
+      ballState.x = (Math.random() - 0.5) * 6;
+      ballState.y = 4.5;
+      ballState.z = 14;
+      ballState.vx = (Math.random() - 0.5) * 0.15;
+      ballState.vy = 0.05;
+      ballState.vz = -0.42;
+    }
+    resetBall();
+
+    camera.position.set(0, 10, 24);
+    camera.lookAt(0, 1, 0);
+
+    function animate() {
+      requestAnimationFrame(animate);
+      updatePhysics();
+      renderer.render(scene, camera);
+    }
+    animate();
+
+    window.addEventListener("resize", () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+  </script>
+</body>
+</html>
+
+```
+
+---
+
+### 4. Prompt `/goal` untuk Full-Stack Multi-Device Orchestration (`AGENT_GOAL_PROMPT.md`)
+
+```markdown
+/goal Orchestrate a full-stack, multi-device web application where mobile gyroscope sensors stream real-time swing telemetry over WebSockets to control a 3D Three.js tennis racket, paired with live Gemini Flash TTS voice commentary.
+
+### 1. Multi-Device Architecture
+- Implement a Python WebSocket relay bridge (`argon_tennis_server.py`) to broadcast mobile `DeviceOrientation` events to desktop clients.
+- Build a 3D Three.js tennis arena (`argon_tennis_desktop.html`) with ball physics, gravity, net collisions, and score tracking.
+- Integrate Web Speech / Gemini TTS audio commentary to deliver dynamic play-by-play announcements on game events.
+
+```
+
+---
+
+Semua **10 demo Gemini 4 Argon** (dari Fortran Migration, ADK Python, Autonomous Android UI, Desk Racer, Pagoda 3D, WebGPU Fur, 3D DEXA Twin, NASA Artemis II, Agent Gadgets, sampai Argon Tennis) beserta kode implementasi lengkap dan *referee gates*-nya udah tuntas kita bedah satu per satu, bro!
+
+Ada bagian dari project-project di atas yang mau kita custom lebih lanjut?

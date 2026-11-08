@@ -1,0 +1,37 @@
+[
+  {
+    "project": 6,
+    "source": "C:\\Users\\ardhy\\.codex\\attachments\\c928df26-720a-498c-a040-b31449efbaca\\Pasted text.txt",
+    "archive": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_06_Original_Brief.txt",
+    "sha256": "138553ee4cc91e098c5986ac0289c6cac5f01e68a6186fd78aae1666e168c2c3",
+    "lines": 352
+  },
+  {
+    "project": 7,
+    "source": "C:\\Users\\ardhy\\.codex\\attachments\\c9ea1b07-9ed0-4b40-83e1-81340bcb20b4\\Pasted text.txt",
+    "archive": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_07_Original_Brief.txt",
+    "sha256": "7adb8dd40c7b6e8d0e6d4392f03214e68c224a32c7bb0b7294301d0af9031b52",
+    "lines": 514
+  },
+  {
+    "project": 8,
+    "source": "C:\\Users\\ardhy\\.codex\\attachments\\5f84870c-68cc-49d7-8462-b52871471947\\Pasted text.txt",
+    "archive": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_08_Original_Brief.txt",
+    "sha256": "a7319b5ece1d42a799820db0bb4d2d67a43775dc715e7a07607d66d1214adc79",
+    "lines": 623
+  },
+  {
+    "project": 9,
+    "source": "C:\\Users\\ardhy\\.codex\\attachments\\20115d37-a78b-4e0d-90b2-6c8828239c99\\Pasted text.txt",
+    "archive": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_09_Original_Brief.txt",
+    "sha256": "00a787501f556aae79414c49ee9832ba8910acf4b99075e22b9dc7d804e9a8af",
+    "lines": 277
+  },
+  {
+    "project": 10,
+    "source": "C:\\Users\\ardhy\\.codex\\attachments\\077770c8-35b3-4c96-a4ad-22b53d8bbe6e\\Pasted text.txt",
+    "archive": "C:\\Users\\ardhy\\Documents\\Codex\\2026-10-14\\ardhya-handoff-2026-10-14\\outputs\\Gemini_Briefs_2026-10-19\\Project_10_Original_Brief.txt",
+    "sha256": "a3889d42d069a7b5d40f1c4aedbadbf74485c569965eb91a32b51bbc407a40f5",
+    "lines": 395
+  }
+]

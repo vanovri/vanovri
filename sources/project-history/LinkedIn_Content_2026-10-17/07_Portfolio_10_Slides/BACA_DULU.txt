@@ -1,0 +1,11 @@
+PORTFOLIO 2026. VERSI 10 SLIDE
+
+Slide 1 sampai 8 mempertahankan isi dan desain yang sudah diterima. Logo UNDIP di slide 2 pindah ke sebelah nama universitas. Nomor halaman menyesuaikan menjadi 10.
+Slide 9 menggabungkan DataRescue, RepairGate, dan ApplyProof.
+Slide 10 menampilkan 9 dokumen pilihan dalam grid 3 x 3 sesuai pilihan pengguna. Setiap judul dapat diklik untuk membuka gambar asli. Tautan Full collection membuka koleksi lengkap di website.
+Koleksi 19 dokumen website juga tersedia secara offline dalam folder Certificate_Collection. Dokumen terdiri dari sertifikat, penghargaan, badge, dan pernyataan partisipasi sesuai jenis aslinya.
+
+PDF untuk review dan unggah dokumen LinkedIn. PPTX menyediakan teks dan gambar yang dapat diedit. Font Anton dan Inter beserta lisensinya tersedia dalam Fonts. PNG setiap slide ada dalam ZIP.
+Caption_EN.txt usulan utama. Caption_ID.txt alternatif Indonesia.
+
+Status: menunggu review pengguna. Belum diunggah, diposting, atau dijadwalkan di LinkedIn.
