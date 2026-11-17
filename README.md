@@ -4,6 +4,10 @@ Electrical Engineering graduate from Diponegoro University, based in Bekasi, Ind
 
 [Portfolio](https://ardhyanovri.my.id) | [LinkedIn](https://www.linkedin.com/in/dhya/)
 
+## Internship placement
+
+Selected for the Electrical Staff internship at PT Denki Engineering through Kemnaker’s MagangHub program (Batch 3, Angkatan 2, 2026). [Portfolio entry](https://ardhyanovri.my.id/experience#denki-maganghub).
+
 ## Recognition
 
 Team NusaSentinel earned Honorable Mention, Finalist Rank 8 at the Aerospace Innovation Challenge 2026 (ISAST 2026) in Yogyakarta, Indonesia (6–8 October 2026). The entry was [Nusantara SolarWing](https://github.com/vanovri/nusantara-solarwing). [Certificate](https://ardhyanovri.my.id/credentials#nusasentinel-isast-2026).
