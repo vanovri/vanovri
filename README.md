@@ -4,6 +4,10 @@ Electrical Engineering graduate from Diponegoro University, based in Bekasi, Ind
 
 [Portfolio](https://ardhyanovri.my.id) | [LinkedIn](https://www.linkedin.com/in/dhya/)
 
+## Recognition
+
+Team NusaSentinel earned Honorable Mention, Finalist Rank 8 at the Aerospace Innovation Challenge 2026 (ISAST 2026) in Yogyakarta, Indonesia (6–8 October 2026). The entry was [Nusantara SolarWing](https://github.com/vanovri/nusantara-solarwing). [Certificate excerpt](https://ardhyanovri.my.id/credentials#nusasentinel-isast-2026).
+
 ## Selected projects
 
 | Project | Implementation | Portfolio notes |
