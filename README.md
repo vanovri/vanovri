@@ -4,9 +4,9 @@ Electrical Engineering graduate from Diponegoro University, based in Bekasi, Ind
 
 [Portfolio](https://ardhyanovri.my.id) | [LinkedIn](https://www.linkedin.com/in/dhya/)
 
-## Internship placement
+## Current internship
 
-Selected for the Electrical Staff internship at PT Denki Engineering through Kemnaker’s MagangHub program (Batch 3, Angkatan 2, 2026). [Portfolio entry](https://ardhyanovri.my.id/experience#denki-maganghub).
+I started my Electrical Staff internship at PT Denki Engineering on 16 November 2026 through Kemnaker’s MagangHub program (Batch 3, Angkatan 2, 2026). [Portfolio entry](https://ardhyanovri.my.id/experience#denki-maganghub).
 
 ## Recognition
 
