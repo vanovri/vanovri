@@ -1,6 +1,6 @@
 # Ardhya Novri Ramadhan
 
-Electrical Engineering graduate from Diponegoro University, based in Bekasi, Indonesia. I develop embedded-system experiments and Python and browser tools with AI coding assistance. My project notes distinguish simulations from field measurements and link implementation details to source.
+Electrical Engineering graduate from Diponegoro University (GPA 3.43/4.00), based in Bekasi, Indonesia. I develop embedded-system experiments, AI security guardrails, and systems/Python/browser tools with AI coding assistance. My project notes distinguish simulations from field measurements and link implementation details to source.
 
 [Portfolio](https://ardhyanovri.my.id) | [LinkedIn](https://www.linkedin.com/in/dhya/)
 
@@ -16,6 +16,8 @@ Team NusaSentinel earned Honorable Mention, Finalist Rank 8 at the Aerospace Inn
 
 | Project | Implementation | Portfolio notes |
 | --- | --- | --- |
+| [prompt-shield-eval](https://github.com/vanovri/prompt-shield-eval) ([`v1.1.0`](https://github.com/vanovri/prompt-shield-eval/releases/tag/v1.1.0)) | Hybrid TypeScript LLM prompt injection engine: 0-dep sub-ms Core (`0.046 ms` p50), optional `104.2 KB` ONNX INT8 Layer 3.5 Cascade (`60/60` exact match, `0.762 ms` p99), and MCP Middleware Guardrail (`20/20` hijack blocked, `0.752 ms` p99; `30/30` Vitest, 3-job CI). | [Hybrid LLM security](https://ardhyanovri.my.id/projects/prompt-shield-eval) |
+| **HYPERION OMEGA** *(local monorepo)* | 20-channel (`CH01`–`CH20`) institutional exchange & formally verified distributed systems monorepo (Rust, Go, Python/Z3, TS/Next, Solidity, Wasmtime 50, eBPF/XDP, Arrow/DataFusion): `20/20` Overclock green (`98.52%` mutation kill, `0 B/cycle` 500k soak, `21/21` Wave 6 Rust 1.99 verification PASS). | [20-channel architecture](https://ardhyanovri.my.id/projects/hyperion-omega) |
 | [uart-fixture-kit](https://github.com/vanovri/uart-fixture-kit) | Python byte-stream fixtures, fault injection, and virtual-time replay for serial parser tests. | [UART test fixtures](https://ardhyanovri.my.id/projects/uart-fixture-kit.html) |
 | [DataRescue](https://github.com/vanovri/datarescue) | CSV/JSON validation, row quarantine, and traceable exports, with a FastAPI workbench. | [Data validation workbench](https://ardhyanovri.my.id/projects/datarescue.html) |
 | [RepairGate](https://github.com/vanovri/repairgate) | Protected tests, independent holdouts, and reviewable local code-repair decisions. | [Code-repair verifier](https://ardhyanovri.my.id/projects/repairgate.html) |
@@ -25,8 +27,8 @@ Team NusaSentinel earned Honorable Mention, Finalist Rank 8 at the Aerospace Inn
 
 ## Technical focus
 
-Python CLI and API development, JavaScript browser interfaces, serial-data parsing, signal processing, data validation, and reproducible software checks. The projects above show where each skill appears in code.
+Embedded firmware & DSP (STM32/ESP32, Biquad IIR, UART/Modbus), AI/LLM security (OWASP LLM01/06/07, ONNX Runtime INT8, Model Context Protocol / MCP), systems & formal verification (Rust, Go, Python, TypeScript, Z3 SMT, Raft VOPR, Wasmtime, eBPF/XDP), and reproducible software checks. The projects above show where each skill appears in code.
 
-My electrical background includes a team STM32 EMG thesis project and internship exposure to UPS/converter systems. The [EMG project page](https://ardhyanovri.my.id/projects/emg-thesis.html) separates my firmware and GUI contribution from the wider team system.
+My electrical background includes a team STM32 EMG thesis project (UNDIP, 2026) and internship exposure to UPS/converter systems and protection relays at PT Angkasa Pura Indonesia (Soekarno-Hatta Int'l Airport). The [EMG project page](https://ardhyanovri.my.id/projects/emg-thesis.html) separates my firmware and GUI contribution from the wider team system.
 
-Source and profile copy reviewed on 15 November 2026. Tests check defined inputs and invariants. They do not establish production reliability, clinical validity, or performance on untested hardware.
+Source and profile copy reviewed on 20 November 2026. Tests check defined inputs and invariants. They do not establish production reliability, clinical validity, or performance on untested hardware.
